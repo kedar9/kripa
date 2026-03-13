@@ -1,0 +1,174 @@
+{
+glyphname = breveinvertedcomb;
+lastChange = "2025-08-12 00:26:33 +0000";
+layers = (
+{
+.lastUpdate = 795054213.556;
+anchors = (
+{
+name = _top;
+pos = (305,556);
+},
+{
+name = top;
+pos = (305,840);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+pos = (0,1480);
+ref = brevecomb;
+scale = (1,-1);
+}
+);
+width = 610;
+},
+{
+.lastUpdate = 795054213.556;
+anchors = (
+{
+name = _top;
+pos = (241,546);
+},
+{
+name = top;
+pos = (241,800);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+pos = (0,1440);
+ref = brevecomb;
+scale = (1,-1);
+}
+);
+width = 481;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (327,540);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "B46AEDBD-5DF4-4F7E-84DB-6673ABF1FB60";
+name = "Black Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(270,600,l),
+(280,634,o),
+(310,675,o),
+(356,675,cs),
+(400,675,o),
+(415,637,o),
+(409,600,c),
+(549,600,l),
+(566,691,o),
+(511,784,o),
+(367,784,cs),
+(223,784,o),
+(145,705,o),
+(131,600,c)
+);
+}
+);
+width = 539;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (294,520);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "0EBC54A8-15C6-46BB-A30D-B04F95430F38";
+name = Italic;
+shapes = (
+{
+closed = 1;
+nodes = (
+(234,654,l),
+(247,714,o),
+(286,749,o),
+(342,749,cs),
+(398,749,o),
+(423,714,o),
+(410,654,c),
+(474,654,l),
+(493,743,o),
+(442,804,o),
+(345,804,cs),
+(248,804,o),
+(189,743,o),
+(170,654,c)
+);
+}
+);
+width = 476;
+},
+{
+.lastUpdate = 795054213.556;
+anchors = (
+{
+name = _top;
+pos = (217,536);
+},
+{
+name = top;
+pos = (217,780);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+pos = (0,1420);
+ref = brevecomb;
+scale = (1,-1);
+}
+);
+width = 434;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (278,515);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "98EF025F-BD4F-44E2-B72D-FAB084232EEA";
+name = "Extralight Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(214,657,l),
+(227,716,o),
+(268,758,o),
+(329,758,cs),
+(390,758,o),
+(413,716,o),
+(401,657,c),
+(438,657,l),
+(455,737,o),
+(411,791,o),
+(330,791,cs),
+(249,791,o),
+(195,737,o),
+(178,657,c)
+);
+}
+);
+width = 446;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+unicode = 785;
+}

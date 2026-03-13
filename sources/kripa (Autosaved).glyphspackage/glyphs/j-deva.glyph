@@ -1,0 +1,67 @@
+{
+glyphname = "j-deva";
+lastChange = "2026-03-08 01:47:54 +0000";
+layers = (
+{
+.lastUpdate = 795060342.052;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(605,627,l),
+(605,672,l),
+(-20,672,l),
+(-20,627,l)
+);
+},
+{
+pos = (56,0);
+ref = "_j-deva.comp";
+}
+);
+width = 485;
+},
+{
+.lastUpdate = 795060499.078;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(606,602,l),
+(606,672,l),
+(-20,672,l),
+(-20,602,l)
+);
+},
+{
+pos = (41,0);
+ref = "_j-deva.comp";
+}
+);
+width = 527;
+},
+{
+.lastUpdate = 795060342.052;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(634,556,l),
+(634,672,l),
+(-20,672,l),
+(-20,556,l)
+);
+},
+{
+pos = (27,0);
+ref = "_j-deva.comp";
+}
+);
+width = 529;
+}
+);
+metricLeft = "=aaMatra-deva";
+}

@@ -1,0 +1,51 @@
+{
+glyphname = Emacron;
+kernLeft = H;
+kernRight = E;
+lastChange = "2023-12-10 20:37:22 +0000";
+layers = (
+{
+.lastUpdate = 795054213.458;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (125,209);
+ref = macroncomb;
+}
+);
+width = 600;
+},
+{
+.lastUpdate = 795054213.459;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (112,199);
+ref = macroncomb;
+}
+);
+width = 590;
+},
+{
+.lastUpdate = 795054213.459;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (71,169);
+ref = macroncomb;
+}
+);
+width = 600;
+}
+);
+unicode = 274;
+}

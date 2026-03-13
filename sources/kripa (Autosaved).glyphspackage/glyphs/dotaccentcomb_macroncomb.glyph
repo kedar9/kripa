@@ -1,0 +1,203 @@
+{
+glyphname = dotaccentcomb_macroncomb;
+lastChange = "2025-08-12 00:24:28 +0000";
+layers = (
+{
+.lastUpdate = 795054213.555;
+anchors = (
+{
+name = _top;
+pos = (260,536);
+},
+{
+name = top;
+pos = (260,984);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+pos = (80,0);
+ref = dotaccentcomb;
+},
+{
+pos = (0,290);
+ref = macroncomb;
+}
+);
+width = 520;
+},
+{
+.lastUpdate = 795054213.555;
+anchors = (
+{
+name = _top;
+pos = (218,526);
+},
+{
+name = top;
+pos = (218,904);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+pos = (75,0);
+ref = dotaccentcomb;
+},
+{
+pos = (0,229);
+ref = macroncomb;
+}
+);
+width = 436;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (256,540);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "B46AEDBD-5DF4-4F7E-84DB-6673ABF1FB60";
+name = "Black Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(339,583,o),
+(375,616,o),
+(375,669,cs),
+(375,721,o),
+(339,753,o),
+(283,753,cs),
+(227,753,o),
+(191,721,o),
+(191,669,cs),
+(191,616,o),
+(227,583,o),
+(283,583,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(465,838,l),
+(491,958,l),
+(207,958,l),
+(181,838,l)
+);
+}
+);
+width = 405;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (243,520);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "0EBC54A8-15C6-46BB-A30D-B04F95430F38";
+name = Italic;
+shapes = (
+{
+closed = 1;
+nodes = (
+(297,587,o),
+(316,605,o),
+(316,632,cs),
+(316,660,o),
+(297,677,o),
+(267,677,cs),
+(238,677,o),
+(219,660,o),
+(219,632,cs),
+(219,605,o),
+(238,587,o),
+(267,587,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(412,782,l),
+(423,833,l),
+(208,833,l),
+(197,782,l)
+);
+}
+);
+width = 387;
+},
+{
+.lastUpdate = 795054213.555;
+anchors = (
+{
+name = _top;
+pos = (205,516);
+},
+{
+name = top;
+pos = (205,854);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+pos = (75,0);
+ref = dotaccentcomb;
+},
+{
+pos = (0,222);
+ref = macroncomb;
+}
+);
+width = 410;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (246,515);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "98EF025F-BD4F-44E2-B72D-FAB084232EEA";
+name = "Extralight Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(291,588,o),
+(305,601,o),
+(305,622,cs),
+(305,642,o),
+(291,655,o),
+(269,655,cs),
+(247,655,o),
+(233,642,o),
+(233,622,cs),
+(233,601,o),
+(247,588,o),
+(269,588,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(398,770,l),
+(405,801,l),
+(209,801,l),
+(202,770,l)
+);
+}
+);
+width = 382;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+}

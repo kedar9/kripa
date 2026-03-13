@@ -1,0 +1,177 @@
+{
+color = 4;
+glyphname = dollar;
+kernLeft = S;
+kernRight = S;
+lastChange = "2025-07-16 02:57:56 +0000";
+layers = (
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(369,-110,l),
+(369,835,l),
+(293,835,l),
+(293,-110,l)
+);
+},
+{
+ref = S;
+}
+);
+width = 633;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(412,-110,l),
+(412,835,l),
+(282,835,l),
+(282,-110,l)
+);
+},
+{
+ref = S;
+}
+);
+width = 666;
+},
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(353,-110,l),
+(353,835,l),
+(303,835,l),
+(303,-110,l)
+);
+},
+{
+ref = S;
+}
+);
+width = 635;
+},
+{
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+attr = {
+axisRules = (
+{
+max = 800;
+min = 500;
+}
+);
+};
+layerId = "5698B770-5050-4F96-8D1E-C8AFAD5C53D7";
+name = "[500<wg]";
+shapes = (
+{
+closed = 1;
+nodes = (
+(353,708,l),
+(353,835,l),
+(303,835,l),
+(303,708,l)
+);
+},
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(303,18,l),
+(303,-110,l),
+(353,-110,l),
+(353,18,l)
+);
+}
+);
+width = 635;
+},
+{
+associatedMasterId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+attr = {
+axisRules = (
+{
+max = 800;
+min = 500;
+}
+);
+};
+layerId = "045089B9-A46D-49C0-84B5-FA285DFA298E";
+name = "Jun 5, 25 at 15:00";
+shapes = (
+{
+closed = 1;
+nodes = (
+(369,701,l),
+(369,835,l),
+(293,835,l),
+(293,701,l)
+);
+},
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(293,21,l),
+(293,-110,l),
+(369,-110,l),
+(369,21,l)
+);
+}
+);
+width = 633;
+},
+{
+associatedMasterId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+attr = {
+axisRules = (
+{
+max = 800;
+min = 500;
+}
+);
+};
+layerId = "020E3A5E-88DD-4C89-8E2C-B95F4B2EF681";
+name = "Jun 5, 25 at 15:02";
+shapes = (
+{
+closed = 1;
+nodes = (
+(412,697,l),
+(412,835,l),
+(282,835,l),
+(282,697,l)
+);
+},
+{
+ref = S;
+},
+{
+closed = 1;
+nodes = (
+(282,47,l),
+(282,-110,l),
+(412,-110,l),
+(412,47,l)
+);
+}
+);
+width = 666;
+}
+);
+metricLeft = "=S";
+metricRight = "=S";
+unicode = 36;
+}

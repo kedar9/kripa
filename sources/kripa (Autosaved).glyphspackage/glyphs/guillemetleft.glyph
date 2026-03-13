@@ -1,0 +1,53 @@
+{
+glyphname = guillemetleft;
+kernLeft = guilsinglleft;
+kernRight = guilsinglleft;
+lastChange = "2025-04-01 01:19:22 +0000";
+layers = (
+{
+.lastUpdate = 795054213.554;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = guilsinglleft;
+},
+{
+pos = (200,0);
+ref = guilsinglleft;
+}
+);
+width = 500;
+},
+{
+.lastUpdate = 795054213.554;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = guilsinglleft;
+},
+{
+pos = (260,0);
+ref = guilsinglleft;
+}
+);
+width = 677;
+},
+{
+.lastUpdate = 795054213.554;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = guilsinglleft;
+},
+{
+pos = (200,0);
+ref = guilsinglleft;
+}
+);
+width = 456;
+}
+);
+metricLeft = "=guilsinglleft";
+metricRight = "=guilsinglleft";
+unicode = 171;
+}

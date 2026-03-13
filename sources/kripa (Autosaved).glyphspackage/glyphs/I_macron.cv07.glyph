@@ -1,0 +1,50 @@
+{
+glyphname = Imacron.cv07;
+kernLeft = H;
+kernRight = H;
+lastChange = "2024-01-10 02:43:04 +0000";
+layers = (
+{
+.lastUpdate = 795054213.464;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = I.cv07;
+},
+{
+pos = (70,189);
+ref = macroncomb;
+}
+);
+width = 550;
+},
+{
+.lastUpdate = 795054213.465;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = I.cv07;
+},
+{
+pos = (57,179);
+ref = macroncomb;
+}
+);
+width = 550;
+},
+{
+.lastUpdate = 795054213.465;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = I.cv07;
+},
+{
+pos = (25,169);
+ref = macroncomb;
+}
+);
+width = 570;
+}
+);
+}

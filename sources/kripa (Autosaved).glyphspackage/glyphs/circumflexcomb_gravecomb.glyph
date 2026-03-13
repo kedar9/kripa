@@ -1,0 +1,149 @@
+{
+glyphname = circumflexcomb_gravecomb;
+lastChange = "2025-04-01 01:06:30 +0000";
+layers = (
+{
+.lastUpdate = 795054213.556;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+pos = (738,0);
+ref = circumflexcomb_acutecomb;
+scale = (-1,1);
+}
+);
+width = 738;
+},
+{
+.lastUpdate = 795060461.564;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+pos = (539,0);
+ref = circumflexcomb_acutecomb;
+scale = (-1,1);
+}
+);
+width = 539;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (378.305,540);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "B46AEDBD-5DF4-4F7E-84DB-6673ABF1FB60";
+name = "Black Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(338,600,l),
+(408,673,l),
+(448,600,l),
+(611,600,l),
+(527,750,l),
+(317,750,l),
+(170,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(740,675,l),
+(716,825,l),
+(543,825,l),
+(613,675,l)
+);
+}
+);
+width = 724;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (412,520);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "0EBC54A8-15C6-46BB-A30D-B04F95430F38";
+name = Italic;
+shapes = (
+{
+closed = 1;
+nodes = (
+(353,580,l),
+(445,663,l),
+(502,580,l),
+(579,580,l),
+(486,715,l),
+(420,715,l),
+(271,580,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(663,647,l),
+(604,782,l),
+(511,782,l),
+(597,647,l)
+);
+}
+);
+width = 611;
+},
+{
+.lastUpdate = 795054213.556;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+pos = (474,0);
+ref = circumflexcomb_acutecomb;
+scale = (-1,1);
+}
+);
+width = 474;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (418,515);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "98EF025F-BD4F-44E2-B72D-FAB084232EEA";
+name = "Extralight Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(340,593,l),
+(458,691,l),
+(535,593,l),
+(579,593,l),
+(480,722,l),
+(443,722,l),
+(291,593,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(646,658,l),
+(578,786,l),
+(528,786,l),
+(608,658,l)
+);
+}
+);
+width = 608;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+}

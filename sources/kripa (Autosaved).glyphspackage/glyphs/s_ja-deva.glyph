@@ -1,0 +1,50 @@
+{
+glyphname = "s_ja-deva";
+lastChange = "2025-06-12 00:32:34 +0000";
+layers = (
+{
+.lastUpdate = 795058937.129;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "s-deva";
+},
+{
+pos = (468,0);
+ref = "ja-deva";
+}
+);
+width = 1203;
+},
+{
+.lastUpdate = 795060499.08;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "s-deva";
+},
+{
+pos = (468,0);
+ref = "ja-deva";
+}
+);
+width = 1275;
+},
+{
+.lastUpdate = 795058941.717;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "s-deva";
+},
+{
+pos = (470,0);
+ref = "ja-deva";
+}
+);
+width = 1294;
+}
+);
+metricLeft = "s-deva";
+metricRight = "ja-deva";
+}

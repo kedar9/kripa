@@ -1,0 +1,51 @@
+{
+glyphname = Tlinebelow;
+kernLeft = T;
+kernRight = T;
+lastChange = "2023-12-10 20:37:22 +0000";
+layers = (
+{
+.lastUpdate = 795054213.475;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (101,0);
+ref = macronbelowcomb;
+}
+);
+width = 610;
+},
+{
+.lastUpdate = 795054213.475;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (72,0);
+ref = macronbelowcomb;
+}
+);
+width = 580;
+},
+{
+.lastUpdate = 795054213.475;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = T;
+},
+{
+pos = (45,0);
+ref = macronbelowcomb;
+}
+);
+width = 610;
+}
+);
+unicode = 7790;
+}

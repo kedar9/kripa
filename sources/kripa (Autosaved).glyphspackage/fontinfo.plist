@@ -1,0 +1,3608 @@
+{
+.appVersion = "3414";
+.storedFileType = com.schriftgestaltung.glyphs;
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
+classes = (
+{
+automatic = 1;
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron Eth E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde Schwa F G G.cv06 Gbreve Gbreve.cv06 Gcaron Gcaron.cv06 Gcircumflex Gcircumflex.cv06 Gcommaaccent Gcommaaccent.cv06 Gdotaccent Gdotaccent.cv06 Gmacron Gmacron.cv06 H Hbar Hbrevebelow Hcircumflex Hdotbelow I I.cv07 Iacute Iacute.cv07 Ibreve Ibreve.cv07 Icircumflex Icircumflex.cv07 Idblgrave Idblgrave.cv07 Idieresis Idieresis.cv07 Idieresisacute Idieresisacute.cv07 Idotaccent Idotaccent.cv07 Idotbelow Idotbelow.cv07 Igrave Igrave.cv07 Ihookabove Ihookabove.cv07 Iinvertedbreve Iinvertedbreve.cv07 Imacron Imacron.cv07 Iogonek Iogonek.cv07 Itilde Itilde.cv07 J J.cv08 Jcircumflex Jcircumflex.cv08 K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Llinebelow Lslash M Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Nlinebelow Ntilde Eng O Oacute Obreve Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucircumflex Udblgrave Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Delta Omega";
+name = Uppercase;
+},
+{
+automatic = 1;
+code = "k-deva kh-deva g-deva gh-deva ng-deva c-deva ch-deva j-deva jh-deva ny-deva tt-deva tth-deva dd-deva ddh-deva nn-deva t-deva th-deva d-deva dh-deva n-deva nnn-deva p-deva ph-deva b-deva bh-deva m-deva y-deva rr-deva l-deva ll-deva lll-deva v-deva sh-deva ss-deva s-deva h-deva q-deva khh-deva ghh-deva z-deva f-deva yy-deva";
+name = DevaHalfforms;
+},
+{
+automatic = 1;
+code = "iMatra-deva iMatra-deva.0001 iMatra-deva.0002 iMatra-deva.0003 iMatra-deva.0004 iMatra-deva.0005 iMatra-deva.0006 iMatra-deva.0007 iMatra-deva.0008 iMatra-deva.0009 iMatra-deva.0010 iMatra-deva.0011 iMatra-deva.0012 iMatra-deva.0013 iMatra-deva.0014 iMatra-deva.0015";
+name = DevaIMatras;
+},
+{
+automatic = 1;
+code = "iMatra_reph-deva iMatra_reph-deva.0001 iMatra_reph-deva.0002 iMatra_reph-deva.0003 iMatra_reph-deva.0004 iMatra_reph-deva.0005 iMatra_reph-deva.0006 iMatra_reph-deva.0007 iMatra_reph-deva.0008 iMatra_reph-deva.0009 iMatra_reph-deva.0010 iMatra_reph-deva.0011 iMatra_reph-deva.0012 iMatra_reph-deva.0013 iMatra_reph-deva.0014 iMatra_reph-deva.0015";
+name = DevaIMatraRephs;
+},
+{
+automatic = 1;
+code = "iMatra_reph_anusvara-deva iMatra_reph_anusvara-deva.0001 iMatra_reph_anusvara-deva.0002 iMatra_reph_anusvara-deva.0003 iMatra_reph_anusvara-deva.0004 iMatra_reph_anusvara-deva.0005 iMatra_reph_anusvara-deva.0006 iMatra_reph_anusvara-deva.0007 iMatra_reph_anusvara-deva.0008 iMatra_reph_anusvara-deva.0009 iMatra_reph_anusvara-deva.0010 iMatra_reph_anusvara-deva.0011 iMatra_reph_anusvara-deva.0012 iMatra_reph_anusvara-deva.0013 iMatra_reph_anusvara-deva.0014 iMatra_reph_anusvara-deva.0015";
+name = DevaIMatraRephAnusvaras;
+},
+{
+automatic = 1;
+code = "ka-deva kha-deva ga-deva gha-deva nga-deva ca-deva cha-deva ja-deva jha-deva nya-deva tta-deva ttha-deva dda-deva ddha-deva nna-deva ta-deva tha-deva da-deva dha-deva na-deva nnna-deva pa-deva pha-deva ba-deva bha-deva ma-deva ya-deva ra-deva rra-deva la-deva la-deva.loclMAR lla-deva llla-deva va-deva sha-deva sha-deva.loclMAR ssa-deva sa-deva ha-deva qa-deva khha-deva ghha-deva za-deva dddha-deva rha-deva fa-deva yya-deva ka_rVocalicMatra-deva da_rVocalicMatra-deva ra_uMatra-deva ra_uuMatra-deva ha_rVocalicMatra-deva k_ka-deva k_kha-deva k_ca-deva k_ja-deva k_tta-deva k_nna-deva k_ta-deva k_t_ta-deva k_t_ya-deva k_t_va-deva k_tha-deva k_da-deva k_na-deva k_pa-deva k_pha-deva k_ma-deva k_ya-deva k_la-deva k_va-deva k_v_ya-deva k_sha-deva k_ssa-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva k_sa-deva k_s_tta-deva k_s_dda-deva k_s_ta-deva k_s_pa-deva k_s_p_la-deva kh_kha-deva kh_ta-deva kh_na-deva kh_ma-deva kh_ya-deva kh_va-deva kh_sha-deva g_ga-deva g_gha-deva g_ja-deva g_nna-deva g_da-deva g_dha-deva g_dh_ya-deva g_dh_va-deva g_na-deva g_n_ya-deva g_ba-deva g_bha-deva g_bh_ya-deva g_ma-deva g_ya-deva g_la-deva g_va-deva g_sa-deva g_rakar_ya-deva gh_na-deva gh_ma-deva gh_ya-deva c_ca-deva c_cha-deva c_ch_va-deva c_na-deva c_ma-deva c_ya-deva ch_na-deva ch_ya-deva ch_va-deva j_ka-deva j_ja-deva j_j_nya-deva j_j_ya-deva j_j_va-deva j_jha-deva j_nya-deva j_ny_ya-deva j_tta-deva j_dda-deva j_ta-deva j_da-deva j_na-deva j_ba-deva j_ma-deva j_ya-deva j_va-deva jh_na-deva jh_ma-deva jh_ya-deva ny_ca-deva ny_c_ya-deva ny_cha-deva ny_ja-deva ny_j_ya-deva ny_sha-deva tt_tta-deva tt_tt_ya-deva tt_ttha-deva tt_ya-deva tt_ra_uuMatra-deva tt_va-deva tth_ttha-deva tth_tth_ya-deva tth_ya-deva dd_dda-deva dd_dd_ya-deva dd_ddha-deva dd_ya-deva ddh_ddha-deva ddh_ddh_ya-deva ddh_ya-deva nn_tta-deva nn_ttha-deva nn_dda-deva nn_ddha-deva nn_nna-deva nn_ma-deva nn_ya-deva nn_va-deva t_ka-deva t_k_ya-deva t_k_va-deva t_k_ssa-deva t_kha-deva t_kh_na-deva t_ta-deva t_t_ya-deva t_t_va-deva t_tha-deva t_na-deva t_n_ya-deva t_pa-deva t_p_la-deva t_pha-deva t_ma-deva t_m_ya-deva t_ya-deva t_la-deva t_va-deva t_sa-deva t_s_na-deva t_s_ya-deva t_s_va-deva t_rakar_ya-deva th_na-deva th_ya-deva th_va-deva d_da-deva d_d_ya-deva d_dha-deva d_dh_ya-deva d_na-deva d_ba-deva d_ma-deva d_ya-deva d_va-deva d_v_ya-deva d_rakar_ya-deva dh_na-deva dh_n_ya-deva dh_ma-deva dh_ya-deva dh_va-deva n_ka-deva n_k_sa-deva n_ca-deva n_tta-deva n_dda-deva n_ta-deva n_t_ya-deva n_t_sa-deva n_tha-deva n_th_ya-deva n_th_va-deva n_da-deva n_d_va-deva n_dha-deva n_dh_ya-deva n_dh_va-deva n_na-deva n_n_ya-deva n_pa-deva n_pha-deva n_bha-deva n_ma-deva n_m_ya-deva n_ya-deva n_va-deva n_sa-deva n_s_tta-deva n_ha-deva n_h_ya-deva p_ja-deva p_tta-deva p_ta-deva p_t_ya-deva p_na-deva p_pa-deva p_pha-deva p_ma-deva p_ya-deva p_la-deva p_va-deva p_sa-deva p_za-deva ph_ja-deva ph_tta-deva ph_ta-deva ph_na-deva ph_pa-deva ph_pha-deva ph_ya-deva ph_la-deva ph_sha-deva ph_sa-deva b_ja-deva b_j_ya-deva b_ta-deva b_da-deva b_dha-deva b_dh_va-deva b_na-deva b_ba-deva b_bha-deva b_ya-deva b_la-deva b_l_ya-deva b_va-deva b_sha-deva b_sa-deva b_za-deva bh_na-deva bh_ya-deva bh_va-deva bh_rakar_ya-deva m_ta-deva m_da-deva m_na-deva m_pa-deva m_ba-deva m_b_ya-deva m_bha-deva m_ma-deva m_ya-deva m_la-deva m_va-deva m_sha-deva m_sa-deva m_ha-deva y_na-deva y_ya-deva rr_ya-deva rr_ha-deva l_ka-deva l_k_ya-deva l_kha-deva l_ga-deva l_ja-deva l_tta-deva l_ttha-deva l_dda-deva l_ddha-deva l_ta-deva l_tha-deva l_th_ya-deva l_da-deva l_pa-deva l_pha-deva l_ba-deva l_bha-deva l_ma-deva l_ya-deva l_la-deva l_l_ya-deva l_va-deva l_v_dda-deva l_sa-deva l_ha-deva l_h_ya-deva l_za-deva ll_ya-deva v_na-deva v_ya-deva v_la-deva v_va-deva v_ha-deva sh_cha-deva sh_tta-deva sh_ta-deva sh_na-deva sh_ma-deva sh_ya-deva sh_la-deva sh_va-deva sh_sha-deva sh_rakar_ya-deva ss_ka-deva ss_tta-deva ss_tt_ya-deva ss_tt_va-deva ss_ttha-deva ss_tth_ya-deva ss_nna-deva ss_nn_ya-deva ss_pa-deva ss_pha-deva ss_ma-deva ss_m_ya-deva ss_ya-deva ss_va-deva ss_ssa-deva s_ka-deva s_k_va-deva s_kha-deva s_ja-deva s_tta-deva s_ta-deva s_t_ya-deva s_t_va-deva s_tha-deva s_th_ya-deva s_da-deva s_na-deva s_pa-deva s_pha-deva s_ba-deva s_ma-deva s_m_ya-deva s_ya-deva s_la-deva s_va-deva s_sa-deva h_nna-deva h_na-deva h_ma-deva h_m_ya-deva h_ya-deva h_la-deva h_va-deva q_ta-deva q_ba-deva q_ma-deva q_qa-deva q_fa-deva khh_ta-deva khh_ma-deva khh_ya-deva khh_va-deva khh_sha-deva khh_sa-deva z_ya-deva z_za-deva f_ta-deva f_sa-deva f_za-deva f_fa-deva tta_ra_uuMatra-deva";
+name = DevaFullforms;
+},
+{
+automatic = 1;
+code = "iMatra_anusvara-deva iMatra_anusvara-deva.0001 iMatra_anusvara-deva.0002 iMatra_anusvara-deva.0003 iMatra_anusvara-deva.0004 iMatra_anusvara-deva.0005 iMatra_anusvara-deva.0006 iMatra_anusvara-deva.0007 iMatra_anusvara-deva.0008 iMatra_anusvara-deva.0009 iMatra_anusvara-deva.0010 iMatra_anusvara-deva.0011 iMatra_anusvara-deva.0012 iMatra_anusvara-deva.0013 iMatra_anusvara-deva.0014 iMatra_anusvara-deva.0015";
+name = DevaIMatraAnusvaras;
+}
+);
+customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Axis Mappings";
+value = {
+wght = {
+200 = 200;
+400 = 400;
+800 = 800;
+};
+};
+},
+{
+name = "Variable Font Origin";
+value = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+}
+);
+date = "2023-04-09 11:45:41 +0000";
+familyName = Kripa;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+languagesystem latn ROM;
+languagesystem latn MOL;
+languagesystem latn CAT;
+
+languagesystem dev2 dflt;
+languagesystem dev2 MAR;
+
+languagesystem deva dflt;
+languagesystem deva MAR;
+";
+name = Languagesystems;
+},
+{
+automatic = 1;
+code = "@rephDeva = [reph-deva reph_anusvara-deva candraBindu-deva anusvara-deva];
+lookup removeReph {
+	lookupflag UseMarkFilteringSet @rephDeva;
+	sub ka-deva @rephDeva by ka-deva;
+	sub kha-deva @rephDeva by kha-deva;
+	sub ga-deva @rephDeva by ga-deva;
+	sub gha-deva @rephDeva by gha-deva;
+	sub nga-deva @rephDeva by nga-deva;
+	sub ca-deva @rephDeva by ca-deva;
+	sub cha-deva @rephDeva by cha-deva;
+	sub ja-deva @rephDeva by ja-deva;
+	sub jha-deva @rephDeva by jha-deva;
+	sub nya-deva @rephDeva by nya-deva;
+	sub tta-deva @rephDeva by tta-deva;
+	sub ttha-deva @rephDeva by ttha-deva;
+	sub dda-deva @rephDeva by dda-deva;
+	sub ddha-deva @rephDeva by ddha-deva;
+	sub nna-deva @rephDeva by nna-deva;
+	sub ta-deva @rephDeva by ta-deva;
+	sub tha-deva @rephDeva by tha-deva;
+	sub da-deva @rephDeva by da-deva;
+	sub dha-deva @rephDeva by dha-deva;
+	sub na-deva @rephDeva by na-deva;
+	sub nnna-deva @rephDeva by nnna-deva;
+	sub pa-deva @rephDeva by pa-deva;
+	sub pha-deva @rephDeva by pha-deva;
+	sub ba-deva @rephDeva by ba-deva;
+	sub bha-deva @rephDeva by bha-deva;
+	sub ma-deva @rephDeva by ma-deva;
+	sub ya-deva @rephDeva by ya-deva;
+	sub ra-deva @rephDeva by ra-deva;
+	sub rra-deva @rephDeva by rra-deva;
+	sub la-deva @rephDeva by la-deva;
+	sub la-deva.loclMAR @rephDeva by la-deva.loclMAR;
+	sub lla-deva @rephDeva by lla-deva;
+	sub llla-deva @rephDeva by llla-deva;
+	sub va-deva @rephDeva by va-deva;
+	sub sha-deva @rephDeva by sha-deva;
+	sub sha-deva.loclMAR @rephDeva by sha-deva.loclMAR;
+	sub ssa-deva @rephDeva by ssa-deva;
+	sub sa-deva @rephDeva by sa-deva;
+	sub ha-deva @rephDeva by ha-deva;
+	sub qa-deva @rephDeva by qa-deva;
+	sub khha-deva @rephDeva by khha-deva;
+	sub ghha-deva @rephDeva by ghha-deva;
+	sub za-deva @rephDeva by za-deva;
+	sub dddha-deva @rephDeva by dddha-deva;
+	sub rha-deva @rephDeva by rha-deva;
+	sub fa-deva @rephDeva by fa-deva;
+	sub yya-deva @rephDeva by yya-deva;
+	sub ka_rVocalicMatra-deva @rephDeva by ka_rVocalicMatra-deva;
+	sub da_rVocalicMatra-deva @rephDeva by da_rVocalicMatra-deva;
+	sub ra_uMatra-deva @rephDeva by ra_uMatra-deva;
+	sub ra_uuMatra-deva @rephDeva by ra_uuMatra-deva;
+	sub ha_rVocalicMatra-deva @rephDeva by ha_rVocalicMatra-deva;
+	sub k_ka-deva @rephDeva by k_ka-deva;
+	sub k_kha-deva @rephDeva by k_kha-deva;
+	sub k_ca-deva @rephDeva by k_ca-deva;
+	sub k_ja-deva @rephDeva by k_ja-deva;
+	sub k_tta-deva @rephDeva by k_tta-deva;
+	sub k_nna-deva @rephDeva by k_nna-deva;
+	sub k_ta-deva @rephDeva by k_ta-deva;
+	sub k_t_ta-deva @rephDeva by k_t_ta-deva;
+	sub k_t_ya-deva @rephDeva by k_t_ya-deva;
+	sub k_t_va-deva @rephDeva by k_t_va-deva;
+	sub k_tha-deva @rephDeva by k_tha-deva;
+	sub k_da-deva @rephDeva by k_da-deva;
+	sub k_na-deva @rephDeva by k_na-deva;
+	sub k_pa-deva @rephDeva by k_pa-deva;
+	sub k_pha-deva @rephDeva by k_pha-deva;
+	sub k_ma-deva @rephDeva by k_ma-deva;
+	sub k_ya-deva @rephDeva by k_ya-deva;
+	sub k_la-deva @rephDeva by k_la-deva;
+	sub k_va-deva @rephDeva by k_va-deva;
+	sub k_v_ya-deva @rephDeva by k_v_ya-deva;
+	sub k_sha-deva @rephDeva by k_sha-deva;
+	sub k_ssa-deva @rephDeva by k_ssa-deva;
+	sub k_ss_ma-deva @rephDeva by k_ss_ma-deva;
+	sub k_ss_ya-deva @rephDeva by k_ss_ya-deva;
+	sub k_ss_va-deva @rephDeva by k_ss_va-deva;
+	sub k_sa-deva @rephDeva by k_sa-deva;
+	sub k_s_tta-deva @rephDeva by k_s_tta-deva;
+	sub k_s_dda-deva @rephDeva by k_s_dda-deva;
+	sub k_s_ta-deva @rephDeva by k_s_ta-deva;
+	sub k_s_pa-deva @rephDeva by k_s_pa-deva;
+	sub k_s_p_la-deva @rephDeva by k_s_p_la-deva;
+	sub kh_kha-deva @rephDeva by kh_kha-deva;
+	sub kh_ta-deva @rephDeva by kh_ta-deva;
+	sub kh_na-deva @rephDeva by kh_na-deva;
+	sub kh_ma-deva @rephDeva by kh_ma-deva;
+	sub kh_ya-deva @rephDeva by kh_ya-deva;
+	sub kh_va-deva @rephDeva by kh_va-deva;
+	sub kh_sha-deva @rephDeva by kh_sha-deva;
+	sub g_ga-deva @rephDeva by g_ga-deva;
+	sub g_gha-deva @rephDeva by g_gha-deva;
+	sub g_ja-deva @rephDeva by g_ja-deva;
+	sub g_nna-deva @rephDeva by g_nna-deva;
+	sub g_da-deva @rephDeva by g_da-deva;
+	sub g_dha-deva @rephDeva by g_dha-deva;
+	sub g_dh_ya-deva @rephDeva by g_dh_ya-deva;
+	sub g_dh_va-deva @rephDeva by g_dh_va-deva;
+	sub g_na-deva @rephDeva by g_na-deva;
+	sub g_n_ya-deva @rephDeva by g_n_ya-deva;
+	sub g_ba-deva @rephDeva by g_ba-deva;
+	sub g_bha-deva @rephDeva by g_bha-deva;
+	sub g_bh_ya-deva @rephDeva by g_bh_ya-deva;
+	sub g_ma-deva @rephDeva by g_ma-deva;
+	sub g_ya-deva @rephDeva by g_ya-deva;
+	sub g_la-deva @rephDeva by g_la-deva;
+	sub g_va-deva @rephDeva by g_va-deva;
+	sub g_sa-deva @rephDeva by g_sa-deva;
+	sub g_rakar_ya-deva @rephDeva by g_rakar_ya-deva;
+	sub gh_na-deva @rephDeva by gh_na-deva;
+	sub gh_ma-deva @rephDeva by gh_ma-deva;
+	sub gh_ya-deva @rephDeva by gh_ya-deva;
+	sub c_ca-deva @rephDeva by c_ca-deva;
+	sub c_cha-deva @rephDeva by c_cha-deva;
+	sub c_ch_va-deva @rephDeva by c_ch_va-deva;
+	sub c_na-deva @rephDeva by c_na-deva;
+	sub c_ma-deva @rephDeva by c_ma-deva;
+	sub c_ya-deva @rephDeva by c_ya-deva;
+	sub ch_na-deva @rephDeva by ch_na-deva;
+	sub ch_ya-deva @rephDeva by ch_ya-deva;
+	sub ch_va-deva @rephDeva by ch_va-deva;
+	sub j_ka-deva @rephDeva by j_ka-deva;
+	sub j_ja-deva @rephDeva by j_ja-deva;
+	sub j_j_nya-deva @rephDeva by j_j_nya-deva;
+	sub j_j_ya-deva @rephDeva by j_j_ya-deva;
+	sub j_j_va-deva @rephDeva by j_j_va-deva;
+	sub j_jha-deva @rephDeva by j_jha-deva;
+	sub j_nya-deva @rephDeva by j_nya-deva;
+	sub j_ny_ya-deva @rephDeva by j_ny_ya-deva;
+	sub j_tta-deva @rephDeva by j_tta-deva;
+	sub j_dda-deva @rephDeva by j_dda-deva;
+	sub j_ta-deva @rephDeva by j_ta-deva;
+	sub j_da-deva @rephDeva by j_da-deva;
+	sub j_na-deva @rephDeva by j_na-deva;
+	sub j_ba-deva @rephDeva by j_ba-deva;
+	sub j_ma-deva @rephDeva by j_ma-deva;
+	sub j_ya-deva @rephDeva by j_ya-deva;
+	sub j_va-deva @rephDeva by j_va-deva;
+	sub jh_na-deva @rephDeva by jh_na-deva;
+	sub jh_ma-deva @rephDeva by jh_ma-deva;
+	sub jh_ya-deva @rephDeva by jh_ya-deva;
+	sub ny_ca-deva @rephDeva by ny_ca-deva;
+	sub ny_c_ya-deva @rephDeva by ny_c_ya-deva;
+	sub ny_cha-deva @rephDeva by ny_cha-deva;
+	sub ny_ja-deva @rephDeva by ny_ja-deva;
+	sub ny_j_ya-deva @rephDeva by ny_j_ya-deva;
+	sub ny_sha-deva @rephDeva by ny_sha-deva;
+	sub tt_tta-deva @rephDeva by tt_tta-deva;
+	sub tt_tt_ya-deva @rephDeva by tt_tt_ya-deva;
+	sub tt_ttha-deva @rephDeva by tt_ttha-deva;
+	sub tt_ya-deva @rephDeva by tt_ya-deva;
+	sub tt_ra_uuMatra-deva @rephDeva by tt_ra_uuMatra-deva;
+	sub tt_va-deva @rephDeva by tt_va-deva;
+	sub tth_ttha-deva @rephDeva by tth_ttha-deva;
+	sub tth_tth_ya-deva @rephDeva by tth_tth_ya-deva;
+	sub tth_ya-deva @rephDeva by tth_ya-deva;
+	sub dd_dda-deva @rephDeva by dd_dda-deva;
+	sub dd_dd_ya-deva @rephDeva by dd_dd_ya-deva;
+	sub dd_ddha-deva @rephDeva by dd_ddha-deva;
+	sub dd_ya-deva @rephDeva by dd_ya-deva;
+	sub ddh_ddha-deva @rephDeva by ddh_ddha-deva;
+	sub ddh_ddh_ya-deva @rephDeva by ddh_ddh_ya-deva;
+	sub ddh_ya-deva @rephDeva by ddh_ya-deva;
+	sub nn_tta-deva @rephDeva by nn_tta-deva;
+	sub nn_ttha-deva @rephDeva by nn_ttha-deva;
+	sub nn_dda-deva @rephDeva by nn_dda-deva;
+	sub nn_ddha-deva @rephDeva by nn_ddha-deva;
+	sub nn_nna-deva @rephDeva by nn_nna-deva;
+	sub nn_ma-deva @rephDeva by nn_ma-deva;
+	sub nn_ya-deva @rephDeva by nn_ya-deva;
+	sub nn_va-deva @rephDeva by nn_va-deva;
+	sub t_ka-deva @rephDeva by t_ka-deva;
+	sub t_k_ya-deva @rephDeva by t_k_ya-deva;
+	sub t_k_va-deva @rephDeva by t_k_va-deva;
+	sub t_k_ssa-deva @rephDeva by t_k_ssa-deva;
+	sub t_kha-deva @rephDeva by t_kha-deva;
+	sub t_kh_na-deva @rephDeva by t_kh_na-deva;
+	sub t_ta-deva @rephDeva by t_ta-deva;
+	sub t_t_ya-deva @rephDeva by t_t_ya-deva;
+	sub t_t_va-deva @rephDeva by t_t_va-deva;
+	sub t_tha-deva @rephDeva by t_tha-deva;
+	sub t_na-deva @rephDeva by t_na-deva;
+	sub t_n_ya-deva @rephDeva by t_n_ya-deva;
+	sub t_pa-deva @rephDeva by t_pa-deva;
+	sub t_p_la-deva @rephDeva by t_p_la-deva;
+	sub t_pha-deva @rephDeva by t_pha-deva;
+	sub t_ma-deva @rephDeva by t_ma-deva;
+	sub t_m_ya-deva @rephDeva by t_m_ya-deva;
+	sub t_ya-deva @rephDeva by t_ya-deva;
+	sub t_la-deva @rephDeva by t_la-deva;
+	sub t_va-deva @rephDeva by t_va-deva;
+	sub t_sa-deva @rephDeva by t_sa-deva;
+	sub t_s_na-deva @rephDeva by t_s_na-deva;
+	sub t_s_ya-deva @rephDeva by t_s_ya-deva;
+	sub t_s_va-deva @rephDeva by t_s_va-deva;
+	sub t_rakar_ya-deva @rephDeva by t_rakar_ya-deva;
+	sub th_na-deva @rephDeva by th_na-deva;
+	sub th_ya-deva @rephDeva by th_ya-deva;
+	sub th_va-deva @rephDeva by th_va-deva;
+	sub d_da-deva @rephDeva by d_da-deva;
+	sub d_d_ya-deva @rephDeva by d_d_ya-deva;
+	sub d_dha-deva @rephDeva by d_dha-deva;
+	sub d_dh_ya-deva @rephDeva by d_dh_ya-deva;
+	sub d_na-deva @rephDeva by d_na-deva;
+	sub d_ba-deva @rephDeva by d_ba-deva;
+	sub d_ma-deva @rephDeva by d_ma-deva;
+	sub d_ya-deva @rephDeva by d_ya-deva;
+	sub d_va-deva @rephDeva by d_va-deva;
+	sub d_v_ya-deva @rephDeva by d_v_ya-deva;
+	sub d_rakar_ya-deva @rephDeva by d_rakar_ya-deva;
+	sub dh_na-deva @rephDeva by dh_na-deva;
+	sub dh_n_ya-deva @rephDeva by dh_n_ya-deva;
+	sub dh_ma-deva @rephDeva by dh_ma-deva;
+	sub dh_ya-deva @rephDeva by dh_ya-deva;
+	sub dh_va-deva @rephDeva by dh_va-deva;
+	sub n_ka-deva @rephDeva by n_ka-deva;
+	sub n_k_sa-deva @rephDeva by n_k_sa-deva;
+	sub n_ca-deva @rephDeva by n_ca-deva;
+	sub n_tta-deva @rephDeva by n_tta-deva;
+	sub n_dda-deva @rephDeva by n_dda-deva;
+	sub n_ta-deva @rephDeva by n_ta-deva;
+	sub n_t_ya-deva @rephDeva by n_t_ya-deva;
+	sub n_t_sa-deva @rephDeva by n_t_sa-deva;
+	sub n_tha-deva @rephDeva by n_tha-deva;
+	sub n_th_ya-deva @rephDeva by n_th_ya-deva;
+	sub n_th_va-deva @rephDeva by n_th_va-deva;
+	sub n_da-deva @rephDeva by n_da-deva;
+	sub n_d_va-deva @rephDeva by n_d_va-deva;
+	sub n_dha-deva @rephDeva by n_dha-deva;
+	sub n_dh_ya-deva @rephDeva by n_dh_ya-deva;
+	sub n_dh_va-deva @rephDeva by n_dh_va-deva;
+	sub n_na-deva @rephDeva by n_na-deva;
+	sub n_n_ya-deva @rephDeva by n_n_ya-deva;
+	sub n_pa-deva @rephDeva by n_pa-deva;
+	sub n_pha-deva @rephDeva by n_pha-deva;
+	sub n_bha-deva @rephDeva by n_bha-deva;
+	sub n_ma-deva @rephDeva by n_ma-deva;
+	sub n_m_ya-deva @rephDeva by n_m_ya-deva;
+	sub n_ya-deva @rephDeva by n_ya-deva;
+	sub n_va-deva @rephDeva by n_va-deva;
+	sub n_sa-deva @rephDeva by n_sa-deva;
+	sub n_s_tta-deva @rephDeva by n_s_tta-deva;
+	sub n_ha-deva @rephDeva by n_ha-deva;
+	sub n_h_ya-deva @rephDeva by n_h_ya-deva;
+	sub p_ja-deva @rephDeva by p_ja-deva;
+	sub p_tta-deva @rephDeva by p_tta-deva;
+	sub p_ta-deva @rephDeva by p_ta-deva;
+	sub p_t_ya-deva @rephDeva by p_t_ya-deva;
+	sub p_na-deva @rephDeva by p_na-deva;
+	sub p_pa-deva @rephDeva by p_pa-deva;
+	sub p_pha-deva @rephDeva by p_pha-deva;
+	sub p_ma-deva @rephDeva by p_ma-deva;
+	sub p_ya-deva @rephDeva by p_ya-deva;
+	sub p_la-deva @rephDeva by p_la-deva;
+	sub p_va-deva @rephDeva by p_va-deva;
+	sub p_sa-deva @rephDeva by p_sa-deva;
+	sub p_za-deva @rephDeva by p_za-deva;
+	sub ph_ja-deva @rephDeva by ph_ja-deva;
+	sub ph_tta-deva @rephDeva by ph_tta-deva;
+	sub ph_ta-deva @rephDeva by ph_ta-deva;
+	sub ph_na-deva @rephDeva by ph_na-deva;
+	sub ph_pa-deva @rephDeva by ph_pa-deva;
+	sub ph_pha-deva @rephDeva by ph_pha-deva;
+	sub ph_ya-deva @rephDeva by ph_ya-deva;
+	sub ph_la-deva @rephDeva by ph_la-deva;
+	sub ph_sha-deva @rephDeva by ph_sha-deva;
+	sub ph_sa-deva @rephDeva by ph_sa-deva;
+	sub b_ja-deva @rephDeva by b_ja-deva;
+	sub b_j_ya-deva @rephDeva by b_j_ya-deva;
+	sub b_ta-deva @rephDeva by b_ta-deva;
+	sub b_da-deva @rephDeva by b_da-deva;
+	sub b_dha-deva @rephDeva by b_dha-deva;
+	sub b_dh_va-deva @rephDeva by b_dh_va-deva;
+	sub b_na-deva @rephDeva by b_na-deva;
+	sub b_ba-deva @rephDeva by b_ba-deva;
+	sub b_bha-deva @rephDeva by b_bha-deva;
+	sub b_ya-deva @rephDeva by b_ya-deva;
+	sub b_la-deva @rephDeva by b_la-deva;
+	sub b_l_ya-deva @rephDeva by b_l_ya-deva;
+	sub b_va-deva @rephDeva by b_va-deva;
+	sub b_sha-deva @rephDeva by b_sha-deva;
+	sub b_sa-deva @rephDeva by b_sa-deva;
+	sub b_za-deva @rephDeva by b_za-deva;
+	sub bh_na-deva @rephDeva by bh_na-deva;
+	sub bh_ya-deva @rephDeva by bh_ya-deva;
+	sub bh_va-deva @rephDeva by bh_va-deva;
+	sub bh_rakar_ya-deva @rephDeva by bh_rakar_ya-deva;
+	sub m_ta-deva @rephDeva by m_ta-deva;
+	sub m_da-deva @rephDeva by m_da-deva;
+	sub m_na-deva @rephDeva by m_na-deva;
+	sub m_pa-deva @rephDeva by m_pa-deva;
+	sub m_ba-deva @rephDeva by m_ba-deva;
+	sub m_b_ya-deva @rephDeva by m_b_ya-deva;
+	sub m_bha-deva @rephDeva by m_bha-deva;
+	sub m_ma-deva @rephDeva by m_ma-deva;
+	sub m_ya-deva @rephDeva by m_ya-deva;
+	sub m_la-deva @rephDeva by m_la-deva;
+	sub m_va-deva @rephDeva by m_va-deva;
+	sub m_sha-deva @rephDeva by m_sha-deva;
+	sub m_sa-deva @rephDeva by m_sa-deva;
+	sub m_ha-deva @rephDeva by m_ha-deva;
+	sub y_na-deva @rephDeva by y_na-deva;
+	sub y_ya-deva @rephDeva by y_ya-deva;
+	sub rr_ya-deva @rephDeva by rr_ya-deva;
+	sub rr_ha-deva @rephDeva by rr_ha-deva;
+	sub l_ka-deva @rephDeva by l_ka-deva;
+	sub l_k_ya-deva @rephDeva by l_k_ya-deva;
+	sub l_kha-deva @rephDeva by l_kha-deva;
+	sub l_ga-deva @rephDeva by l_ga-deva;
+	sub l_ja-deva @rephDeva by l_ja-deva;
+	sub l_tta-deva @rephDeva by l_tta-deva;
+	sub l_ttha-deva @rephDeva by l_ttha-deva;
+	sub l_dda-deva @rephDeva by l_dda-deva;
+	sub l_ddha-deva @rephDeva by l_ddha-deva;
+	sub l_ta-deva @rephDeva by l_ta-deva;
+	sub l_tha-deva @rephDeva by l_tha-deva;
+	sub l_th_ya-deva @rephDeva by l_th_ya-deva;
+	sub l_da-deva @rephDeva by l_da-deva;
+	sub l_pa-deva @rephDeva by l_pa-deva;
+	sub l_pha-deva @rephDeva by l_pha-deva;
+	sub l_ba-deva @rephDeva by l_ba-deva;
+	sub l_bha-deva @rephDeva by l_bha-deva;
+	sub l_ma-deva @rephDeva by l_ma-deva;
+	sub l_ya-deva @rephDeva by l_ya-deva;
+	sub l_la-deva @rephDeva by l_la-deva;
+	sub l_l_ya-deva @rephDeva by l_l_ya-deva;
+	sub l_va-deva @rephDeva by l_va-deva;
+	sub l_v_dda-deva @rephDeva by l_v_dda-deva;
+	sub l_sa-deva @rephDeva by l_sa-deva;
+	sub l_ha-deva @rephDeva by l_ha-deva;
+	sub l_h_ya-deva @rephDeva by l_h_ya-deva;
+	sub l_za-deva @rephDeva by l_za-deva;
+	sub ll_ya-deva @rephDeva by ll_ya-deva;
+	sub v_na-deva @rephDeva by v_na-deva;
+	sub v_ya-deva @rephDeva by v_ya-deva;
+	sub v_la-deva @rephDeva by v_la-deva;
+	sub v_va-deva @rephDeva by v_va-deva;
+	sub v_ha-deva @rephDeva by v_ha-deva;
+	sub sh_cha-deva @rephDeva by sh_cha-deva;
+	sub sh_tta-deva @rephDeva by sh_tta-deva;
+	sub sh_ta-deva @rephDeva by sh_ta-deva;
+	sub sh_na-deva @rephDeva by sh_na-deva;
+	sub sh_ma-deva @rephDeva by sh_ma-deva;
+	sub sh_ya-deva @rephDeva by sh_ya-deva;
+	sub sh_la-deva @rephDeva by sh_la-deva;
+	sub sh_va-deva @rephDeva by sh_va-deva;
+	sub sh_sha-deva @rephDeva by sh_sha-deva;
+	sub sh_rakar_ya-deva @rephDeva by sh_rakar_ya-deva;
+	sub ss_ka-deva @rephDeva by ss_ka-deva;
+	sub ss_tta-deva @rephDeva by ss_tta-deva;
+	sub ss_tt_ya-deva @rephDeva by ss_tt_ya-deva;
+	sub ss_tt_va-deva @rephDeva by ss_tt_va-deva;
+	sub ss_ttha-deva @rephDeva by ss_ttha-deva;
+	sub ss_tth_ya-deva @rephDeva by ss_tth_ya-deva;
+	sub ss_nna-deva @rephDeva by ss_nna-deva;
+	sub ss_nn_ya-deva @rephDeva by ss_nn_ya-deva;
+	sub ss_pa-deva @rephDeva by ss_pa-deva;
+	sub ss_pha-deva @rephDeva by ss_pha-deva;
+	sub ss_ma-deva @rephDeva by ss_ma-deva;
+	sub ss_m_ya-deva @rephDeva by ss_m_ya-deva;
+	sub ss_ya-deva @rephDeva by ss_ya-deva;
+	sub ss_va-deva @rephDeva by ss_va-deva;
+	sub ss_ssa-deva @rephDeva by ss_ssa-deva;
+	sub s_ka-deva @rephDeva by s_ka-deva;
+	sub s_k_va-deva @rephDeva by s_k_va-deva;
+	sub s_kha-deva @rephDeva by s_kha-deva;
+	sub s_ja-deva @rephDeva by s_ja-deva;
+	sub s_tta-deva @rephDeva by s_tta-deva;
+	sub s_ta-deva @rephDeva by s_ta-deva;
+	sub s_t_ya-deva @rephDeva by s_t_ya-deva;
+	sub s_t_va-deva @rephDeva by s_t_va-deva;
+	sub s_tha-deva @rephDeva by s_tha-deva;
+	sub s_th_ya-deva @rephDeva by s_th_ya-deva;
+	sub s_da-deva @rephDeva by s_da-deva;
+	sub s_na-deva @rephDeva by s_na-deva;
+	sub s_pa-deva @rephDeva by s_pa-deva;
+	sub s_pha-deva @rephDeva by s_pha-deva;
+	sub s_ba-deva @rephDeva by s_ba-deva;
+	sub s_ma-deva @rephDeva by s_ma-deva;
+	sub s_m_ya-deva @rephDeva by s_m_ya-deva;
+	sub s_ya-deva @rephDeva by s_ya-deva;
+	sub s_la-deva @rephDeva by s_la-deva;
+	sub s_va-deva @rephDeva by s_va-deva;
+	sub s_sa-deva @rephDeva by s_sa-deva;
+	sub h_nna-deva @rephDeva by h_nna-deva;
+	sub h_na-deva @rephDeva by h_na-deva;
+	sub h_ma-deva @rephDeva by h_ma-deva;
+	sub h_m_ya-deva @rephDeva by h_m_ya-deva;
+	sub h_ya-deva @rephDeva by h_ya-deva;
+	sub h_la-deva @rephDeva by h_la-deva;
+	sub h_va-deva @rephDeva by h_va-deva;
+	sub q_ta-deva @rephDeva by q_ta-deva;
+	sub q_ba-deva @rephDeva by q_ba-deva;
+	sub q_ma-deva @rephDeva by q_ma-deva;
+	sub q_qa-deva @rephDeva by q_qa-deva;
+	sub q_fa-deva @rephDeva by q_fa-deva;
+	sub khh_ta-deva @rephDeva by khh_ta-deva;
+	sub khh_ma-deva @rephDeva by khh_ma-deva;
+	sub khh_ya-deva @rephDeva by khh_ya-deva;
+	sub khh_va-deva @rephDeva by khh_va-deva;
+	sub khh_sha-deva @rephDeva by khh_sha-deva;
+	sub khh_sa-deva @rephDeva by khh_sa-deva;
+	sub z_ya-deva @rephDeva by z_ya-deva;
+	sub z_za-deva @rephDeva by z_za-deva;
+	sub f_ta-deva @rephDeva by f_ta-deva;
+	sub f_sa-deva @rephDeva by f_sa-deva;
+	sub f_za-deva @rephDeva by f_za-deva;
+	sub f_fa-deva @rephDeva by f_fa-deva;
+	sub tta_ra_uuMatra-deva @rephDeva by tta_ra_uuMatra-deva;
+	sub nukta-deva @rephDeva by nukta-deva;
+	sub rakar-deva @rephDeva by rakar-deva;
+} removeReph;
+";
+name = DevaRemoveReph;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature numr;
+feature dnom;
+feature frac;
+feature ordn;
+feature pnum;
+feature tnum;
+feature case;
+feature nukt;
+feature akhn;
+feature rphf;
+feature rkrf;
+feature blwf;
+feature half;
+feature cjct;
+feature blws;
+feature pres;
+feature abvs;
+feature ss03;
+feature cv01;
+feature cv02;
+feature cv03;
+feature cv04;
+feature cv05;
+feature cv06;
+feature cv07;
+feature cv08;
+feature cv09;
+feature cv10;
+feature cv11;
+feature cv12;
+feature cv13;
+feature cv14;
+";
+tag = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+
+lookup ccmp_DFLT_2 {
+	lookupflag 0;
+	sub acutecomb dotaccentcomb by acutecomb_dotaccentcomb;
+	sub brevecomb acutecomb by brevecomb_acutecomb;
+	sub brevecomb gravecomb by brevecomb_gravecomb;
+	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;
+	sub brevecomb tildecomb by brevecomb_tildecomb;
+	sub caroncomb dotaccentcomb by caroncomb_dotaccentcomb;
+	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;
+	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
+	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
+	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
+	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;
+	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;
+	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;
+	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
+	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
+	sub macroncomb acutecomb by macroncomb_acutecomb;
+	sub macroncomb dieresiscomb by macroncomb_dieresiscomb;
+	sub macroncomb gravecomb by macroncomb_gravecomb;
+	sub ringcomb acutecomb by ringcomb_acutecomb;
+	sub tildecomb acutecomb by tildecomb_acutecomb;
+	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;
+	sub tildecomb macroncomb by tildecomb_macroncomb;
+} ccmp_DFLT_2;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub ldot by l periodcentered.loclCAT;
+	sub dzcaron by d zcaron;
+	sub Dzcaron by D zcaron;
+	sub DZcaron by D Zcaron;
+} ccmp_latn_1;
+
+script latn;
+lookup ccmp_latn_1;
+";
+tag = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
+	sub Scedilla by Scommaaccent;
+	sub scedilla by scommaaccent;
+	sub Tcedilla by Tcommaaccent;
+	sub tcedilla by tcommaaccent;
+} locl_latn_1;
+language MOL;
+lookup locl_latn_1;
+
+script latn;
+language CAT;
+lookup locl_latn_2 {
+	sub l periodcentered' l by periodcentered.loclCAT;
+	sub L periodcentered' L by periodcentered.loclCAT;
+} locl_latn_2;
+
+script dev2;
+language MAR;
+lookup locl_dev2_0 {
+	sub la-deva by la-deva.loclMAR;
+	sub sha-deva by sha-deva.loclMAR;
+} locl_dev2_0;
+";
+tag = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zero.numr;
+sub one by one.numr;
+sub two by two.numr;
+sub three by three.numr;
+sub four by four.numr;
+sub five by five.numr;
+sub six by six.numr;
+sub seven by seven.numr;
+sub eight by eight.numr;
+sub nine by nine.numr;
+";
+tag = numr;
+},
+{
+automatic = 1;
+code = "sub zero by zero.dnom;
+sub one by one.dnom;
+sub two by two.dnom;
+sub three by three.dnom;
+sub four by four.dnom;
+sub five by five.dnom;
+sub six by six.dnom;
+sub seven by seven.dnom;
+sub eight by eight.dnom;
+sub nine by nine.dnom;
+";
+tag = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {
+	sub slash by fraction;
+} FRAC;
+lookup UP {
+	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+} UP;
+lookup DOWN {
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+} DOWN;
+";
+tag = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+";
+tag = ordn;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero;
+sub one.tf by one;
+sub two.tf by two;
+sub three.tf by three;
+sub four.tf by four;
+sub five.tf by five;
+sub six.tf by six;
+sub seven.tf by seven;
+sub eight.tf by eight;
+sub nine.tf by nine;
+";
+tag = pnum;
+},
+{
+automatic = 1;
+code = "sub zero by zero.tf;
+sub one by one.tf;
+sub two by two.tf;
+sub three by three.tf;
+sub four by four.tf;
+sub five by five.tf;
+sub six by six.tf;
+sub seven by seven.tf;
+sub eight by eight.tf;
+sub nine by nine.tf;
+";
+tag = tnum;
+},
+{
+automatic = 1;
+code = "sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub periodcentered by periodcentered.case;
+sub bullet by bullet.case;
+sub slash by slash.case;
+sub backslash by backslash.case;
+sub hyphen by hyphen.case;
+sub softhyphen by softhyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub parenleft by parenleft.case;
+sub parenright by parenright.case;
+sub braceleft by braceleft.case;
+sub braceright by braceright.case;
+sub bracketleft by bracketleft.case;
+sub bracketright by bracketright.case;
+sub guillemetleft by guillemetleft.case;
+sub guillemetright by guillemetright.case;
+sub guilsinglleft by guilsinglleft.case;
+sub guilsinglright by guilsinglright.case;
+sub plus by plus.case;
+sub minus by minus.case;
+sub multiply by multiply.case;
+sub divide by divide.case;
+sub equal by equal.case;
+sub notequal by notequal.case;
+sub greater by greater.case;
+sub less by less.case;
+sub plusminus by plusminus.case;
+sub asciitilde by asciitilde.case;
+";
+tag = case;
+},
+{
+code = "lookupflag IgnoreMarks;
+sub f f f by f_f_f;
+sub f f j by f_f_j;
+sub f f y by f_f_y;
+sub f j by f_j;
+sub f.cv12 j.cv14 by f_j.cv12_cv14;
+sub f y by f_y;
+";
+tag = dlig;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f f i by f_f_i;
+sub f f by f_f;
+sub f i by f_i;
+";
+tag = liga;
+},
+{
+automatic = 1;
+code = "pos @Uppercase <5 0 10 0>;
+";
+tag = cpsp;
+},
+{
+automatic = 1;
+code = "lookup NuktDecomp {
+	sub qa-deva by ka-deva nukta-deva;
+	sub khha-deva by kha-deva nukta-deva;
+	sub ghha-deva by ga-deva nukta-deva;
+	sub za-deva by ja-deva nukta-deva;
+	sub dddha-deva by dda-deva nukta-deva;
+	sub rha-deva by ddha-deva nukta-deva;
+	sub nnna-deva by na-deva nukta-deva;
+	sub fa-deva by pha-deva nukta-deva;
+	sub yya-deva by ya-deva nukta-deva;
+	sub llla-deva by lla-deva nukta-deva;
+} NuktDecomp;
+lookup NuktComp {
+	sub ra-deva nukta-deva by rra-deva;
+} NuktComp;
+
+script dev2;
+lookup NuktDecomp;
+lookup NuktComp;
+language MAR;
+lookup NuktDecomp;
+lookup NuktComp;
+
+script deva;
+lookup NuktDecomp;
+lookup NuktComp;
+language MAR;
+lookup NuktDecomp;
+lookup NuktComp;
+";
+tag = nukt;
+},
+{
+automatic = 1;
+code = "lookupflag 0;
+script dev2;
+lookup Akhn_devanagari {
+	sub ka-deva halant-deva ssa-deva halant-deva by k_ss-deva;
+	sub ka-deva halant-deva ssa-deva by k_ssa-deva;
+	sub ja-deva halant-deva nya-deva halant-deva by j_ny-deva;
+	sub ja-deva halant-deva nya-deva by j_nya-deva;
+} Akhn_devanagari;
+language MAR;
+lookup Akhn_devanagari;
+script deva;
+lookup Akhn_devanagari;
+language MAR;
+lookup Akhn_devanagari;
+";
+tag = akhn;
+},
+{
+automatic = 1;
+code = "script dev2;
+lookup Rphf_deva {
+	sub ra-deva halant-deva by reph-deva;
+} Rphf_deva;
+language MAR;
+lookup Rphf_deva;
+
+script deva;
+lookup Rphf_deva;
+language MAR;
+lookup Rphf_deva;
+";
+tag = rphf;
+},
+{
+automatic = 1;
+code = "script dev2;
+lookup rakar {
+	sub halant-deva ra-deva by rakar-deva;
+} rakar;
+language MAR;
+lookup rakar;
+
+script deva;
+lookup rakar;
+language MAR;
+lookup rakar;
+";
+tag = rkrf;
+},
+{
+automatic = 1;
+code = "script deva;
+sub ra-deva halant-deva by rakar-deva;
+";
+tag = blwf;
+},
+{
+automatic = 1;
+code = "@halantdeva = [halant-deva];
+lookup dev2_half {
+	lookupflag UseMarkFilteringSet @halantdeva;
+	sub ka-deva halant-deva by k-deva;
+	sub kha-deva halant-deva by kh-deva;
+	sub ga-deva halant-deva by g-deva;
+	sub gha-deva halant-deva by gh-deva;
+	sub nga-deva halant-deva by ng-deva;
+	sub ca-deva halant-deva by c-deva;
+	sub cha-deva halant-deva by ch-deva;
+	sub ja-deva halant-deva by j-deva;
+	sub jha-deva halant-deva by jh-deva;
+	sub nya-deva halant-deva by ny-deva;
+	sub tta-deva halant-deva by tt-deva;
+	sub ttha-deva halant-deva by tth-deva;
+	sub dda-deva halant-deva by dd-deva;
+	sub ddha-deva halant-deva by ddh-deva;
+	sub nna-deva halant-deva by nn-deva;
+	sub ta-deva halant-deva by t-deva;
+	sub tha-deva halant-deva by th-deva;
+	sub da-deva halant-deva by d-deva;
+	sub dha-deva halant-deva by dh-deva;
+	sub na-deva halant-deva by n-deva;
+	sub nnna-deva halant-deva by nnn-deva;
+	sub pa-deva halant-deva by p-deva;
+	sub pha-deva halant-deva by ph-deva;
+	sub ba-deva halant-deva by b-deva;
+	sub bha-deva halant-deva by bh-deva;
+	sub ma-deva halant-deva by m-deva;
+	sub ya-deva halant-deva by y-deva;
+	sub rra-deva halant-deva by rr-deva;
+	sub la-deva halant-deva by l-deva;
+	sub lla-deva halant-deva by ll-deva;
+	sub llla-deva halant-deva by lll-deva;
+	sub va-deva halant-deva by v-deva;
+	sub sha-deva halant-deva by sh-deva;
+	sub ssa-deva halant-deva by ss-deva;
+	sub sa-deva halant-deva by s-deva;
+	sub ha-deva halant-deva by h-deva;
+	sub qa-deva halant-deva by q-deva;
+	sub khha-deva halant-deva by khh-deva;
+	sub ghha-deva halant-deva by ghh-deva;
+	sub za-deva halant-deva by z-deva;
+	sub fa-deva halant-deva by f-deva;
+	sub yya-deva halant-deva by yy-deva;
+	sub la-deva.loclMAR halant-deva by l-deva;
+} dev2_half;
+
+script dev2;
+lookup dev2_half;
+language MAR;
+lookup dev2_half;
+
+script deva;
+lookup dev2_half;
+language MAR;
+lookup dev2_half;
+";
+tag = half;
+},
+{
+automatic = 1;
+code = "script dev2;
+@rakardevanagari = [rakar-deva];
+lookup cjct_devanagari_rakar_forms {
+	lookupflag UseMarkFilteringSet @rakardevanagari;
+	sub b-deva rakar-deva by b_rakar-deva;
+	sub bh-deva rakar-deva by bh_rakar-deva;
+	sub c-deva rakar-deva by c_rakar-deva;
+	sub d-deva rakar-deva by d_rakar-deva;
+	sub dh-deva rakar-deva by dh_rakar-deva;
+	sub f-deva rakar-deva by f_rakar-deva;
+	sub g-deva rakar-deva by g_rakar-deva;
+	sub gh-deva rakar-deva by gh_rakar-deva;
+	sub ghh-deva rakar-deva by ghh_rakar-deva;
+	sub h-deva rakar-deva by h_rakar-deva;
+	sub j-deva rakar-deva by j_rakar-deva;
+	sub jh-deva rakar-deva by jh_rakar-deva;
+	sub k-deva rakar-deva by k_rakar-deva;
+	sub kh-deva rakar-deva by kh_rakar-deva;
+	sub khh-deva rakar-deva by khh_rakar-deva;
+	sub l-deva rakar-deva by l_rakar-deva;
+	sub m-deva rakar-deva by m_rakar-deva;
+	sub n-deva rakar-deva by n_rakar-deva;
+	sub nn-deva rakar-deva by nn_rakar-deva;
+	sub ny-deva rakar-deva by ny_rakar-deva;
+	sub p-deva rakar-deva by p_rakar-deva;
+	sub ph-deva rakar-deva by ph_rakar-deva;
+	sub q-deva rakar-deva by q_rakar-deva;
+	sub s-deva rakar-deva by s_rakar-deva;
+	sub sh-deva rakar-deva by sh_rakar-deva;
+	sub ss-deva rakar-deva by ss_rakar-deva;
+	sub t-deva rakar-deva by t_rakar-deva;
+	sub th-deva rakar-deva by th_rakar-deva;
+	sub v-deva rakar-deva by v_rakar-deva;
+	sub y-deva rakar-deva by y_rakar-deva;
+	sub yy-deva rakar-deva by yy_rakar-deva;
+	sub z-deva rakar-deva by z_rakar-deva;
+} cjct_devanagari_rakar_forms;
+lookupflag 0;
+lookup cjct_Halfdevanagari {
+	sub b-deva bh_rakar-deva by b_bh_rakar-deva;
+	sub ch-deva ya_rakar-deva by ch_ya_rakar-deva;
+	sub d-deva ba_rakar-deva by d_ba_rakar-deva;
+	sub d-deva ga_rakar-deva by d_ga_rakar-deva;
+	sub d-deva v_rakar-deva by d_v_rakar-deva;
+	sub d-deva va_rakar-deva by d_va_rakar-deva;
+	sub d-deva ya_rakar-deva by d_ya_rakar-deva;
+	sub k_ssa-deva halant-deva rakar-deva by k_ss_rakar-deva;
+	sub k-deva ssa_rakar-deva by k_ssa_rakar-deva;
+	sub k-deva t_rakar-deva by k_t_rakar-deva;
+	sub k-deva ta_rakar-deva by k_ta_rakar-deva;
+	sub l-deva d_rakar-deva by l_d_rakar-deva;
+	sub n-deva d_rakar-deva by n_d_rakar-deva;
+	sub n-deva da_rakar-deva by n_da_rakar-deva;
+	sub n-deva dh_rakar-deva by n_dh_rakar-deva;
+	sub n-deva dha_rakar-deva by n_dha_rakar-deva;
+	sub n-deva ta_rakar-deva by n_ta_rakar-deva;
+	sub s-deva k_rakar-deva by s_k_rakar-deva;
+	sub s-deva t_rakar-deva by s_t_rakar-deva;
+	sub s-deva ta_rakar-deva by s_ta_rakar-deva;
+	sub ss-deva k_rakar-deva by ss_k_rakar-deva;
+	sub ss-deva tt-deva rakar-deva by ss_tt_rakar-deva;
+	sub ss-deva tta_rakar-deva by ss_tta_rakar-deva;
+	sub ss-deva tth-deva rakar-deva by ss_tth_rakar-deva;
+	sub t-deva k_rakar-deva by t_k_rakar-deva;
+	sub t-deva kh_rakar-deva by t_kh_rakar-deva;
+	sub d-deva y-deva by d_y-deva;
+	sub j-deva ny-deva by j_ny-deva;
+	sub k-deva ss-deva by k_ss-deva;
+	sub k-deva t-deva by k_t-deva;
+	sub n-deva n-deva by n_n-deva;
+	sub t-deva t-deva by t_t-deva;
+} cjct_Halfdevanagari;
+lookup cjct_devanagari {
+	sub k-deva s-deva p-deva la-deva by k_s_p_la-deva;
+	sub b-deva dh-deva va-deva by b_dh_va-deva;
+	sub b-deva j-deva ya-deva by b_j_ya-deva;
+	sub b-deva l-deva ya-deva by b_l_ya-deva;
+	sub bh_rakar-deva ya-deva by bh_rakar_ya-deva;
+	sub c-deva ch-deva va-deva by c_ch_va-deva;
+	sub d-deva d-deva ya-deva by d_d_ya-deva;
+	sub d-deva dh-deva ya-deva by d_dh_ya-deva;
+	sub d_rakar-deva ya-deva by d_rakar_ya-deva;
+	sub d-deva v-deva ya-deva by d_v_ya-deva;
+	sub dd-deva dd-deva ya-deva by dd_dd_ya-deva;
+	sub ddh-deva ddh-deva ya-deva by ddh_ddh_ya-deva;
+	sub dh-deva n-deva ya-deva by dh_n_ya-deva;
+	sub g-deva bh-deva ya-deva by g_bh_ya-deva;
+	sub g-deva dh-deva va-deva by g_dh_va-deva;
+	sub g-deva dh-deva ya-deva by g_dh_ya-deva;
+	sub g-deva n-deva ya-deva by g_n_ya-deva;
+	sub g_rakar-deva ya-deva by g_rakar_ya-deva;
+	sub h-deva m-deva ya-deva by h_m_ya-deva;
+	sub j-deva j-deva nya-deva by j_j_nya-deva;
+	sub j-deva j-deva va-deva by j_j_va-deva;
+	sub j-deva j-deva ya-deva by j_j_ya-deva;
+	sub j_nya-deva halant-deva ya-deva by j_ny_ya-deva;
+	sub k-deva s-deva dda-deva by k_s_dda-deva;
+	sub k-deva s-deva pa-deva by k_s_pa-deva;
+	sub k-deva s-deva ta-deva by k_s_ta-deva;
+	sub k-deva s-deva tta-deva by k_s_tta-deva;
+	sub k_ssa-deva halant-deva ma-deva by k_ss_ma-deva;
+	sub k_ssa-deva halant-deva va-deva by k_ss_va-deva;
+	sub k_ssa-deva halant-deva ya-deva by k_ss_ya-deva;
+	sub k-deva t-deva ta-deva by k_t_ta-deva;
+	sub k-deva t-deva va-deva by k_t_va-deva;
+	sub k-deva t-deva ya-deva by k_t_ya-deva;
+	sub k-deva v-deva ya-deva by k_v_ya-deva;
+	sub l-deva h-deva ya-deva by l_h_ya-deva;
+	sub l-deva k-deva ya-deva by l_k_ya-deva;
+	sub l-deva l-deva ya-deva by l_l_ya-deva;
+	sub l-deva th-deva ya-deva by l_th_ya-deva;
+	sub l-deva v-deva dda-deva by l_v_dda-deva;
+	sub m-deva b-deva ya-deva by m_b_ya-deva;
+	sub n-deva d-deva va-deva by n_d_va-deva;
+	sub n-deva dh-deva va-deva by n_dh_va-deva;
+	sub n-deva dh-deva ya-deva by n_dh_ya-deva;
+	sub n-deva h-deva ya-deva by n_h_ya-deva;
+	sub n-deva k-deva sa-deva by n_k_sa-deva;
+	sub n-deva m-deva ya-deva by n_m_ya-deva;
+	sub n-deva n-deva ya-deva by n_n_ya-deva;
+	sub n-deva s-deva tta-deva by n_s_tta-deva;
+	sub n-deva t-deva sa-deva by n_t_sa-deva;
+	sub n-deva t-deva ya-deva by n_t_ya-deva;
+	sub n-deva th-deva va-deva by n_th_va-deva;
+	sub n-deva th-deva ya-deva by n_th_ya-deva;
+	sub ny-deva c-deva ya-deva by ny_c_ya-deva;
+	sub ny-deva j-deva ya-deva by ny_j_ya-deva;
+	sub p-deva t-deva ya-deva by p_t_ya-deva;
+	sub s-deva k-deva va-deva by s_k_va-deva;
+	sub s-deva m-deva ya-deva by s_m_ya-deva;
+	sub s-deva t-deva va-deva by s_t_va-deva;
+	sub s-deva t-deva ya-deva by s_t_ya-deva;
+	sub s-deva th-deva ya-deva by s_th_ya-deva;
+	sub sh_rakar-deva ya-deva by sh_rakar_ya-deva;
+	sub ss-deva m-deva ya-deva by ss_m_ya-deva;
+	sub ss-deva nn-deva ya-deva by ss_nn_ya-deva;
+	sub ss-deva tt-deva va-deva by ss_tt_va-deva;
+	sub ss-deva tt-deva ya-deva by ss_tt_ya-deva;
+	sub ss-deva tth-deva ya-deva by ss_tth_ya-deva;
+	sub t-deva k-deva ssa-deva by t_k_ssa-deva;
+	sub t-deva k-deva va-deva by t_k_va-deva;
+	sub t-deva k-deva ya-deva by t_k_ya-deva;
+	sub t-deva kh-deva na-deva by t_kh_na-deva;
+	sub t-deva m-deva ya-deva by t_m_ya-deva;
+	sub t-deva n-deva ya-deva by t_n_ya-deva;
+	sub t-deva p-deva la-deva by t_p_la-deva;
+	sub t_rakar-deva ya-deva by t_rakar_ya-deva;
+	sub t-deva s-deva na-deva by t_s_na-deva;
+	sub t-deva s-deva va-deva by t_s_va-deva;
+	sub t-deva s-deva ya-deva by t_s_ya-deva;
+	sub t-deva t-deva va-deva by t_t_va-deva;
+	sub t-deva t-deva ya-deva by t_t_ya-deva;
+	sub tt-deva rakar-deva uuMatra-deva by tt_ra_uuMatra-deva;
+	sub tt-deva tt-deva ya-deva by tt_tt_ya-deva;
+	sub tth-deva tth-deva ya-deva by tth_tth_ya-deva;
+	sub b-deva ba-deva by b_ba-deva;
+	sub b-deva bha-deva by b_bha-deva;
+	sub b-deva da-deva by b_da-deva;
+	sub b-deva dha-deva by b_dha-deva;
+	sub b-deva ja-deva by b_ja-deva;
+	sub b-deva la-deva by b_la-deva;
+	sub b-deva na-deva by b_na-deva;
+	sub b-deva sa-deva by b_sa-deva;
+	sub b-deva sha-deva by b_sha-deva;
+	sub b-deva ta-deva by b_ta-deva;
+	sub b-deva va-deva by b_va-deva;
+	sub b-deva ya-deva by b_ya-deva;
+	sub b-deva za-deva by b_za-deva;
+	sub bh-deva na-deva by bh_na-deva;
+	sub bh-deva va-deva by bh_va-deva;
+	sub bh-deva ya-deva by bh_ya-deva;
+	sub c-deva ca-deva by c_ca-deva;
+	sub c-deva cha-deva by c_cha-deva;
+	sub c-deva ma-deva by c_ma-deva;
+	sub c-deva na-deva by c_na-deva;
+	sub c-deva ya-deva by c_ya-deva;
+	sub ch-deva na-deva by ch_na-deva;
+	sub ch-deva va-deva by ch_va-deva;
+	sub ch-deva ya-deva by ch_ya-deva;
+	sub d-deva ba-deva by d_ba-deva;
+	sub d-deva da-deva by d_da-deva;
+	sub d-deva dha-deva by d_dha-deva;
+	sub d-deva ma-deva by d_ma-deva;
+	sub d-deva na-deva by d_na-deva;
+	sub d-deva va-deva by d_va-deva;
+	sub d-deva ya-deva by d_ya-deva;
+	sub dd-deva dda-deva by dd_dda-deva;
+	sub dd-deva ddha-deva by dd_ddha-deva;
+	sub dd-deva ya-deva by dd_ya-deva;
+	sub ddh-deva ddha-deva by ddh_ddha-deva;
+	sub ddh-deva ya-deva by ddh_ya-deva;
+	sub dh-deva ma-deva by dh_ma-deva;
+	sub dh-deva na-deva by dh_na-deva;
+	sub dh-deva va-deva by dh_va-deva;
+	sub dh-deva ya-deva by dh_ya-deva;
+	sub f-deva fa-deva by f_fa-deva;
+	sub f-deva sa-deva by f_sa-deva;
+	sub f-deva ta-deva by f_ta-deva;
+	sub f-deva za-deva by f_za-deva;
+	sub g-deva ba-deva by g_ba-deva;
+	sub g-deva bha-deva by g_bha-deva;
+	sub g-deva da-deva by g_da-deva;
+	sub g-deva dha-deva by g_dha-deva;
+	sub g-deva ga-deva by g_ga-deva;
+	sub g-deva gha-deva by g_gha-deva;
+	sub g-deva ja-deva by g_ja-deva;
+	sub g-deva la-deva by g_la-deva;
+	sub g-deva ma-deva by g_ma-deva;
+	sub g-deva na-deva by g_na-deva;
+	sub g-deva nna-deva by g_nna-deva;
+	sub g-deva sa-deva by g_sa-deva;
+	sub g-deva va-deva by g_va-deva;
+	sub g-deva ya-deva by g_ya-deva;
+	sub gh-deva ma-deva by gh_ma-deva;
+	sub gh-deva na-deva by gh_na-deva;
+	sub gh-deva ya-deva by gh_ya-deva;
+	sub h-deva la-deva by h_la-deva;
+	sub h-deva ma-deva by h_ma-deva;
+	sub h-deva na-deva by h_na-deva;
+	sub h-deva nna-deva by h_nna-deva;
+	sub h-deva va-deva by h_va-deva;
+	sub h-deva ya-deva by h_ya-deva;
+	sub j-deva ba-deva by j_ba-deva;
+	sub j-deva da-deva by j_da-deva;
+	sub j-deva dda-deva by j_dda-deva;
+	sub j-deva ja-deva by j_ja-deva;
+	sub j-deva jha-deva by j_jha-deva;
+	sub j-deva ka-deva by j_ka-deva;
+	sub j-deva ma-deva by j_ma-deva;
+	sub j-deva na-deva by j_na-deva;
+	sub j-deva nya-deva by j_nya-deva;
+	sub j-deva ta-deva by j_ta-deva;
+	sub j-deva tta-deva by j_tta-deva;
+	sub j-deva va-deva by j_va-deva;
+	sub j-deva ya-deva by j_ya-deva;
+	sub jh-deva ma-deva by jh_ma-deva;
+	sub jh-deva na-deva by jh_na-deva;
+	sub jh-deva ya-deva by jh_ya-deva;
+	sub k-deva ca-deva by k_ca-deva;
+	sub k-deva da-deva by k_da-deva;
+	sub k-deva ja-deva by k_ja-deva;
+	sub k-deva ka-deva by k_ka-deva;
+	sub k-deva kha-deva by k_kha-deva;
+	sub k-deva la-deva by k_la-deva;
+	sub k-deva ma-deva by k_ma-deva;
+	sub k-deva na-deva by k_na-deva;
+	sub k-deva nna-deva by k_nna-deva;
+	sub k-deva pa-deva by k_pa-deva;
+	sub k-deva pha-deva by k_pha-deva;
+	sub k-deva sa-deva by k_sa-deva;
+	sub k-deva sha-deva by k_sha-deva;
+	sub k-deva ssa-deva by k_ssa-deva;
+	sub k-deva ta-deva by k_ta-deva;
+	sub k-deva tha-deva by k_tha-deva;
+	sub k-deva tta-deva by k_tta-deva;
+	sub k-deva va-deva by k_va-deva;
+	sub k-deva ya-deva by k_ya-deva;
+	sub kh-deva kha-deva by kh_kha-deva;
+	sub kh-deva ma-deva by kh_ma-deva;
+	sub kh-deva na-deva by kh_na-deva;
+	sub kh-deva sha-deva by kh_sha-deva;
+	sub kh-deva ta-deva by kh_ta-deva;
+	sub kh-deva va-deva by kh_va-deva;
+	sub kh-deva ya-deva by kh_ya-deva;
+	sub khh-deva ma-deva by khh_ma-deva;
+	sub khh-deva sa-deva by khh_sa-deva;
+	sub khh-deva sha-deva by khh_sha-deva;
+	sub khh-deva ta-deva by khh_ta-deva;
+	sub khh-deva va-deva by khh_va-deva;
+	sub khh-deva ya-deva by khh_ya-deva;
+	sub l-deva ba-deva by l_ba-deva;
+	sub l-deva bha-deva by l_bha-deva;
+	sub l-deva da-deva by l_da-deva;
+	sub l-deva dda-deva by l_dda-deva;
+	sub l-deva ddha-deva by l_ddha-deva;
+	sub l-deva ga-deva by l_ga-deva;
+	sub l-deva ha-deva by l_ha-deva;
+	sub l-deva ja-deva by l_ja-deva;
+	sub l-deva ka-deva by l_ka-deva;
+	sub l-deva kha-deva by l_kha-deva;
+	sub l-deva la-deva by l_la-deva;
+	sub l-deva ma-deva by l_ma-deva;
+	sub l-deva pa-deva by l_pa-deva;
+	sub l-deva pha-deva by l_pha-deva;
+	sub l-deva sa-deva by l_sa-deva;
+	sub l-deva ta-deva by l_ta-deva;
+	sub l-deva tha-deva by l_tha-deva;
+	sub l-deva tta-deva by l_tta-deva;
+	sub l-deva ttha-deva by l_ttha-deva;
+	sub l-deva va-deva by l_va-deva;
+	sub l-deva ya-deva by l_ya-deva;
+	sub l-deva za-deva by l_za-deva;
+	sub ll-deva ya-deva by ll_ya-deva;
+	sub m-deva ba-deva by m_ba-deva;
+	sub m-deva bha-deva by m_bha-deva;
+	sub m-deva da-deva by m_da-deva;
+	sub m-deva ha-deva by m_ha-deva;
+	sub m-deva la-deva by m_la-deva;
+	sub m-deva ma-deva by m_ma-deva;
+	sub m-deva na-deva by m_na-deva;
+	sub m-deva pa-deva by m_pa-deva;
+	sub m-deva sa-deva by m_sa-deva;
+	sub m-deva sha-deva by m_sha-deva;
+	sub m-deva ta-deva by m_ta-deva;
+	sub m-deva va-deva by m_va-deva;
+	sub m-deva ya-deva by m_ya-deva;
+	sub n-deva bha-deva by n_bha-deva;
+	sub n-deva ca-deva by n_ca-deva;
+	sub n-deva da-deva by n_da-deva;
+	sub n-deva dda-deva by n_dda-deva;
+	sub n-deva dha-deva by n_dha-deva;
+	sub n-deva ha-deva by n_ha-deva;
+	sub n-deva ka-deva by n_ka-deva;
+	sub n-deva ma-deva by n_ma-deva;
+	sub n-deva na-deva by n_na-deva;
+	sub n-deva pa-deva by n_pa-deva;
+	sub n-deva pha-deva by n_pha-deva;
+	sub n-deva sa-deva by n_sa-deva;
+	sub n-deva ta-deva by n_ta-deva;
+	sub n-deva tha-deva by n_tha-deva;
+	sub n-deva tta-deva by n_tta-deva;
+	sub n-deva va-deva by n_va-deva;
+	sub n-deva ya-deva by n_ya-deva;
+	sub nn-deva dda-deva by nn_dda-deva;
+	sub nn-deva ddha-deva by nn_ddha-deva;
+	sub nn-deva ma-deva by nn_ma-deva;
+	sub nn-deva nna-deva by nn_nna-deva;
+	sub nn-deva tta-deva by nn_tta-deva;
+	sub nn-deva ttha-deva by nn_ttha-deva;
+	sub nn-deva va-deva by nn_va-deva;
+	sub nn-deva ya-deva by nn_ya-deva;
+	sub ny-deva ca-deva by ny_ca-deva;
+	sub ny-deva cha-deva by ny_cha-deva;
+	sub ny-deva ja-deva by ny_ja-deva;
+	sub ny-deva sha-deva by ny_sha-deva;
+	sub p-deva ja-deva by p_ja-deva;
+	sub p-deva la-deva by p_la-deva;
+	sub p-deva ma-deva by p_ma-deva;
+	sub p-deva na-deva by p_na-deva;
+	sub p-deva pa-deva by p_pa-deva;
+	sub p-deva pha-deva by p_pha-deva;
+	sub p-deva sa-deva by p_sa-deva;
+	sub p-deva ta-deva by p_ta-deva;
+	sub p-deva tta-deva by p_tta-deva;
+	sub p-deva va-deva by p_va-deva;
+	sub p-deva ya-deva by p_ya-deva;
+	sub p-deva za-deva by p_za-deva;
+	sub ph-deva ja-deva by ph_ja-deva;
+	sub ph-deva la-deva by ph_la-deva;
+	sub ph-deva na-deva by ph_na-deva;
+	sub ph-deva pa-deva by ph_pa-deva;
+	sub ph-deva pha-deva by ph_pha-deva;
+	sub ph-deva sa-deva by ph_sa-deva;
+	sub ph-deva sha-deva by ph_sha-deva;
+	sub ph-deva ta-deva by ph_ta-deva;
+	sub ph-deva tta-deva by ph_tta-deva;
+	sub ph-deva ya-deva by ph_ya-deva;
+	sub q-deva ba-deva by q_ba-deva;
+	sub q-deva fa-deva by q_fa-deva;
+	sub q-deva ma-deva by q_ma-deva;
+	sub q-deva qa-deva by q_qa-deva;
+	sub q-deva ta-deva by q_ta-deva;
+	sub rr-deva ha-deva by rr_ha-deva;
+	sub rr-deva ya-deva by rr_ya-deva;
+	sub s-deva ba-deva by s_ba-deva;
+	sub s-deva da-deva by s_da-deva;
+	sub s-deva ja-deva by s_ja-deva;
+	sub s-deva ka-deva by s_ka-deva;
+	sub s-deva kha-deva by s_kha-deva;
+	sub s-deva la-deva by s_la-deva;
+	sub s-deva ma-deva by s_ma-deva;
+	sub s-deva na-deva by s_na-deva;
+	sub s-deva pa-deva by s_pa-deva;
+	sub s-deva pha-deva by s_pha-deva;
+	sub s-deva sa-deva by s_sa-deva;
+	sub s-deva ta-deva by s_ta-deva;
+	sub s-deva tha-deva by s_tha-deva;
+	sub s-deva tta-deva by s_tta-deva;
+	sub s-deva va-deva by s_va-deva;
+	sub s-deva ya-deva by s_ya-deva;
+	sub sh-deva cha-deva by sh_cha-deva;
+	sub sh-deva la-deva by sh_la-deva;
+	sub sh-deva ma-deva by sh_ma-deva;
+	sub sh-deva na-deva by sh_na-deva;
+	sub sh-deva sha-deva by sh_sha-deva;
+	sub sh-deva ta-deva by sh_ta-deva;
+	sub sh-deva tta-deva by sh_tta-deva;
+	sub sh-deva va-deva by sh_va-deva;
+	sub sh-deva ya-deva by sh_ya-deva;
+	sub ss-deva ka-deva by ss_ka-deva;
+	sub ss-deva ma-deva by ss_ma-deva;
+	sub ss-deva nna-deva by ss_nna-deva;
+	sub ss-deva pa-deva by ss_pa-deva;
+	sub ss-deva pha-deva by ss_pha-deva;
+	sub ss-deva ssa-deva by ss_ssa-deva;
+	sub ss-deva tta-deva by ss_tta-deva;
+	sub ss-deva ttha-deva by ss_ttha-deva;
+	sub ss-deva va-deva by ss_va-deva;
+	sub ss-deva ya-deva by ss_ya-deva;
+	sub t-deva ka-deva by t_ka-deva;
+	sub t-deva kha-deva by t_kha-deva;
+	sub t-deva la-deva by t_la-deva;
+	sub t-deva ma-deva by t_ma-deva;
+	sub t-deva na-deva by t_na-deva;
+	sub t-deva pa-deva by t_pa-deva;
+	sub t-deva pha-deva by t_pha-deva;
+	sub t-deva sa-deva by t_sa-deva;
+	sub t-deva ta-deva by t_ta-deva;
+	sub t-deva tha-deva by t_tha-deva;
+	sub t-deva va-deva by t_va-deva;
+	sub t-deva ya-deva by t_ya-deva;
+	sub th-deva na-deva by th_na-deva;
+	sub th-deva va-deva by th_va-deva;
+	sub th-deva ya-deva by th_ya-deva;
+	sub tt-deva tta-deva by tt_tta-deva;
+	sub tt-deva ttha-deva by tt_ttha-deva;
+	sub tt-deva va-deva by tt_va-deva;
+	sub tt-deva ya-deva by tt_ya-deva;
+	sub tth-deva ttha-deva by tth_ttha-deva;
+	sub tth-deva ya-deva by tth_ya-deva;
+	sub v-deva ha-deva by v_ha-deva;
+	sub v-deva la-deva by v_la-deva;
+	sub v-deva na-deva by v_na-deva;
+	sub v-deva va-deva by v_va-deva;
+	sub v-deva ya-deva by v_ya-deva;
+	sub y-deva na-deva by y_na-deva;
+	sub y-deva ya-deva by y_ya-deva;
+	sub z-deva ya-deva by z_ya-deva;
+	sub z-deva za-deva by z_za-deva;
+} cjct_devanagari;
+language MAR;
+lookup cjct_devanagari;
+language MAR;
+lookup cjct_devanagari;
+";
+tag = cjct;
+},
+{
+automatic = 1;
+code = "script dev2;
+	sub ba-deva rakar-deva by ba_rakar-deva;
+	sub bha-deva rakar-deva by bha_rakar-deva;
+	sub ca-deva rakar-deva by ca_rakar-deva;
+	sub da-deva rVocalicMatra-deva by da_rVocalicMatra-deva;
+	sub da-deva rakar-deva by da_rakar-deva;
+	sub dda-deva rakar-deva by dda_rakar-deva;
+	sub dha-deva rakar-deva by dha_rakar-deva;
+	sub fa-deva rakar-deva by fa_rakar-deva;
+	sub ga-deva rakar-deva by ga_rakar-deva;
+	sub gha-deva rakar-deva by gha_rakar-deva;
+	sub ghha-deva rakar-deva by ghha_rakar-deva;
+	sub ha-deva rVocalicMatra-deva by ha_rVocalicMatra-deva;
+	sub ha-deva rakar-deva by ha_rakar-deva;
+	sub ja-deva rakar-deva by ja_rakar-deva;
+	sub jha-deva rakar-deva by jha_rakar-deva;
+	sub ka-deva rVocalicMatra-deva by ka_rVocalicMatra-deva;
+	sub ka-deva rakar-deva by ka_rakar-deva;
+	sub kha-deva rakar-deva by kha_rakar-deva;
+	sub khha-deva rakar-deva by khha_rakar-deva;
+	sub la-deva rakar-deva by la_rakar-deva;
+	sub ma-deva rakar-deva by ma_rakar-deva;
+	sub na-deva rakar-deva by na_rakar-deva;
+	sub nna-deva rakar-deva by nna_rakar-deva;
+	sub nya-deva rakar-deva by nya_rakar-deva;
+	sub pa-deva rakar-deva by pa_rakar-deva;
+	sub pha-deva rakar-deva by pha_rakar-deva;
+	sub qa-deva rakar-deva by qa_rakar-deva;
+	sub ra-deva uMatra-deva by ra_uMatra-deva;
+	sub ra-deva uuMatra-deva by ra_uuMatra-deva;
+	sub sa-deva rakar-deva by sa_rakar-deva;
+	sub sha-deva rakar-deva by sha_rakar-deva;
+	sub ssa-deva rakar-deva by ssa_rakar-deva;
+	sub ta-deva rakar-deva by ta_rakar-deva;
+	sub tha-deva rakar-deva by tha_rakar-deva;
+	sub tta-deva rakar-deva by tta_rakar-deva;
+	sub ttha-deva rakar-deva by ttha_rakar-deva;
+	sub va-deva rakar-deva by va_rakar-deva;
+	sub ya-deva rakar-deva by ya_rakar-deva;
+	sub yya-deva rakar-deva by yya_rakar-deva;
+	sub za-deva rakar-deva by za_rakar-deva;
+";
+tag = blws;
+},
+{
+automatic = 1;
+code = "script dev2;
+# There is a problem with the font. Please fix all features and clicking the compile/test button.
+
+lookup Imatra2_devanagari {
+	sub [iMatra-deva]' [d_va-deva d_na-deva tt_ttha-deva ddh_ddha-deva ttha_rakar-deva d-deva d_rakar-deva d_ba_rakar-deva d_da-deva tt_va-deva ra-deva tt_tta-deva ddha-deva d_ba-deva da_rVocalicMatra-deva tta_rakar-deva rra-deva da-deva da_rakar-deva ttha-deva rr-deva tt-deva tta-deva rha-deva tth_ttha-deva ddh-deva tth-deva] by [iMatra-deva.0002];
+	sub [iMatra-deva]' [qa-deva k-deva k_t_rakar-deva q_rakar-deva qa_rakar-deva ka_rakar-deva q-deva k_rakar-deva] by [iMatra-deva.0003];
+	sub [iMatra-deva]' [pa-deva ph_rakar-deva q_ta-deva ha-deva ng-deva dda_rakar-deva va_rakar-deva f_rakar-deva f-deva h-deva pa_rakar-deva fa_rakar-deva ssa_rakar-deva dd_dda-deva ssa-deva dda-deva va-deva dd-deva pha_rakar-deva fa-deva dddha-deva dd_ddha-deva] by [iMatra-deva.0004];
+	sub [iMatra-deva]' [ga-deva ghha_rakar-deva d_ya_rakar-deva ya-deva ch-deva yya_rakar-deva ta_rakar-deva t_ta-deva ya_rakar-deva ghha-deva ba-deva yya-deva ma_rakar-deva cha-deva ca-deva na_rakar-deva ta-deva nnna-deva d_ya-deva ba_rakar-deva ga_rakar-deva ma-deva ca_rakar-deva bha-deva bha_rakar-deva na-deva] by [iMatra-deva.0005];
+	sub [iMatra-deva]' [llla-deva la-deva.loclMAR d_dha-deva nya-deva dha_rakar-deva dha-deva gha_rakar-deva tha-deva nya_rakar-deva gha-deva tha_rakar-deva lla-deva] by [iMatra-deva.0006];
+	sub [iMatra-deva]' [sha_rakar-deva nna-deva j_nya-deva za_rakar-deva za-deva ja-deva sa-deva ja_rakar-deva nna_rakar-deva k_ssa_rakar-deva k_ssa-deva] by [iMatra-deva.0007];
+	sub [iMatra-deva]' [n_da-deva n_da_rakar-deva ss_ttha-deva jha_rakar-deva n_d_va-deva la_rakar-deva sha-deva p_tta-deva la-deva g_da-deva ss_tta_rakar-deva jha-deva b_da-deva n_tta-deva] by [iMatra-deva.0008];
+	sub [iMatra-deva]' [ss_pa-deva m_da-deva ss_va-deva t_k_rakar-deva ss_pha-deva ss_ssa-deva t_pha-deva sa_rakar-deva v_ha-deva n_ha-deva t_ka-deva ss_ka-deva v_va-deva n_dda-deva p_pha-deva n_pha-deva p_pa-deva] by [iMatra-deva.0009];
+	sub [iMatra-deva]' [t_t_va-deva khha_rakar-deva n_ka-deva t_va-deva nn_ddha-deva p_va-deva t_na-deva p_na-deva p_ma-deva v_ya-deva kha_rakar-deva g_va-deva khha-deva ss_ma-deva g_na-deva nn_ttha-deva n_pa-deva tta_ra_uuMatra-deva b_va-deva kha-deva b_na-deva m_pa-deva v_na-deva n_va-deva m_ha-deva n_na-deva p_ya-deva nn_tta-deva ss_ya-deva t_pa-deva bh_va-deva m_va-deva n_ta-deva] by [iMatra-deva.0010];
+	sub [iMatra-deva]' [gh_na-deva n_dha_rakar-deva l_tta-deva g_gha-deva n_ca-deva b_ba-deva m_ta-deva n_dha-deva b_ya-deva l_ttha-deva t_ma-deva g_ga-deva b_dha-deva n_ya-deva l_ddha-deva g_dha-deva p_ta-deva sh_tta-deva c_na-deva n_bha-deva l_da-deva m_ba-deva b_bha-deva y_ya-deva g_ma-deva g_bha-deva t_ya-deva t_t_ya-deva s_da-deva b_ta-deva n_ma-deva y_na-deva bh_na-deva g_ba-deva m_na-deva s_tta-deva g_ya-deva] by [iMatra-deva.0011];
+	sub [iMatra-deva]' [c_ya-deva m_ma-deva l_pha-deva gh_ma-deva th_va-deva th_na-deva s_pa-deva nn_dda-deva bh_rakar_ya-deva nn_va-deva dh_ya-deva n_tha-deva s_va-deva bh_ya-deva c_ma-deva m_ya-deva l_ka-deva gh_ya-deva g_rakar_ya-deva ss_nna-deva rr_ha-deva dh_va-deva dh_na-deva c_ca-deva k_s_tta-deva t_tha-deva l_dda-deva c_cha-deva s_ka-deva s_pha-deva dh_ma-deva m_bha-deva j_ka-deva] by [iMatra-deva.0012];
+	sub [iMatra-deva]' [nn_ya-deva s_ba-deva l_ga-deva n_sa-deva s_ya-deva k_pa-deva sh_ta-deva b_ja-deva l_va-deva ny_ca-deva n_h_ya-deva sh_rakar_ya-deva m_sa-deva t_la-deva l_ta-deva p_la-deva k_ss_va-deva g_nna-deva ny_cha-deva t_k_ssa-deva t_sa-deva s_na-deva p_sa-deva nn_ma-deva j_va-deva rr_ya-deva p_za-deva s_ma-deva g_la-deva p_ja-deva k_pha-deva s_ta-deva g_sa-deva th_ya-deva s_ta_rakar-deva k_s_dda-deva tt_tt_ya-deva sh_na-deva g_ja-deva l_pa-deva ph_sa-deva l_ha-deva v_la-deva d_va_rakar-deva b_sa-deva] by [iMatra-deva.0013];
+	sub [iMatra-deva]' [k_ss_ya-deva sh_ma-deva d_v_ya-deva m_sha-deva dd_dd_ya-deva j_ba-deva k_s_ta-deva jh_na-deva m_la-deva ph_tta-deva l_ma-deva jh_ma-deva j_ny_ya-deva sh_ya-deva ddh_ddh_ya-deva s_tha-deva k_s_pa-deva k_ss_ma-deva b_sha-deva l_bha-deva l_ba-deva l_ya-deva jh_ya-deva k_t_ta-deva b_la-deva d_ga_rakar-deva sh_cha-deva] by [iMatra-deva.0014];
+	sub [iMatra-deva]' [b_j_ya-deva ny_sha-deva s_ja-deva n_m_ya-deva t_s_ya-deva dh_n_ya-deva l_th_ya-deva s_m_ya-deva nn_nna-deva ph_ja-deva g_n_ya-deva n_t_sa-deva t_n_ya-deva j_ja-deva ph_pha-deva m_b_ya-deva j_j_ya-deva ph_ya-deva sh_la-deva k_s_p_la-deva c_ch_va-deva p_t_ya-deva t_p_la-deva kh_ya-deva ph_sha-deva n_k_sa-deva n_s_tta-deva t_k_va-deva ny_ja-deva t_s_na-deva k_t_ya-deva ph_pa-deva g_dh_va-deva s_th_ya-deva n_dh_ya-deva l_v_dda-deva ch_va-deva n_th_va-deva kh_sha-deva ch_na-deva t_s_va-deva t_m_ya-deva n_t_ya-deva j_j_nya-deva l_la-deva s_t_ya-deva s_kha-deva g_bh_ya-deva l_h_ya-deva j_j_va-deva sh_sha-deva l_l_ya-deva l_sa-deva l_tha-deva ph_na-deva ss_m_ya-deva b_l_ya-deva tth_tth_ya-deva l_kha-deva ch_ya_rakar-deva ll_ya-deva kh_na-deva k_ta_rakar-deva k_t_va-deva h_m_ya-deva l_ja-deva t_kh_na-deva n_dh_va-deva n_n_ya-deva k_v_ya-deva kh_ma-deva s_la-deva t_k_ya-deva s_t_va-deva k_ca-deva l_k_ya-deva ph_ta-deva s_k_va-deva ph_la-deva s_sa-deva ny_j_ya-deva t_kha-deva ss_nn_ya-deva ny_c_ya-deva g_dh_ya-deva ch_ya-deva b_dh_va-deva n_th_ya-deva j_jha-deva] by [iMatra-deva.0015];
+} Imatra2_devanagari;
+
+lookup Iimatra_devanagari {
+	lookupflag IgnoreMarks;
+	sub [nn_ya-deva b_j_ya-deva ny_sha-deva gh_na-deva c_ya-deva ss_pa-deva n_dha_rakar-deva n_da-deva l_tta-deva d_va-deva s_ja-deva n_m_ya-deva k_ss_ya-deva t_s_ya-deva sha_rakar-deva n_da_rakar-deva ss_ttha-deva sh_ma-deva d_na-deva dh_n_ya-deva l_th_ya-deva s_ba-deva ga-deva s_m_ya-deva l_ga-deva nn_nna-deva ph_ja-deva ghha_rakar-deva m_ma-deva g_n_ya-deva d_v_ya-deva g_gha-deva n_t_sa-deva t_t_va-deva n_sa-deva t_n_ya-deva khha_rakar-deva s_ya-deva nna-deva m_sha-deva j_ja-deva dd_dd_ya-deva t_va-deva d_ya_rakar-deva pa-deva k_pa-deva gh_ma-deva sh_ta-deva m_b_ya-deva j_j_ya-deva la-deva.loclMAR b_ja-deva nn_ddha-deva p_va-deva j_ba-deva t_na-deva l_va-deva tt_ttha-deva ph_ya-deva n_ca-deva k_s_ta-deva p_na-deva b_ba-deva sh_la-deva th_va-deva ddh_ddha-deva k_s_p_la-deva c_ch_va-deva ha-deva ng-deva ttha_rakar-deva p_t_ya-deva m_ta-deva jh_na-deva ny_ca-deva ya-deva th_na-deva t_p_la-deva d_dha-deva nya-deva m_la-deva n_dha-deva b_ya-deva kh_ya-deva dha_rakar-deva m_da-deva j_nya-deva ss_va-deva l_ttha-deva ph_sha-deva n_h_ya-deva ch-deva s_pa-deva d-deva nn_dda-deva t_k_rakar-deva k-deva n_s_tta-deva t_k_va-deva t_ma-deva p_ma-deva ny_ja-deva g_ga-deva t_s_na-deva ph_tta-deva l_ma-deva d_rakar-deva d_ba_rakar-deva za_rakar-deva sh_rakar_ya-deva k_t_ya-deva ph_pa-deva v_ya-deva b_dha-deva g_dh_va-deva za-deva kha_rakar-deva m_sa-deva s_th_ya-deva jh_ma-deva d_da-deva bh_rakar_ya-deva n_dh_ya-deva dha-deva dda_rakar-deva n_ya-deva ss_ssa-deva l_v_dda-deva ch_va-deva tt_va-deva yya_rakar-deva va_rakar-deva l_ddha-deva n_th_va-deva ra-deva kh_sha-deva ch_na-deva ta_rakar-deva j_ny_ya-deva t_s_va-deva g_va-deva khha-deva t_ta-deva t_m_ya-deva gha_rakar-deva nn_va-deva ya_rakar-deva ghha-deva g_dha-deva p_ta-deva ss_ma-deva sh_tta-deva dh_ya-deva g_na-deva tha-deva t_la-deva n_t_ya-deva l_ta-deva c_na-deva n_bha-deva p_la-deva ja-deva j_j_nya-deva l_la-deva k_ss_va-deva tt_tta-deva s_t_ya-deva s_kha-deva g_bh_ya-deva l_da-deva n_tha-deva q_rakar-deva nn_ttha-deva sa_rakar-deva g_nna-deva ba-deva l_h_ya-deva ny_cha-deva nya_rakar-deva j_j_va-deva sa-deva n_pa-deva v_ha-deva sh_ya-deva m_ba-deva s_va-deva ddha-deva t_k_ssa-deva sh_sha-deva bh_ya-deva yya-deva t_sa-deva n_ha-deva b_bha-deva s_na-deva y_ya-deva l_l_ya-deva p_sa-deva ddh_ddh_ya-deva g_ma-deva l_sa-deva ma_rakar-deva s_tha-deva c_ma-deva nn_ma-deva jha_rakar-deva n_d_va-deva h-deva m_ya-deva l_tha-deva ph_na-deva pa_rakar-deva ss_m_ya-deva cha-deva d_ba-deva j_va-deva ca-deva gh_ya-deva rr_ya-deva g_bha-deva gha-deva na_rakar-deva da_rVocalicMatra-deva b_l_ya-deva tth_tth_ya-deva b_va-deva ta-deva kha-deva tta_rakar-deva k_s_pa-deva l_kha-deva rra-deva la_rakar-deva ch_ya_rakar-deva ll_ya-deva b_na-deva p_za-deva nnna-deva kh_na-deva d_ya-deva s_ma-deva k_ss_ma-deva ja_rakar-deva k_ta_rakar-deva sha-deva k_t_va-deva p_tta-deva la-deva g_la-deva b_sha-deva p_ja-deva l_bha-deva h_m_ya-deva g_da-deva l_ja-deva v_va-deva ssa_rakar-deva q-deva m_pa-deva t_kh_na-deva da-deva l_ba-deva da_rakar-deva v_na-deva dd_dda-deva n_va-deva k_rakar-deva m_ha-deva n_dda-deva g_rakar_ya-deva n_dh_va-deva ba_rakar-deva n_na-deva t_ya-deva ssa-deva s_ta-deva ss_tta_rakar-deva p_ya-deva n_n_ya-deva t_t_ya-deva ga_rakar-deva k_v_ya-deva g_sa-deva l_ya-deva kh_ma-deva s_la-deva ma-deva ttha-deva ss_nna-deva jh_ya-deva rr_ha-deva t_k_ya-deva th_ya-deva s_t_va-deva dh_va-deva s_da-deva k_ca-deva l_k_ya-deva ph_ta-deva nn_tta-deva tha_rakar-deva ca_rakar-deva s_k_va-deva nna_rakar-deva dh_na-deva c_ca-deva bha-deva ph_la-deva k_s_tta-deva bha_rakar-deva t_tha-deva l_dda-deva s_ta_rakar-deva dda-deva va-deva dd-deva ss_ya-deva rr-deva jha-deva c_cha-deva b_ta-deva tt-deva n_ma-deva tta-deva s_sa-deva k_t_ta-deva b_la-deva k_s_dda-deva ny_j_ya-deva t_kha-deva k_ssa_rakar-deva na-deva t_pa-deva rha-deva bh_va-deva p_pa-deva b_da-deva tt_tt_ya-deva sh_na-deva ss_nn_ya-deva ny_c_ya-deva g_ja-deva g_dh_ya-deva n_tta-deva l_pa-deva y_na-deva bh_na-deva m_va-deva g_ba-deva l_ha-deva dh_ma-deva tth_ttha-deva ch_ya-deva k_ssa-deva ddh-deva b_dh_va-deva m_na-deva n_th_ya-deva m_bha-deva d_ga_rakar-deva v_la-deva n_ta-deva sh_cha-deva dddha-deva j_jha-deva tth-deva d_va_rakar-deva b_sa-deva dd_ddha-deva s_tta-deva g_ya-deva] [iiMatra-deva]' by [iiMatra-deva.0001];
+	sub [llla-deva ph_rakar-deva f_rakar-deva f-deva lla-deva] [iiMatra-deva]' by [iiMatra-deva.0002];
+	sub [l_pha-deva ph_pha-deva n_ka-deva q_ta-deva qa-deva ss_pha-deva t_pha-deva qa_rakar-deva tta_ra_uuMatra-deva t_ka-deva l_ka-deva ka_rakar-deva ss_ka-deva k_pha-deva fa_rakar-deva p_pha-deva n_pha-deva pha_rakar-deva s_ka-deva s_pha-deva fa-deva j_ka-deva] [iiMatra-deva]' by [iiMatra-deva.0003];
+} Iimatra_devanagari;
+
+language MAR;
+lookup cjct_devanagari;
+lookup Imatra2_devanagari;
+
+script deva;
+lookup cjct_devanagari;
+lookup Imatra2_devanagari;
+language MAR;
+lookup cjct_devanagari;
+lookup Imatra2_devanagari;
+";
+tag = pres;
+},
+{
+automatic = 1;
+code = "script dev2;
+lookup Abvs1_devanagari {
+	sub aiMatra-deva reph-deva anusvara-deva by aiMatra_reph_anusvara-deva;
+	sub auMatra-deva reph-deva anusvara-deva by auMatra_reph_anusvara-deva;
+	sub eMatra-deva reph-deva anusvara-deva by eMatra_reph_anusvara-deva;
+	sub iMatra-deva reph-deva anusvara-deva by iMatra_reph_anusvara-deva;
+	sub iMatra-deva.0001 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0001;
+	sub iMatra-deva.0002 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0002;
+	sub iMatra-deva.0003 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0003;
+	sub iMatra-deva.0004 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0004;
+	sub iMatra-deva.0005 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0005;
+	sub iMatra-deva.0006 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0006;
+	sub iMatra-deva.0007 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0007;
+	sub iMatra-deva.0008 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0008;
+	sub iMatra-deva.0009 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0009;
+	sub iMatra-deva.0010 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0010;
+	sub iMatra-deva.0011 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0011;
+	sub iMatra-deva.0012 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0012;
+	sub iMatra-deva.0013 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0013;
+	sub iMatra-deva.0014 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0014;
+	sub iMatra-deva.0015 reph-deva anusvara-deva by iMatra_reph_anusvara-deva.0015;
+	sub iiMatra-deva reph-deva anusvara-deva by iiMatra_reph_anusvara-deva;
+	sub iiMatra-deva.0001 reph-deva anusvara-deva by iiMatra_reph_anusvara-deva.0001;
+	sub iiMatra-deva.0002 reph-deva anusvara-deva by iiMatra_reph_anusvara-deva.0002;
+	sub iiMatra-deva.0003 reph-deva anusvara-deva by iiMatra_reph_anusvara-deva.0003;
+	sub oMatra-deva reph-deva anusvara-deva by oMatra_reph_anusvara-deva;
+	sub aa-deva anusvara-deva by aa_anusvara-deva;
+	sub aa-deva candraBindu-deva by aa_candraBindu-deva;
+	sub aiMatra-deva anusvara-deva by aiMatra_anusvara-deva;
+	sub aiMatra-deva reph-deva by aiMatra_reph-deva;
+	sub auMatra-deva reph-deva by auMatra_reph-deva;
+	sub eMatra-deva anusvara-deva by eMatra_anusvara-deva;
+	sub eMatra-deva reph-deva by eMatra_reph-deva;
+	sub iMatra-deva anusvara-deva by iMatra_anusvara-deva;
+	sub iMatra-deva.0001 anusvara-deva by iMatra_anusvara-deva.0001;
+	sub iMatra-deva.0002 anusvara-deva by iMatra_anusvara-deva.0002;
+	sub iMatra-deva.0003 anusvara-deva by iMatra_anusvara-deva.0003;
+	sub iMatra-deva.0004 anusvara-deva by iMatra_anusvara-deva.0004;
+	sub iMatra-deva.0005 anusvara-deva by iMatra_anusvara-deva.0005;
+	sub iMatra-deva.0006 anusvara-deva by iMatra_anusvara-deva.0006;
+	sub iMatra-deva.0007 anusvara-deva by iMatra_anusvara-deva.0007;
+	sub iMatra-deva.0008 anusvara-deva by iMatra_anusvara-deva.0008;
+	sub iMatra-deva.0009 anusvara-deva by iMatra_anusvara-deva.0009;
+	sub iMatra-deva.0010 anusvara-deva by iMatra_anusvara-deva.0010;
+	sub iMatra-deva.0011 anusvara-deva by iMatra_anusvara-deva.0011;
+	sub iMatra-deva.0012 anusvara-deva by iMatra_anusvara-deva.0012;
+	sub iMatra-deva.0013 anusvara-deva by iMatra_anusvara-deva.0013;
+	sub iMatra-deva.0014 anusvara-deva by iMatra_anusvara-deva.0014;
+	sub iMatra-deva.0015 anusvara-deva by iMatra_anusvara-deva.0015;
+	sub iMatra-deva reph-deva by iMatra_reph-deva;
+	sub iMatra-deva.0001 reph-deva by iMatra_reph-deva.0001;
+	sub iMatra-deva.0002 reph-deva by iMatra_reph-deva.0002;
+	sub iMatra-deva.0003 reph-deva by iMatra_reph-deva.0003;
+	sub iMatra-deva.0004 reph-deva by iMatra_reph-deva.0004;
+	sub iMatra-deva.0005 reph-deva by iMatra_reph-deva.0005;
+	sub iMatra-deva.0006 reph-deva by iMatra_reph-deva.0006;
+	sub iMatra-deva.0007 reph-deva by iMatra_reph-deva.0007;
+	sub iMatra-deva.0008 reph-deva by iMatra_reph-deva.0008;
+	sub iMatra-deva.0009 reph-deva by iMatra_reph-deva.0009;
+	sub iMatra-deva.0010 reph-deva by iMatra_reph-deva.0010;
+	sub iMatra-deva.0011 reph-deva by iMatra_reph-deva.0011;
+	sub iMatra-deva.0012 reph-deva by iMatra_reph-deva.0012;
+	sub iMatra-deva.0013 reph-deva by iMatra_reph-deva.0013;
+	sub iMatra-deva.0014 reph-deva by iMatra_reph-deva.0014;
+	sub iMatra-deva.0015 reph-deva by iMatra_reph-deva.0015;
+	sub iiMatra-deva anusvara-deva by iiMatra_anusvara-deva;
+	sub iiMatra-deva.0001 anusvara-deva by iiMatra_anusvara-deva.0001;
+	sub iiMatra-deva.0002 anusvara-deva by iiMatra_anusvara-deva.0002;
+	sub iiMatra-deva.0003 anusvara-deva by iiMatra_anusvara-deva.0003;
+	sub iiMatra-deva reph-deva by iiMatra_reph-deva;
+	sub iiMatra-deva.0001 reph-deva by iiMatra_reph-deva.0001;
+	sub iiMatra-deva.0002 reph-deva by iiMatra_reph-deva.0002;
+	sub iiMatra-deva.0003 reph-deva by iiMatra_reph-deva.0003;
+	sub ii-deva anusvara-deva by ii_anusvara-deva;
+	sub oMatra-deva reph-deva by oMatra_reph-deva;
+	sub o-deva anusvara-deva by o_anusvara-deva;
+	sub reph-deva anusvara-deva by reph_anusvara-deva;
+} Abvs1_devanagari;
+
+lookup Abvs2_devanagari {
+	lookupflag UseMarkFilteringSet @rephDeva;
+	sub @DevaIMatras' @DevaFullforms [reph-deva] by @DevaIMatraRephs;
+	sub @DevaIMatras' @DevaHalfforms @DevaFullforms [reph-deva] by @DevaIMatraRephs;
+	sub @DevaIMatras' @DevaHalfforms @DevaHalfforms @DevaFullforms [reph-deva] by @DevaIMatraRephs;
+	sub @DevaIMatras' @DevaHalfforms @DevaHalfforms @DevaHalfforms @DevaFullforms [reph-deva] by @DevaIMatraRephs;
+	sub @DevaIMatras' @DevaFullforms [reph_anusvara-deva] by @DevaIMatraRephAnusvaras;
+	sub @DevaIMatras' @DevaHalfforms @DevaFullforms [reph_anusvara-deva] by @DevaIMatraRephAnusvaras;
+	sub @DevaIMatras' @DevaHalfforms @DevaHalfforms @DevaFullforms [reph_anusvara-deva] by @DevaIMatraRephAnusvaras;
+	sub @DevaIMatras' @DevaHalfforms @DevaHalfforms @DevaHalfforms @DevaFullforms [reph_anusvara-deva] by @DevaIMatraRephAnusvaras;
+	sub @DevaIMatras' @DevaFullforms [anusvara-deva] by @DevaIMatraAnusvaras;
+	sub @DevaIMatras' @DevaHalfforms @DevaFullforms [anusvara-deva] by @DevaIMatraAnusvaras;
+	sub @DevaIMatras' @DevaHalfforms @DevaHalfforms @DevaFullforms [anusvara-deva] by @DevaIMatraAnusvaras;
+	sub @DevaIMatras' @DevaHalfforms @DevaHalfforms @DevaHalfforms @DevaFullforms [anusvara-deva] by @DevaIMatraAnusvaras;
+	sub [@DevaIMatraRephs @DevaIMatraRephAnusvaras @DevaIMatraAnusvaras] @DevaFullforms' lookup removeReph [reph-deva reph_anusvara-deva anusvara-deva]';
+	sub [@DevaIMatraRephs @DevaIMatraRephAnusvaras @DevaIMatraAnusvaras] @DevaHalfforms @DevaFullforms' lookup removeReph [reph-deva reph_anusvara-deva anusvara-deva]';
+	sub [@DevaIMatraRephs @DevaIMatraRephAnusvaras @DevaIMatraAnusvaras] @DevaHalfforms @DevaHalfforms @DevaFullforms' lookup removeReph [reph-deva reph_anusvara-deva anusvara-deva]';
+	sub [@DevaIMatraRephs @DevaIMatraRephAnusvaras @DevaIMatraAnusvaras] @DevaHalfforms @DevaHalfforms @DevaHalfforms @DevaFullforms' lookup removeReph [reph-deva reph_anusvara-deva anusvara-deva]';
+} Abvs2_devanagari;
+
+lookup Abvs3_devanagari {
+	sub eCandraMatra-deva anusvara-deva by candraBindu-deva;
+} Abvs3_devanagari;
+language MAR;
+lookup Abvs1_devanagari;
+lookup Abvs2_devanagari;
+lookup Abvs3_devanagari;
+
+script deva;
+lookup Abvs1_devanagari;
+lookup Abvs2_devanagari;
+lookup Abvs3_devanagari;
+language MAR;
+lookup Abvs1_devanagari;
+lookup Abvs2_devanagari;
+lookup Abvs3_devanagari;
+";
+tag = abvs;
+},
+{
+automatic = 1;
+code = "sub u by u.ss03;
+sub uacute by uacute.ss03;
+sub ubreve by ubreve.ss03;
+sub ucircumflex by ucircumflex.ss03;
+sub udblgrave by udblgrave.ss03;
+sub udieresis by udieresis.ss03;
+sub udotbelow by udotbelow.ss03;
+sub ugrave by ugrave.ss03;
+sub uhookabove by uhookabove.ss03;
+sub uhorn by uhorn.ss03;
+sub uhornacute by uhornacute.ss03;
+sub uhorndotbelow by uhorndotbelow.ss03;
+sub uhorngrave by uhorngrave.ss03;
+sub uhornhookabove by uhornhookabove.ss03;
+sub uhorntilde by uhorntilde.ss03;
+sub uhungarumlaut by uhungarumlaut.ss03;
+sub uinvertedbreve by uinvertedbreve.ss03;
+sub umacron by umacron.ss03;
+sub umacrondieresis by umacrondieresis.ss03;
+sub uogonek by uogonek.ss03;
+sub uring by uring.ss03;
+sub utilde by utilde.ss03;
+sub utildeacute by utildeacute.ss03;
+";
+labels = (
+{
+language = dflt;
+value = "";
+}
+);
+tag = ss03;
+},
+{
+automatic = 1;
+code = "sub one by one.cv01;
+";
+tag = cv01;
+},
+{
+automatic = 1;
+code = "sub two by two.cv02;
+";
+tag = cv02;
+},
+{
+automatic = 1;
+code = "sub three by three.cv03;
+";
+tag = cv03;
+},
+{
+automatic = 1;
+code = "sub four by four.cv04;
+";
+tag = cv04;
+},
+{
+automatic = 1;
+code = "sub five by five.cv05;
+";
+tag = cv05;
+},
+{
+automatic = 1;
+code = "sub G by G.cv06;
+sub Gbreve by Gbreve.cv06;
+sub Gcaron by Gcaron.cv06;
+sub Gcircumflex by Gcircumflex.cv06;
+sub Gcommaaccent by Gcommaaccent.cv06;
+sub Gdotaccent by Gdotaccent.cv06;
+sub Gmacron by Gmacron.cv06;
+sub six by six.cv06;
+";
+tag = cv06;
+},
+{
+automatic = 1;
+code = "sub I by I.cv07;
+sub Iacute by Iacute.cv07;
+sub Ibreve by Ibreve.cv07;
+sub Icircumflex by Icircumflex.cv07;
+sub Idblgrave by Idblgrave.cv07;
+sub Idieresis by Idieresis.cv07;
+sub Idieresisacute by Idieresisacute.cv07;
+sub Idotaccent by Idotaccent.cv07;
+sub Idotbelow by Idotbelow.cv07;
+sub Igrave by Igrave.cv07;
+sub Ihookabove by Ihookabove.cv07;
+sub Iinvertedbreve by Iinvertedbreve.cv07;
+sub Imacron by Imacron.cv07;
+sub Iogonek by Iogonek.cv07;
+sub Itilde by Itilde.cv07;
+sub seven by seven.cv07;
+";
+tag = cv07;
+},
+{
+automatic = 1;
+code = "sub J by J.cv08;
+sub Jcircumflex by Jcircumflex.cv08;
+sub eight by eight.cv08;
+";
+tag = cv08;
+},
+{
+automatic = 1;
+code = "sub nine by nine.cv09;
+";
+tag = cv09;
+},
+{
+automatic = 1;
+code = "sub zero by zero.cv10;
+";
+tag = cv10;
+},
+{
+automatic = 1;
+code = "sub a by a.cv11;
+sub aacute by aacute.cv11;
+sub abreve by abreve.cv11;
+sub abreveacute by abreveacute.cv11;
+sub abrevedotbelow by abrevedotbelow.cv11;
+sub abrevegrave by abrevegrave.cv11;
+sub abrevehookabove by abrevehookabove.cv11;
+sub abrevetilde by abrevetilde.cv11;
+sub acircumflex by acircumflex.cv11;
+sub acircumflexacute by acircumflexacute.cv11;
+sub acircumflexdotbelow by acircumflexdotbelow.cv11;
+sub acircumflexgrave by acircumflexgrave.cv11;
+sub acircumflexhookabove by acircumflexhookabove.cv11;
+sub acircumflextilde by acircumflextilde.cv11;
+sub adblgrave by adblgrave.cv11;
+sub adieresis by adieresis.cv11;
+sub adotbelow by adotbelow.cv11;
+sub agrave by agrave.cv11;
+sub ahookabove by ahookabove.cv11;
+sub ainvertedbreve by ainvertedbreve.cv11;
+sub amacron by amacron.cv11;
+sub aogonek by aogonek.cv11;
+sub aring by aring.cv11;
+sub aringacute by aringacute.cv11;
+sub atilde by atilde.cv11;
+sub ordfeminine by ordfeminine.cv11;
+";
+tag = cv11;
+},
+{
+automatic = 1;
+code = "sub f by f.cv12;
+sub f_f by f_f.cv12;
+sub f_f_f by f_f_f.cv12;
+sub f_f_i by f_f_i.cv12;
+sub f_f_j by f_f_j.cv12;
+sub f_f_y by f_f_y.cv12;
+sub f_i by f_i.cv12;
+sub f_j by f_j.cv12;
+sub f_y by f_y.cv12;
+";
+tag = cv12;
+},
+{
+automatic = 1;
+code = "sub g by g.cv13;
+sub gbreve by gbreve.cv13;
+sub gcaron by gcaron.cv13;
+sub gcircumflex by gcircumflex.cv13;
+sub gcommaaccent by gcommaaccent.cv13;
+sub gdotaccent by gdotaccent.cv13;
+sub gmacron by gmacron.cv13;
+sub n by n.cv13;
+sub nacute by nacute.cv13;
+sub ncaron by ncaron.cv13;
+sub ncommaaccent by ncommaaccent.cv13;
+sub ndotaccent by ndotaccent.cv13;
+sub ndotbelow by ndotbelow.cv13;
+sub ntilde by ntilde.cv13;
+sub eng by eng.cv13;
+";
+tag = cv13;
+},
+{
+automatic = 1;
+code = "sub j by j.cv14;
+sub jdotless by jdotless.cv14;
+sub jcircumflex by jcircumflex.cv14;
+sub y by y.cv14;
+sub f_f_j by f_f_j.cv14;
+sub f_j by f_j.cv14;
+";
+tag = cv14;
+}
+);
+fontMaster = (
+{
+axesValues = (
+200
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1038;
+},
+{
+name = typoDescender;
+value = -222;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1214;
+},
+{
+name = winDescent;
+value = 395;
+},
+{
+name = hheaAscender;
+value = 1038;
+},
+{
+name = hheaDescender;
+value = -222;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -155;
+},
+{
+name = underlineThickness;
+value = 40;
+},
+{
+name = shoulderHeight;
+value = "516";
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+}
+);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (-213,-200);
+},
+{
+angle = 90;
+pos = (325,476);
+},
+{
+pos = (241,-98);
+},
+{
+name = mark;
+pos = (325,363);
+},
+{
+angle = 90;
+pos = (71,343);
+},
+{
+pos = (91,960);
+},
+{
+name = mark;
+pos = (-182,407);
+},
+{
+name = mark;
+pos = (-182,407);
+}
+);
+iconName = Light;
+id = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+metricValues = (
+{
+over = 10;
+pos = 960;
+},
+{
+over = 10;
+pos = 725;
+},
+{
+over = 10;
+pos = 536;
+},
+{
+over = -10;
+},
+{
+over = -10;
+pos = -240;
+},
+{
+},
+{
+over = -45;
+pos = 672;
+},
+{
+pos = 536;
+}
+);
+name = Thin;
+userData = {
+GSCornerRadius = 20;
+GSExtrudeAngle = 30;
+GSExtrudeOffset = 15;
+GSOffsetHorizontal = 20;
+GSOffsetKeepCompatible = 1;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = 10;
+};
+visible = 1;
+},
+{
+axesValues = (
+360
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1038;
+},
+{
+name = typoDescender;
+value = -222;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1214;
+},
+{
+name = winDescent;
+value = 395;
+},
+{
+name = hheaAscender;
+value = 1038;
+},
+{
+name = hheaDescender;
+value = -222;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -155;
+},
+{
+name = underlineThickness;
+value = 40;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
+}
+);
+guides = (
+{
+locked = 1;
+name = mark;
+pos = (-1000,640);
+},
+{
+pos = (324,500);
+},
+{
+pos = (337,120);
+},
+{
+pos = (361,-108);
+},
+{
+pos = (603,362);
+},
+{
+pos = (253,660);
+},
+{
+pos = (91,960);
+},
+{
+pos = (603,362);
+},
+{
+angle = 90;
+pos = (344,362);
+}
+);
+id = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+metricValues = (
+{
+over = 10;
+pos = 960;
+},
+{
+over = 10;
+pos = 725;
+},
+{
+over = 10;
+pos = 546;
+},
+{
+over = -10;
+},
+{
+over = -10;
+pos = -240;
+},
+{
+},
+{
+over = -70;
+pos = 672;
+},
+{
+pos = 546;
+}
+);
+name = Regular;
+userData = {
+GSCornerRadius = 30;
+GSOffsetHorizontal = 30;
+GSOffsetKeepCompatible = 1;
+GSOffsetMakeStroke = 1;
+GSOffsetPosition = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = 10;
+};
+visible = 1;
+},
+{
+axesValues = (
+800
+);
+customParameters = (
+{
+name = typoAscender;
+value = 1038;
+},
+{
+name = typoDescender;
+value = -222;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1214;
+},
+{
+name = winDescent;
+value = 395;
+},
+{
+name = hheaAscender;
+value = 1038;
+},
+{
+name = hheaDescender;
+value = -222;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -155;
+},
+{
+name = underlineThickness;
+value = 40;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+}
+);
+}
+);
+guides = (
+{
+locked = 1;
+name = mark;
+pos = (-1000,640);
+},
+{
+pos = (437,141);
+},
+{
+angle = 90;
+pos = (329,492);
+},
+{
+pos = (597,566);
+},
+{
+pos = (317,662);
+},
+{
+pos = (78,-32);
+},
+{
+angle = 90;
+pos = (564,179);
+},
+{
+angle = 90;
+pos = (127,313);
+},
+{
+pos = (91,960);
+},
+{
+pos = (125,382);
+},
+{
+pos = (395,363);
+}
+);
+iconName = Bold;
+id = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+metricValues = (
+{
+over = 10;
+pos = 960;
+},
+{
+over = 10;
+pos = 725;
+},
+{
+over = 10;
+pos = 556;
+},
+{
+over = -10;
+},
+{
+over = -10;
+pos = -240;
+},
+{
+},
+{
+over = -116;
+pos = 672;
+},
+{
+pos = 556;
+}
+);
+name = Black;
+userData = {
+GSCornerRadius = 40;
+GSOffsetHorizontal = 40;
+GSOffsetKeepCompatible = 1;
+GSOffsetProportional = 1;
+GSOffsetVertical = 20;
+};
+visible = 1;
+}
+);
+instances = (
+{
+axesValues = (
+100
+);
+exports = 0;
+instanceInterpolations = {
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = -0.16667;
+"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 1.16667;
+};
+name = Thin;
+weightClass = 100;
+},
+{
+axesValues = (
+200
+);
+instanceInterpolations = {
+"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 1;
+};
+name = ExtraLight;
+weightClass = 200;
+},
+{
+axesValues = (
+300
+);
+instanceInterpolations = {
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.625;
+"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 0.375;
+};
+name = Light;
+weightClass = 300;
+},
+{
+axesValues = (
+400
+);
+instanceInterpolations = {
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.90909;
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 0.09091;
+};
+name = Regular;
+},
+{
+axesValues = (
+480
+);
+instanceInterpolations = {
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.72727;
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 0.27273;
+};
+name = Medium;
+weightClass = 500;
+},
+{
+axesValues = (
+600
+);
+instanceInterpolations = {
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.45455;
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 0.54545;
+};
+name = SemiBold;
+weightClass = 600;
+},
+{
+axesValues = (
+720
+);
+instanceInterpolations = {
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.18182;
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 0.81818;
+};
+isBold = 1;
+name = Bold;
+weightClass = 700;
+},
+{
+axesValues = (
+800
+);
+instanceInterpolations = {
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 1;
+};
+name = UltraBold;
+weightClass = 800;
+},
+{
+axesValues = (
+900
+);
+exports = 0;
+instanceInterpolations = {
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = -0.11364;
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 1.19697;
+"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = -0.08333;
+};
+name = Black;
+weightClass = 900;
+},
+{
+customParameters = (
+{
+name = "Variable Font Origin";
+value = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+}
+);
+name = Regular;
+type = variable;
+}
+);
+kerningLTR = {
+"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = {
+"@MMK_L_A" = {
+"@MMK_R_H" = 10;
+"@MMK_R_O" = -20;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -20;
+"@MMK_R_V" = -50;
+"@MMK_R_W" = -30;
+"@MMK_R_Y" = -60;
+"@MMK_R_o" = -20;
+"@MMK_R_quoteleft" = -40;
+"@MMK_R_quoteright" = -40;
+"@MMK_R_quotesingle" = -30;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -30;
+"@MMK_R_w" = -30;
+"@MMK_R_y" = -20;
+};
+"@MMK_L_B" = {
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -60;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -10;
+};
+"@MMK_L_C" = {
+"@MMK_R_A" = 0;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_E" = {
+"@MMK_R_H" = 10;
+"@MMK_R_idieresis" = 40;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -60;
+"@MMK_R_O" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -50;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -30;
+"@MMK_R_x" = -20;
+"@MMK_R_y" = -40;
+"@MMK_R_z" = -20;
+};
+"@MMK_L_G" = {
+"@MMK_R_A" = 0;
+"@MMK_R_T" = -10;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -40;
+};
+"@MMK_L_H" = {
+"@MMK_R_idieresis" = 20;
+"@MMK_R_seven" = 20;
+"@MMK_R_two" = 50;
+};
+"@MMK_L_J" = {
+"@MMK_R_A" = -20;
+"@MMK_R_idieresis" = 0;
+};
+"@MMK_L_K" = {
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_i" = -10;
+"@MMK_R_idieresis" = 0;
+"@MMK_R_j" = 30;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_s" = -10;
+"@MMK_R_t" = -40;
+"@MMK_R_v" = -40;
+"@MMK_R_w" = -50;
+"@MMK_R_y" = -30;
+};
+"@MMK_L_L" = {
+"@MMK_R_O" = -20;
+"@MMK_R_T" = -60;
+"@MMK_R_U" = -20;
+"@MMK_R_V" = -50;
+"@MMK_R_W" = -70;
+"@MMK_R_Y" = -90;
+"@MMK_R_f" = -30;
+"@MMK_R_idieresis" = 20;
+"@MMK_R_quotesingle" = -50;
+"@MMK_R_t" = -30;
+"@MMK_R_v" = -60;
+"@MMK_R_w" = -60;
+"@MMK_R_y" = -40;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -20;
+"@MMK_R_S" = -20;
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_W" = -20;
+"@MMK_R_Y" = -30;
+"@MMK_R_a" = -20;
+"@MMK_R_h" = -20;
+"@MMK_R_x" = -10;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -60;
+"@MMK_R_J" = -100;
+"@MMK_R_Y" = -20;
+"@MMK_R_a" = -50;
+"@MMK_R_idieresis" = 0;
+"@MMK_R_o" = -40;
+"@MMK_R_period" = -80;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = -20;
+};
+"@MMK_L_R" = {
+"@MMK_R_T" = -20;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_t" = 20;
+"@MMK_R_v" = -20;
+"@MMK_R_y" = -10;
+V = 20;
+};
+"@MMK_L_S" = {
+"@MMK_R_A" = 0;
+"@MMK_R_T" = -20;
+"@MMK_R_Y" = -40;
+"@MMK_R_a" = -20;
+"@MMK_R_w" = -20;
+"@MMK_R_x" = -20;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -50;
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -20;
+"@MMK_R_a" = -60;
+"@MMK_R_f" = -30;
+"@MMK_R_idieresis" = 50;
+"@MMK_R_n" = -60;
+"@MMK_R_o" = -70;
+"@MMK_R_period" = -70;
+"@MMK_R_s" = -60;
+"@MMK_R_t" = -20;
+"@MMK_R_u" = -40;
+"@MMK_R_v" = -50;
+"@MMK_R_w" = -40;
+"@MMK_R_x" = -50;
+"@MMK_R_y" = -40;
+"@MMK_R_z" = -50;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -20;
+"@MMK_R_a" = -10;
+"@MMK_R_idieresis" = 0;
+"@MMK_R_t" = 10;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -50;
+"@MMK_R_H" = 20;
+"@MMK_R_O" = -20;
+"@MMK_R_a" = -30;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -50;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -20;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -20;
+"@MMK_R_z" = -10;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -30;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_f" = -10;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -20;
+"@MMK_R_s" = -20;
+"@MMK_R_t" = 20;
+"@MMK_R_x" = -10;
+"@MMK_R_z" = -20;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -60;
+"@MMK_R_J" = -40;
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -20;
+"@MMK_R_a" = -50;
+"@MMK_R_f" = -10;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_n" = -70;
+"@MMK_R_o" = -100;
+"@MMK_R_period" = -70;
+"@MMK_R_s" = -80;
+"@MMK_R_t" = -20;
+"@MMK_R_u" = -60;
+"@MMK_R_v" = -50;
+"@MMK_R_w" = -60;
+"@MMK_R_x" = -30;
+"@MMK_R_y" = -50;
+"@MMK_R_z" = -50;
+};
+"@MMK_L_Z" = {
+"@MMK_R_idieresis" = 60;
+};
+"@MMK_L_a" = {
+"@MMK_R_h" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_t" = -10;
+"@MMK_R_v" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_c" = {
+"@MMK_R_a" = -10;
+"@MMK_R_f" = 10;
+};
+"@MMK_L_d" = {
+"@MMK_R_idieresis" = 0;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_dcaron" = {
+"@MMK_R_a" = -70;
+"@MMK_R_idieresis" = 50;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_e" = {
+"@MMK_R_a" = -10;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -10;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_V" = -20;
+"@MMK_R_W" = -20;
+"@MMK_R_Y" = -50;
+};
+"@MMK_L_f" = {
+"@MMK_R_idieresis" = 40;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -30;
+"@MMK_R_t" = 10;
+braceright = 100;
+bracketright = 40;
+parenright = 70;
+question = 30;
+};
+"@MMK_L_four" = {
+"@MMK_R_O" = -30;
+};
+"@MMK_L_g" = {
+"@MMK_R_u" = 40;
+};
+"@MMK_L_i" = {
+"@MMK_R_i" = 0;
+"@MMK_R_idieresis" = 20;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_idieresis" = {
+"@MMK_R_h" = 20;
+"@MMK_R_i" = 20;
+"@MMK_R_idieresis" = 80;
+"@MMK_R_j" = 40;
+"@MMK_R_l" = 20;
+};
+"@MMK_L_j" = {
+"@MMK_R_idieresis" = 40;
+};
+"@MMK_L_k" = {
+"@MMK_R_u" = 30;
+};
+"@MMK_L_l" = {
+"@MMK_R_idieresis" = 0;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_n" = {
+"@MMK_R_a" = 10;
+"@MMK_R_o" = 10;
+"@MMK_R_t" = 20;
+"@MMK_R_v" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_nine" = {
+"@MMK_R_four" = 20;
+"@MMK_R_period" = -20;
+};
+"@MMK_L_o" = {
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -20;
+"@MMK_R_h" = -10;
+"@MMK_R_i" = -10;
+"@MMK_R_l" = -30;
+"@MMK_R_quotesingle" = -30;
+"@MMK_R_u" = 10;
+"@MMK_R_v" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_period" = {
+one.cv01 = -40;
+};
+"@MMK_L_questiondown" = {
+"@MMK_R_S" = -30;
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -50;
+"@MMK_R_W" = -50;
+"@MMK_R_Y" = -50;
+"@MMK_R_j" = 70;
+};
+"@MMK_L_quoteleft" = {
+"@MMK_R_A" = -40;
+};
+"@MMK_L_quoteright" = {
+"@MMK_R_A" = -40;
+"@MMK_R_J" = -40;
+};
+"@MMK_L_quotesingle" = {
+"@MMK_R_A" = -30;
+"@MMK_R_J" = -30;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_r" = {
+"@MMK_R_a" = -30;
+"@MMK_R_o" = -20;
+"@MMK_R_period" = -40;
+"@MMK_R_t" = 20;
+};
+"@MMK_L_s" = {
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -20;
+"@MMK_R_a" = -10;
+"@MMK_R_t" = 20;
+"@MMK_R_u" = 10;
+"@MMK_R_v" = -10;
+"@MMK_R_w" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_seven" = {
+"@MMK_R_four" = -70;
+"@MMK_R_period" = -60;
+};
+"@MMK_L_t" = {
+"@MMK_R_a" = -20;
+"@MMK_R_idieresis" = 30;
+"@MMK_R_j" = 50;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_three" = {
+"@MMK_R_V" = 20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -30;
+};
+"@MMK_L_u" = {
+"@MMK_R_V" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_V" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_period" = -40;
+};
+"@MMK_L_w" = {
+"@MMK_R_a" = -20;
+"@MMK_R_period" = -40;
+};
+"@MMK_L_z" = {
+"@MMK_R_V" = -10;
+"@MMK_R_f" = 20;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_t" = 20;
+};
+ampersand = {
+"@MMK_R_T" = -60;
+};
+braceleft = {
+"@MMK_R_j" = 100;
+};
+bracketleft = {
+"@MMK_R_j" = 100;
+};
+parenleft = {
+"@MMK_R_j" = 100;
+};
+};
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = {
+"@MMK_L_A" = {
+"@MMK_R_H" = 10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -20;
+"@MMK_R_V" = -40;
+"@MMK_R_W" = -40;
+"@MMK_R_Y" = -70;
+"@MMK_R_o" = -20;
+"@MMK_R_quoteleft" = -40;
+"@MMK_R_quoteright" = -40;
+"@MMK_R_quotesingle" = -40;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -30;
+"@MMK_R_w" = -30;
+"@MMK_R_y" = -20;
+};
+"@MMK_L_B" = {
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -40;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_C" = {
+"@MMK_R_A" = 0;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_E" = {
+"@MMK_R_H" = 10;
+"@MMK_R_idieresis" = 60;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -40;
+"@MMK_R_O" = -10;
+"@MMK_R_a" = -30;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -20;
+"@MMK_R_period" = -50;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -30;
+"@MMK_R_x" = -10;
+"@MMK_R_y" = -40;
+"@MMK_R_z" = -20;
+};
+"@MMK_L_G" = {
+"@MMK_R_A" = 0;
+"@MMK_R_T" = -10;
+"@MMK_R_W" = 0;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_H" = {
+"@MMK_R_idieresis" = 20;
+"@MMK_R_seven" = 10;
+"@MMK_R_two" = 50;
+};
+"@MMK_L_J" = {
+"@MMK_R_A" = -20;
+"@MMK_R_idieresis" = 0;
+};
+"@MMK_L_K" = {
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_i" = -10;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_j" = 20;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_s" = -10;
+"@MMK_R_t" = -40;
+"@MMK_R_v" = -40;
+"@MMK_R_w" = -50;
+"@MMK_R_y" = -30;
+};
+"@MMK_L_L" = {
+"@MMK_R_O" = -20;
+"@MMK_R_T" = -60;
+"@MMK_R_U" = -20;
+"@MMK_R_V" = -40;
+"@MMK_R_W" = -70;
+"@MMK_R_Y" = -90;
+"@MMK_R_f" = -30;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_quotesingle" = -50;
+"@MMK_R_t" = -30;
+"@MMK_R_v" = -60;
+"@MMK_R_w" = -60;
+"@MMK_R_y" = -40;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -20;
+"@MMK_R_S" = -20;
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_W" = -20;
+"@MMK_R_Y" = -30;
+"@MMK_R_a" = -10;
+"@MMK_R_h" = -10;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -60;
+"@MMK_R_J" = -90;
+"@MMK_R_Y" = -20;
+"@MMK_R_a" = -40;
+"@MMK_R_idieresis" = 0;
+"@MMK_R_o" = -20;
+"@MMK_R_period" = -80;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = 0;
+};
+"@MMK_L_R" = {
+"@MMK_R_T" = -20;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_t" = 20;
+"@MMK_R_v" = -20;
+"@MMK_R_y" = -10;
+V = 10;
+};
+"@MMK_L_S" = {
+"@MMK_R_A" = 0;
+"@MMK_R_T" = -20;
+"@MMK_R_Y" = -30;
+"@MMK_R_a" = -20;
+"@MMK_R_w" = -10;
+"@MMK_R_x" = -10;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -40;
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -20;
+"@MMK_R_a" = -50;
+"@MMK_R_f" = -20;
+"@MMK_R_idieresis" = 100;
+"@MMK_R_n" = -60;
+"@MMK_R_o" = -70;
+"@MMK_R_period" = -70;
+"@MMK_R_s" = -60;
+"@MMK_R_t" = -20;
+"@MMK_R_u" = -40;
+"@MMK_R_v" = -50;
+"@MMK_R_w" = -40;
+"@MMK_R_x" = -50;
+"@MMK_R_y" = -40;
+"@MMK_R_z" = -50;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -20;
+"@MMK_R_a" = -10;
+"@MMK_R_idieresis" = 30;
+"@MMK_R_t" = 10;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -40;
+"@MMK_R_H" = 20;
+"@MMK_R_O" = -20;
+"@MMK_R_a" = -20;
+"@MMK_R_idieresis" = 80;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -50;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -20;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -20;
+"@MMK_R_z" = -10;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -40;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_f" = -10;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -20;
+"@MMK_R_s" = -20;
+"@MMK_R_t" = 20;
+"@MMK_R_x" = -10;
+"@MMK_R_z" = -20;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -70;
+"@MMK_R_J" = -40;
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -30;
+"@MMK_R_a" = -40;
+"@MMK_R_f" = -20;
+"@MMK_R_idieresis" = 50;
+"@MMK_R_n" = -70;
+"@MMK_R_o" = -100;
+"@MMK_R_period" = -60;
+"@MMK_R_s" = -80;
+"@MMK_R_t" = -20;
+"@MMK_R_u" = -50;
+"@MMK_R_v" = -50;
+"@MMK_R_w" = -60;
+"@MMK_R_x" = -20;
+"@MMK_R_y" = -50;
+"@MMK_R_z" = -50;
+};
+"@MMK_L_Z" = {
+"@MMK_R_idieresis" = 60;
+};
+"@MMK_L_a" = {
+"@MMK_R_h" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_t" = -10;
+"@MMK_R_v" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_c" = {
+"@MMK_R_a" = -10;
+"@MMK_R_f" = 10;
+};
+"@MMK_L_d" = {
+"@MMK_R_idieresis" = 0;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_dcaron" = {
+"@MMK_R_a" = -60;
+"@MMK_R_idieresis" = 50;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_e" = {
+"@MMK_R_a" = -10;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -10;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -30;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_f" = {
+"@MMK_R_idieresis" = 70;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -30;
+"@MMK_R_t" = 10;
+braceright = 100;
+bracketright = 40;
+parenright = 70;
+question = 30;
+};
+"@MMK_L_four" = {
+"@MMK_R_O" = -30;
+};
+"@MMK_L_g" = {
+"@MMK_R_u" = 30;
+};
+"@MMK_L_i" = {
+"@MMK_R_i" = 0;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_idieresis" = {
+"@MMK_R_h" = 30;
+"@MMK_R_i" = 60;
+"@MMK_R_idieresis" = 140;
+"@MMK_R_j" = 50;
+"@MMK_R_l" = 30;
+};
+"@MMK_L_j" = {
+"@MMK_R_idieresis" = 70;
+};
+"@MMK_L_k" = {
+"@MMK_R_o" = -10;
+"@MMK_R_u" = 20;
+};
+"@MMK_L_l" = {
+"@MMK_R_idieresis" = 0;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_n" = {
+"@MMK_R_a" = 10;
+"@MMK_R_o" = 10;
+"@MMK_R_t" = 30;
+"@MMK_R_v" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_nine" = {
+"@MMK_R_four" = 20;
+"@MMK_R_period" = -20;
+};
+"@MMK_L_o" = {
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -20;
+"@MMK_R_h" = -10;
+"@MMK_R_i" = -10;
+"@MMK_R_l" = -30;
+"@MMK_R_quotesingle" = -50;
+"@MMK_R_u" = 10;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_period" = {
+"@MMK_R_seven" = -20;
+one.cv01 = -20;
+};
+"@MMK_L_questiondown" = {
+"@MMK_R_S" = -40;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -60;
+"@MMK_R_W" = -60;
+"@MMK_R_Y" = -60;
+"@MMK_R_j" = 70;
+};
+"@MMK_L_quoteleft" = {
+"@MMK_R_A" = -40;
+};
+"@MMK_L_quoteright" = {
+"@MMK_R_A" = -40;
+"@MMK_R_J" = -40;
+};
+"@MMK_L_quotesingle" = {
+"@MMK_R_A" = -40;
+"@MMK_R_J" = -30;
+"@MMK_R_o" = -50;
+};
+"@MMK_L_r" = {
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_period" = -40;
+"@MMK_R_t" = 10;
+};
+"@MMK_L_s" = {
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -20;
+"@MMK_R_a" = 0;
+"@MMK_R_t" = 20;
+"@MMK_R_u" = 15;
+"@MMK_R_v" = -10;
+"@MMK_R_w" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_seven" = {
+"@MMK_R_four" = -60;
+"@MMK_R_period" = -60;
+};
+"@MMK_L_t" = {
+"@MMK_R_a" = -10;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_j" = 30;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_three" = {
+"@MMK_R_V" = 20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -30;
+};
+"@MMK_L_u" = {
+"@MMK_R_V" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_V" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_period" = -40;
+};
+"@MMK_L_w" = {
+"@MMK_R_a" = -20;
+"@MMK_R_period" = -40;
+};
+"@MMK_L_x" = {
+"@MMK_R_o" = -10;
+};
+"@MMK_L_z" = {
+"@MMK_R_V" = -10;
+"@MMK_R_f" = 20;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_t" = 20;
+};
+ampersand = {
+"@MMK_R_T" = -60;
+};
+braceleft = {
+"@MMK_R_j" = 100;
+};
+bracketleft = {
+"@MMK_R_j" = 100;
+};
+parenleft = {
+"@MMK_R_j" = 100;
+};
+};
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = {
+"@MMK_L_A" = {
+"@MMK_R_H" = 10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_T" = -50;
+"@MMK_R_U" = -20;
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -70;
+"@MMK_R_o" = -20;
+"@MMK_R_quoteleft" = -40;
+"@MMK_R_quoteright" = -40;
+"@MMK_R_quotesingle" = -40;
+"@MMK_R_t" = -10;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -30;
+"@MMK_R_w" = -30;
+"@MMK_R_y" = -20;
+};
+"@MMK_L_B" = {
+"@MMK_R_T" = -20;
+"@MMK_R_V" = -10;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -40;
+"@MMK_R_v" = -10;
+};
+"@MMK_L_C" = {
+"@MMK_R_A" = 0;
+"@MMK_R_Y" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_E" = {
+"@MMK_R_H" = 20;
+"@MMK_R_idieresis" = 60;
+};
+"@MMK_L_F" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -40;
+"@MMK_R_O" = -10;
+"@MMK_R_a" = -30;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -50;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -10;
+"@MMK_R_v" = -30;
+"@MMK_R_y" = -40;
+"@MMK_R_z" = -20;
+};
+"@MMK_L_G" = {
+"@MMK_R_A" = 0;
+"@MMK_R_T" = -10;
+"@MMK_R_W" = 0;
+"@MMK_R_Y" = -30;
+};
+"@MMK_L_H" = {
+"@MMK_R_idieresis" = 20;
+"@MMK_R_two" = 50;
+};
+"@MMK_L_J" = {
+"@MMK_R_A" = -20;
+"@MMK_R_idieresis" = 0;
+};
+"@MMK_L_K" = {
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_i" = -10;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -50;
+"@MMK_R_s" = -10;
+"@MMK_R_t" = -40;
+"@MMK_R_v" = -40;
+"@MMK_R_w" = -50;
+"@MMK_R_y" = -30;
+};
+"@MMK_L_L" = {
+"@MMK_R_O" = -20;
+"@MMK_R_T" = -60;
+"@MMK_R_U" = -20;
+"@MMK_R_V" = -40;
+"@MMK_R_W" = -70;
+"@MMK_R_Y" = -90;
+"@MMK_R_f" = -30;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_quotesingle" = -50;
+"@MMK_R_t" = -30;
+"@MMK_R_v" = -60;
+"@MMK_R_w" = -60;
+"@MMK_R_y" = -40;
+};
+"@MMK_L_O" = {
+"@MMK_R_A" = -20;
+"@MMK_R_S" = -20;
+"@MMK_R_T" = -30;
+"@MMK_R_V" = -20;
+"@MMK_R_W" = -20;
+"@MMK_R_Y" = -30;
+"@MMK_R_a" = -10;
+"@MMK_R_h" = -20;
+};
+"@MMK_L_P" = {
+"@MMK_R_A" = -60;
+"@MMK_R_J" = -90;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -20;
+"@MMK_R_a" = -40;
+"@MMK_R_idieresis" = 0;
+"@MMK_R_o" = -20;
+"@MMK_R_period" = -80;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = 0;
+};
+"@MMK_L_R" = {
+"@MMK_R_T" = -20;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_t" = 10;
+"@MMK_R_v" = -20;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_S" = {
+"@MMK_R_A" = 0;
+"@MMK_R_O" = -10;
+"@MMK_R_V" = -10;
+"@MMK_R_W" = -10;
+"@MMK_R_Y" = -30;
+"@MMK_R_a" = -20;
+"@MMK_R_w" = -10;
+"@MMK_R_x" = -10;
+};
+"@MMK_L_T" = {
+"@MMK_R_A" = -50;
+"@MMK_R_J" = -40;
+"@MMK_R_O" = -30;
+"@MMK_R_S" = 0;
+"@MMK_R_a" = -40;
+"@MMK_R_f" = -10;
+"@MMK_R_idieresis" = 100;
+"@MMK_R_n" = -60;
+"@MMK_R_o" = -70;
+"@MMK_R_period" = -70;
+"@MMK_R_s" = -60;
+"@MMK_R_t" = -20;
+"@MMK_R_u" = -40;
+"@MMK_R_v" = -50;
+"@MMK_R_w" = -40;
+"@MMK_R_x" = -50;
+"@MMK_R_y" = -40;
+"@MMK_R_z" = -50;
+};
+"@MMK_L_U" = {
+"@MMK_R_A" = -20;
+"@MMK_R_a" = -10;
+"@MMK_R_idieresis" = 30;
+"@MMK_R_t" = 10;
+};
+"@MMK_L_V" = {
+"@MMK_R_A" = -30;
+"@MMK_R_H" = 10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_idieresis" = 80;
+"@MMK_R_n" = -30;
+"@MMK_R_o" = -40;
+"@MMK_R_period" = -50;
+"@MMK_R_s" = -30;
+"@MMK_R_u" = -20;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -20;
+"@MMK_R_z" = -10;
+};
+"@MMK_L_W" = {
+"@MMK_R_A" = -10;
+"@MMK_R_O" = -20;
+"@MMK_R_S" = -10;
+"@MMK_R_a" = -40;
+"@MMK_R_f" = -10;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -30;
+"@MMK_R_s" = -20;
+"@MMK_R_x" = -10;
+"@MMK_R_z" = -20;
+};
+"@MMK_L_Y" = {
+"@MMK_R_A" = -70;
+"@MMK_R_J" = -40;
+"@MMK_R_O" = -30;
+"@MMK_R_S" = -30;
+"@MMK_R_a" = -60;
+"@MMK_R_f" = -20;
+"@MMK_R_idieresis" = 50;
+"@MMK_R_n" = -70;
+"@MMK_R_o" = -100;
+"@MMK_R_period" = -60;
+"@MMK_R_s" = -80;
+"@MMK_R_t" = -20;
+"@MMK_R_u" = -50;
+"@MMK_R_v" = -50;
+"@MMK_R_w" = -60;
+"@MMK_R_x" = -10;
+"@MMK_R_y" = -50;
+"@MMK_R_z" = -50;
+};
+"@MMK_L_Z" = {
+"@MMK_R_idieresis" = 60;
+};
+"@MMK_L_a" = {
+"@MMK_R_h" = -20;
+"@MMK_R_n" = -10;
+"@MMK_R_o" = -10;
+"@MMK_R_t" = -10;
+"@MMK_R_v" = -20;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_c" = {
+"@MMK_R_a" = -10;
+"@MMK_R_f" = 10;
+};
+"@MMK_L_d" = {
+"@MMK_R_idieresis" = 0;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_dcaron" = {
+"@MMK_R_a" = -60;
+"@MMK_R_idieresis" = 50;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -30;
+};
+"@MMK_L_e" = {
+"@MMK_R_a" = -10;
+"@MMK_R_v" = -10;
+"@MMK_R_x" = -10;
+};
+"@MMK_L_exclamdown" = {
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -30;
+"@MMK_R_Y" = -60;
+};
+"@MMK_L_f" = {
+"@MMK_R_a" = -20;
+"@MMK_R_idieresis" = 70;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -30;
+"@MMK_R_t" = 10;
+braceright = 100;
+bracketright = 40;
+parenright = 70;
+question = 30;
+};
+"@MMK_L_four" = {
+"@MMK_R_O" = -30;
+};
+"@MMK_L_g" = {
+"@MMK_R_u" = 30;
+};
+"@MMK_L_i" = {
+"@MMK_R_i" = 0;
+"@MMK_R_idieresis" = 60;
+"@MMK_R_o" = -10;
+};
+"@MMK_L_idieresis" = {
+"@MMK_R_h" = 30;
+"@MMK_R_i" = 60;
+"@MMK_R_idieresis" = 140;
+"@MMK_R_j" = 50;
+"@MMK_R_l" = 30;
+};
+"@MMK_L_j" = {
+"@MMK_R_idieresis" = 70;
+};
+"@MMK_L_k" = {
+"@MMK_R_o" = -30;
+"@MMK_R_u" = 20;
+};
+"@MMK_L_l" = {
+"@MMK_R_idieresis" = 0;
+};
+"@MMK_L_n" = {
+"@MMK_R_a" = 10;
+"@MMK_R_o" = 10;
+"@MMK_R_t" = 20;
+"@MMK_R_v" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_nine" = {
+"@MMK_R_four" = 40;
+"@MMK_R_period" = -20;
+};
+"@MMK_L_o" = {
+"@MMK_R_V" = -40;
+"@MMK_R_W" = -30;
+"@MMK_R_h" = -10;
+"@MMK_R_i" = -10;
+"@MMK_R_l" = -30;
+"@MMK_R_n" = -10;
+"@MMK_R_quotesingle" = -70;
+"@MMK_R_u" = 10;
+"@MMK_R_v" = -20;
+"@MMK_R_w" = -10;
+"@MMK_R_x" = -20;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_period" = {
+"@MMK_R_seven" = -40;
+one.cv01 = -20;
+};
+"@MMK_L_questiondown" = {
+"@MMK_R_S" = -40;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -90;
+"@MMK_R_W" = -60;
+"@MMK_R_Y" = -80;
+};
+"@MMK_L_quoteleft" = {
+"@MMK_R_A" = -40;
+};
+"@MMK_L_quoteright" = {
+"@MMK_R_A" = -40;
+"@MMK_R_J" = -40;
+};
+"@MMK_L_quotesingle" = {
+"@MMK_R_A" = -40;
+"@MMK_R_J" = -30;
+"@MMK_R_o" = -70;
+};
+"@MMK_L_r" = {
+"@MMK_R_a" = -20;
+"@MMK_R_j" = -20;
+"@MMK_R_o" = -30;
+"@MMK_R_period" = -40;
+"@MMK_R_t" = 0;
+};
+"@MMK_L_s" = {
+"@MMK_R_V" = -30;
+"@MMK_R_W" = -20;
+"@MMK_R_a" = 0;
+"@MMK_R_t" = 20;
+"@MMK_R_u" = 20;
+"@MMK_R_v" = -10;
+"@MMK_R_w" = -10;
+"@MMK_R_y" = -10;
+};
+"@MMK_L_seven" = {
+"@MMK_R_O" = 10;
+"@MMK_R_four" = -40;
+"@MMK_R_one" = 20;
+"@MMK_R_period" = -60;
+};
+"@MMK_L_t" = {
+"@MMK_R_a" = -10;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_j" = 30;
+"@MMK_R_n" = 10;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_three" = {
+"@MMK_R_V" = 20;
+};
+"@MMK_L_two" = {
+"@MMK_R_four" = -20;
+};
+"@MMK_L_u" = {
+"@MMK_R_V" = -20;
+};
+"@MMK_L_v" = {
+"@MMK_R_V" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -20;
+"@MMK_R_period" = -40;
+};
+"@MMK_L_w" = {
+"@MMK_R_a" = -20;
+"@MMK_R_o" = -10;
+"@MMK_R_period" = -40;
+};
+"@MMK_L_x" = {
+"@MMK_R_a" = -10;
+"@MMK_R_o" = -20;
+};
+"@MMK_L_z" = {
+"@MMK_R_V" = -10;
+"@MMK_R_f" = 20;
+"@MMK_R_idieresis" = 40;
+"@MMK_R_t" = 20;
+};
+ampersand = {
+"@MMK_R_T" = -50;
+};
+braceleft = {
+"@MMK_R_j" = 100;
+};
+bracketleft = {
+"@MMK_R_j" = 100;
+};
+parenleft = {
+"@MMK_R_j" = 100;
+};
+};
+};
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+},
+{
+name = "zone 1";
+},
+{
+type = bodyHeight;
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "
+";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Kedar Gadge";
+}
+);
+}
+);
+settings = {
+keepAlternatesTogether = 1;
+};
+unitsPerEm = 1000;
+userData = {
+GSDimensionPlugin.Dimensions = {
+"1C1CFC13-4213-4775-A214-C31251F9A91A" = {
+HH = "45";
+HV = "50";
+OH = "48";
+OV = "50";
+nV = "45";
+nd = "40";
+oH = "43";
+oV = "48";
+tH = "40";
+};
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = {
+HH = "75";
+HV = "80";
+OH = "75";
+OV = "80";
+nV = "75";
+nd = "68";
+oH = "75";
+oV = "80";
+tH = "75";
+};
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = {
+HH = "135";
+HV = "155";
+OH = "140";
+OV = "155";
+nV = "150";
+nd = "118";
+oH = "135";
+oV = "155";
+tH = "130";
+};
+"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = {
+HH = "45";
+HV = "45";
+OH = "45";
+OV = "50";
+nV = "45";
+nd = "40";
+oH = "43";
+oV = "48";
+tH = "40";
+};
+};
+};
+versionMajor = 1;
+versionMinor = 0;
+}

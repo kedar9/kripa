@@ -1,0 +1,61 @@
+{
+glyphname = "tth_tth_ya-deva";
+lastChange = "2026-03-13 01:37:18 +0000";
+layers = (
+{
+.lastUpdate = 795060348.728;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "tth_ttha-deva";
+},
+{
+pos = (248,-93);
+ref = "halant-deva";
+},
+{
+pos = (521,0);
+ref = "ya-deva";
+}
+);
+width = 1098;
+},
+{
+.lastUpdate = 795058980.499;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "tth_ttha-deva";
+},
+{
+pos = (277,-120);
+ref = "halant-deva";
+},
+{
+pos = (575,0);
+ref = "ya-deva";
+}
+);
+width = 1208;
+},
+{
+.lastUpdate = 795058949.428;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "tth_ttha-deva";
+},
+{
+pos = (252,-157);
+ref = "halant-deva";
+},
+{
+pos = (602,0);
+ref = "ya-deva";
+}
+);
+width = 1295;
+}
+);
+metricRight = "ya-deva";
+}

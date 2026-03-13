@@ -1,0 +1,65 @@
+{
+glyphname = Dzcaron;
+kernLeft = H;
+kernRight = z;
+lastChange = "2025-06-05 19:09:41 +0000";
+layers = (
+{
+.lastUpdate = 795054213.454;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (730,0);
+ref = z;
+},
+{
+pos = (768,0);
+ref = caroncomb;
+}
+);
+width = 1230;
+},
+{
+.lastUpdate = 795054213.455;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (720,0);
+ref = z;
+},
+{
+pos = (737,0);
+ref = caroncomb;
+}
+);
+width = 1225;
+},
+{
+.lastUpdate = 795054213.455;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = D;
+},
+{
+pos = (740,0);
+ref = z;
+},
+{
+pos = (710,0);
+ref = caroncomb;
+}
+);
+width = 1260;
+}
+);
+metricLeft = "=H";
+metricRight = "=z";
+unicode = 453;
+}

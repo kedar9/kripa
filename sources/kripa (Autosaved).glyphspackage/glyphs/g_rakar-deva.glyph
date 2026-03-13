@@ -1,0 +1,53 @@
+{
+glyphname = "g_rakar-deva";
+lastChange = "2026-03-13 01:38:03 +0000";
+layers = (
+{
+.lastUpdate = 795059002.394;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "g-deva";
+},
+{
+alignment = -1;
+pos = (138,0);
+ref = "rakar-leg-deva";
+}
+);
+width = 345;
+},
+{
+.lastUpdate = 795058979.613;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "g-deva";
+},
+{
+alignment = -1;
+pos = (135,0);
+ref = "rakar-leg-deva";
+}
+);
+width = 362;
+},
+{
+.lastUpdate = 795058949.361;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "g-deva";
+},
+{
+alignment = -1;
+pos = (115,0);
+ref = "rakar-leg-deva";
+}
+);
+width = 397;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=-100";
+}

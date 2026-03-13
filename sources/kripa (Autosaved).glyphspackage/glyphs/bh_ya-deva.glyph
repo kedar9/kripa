@@ -1,0 +1,50 @@
+{
+glyphname = "bh_ya-deva";
+lastChange = "2024-08-27 01:26:42 +0000";
+layers = (
+{
+.lastUpdate = 795058957.211;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "bh-deva";
+},
+{
+pos = (361,0);
+ref = "ya-deva";
+}
+);
+width = 938;
+},
+{
+.lastUpdate = 795060408.861;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "bh-deva";
+},
+{
+pos = (392,0);
+ref = "ya-deva";
+}
+);
+width = 1025;
+},
+{
+.lastUpdate = 795058949.277;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "bh-deva";
+},
+{
+pos = (405,0);
+ref = "ya-deva";
+}
+);
+width = 1098;
+}
+);
+metricLeft = "bh-deva";
+metricRight = "ya-deva";
+}

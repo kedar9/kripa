@@ -1,0 +1,53 @@
+{
+glyphname = "h-deva";
+lastChange = "2026-03-04 20:01:37 +0000";
+layers = (
+{
+.lastUpdate = 795057936.988;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "ha-deva";
+},
+{
+alignment = -1;
+pos = (296,-106);
+ref = "halant-deva";
+}
+);
+width = 522;
+},
+{
+.lastUpdate = 795060501.412;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "ha-deva";
+},
+{
+alignment = -1;
+pos = (315,-148);
+ref = "halant-deva";
+}
+);
+width = 545;
+},
+{
+.lastUpdate = 795058941.746;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "ha-deva";
+},
+{
+alignment = -1;
+pos = (320,-213);
+ref = "halant-deva";
+}
+);
+width = 594;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva";
+}

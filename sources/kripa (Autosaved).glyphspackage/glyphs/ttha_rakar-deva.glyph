@@ -1,0 +1,50 @@
+{
+glyphname = "ttha_rakar-deva";
+lastChange = "2025-08-13 18:52:18 +0000";
+layers = (
+{
+.lastUpdate = 795058188.154;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "ttha-deva";
+},
+{
+pos = (90,0);
+ref = "rakar-deva";
+}
+);
+width = 552;
+},
+{
+.lastUpdate = 795058979.648;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "ttha-deva";
+},
+{
+pos = (93,0);
+ref = "rakar-deva";
+}
+);
+width = 584;
+},
+{
+.lastUpdate = 795058949.956;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "ttha-deva";
+},
+{
+pos = (52,-40);
+ref = "rakar-deva";
+}
+);
+width = 632;
+}
+);
+metricLeft = "ttha-deva";
+metricRight = "ra-deva";
+}

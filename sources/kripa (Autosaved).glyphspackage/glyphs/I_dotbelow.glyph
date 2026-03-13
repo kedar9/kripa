@@ -1,0 +1,51 @@
+{
+glyphname = Idotbelow;
+kernLeft = H;
+kernRight = H;
+lastChange = "2023-12-10 02:41:28 +0000";
+layers = (
+{
+.lastUpdate = 795054213.463;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-5,0);
+ref = dotbelowcomb;
+}
+);
+width = 250;
+},
+{
+.lastUpdate = 795054213.463;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-13,0);
+ref = dotbelowcomb;
+}
+);
+width = 260;
+},
+{
+.lastUpdate = 795054213.463;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-22,0);
+ref = dotbelowcomb;
+}
+);
+width = 315;
+}
+);
+unicode = 7882;
+}

@@ -1,0 +1,50 @@
+{
+glyphname = "kh_na-deva";
+lastChange = "2024-06-11 02:08:38 +0000";
+layers = (
+{
+.lastUpdate = 795058188.167;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "kh-deva";
+},
+{
+pos = (642,0);
+ref = "na-deva";
+}
+);
+width = 1212;
+},
+{
+.lastUpdate = 795058979.966;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "kh-deva";
+},
+{
+pos = (651,0);
+ref = "na-deva";
+}
+);
+width = 1243;
+},
+{
+.lastUpdate = 795058949.398;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "kh-deva";
+},
+{
+pos = (640,0);
+ref = "na-deva";
+}
+);
+width = 1280;
+}
+);
+metricLeft = "kh-deva";
+metricRight = "na-deva";
+}

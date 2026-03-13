@@ -1,0 +1,54 @@
+{
+export = 0;
+glyphname = "_fjrt-arc.comp.cv";
+lastChange = "2026-03-12 18:50:51 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,489,l),
+(57,534,l),
+(0,534,l),
+(0,489,l)
+);
+}
+);
+width = 57;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(72,473,l),
+(72,548,l),
+(5,548,l),
+(0,473,l)
+);
+}
+);
+width = 72;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(87,428,l),
+(87,558,l),
+(10,558,l),
+(0,428,l)
+);
+}
+);
+width = 87;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+}

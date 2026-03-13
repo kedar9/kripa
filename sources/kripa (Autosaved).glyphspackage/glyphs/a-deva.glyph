@@ -1,0 +1,93 @@
+{
+glyphname = "a-deva";
+lastChange = "2025-08-14 01:44:12 +0000";
+layers = (
+{
+.lastUpdate = 795058197.189;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(476,309,o),
+(552,311,o),
+(598,322,c),
+(598,368,l),
+(555,357,o),
+(464,355,o),
+(386,364,c),
+(421,317,l)
+);
+},
+{
+pos = (512,0);
+ref = "aamatra-cut-deva.comp";
+},
+{
+pos = (20,0);
+ref = "_a-deva.component";
+}
+);
+width = 742;
+},
+{
+.lastUpdate = 795058978.162;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(496,275,o),
+(576,280,o),
+(618,291,c),
+(618,363,l),
+(566,351,o),
+(465,349,o),
+(409,357,c),
+(459,281,l)
+);
+},
+{
+pos = (531,0);
+ref = "aamatra-cut-deva.comp";
+},
+{
+pos = (20,0);
+ref = "_a-deva.component";
+}
+);
+width = 791;
+},
+{
+.lastUpdate = 795058950.444;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(557,209,o),
+(646,224,o),
+(667,231,c),
+(667,362,l),
+(610,342,o),
+(553,339,o),
+(487,342,c),
+(508,219,l)
+);
+},
+{
+pos = (572,0);
+ref = "aamatra-cut-deva.comp";
+},
+{
+pos = (20,0);
+ref = "_a-deva.component";
+}
+);
+width = 887;
+}
+);
+metricLeft = "=20";
+metricRight = "=aaMatra-deva";
+unicode = 2309;
+}

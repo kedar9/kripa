@@ -1,0 +1,80 @@
+{
+glyphname = "n_ta_rakar-deva";
+lastChange = "2026-03-13 01:40:12 +0000";
+layers = (
+{
+.lastUpdate = 795058957.218;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,627,l),
+(360,672,l),
+(-20,672,l),
+(-20,627,l)
+);
+},
+{
+pos = (35,-80);
+ref = "_n-deva";
+},
+{
+pos = (320,0);
+ref = "ta_ra-deva";
+}
+);
+width = 909;
+},
+{
+.lastUpdate = 795058957.745;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(392,602,l),
+(392,672,l),
+(-20,672,l),
+(-20,602,l)
+);
+},
+{
+pos = (37,-80);
+ref = "_n-deva";
+},
+{
+pos = (312,0);
+ref = "ta_ra-deva";
+}
+);
+width = 937;
+},
+{
+.lastUpdate = 795058949.333;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(425,556,l),
+(425,672,l),
+(-20,672,l),
+(-20,556,l)
+);
+},
+{
+pos = (25,-52);
+ref = "_n-deva";
+},
+{
+pos = (345,0);
+ref = "ta_ra-deva";
+}
+);
+width = 1023;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva";
+}

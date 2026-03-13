@@ -1,0 +1,54 @@
+{
+glyphname = "qa_rakar-deva";
+lastChange = "2026-03-04 20:41:37 +0000";
+layers = (
+{
+.lastUpdate = 795058188.17;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "ka_rakar-deva";
+},
+{
+alignment = -1;
+pos = (-2,84);
+ref = "nukta-deva";
+}
+);
+width = 757;
+},
+{
+.lastUpdate = 795058979.73;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "ka_rakar-deva";
+},
+{
+alignment = -1;
+pos = (-2,68);
+ref = "nukta-deva";
+}
+);
+width = 775;
+},
+{
+.lastUpdate = 795058949.932;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "ka_rakar-deva";
+},
+{
+alignment = -1;
+pos = (-20,39);
+ref = "nukta-deva";
+scale = (0.8,0.8);
+}
+);
+width = 870;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva";
+}

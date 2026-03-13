@@ -1,0 +1,52 @@
+{
+color = 0;
+export = 0;
+glyphname = "m_b_ra-deva";
+lastChange = "2026-01-31 01:36:25 +0000";
+layers = (
+{
+.lastUpdate = 795057583.576;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "m-deva";
+},
+{
+pos = (360,0);
+ref = "b_ra-deva";
+}
+);
+width = 1128;
+},
+{
+.lastUpdate = 795060508.397;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "m-deva";
+},
+{
+pos = (372,0);
+ref = "b_ra-deva";
+}
+);
+width = 1149;
+},
+{
+.lastUpdate = 795058942.398;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "m-deva";
+},
+{
+pos = (415,0);
+ref = "b_ra-deva";
+}
+);
+width = 1252;
+}
+);
+metricLeft = "m-deva";
+metricRight = "ra-deva";
+}

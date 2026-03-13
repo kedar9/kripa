@@ -1,0 +1,49 @@
+{
+glyphname = "khha-deva";
+lastChange = "2026-03-13 01:16:15 +0000";
+layers = (
+{
+.lastUpdate = 795057936.986;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "kha-deva";
+},
+{
+pos = (20,-61);
+ref = "nukta-deva";
+}
+);
+width = 892;
+},
+{
+.lastUpdate = 795058979.581;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "kha-deva";
+},
+{
+pos = (13,-70);
+ref = "nukta-deva";
+}
+);
+width = 931;
+},
+{
+.lastUpdate = 795058949.945;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "kha-deva";
+},
+{
+pos = (3,-145);
+ref = "nukta-deva";
+}
+);
+width = 935;
+}
+);
+unicode = 2393;
+}

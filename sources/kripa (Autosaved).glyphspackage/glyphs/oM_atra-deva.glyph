@@ -1,0 +1,79 @@
+{
+glyphname = "oMatra-deva";
+lastChange = "2026-03-13 01:16:11 +0000";
+layers = (
+{
+.lastUpdate = 795057342.662;
+anchors = (
+{
+name = candra;
+pos = (228,536);
+},
+{
+name = top;
+pos = (203,536);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "aaMatra-deva";
+},
+{
+pos = (-144,0);
+ref = "eMatra-deva";
+}
+);
+width = 250;
+},
+{
+.lastUpdate = 795058979.429;
+anchors = (
+{
+name = candra;
+pos = (240,546);
+},
+{
+name = top;
+pos = (219,546);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "aaMatra-deva";
+},
+{
+pos = (-136,0);
+ref = "eMatra-deva";
+}
+);
+width = 280;
+},
+{
+.lastUpdate = 795058950.129;
+anchors = (
+{
+name = candra;
+pos = (295,556);
+},
+{
+name = top;
+pos = (263,556);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "aaMatra-deva";
+},
+{
+pos = (-176,0);
+ref = "eMatra-deva";
+}
+);
+width = 295;
+}
+);
+unicode = 2379;
+}

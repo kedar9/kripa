@@ -1,0 +1,66 @@
+{
+glyphname = "ghh_rakar-deva";
+lastChange = "2025-12-16 19:47:12 +0000";
+layers = (
+{
+.lastUpdate = 795058188.183;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "g-deva";
+},
+{
+pos = (9,29);
+ref = "nukta-deva";
+},
+{
+alignment = -1;
+pos = (168,0);
+ref = "rakar-leg-deva";
+}
+);
+width = 375;
+},
+{
+.lastUpdate = 795060501.593;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "g-deva";
+},
+{
+pos = (0,28);
+ref = "nukta-deva";
+},
+{
+alignment = -1;
+pos = (165,0);
+ref = "rakar-leg-deva";
+}
+);
+width = 392;
+},
+{
+.lastUpdate = 795058941.847;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "g-deva";
+},
+{
+pos = (-20,-2);
+ref = "nukta-deva";
+scale = (0.9,0.9);
+},
+{
+alignment = -1;
+pos = (145,0);
+ref = "rakar-leg-deva";
+}
+);
+width = 427;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=-100";
+}

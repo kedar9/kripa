@@ -1,0 +1,49 @@
+{
+glyphname = "o-deva";
+lastChange = "2026-03-06 21:30:32 +0000";
+layers = (
+{
+.lastUpdate = 795057342.757;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (558,-20);
+ref = "eMatra-deva";
+}
+);
+width = 972;
+},
+{
+.lastUpdate = 795058978.165;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (595,-20);
+ref = "eMatra-deva";
+}
+);
+width = 1041;
+},
+{
+.lastUpdate = 795058950.444;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "aa-deva";
+},
+{
+pos = (661,-20);
+ref = "eMatra-deva";
+}
+);
+width = 1172;
+}
+);
+unicode = 2323;
+}

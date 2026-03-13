@@ -1,0 +1,84 @@
+{
+color = 3;
+glyphname = "rakar-leg-short-deva";
+lastChange = "2026-01-15 21:01:24 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (274,0);
+},
+{
+name = bottom;
+pos = (274,-10);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(29,-26,l),
+(277,151,l),
+(277,208,l),
+(0,10,l)
+);
+}
+);
+width = 277;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (264,0);
+},
+{
+name = bottom;
+pos = (264,-10);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(46,-57,l),
+(277,126,l),
+(277,212,l),
+(0,0,l)
+);
+}
+);
+width = 277;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (339,0);
+},
+{
+name = bottom;
+pos = (339,-10);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-130,l),
+(342,106,l),
+(342,231,l),
+(0,-32,l)
+);
+}
+);
+width = 342;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+}

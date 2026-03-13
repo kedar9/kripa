@@ -1,0 +1,177 @@
+{
+glyphname = circumflexcomb;
+lastChange = "2025-08-12 00:17:55 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (296,556);
+},
+{
+name = top;
+pos = (296,790);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(234,660,l),
+(296,780,l),
+(358,660,l),
+(502,660,l),
+(385,860,l),
+(206,860,l),
+(90,660,l)
+);
+}
+);
+width = 592;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (235,546);
+},
+{
+name = top;
+pos = (236,760);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(171,650,l),
+(235,761,l),
+(300,650,l),
+(388,650,l),
+(277,820,l),
+(193,820,l),
+(83,650,l)
+);
+}
+);
+width = 471;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (339,540);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "B46AEDBD-5DF4-4F7E-84DB-6673ABF1FB60";
+name = "Black Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(298,600,l),
+(373,693,l),
+(408,600,l),
+(571,600,l),
+(495,784,l),
+(285,784,l),
+(130,600,l)
+);
+}
+);
+width = 561;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (295,520);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "0EBC54A8-15C6-46BB-A30D-B04F95430F38";
+name = Italic;
+shapes = (
+{
+closed = 1;
+nodes = (
+(236,580,l),
+(330,672,l),
+(385,580,l),
+(462,580,l),
+(369,730,l),
+(303,730,l),
+(154,580,l)
+);
+}
+);
+width = 480;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (206,536);
+},
+{
+name = top;
+pos = (207,740);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (206,709);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(131,640,l),
+(207,774,l),
+(283,640,l),
+(334,640,l),
+(228,810,l),
+(185,810,l),
+(80,640,l)
+);
+}
+);
+width = 414;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (291,515);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "98EF025F-BD4F-44E2-B72D-FAB084232EEA";
+name = "Extralight Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(212,593,l),
+(334,705,l),
+(408,593,l),
+(452,593,l),
+(355,740,l),
+(319,740,l),
+(164,593,l)
+);
+}
+);
+width = 474;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+unicode = 770;
+}

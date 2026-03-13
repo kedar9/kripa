@@ -1,0 +1,63 @@
+{
+glyphname = onethird;
+lastChange = "2021-11-11 10:53:41 +0000";
+layers = (
+{
+.lastUpdate = 795054213.553;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (281,0);
+ref = fraction;
+},
+{
+pos = (481,0);
+ref = three.dnom;
+}
+);
+width = 895;
+},
+{
+.lastUpdate = 795054213.553;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (298,0);
+ref = fraction;
+},
+{
+pos = (512,0);
+ref = three.dnom;
+}
+);
+width = 910;
+},
+{
+.lastUpdate = 795054213.553;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (332,0);
+ref = fraction;
+},
+{
+pos = (534,0);
+ref = three.dnom;
+}
+);
+width = 945;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 8531;
+}

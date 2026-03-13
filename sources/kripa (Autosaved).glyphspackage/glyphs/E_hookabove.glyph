@@ -1,0 +1,51 @@
+{
+glyphname = Ehookabove;
+kernLeft = H;
+kernRight = E;
+lastChange = "2025-04-01 00:32:45 +0000";
+layers = (
+{
+.lastUpdate = 795054213.458;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (152,209);
+ref = hookabovecomb;
+}
+);
+width = 600;
+},
+{
+.lastUpdate = 795054213.458;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (154,199);
+ref = hookabovecomb;
+}
+);
+width = 590;
+},
+{
+.lastUpdate = 795054213.458;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (107,169);
+ref = hookabovecomb;
+}
+);
+width = 600;
+}
+);
+unicode = 7866;
+}

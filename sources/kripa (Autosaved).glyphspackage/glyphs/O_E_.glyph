@@ -1,0 +1,86 @@
+{
+glyphname = OE;
+kernLeft = O;
+kernRight = E;
+lastChange = "2025-06-05 19:08:50 +0000";
+layers = (
+{
+.lastUpdate = 795054213.472;
+anchors = (
+{
+name = bottom;
+pos = (681,0);
+},
+{
+name = top;
+pos = (681,725);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = O;
+},
+{
+alignment = -1;
+pos = (632,0);
+ref = E;
+}
+);
+width = 1222;
+},
+{
+.lastUpdate = 795054213.472;
+anchors = (
+{
+name = bottom;
+pos = (674,0);
+},
+{
+name = top;
+pos = (674,725);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = O;
+},
+{
+alignment = -1;
+pos = (632,0);
+ref = E;
+}
+);
+width = 1232;
+},
+{
+.lastUpdate = 795054213.472;
+anchors = (
+{
+name = bottom;
+pos = (730,0);
+},
+{
+name = top;
+pos = (730,725);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = O;
+},
+{
+alignment = -1;
+pos = (632,0);
+ref = E;
+}
+);
+width = 1232;
+}
+);
+metricLeft = "=O";
+metricRight = "=E";
+unicode = 338;
+}

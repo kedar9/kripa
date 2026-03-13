@@ -1,0 +1,51 @@
+{
+glyphname = Abrevetilde;
+kernLeft = A;
+kernRight = A;
+lastChange = "2025-04-01 00:30:44 +0000";
+layers = (
+{
+.lastUpdate = 795054213.448;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (110,189);
+ref = brevecomb_tildecomb;
+}
+);
+width = 664;
+},
+{
+.lastUpdate = 795054213.448;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (106,179);
+ref = brevecomb_tildecomb;
+}
+);
+width = 696;
+},
+{
+.lastUpdate = 795054213.448;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = A;
+},
+{
+pos = (68,169);
+ref = brevecomb_tildecomb;
+}
+);
+width = 745;
+}
+);
+unicode = 7860;
+}

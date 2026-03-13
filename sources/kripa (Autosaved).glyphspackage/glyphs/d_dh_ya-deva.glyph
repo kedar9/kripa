@@ -1,0 +1,120 @@
+{
+glyphname = "d_dh_ya-deva";
+lastChange = "2026-03-13 01:38:07 +0000";
+layers = (
+{
+.lastUpdate = 795059002.401;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "d_dha-deva";
+},
+{
+alignment = -1;
+pos = (601,45);
+ref = "_ya-conjunct-deva";
+},
+{
+alignment = -1;
+pos = (1041,0);
+ref = "aaMatra-deva";
+},
+{
+closed = 1;
+nodes = (
+(1156,627,l),
+(1156,672,l),
+(640,672,l),
+(640,627,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(606,501,l),
+(606,546,l),
+(550,546,l),
+(550,501,l)
+);
+}
+);
+width = 1291;
+},
+{
+.lastUpdate = 795058980.68;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "d_dha-deva";
+},
+{
+alignment = -1;
+pos = (753,43);
+ref = "_ya-conjunct-deva";
+},
+{
+pos = (1153,0);
+ref = "aaMatra-deva";
+},
+{
+closed = 1;
+nodes = (
+(1203,602,l),
+(1203,672,l),
+(790,672,l),
+(790,602,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(760,469,l),
+(760,539,l),
+(640,539,l),
+(640,469,l)
+);
+}
+);
+width = 1433;
+},
+{
+.lastUpdate = 795058949.362;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "d_dha-deva";
+},
+{
+alignment = -1;
+pos = (797,40);
+ref = "_ya-conjunct-deva";
+},
+{
+pos = (1233,0);
+ref = "aaMatra-deva";
+},
+{
+closed = 1;
+nodes = (
+(1383,556,l),
+(1383,672,l),
+(850,672,l),
+(850,556,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(802,412,l),
+(802,528,l),
+(708,528,l),
+(708,412,l)
+);
+}
+);
+width = 1528;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva";
+}

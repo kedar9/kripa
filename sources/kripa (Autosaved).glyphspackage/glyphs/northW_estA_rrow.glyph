@@ -1,0 +1,43 @@
+{
+glyphname = northWestArrow;
+lastChange = "2021-11-10 04:04:52 +0000";
+layers = (
+{
+.lastUpdate = 795054213.555;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+angle = 180;
+pos = (602,473);
+ref = southEastArrow;
+}
+);
+width = 602;
+},
+{
+.lastUpdate = 795054213.555;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+angle = 180;
+pos = (629,473);
+ref = southEastArrow;
+}
+);
+width = 629;
+},
+{
+.lastUpdate = 795054213.555;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+angle = 180;
+pos = (660,473);
+ref = southEastArrow;
+}
+);
+width = 720;
+}
+);
+unicode = 8598;
+}

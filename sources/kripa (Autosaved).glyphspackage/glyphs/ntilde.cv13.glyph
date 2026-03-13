@@ -1,0 +1,50 @@
+{
+glyphname = ntilde.cv13;
+kernLeft = n;
+kernRight = n;
+lastChange = "2026-03-12 18:26:24 +0000";
+layers = (
+{
+.lastUpdate = 795054213.493;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = n.cv13;
+},
+{
+pos = (66,0);
+ref = tildecomb;
+}
+);
+width = 570;
+},
+{
+.lastUpdate = 795054213.493;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = n.cv13;
+},
+{
+pos = (48,0);
+ref = tildecomb;
+}
+);
+width = 580;
+},
+{
+.lastUpdate = 795054213.493;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = n.cv13;
+},
+{
+pos = (15,0);
+ref = tildecomb;
+}
+);
+width = 630;
+}
+);
+}

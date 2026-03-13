@@ -1,0 +1,50 @@
+{
+glyphname = "nn_ddha-deva";
+lastChange = "2024-08-27 01:19:31 +0000";
+layers = (
+{
+.lastUpdate = 795057341.974;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "nn-deva";
+},
+{
+pos = (455,0);
+ref = "ddha-deva";
+}
+);
+width = 952;
+},
+{
+.lastUpdate = 795058980.504;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "nn-deva";
+},
+{
+pos = (500,0);
+ref = "ddha-deva";
+}
+);
+width = 1035;
+},
+{
+.lastUpdate = 795058949.415;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "nn-deva";
+},
+{
+pos = (530,0);
+ref = "ddha-deva";
+}
+);
+width = 1121;
+}
+);
+metricLeft = "nn-deva";
+metricRight = "ddha-deva";
+}

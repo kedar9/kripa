@@ -1,0 +1,50 @@
+{
+glyphname = f_f_y.cv12;
+lastChange = "2026-03-12 18:44:26 +0000";
+layers = (
+{
+.lastUpdate = 795054213.507;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = _f.liga.cv12;
+},
+{
+pos = (331,0);
+ref = f_y.cv12;
+}
+);
+width = 1226;
+},
+{
+.lastUpdate = 795054213.507;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = _f.liga.cv12;
+},
+{
+pos = (341,0);
+ref = f_y.cv12;
+}
+);
+width = 1261;
+},
+{
+.lastUpdate = 795054213.507;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = _f.liga.cv12;
+},
+{
+pos = (381,0);
+ref = f_y.cv12;
+}
+);
+width = 1367;
+}
+);
+metricLeft = f;
+metricRight = y;
+}

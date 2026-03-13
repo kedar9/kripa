@@ -1,0 +1,45 @@
+{
+glyphname = "invertedCandraBindu-deva";
+lastChange = "2025-07-16 02:58:12 +0000";
+layers = (
+{
+.lastUpdate = 795054213.555;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+pos = (0,1667);
+ref = "candraBindu-deva";
+scale = (1,-1);
+}
+);
+width = 436;
+},
+{
+.lastUpdate = 795060513.347;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+pos = (0,1677);
+ref = "candraBindu-deva";
+scale = (1,-1);
+}
+);
+width = 460;
+},
+{
+.lastUpdate = 795058948.565;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+pos = (0,1737);
+ref = "candraBindu-deva";
+scale = (1,-1);
+}
+);
+width = 560;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2304;
+}

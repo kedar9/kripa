@@ -1,0 +1,38 @@
+{
+glyphname = nbspace;
+lastChange = "2024-01-21 02:32:02 +0000";
+layers = (
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+width = 220;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+width = 210;
+},
+{
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "B46AEDBD-5DF4-4F7E-84DB-6673ABF1FB60";
+name = "Black Italic";
+width = 220;
+},
+{
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "0EBC54A8-15C6-46BB-A30D-B04F95430F38";
+name = Italic;
+width = 230;
+},
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+width = 200;
+},
+{
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "98EF025F-BD4F-44E2-B72D-FAB084232EEA";
+name = "Extralight Italic";
+width = 223;
+}
+);
+metricWidth = "=space";
+unicode = 160;
+}

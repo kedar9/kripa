@@ -1,0 +1,107 @@
+{
+glyphname = "candraBindu-deva";
+lastChange = "2026-03-06 20:39:13 +0000";
+layers = (
+{
+.lastUpdate = 795058197.189;
+anchors = (
+{
+name = _candra;
+pos = (218,536);
+},
+{
+name = top;
+pos = (218,612);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (218,695);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "eCandraMatra-deva";
+},
+{
+pos = (168,50);
+ref = "_anusvara-medium-deva";
+}
+);
+width = 436;
+},
+{
+.lastUpdate = 795060513.346;
+anchors = (
+{
+name = _candra;
+pos = (230,546);
+},
+{
+name = top;
+pos = (230,622);
+}
+);
+guides = (
+{
+pos = (20,0);
+},
+{
+pos = (20,0);
+},
+{
+angle = 90;
+pos = (230,695);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+pos = (0,5);
+ref = "eCandraMatra-deva";
+},
+{
+pos = (175,55);
+ref = "_anusvara-medium-deva";
+}
+);
+width = 460;
+},
+{
+.lastUpdate = 795058948.563;
+anchors = (
+{
+name = _candra;
+pos = (280,556);
+},
+{
+name = top;
+pos = (280,687);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (280,695);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+pos = (0,1);
+ref = "eCandraMatra-deva";
+},
+{
+pos = (205,78);
+ref = "_anusvara-medium-deva";
+}
+);
+width = 560;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2305;
+}

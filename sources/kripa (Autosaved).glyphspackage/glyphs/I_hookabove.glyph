@@ -1,0 +1,51 @@
+{
+glyphname = Ihookabove;
+kernLeft = H;
+kernRight = H;
+lastChange = "2025-04-01 00:32:45 +0000";
+layers = (
+{
+.lastUpdate = 795054213.464;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-53,189);
+ref = hookabovecomb;
+}
+);
+width = 250;
+},
+{
+.lastUpdate = 795054213.464;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-46,179);
+ref = hookabovecomb;
+}
+);
+width = 260;
+},
+{
+.lastUpdate = 795054213.464;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = I;
+},
+{
+pos = (-66,169);
+ref = hookabovecomb;
+}
+);
+width = 315;
+}
+);
+unicode = 7880;
+}

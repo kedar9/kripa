@@ -1,0 +1,53 @@
+{
+glyphname = f_j.cv14;
+lastChange = "2026-03-12 18:52:48 +0000";
+layers = (
+{
+.lastUpdate = 795054213.507;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = f_i;
+},
+{
+alignment = -1;
+pos = (337,0);
+ref = _j.arc.comp.cv14;
+}
+);
+width = 630;
+},
+{
+.lastUpdate = 795054213.507;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = f_i;
+},
+{
+alignment = -1;
+pos = (348,0);
+ref = _j.arc.comp.cv14;
+}
+);
+width = 658;
+},
+{
+.lastUpdate = 795054213.507;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = f_i;
+},
+{
+alignment = -1;
+pos = (380,0);
+ref = _j.arc.comp.cv14;
+}
+);
+width = 736;
+}
+);
+metricLeft = f;
+metricRight = "=j";
+}

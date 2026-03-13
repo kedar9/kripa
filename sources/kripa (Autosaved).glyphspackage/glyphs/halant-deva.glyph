@@ -1,0 +1,72 @@
+{
+glyphname = "halant-deva";
+lastChange = "2026-01-31 02:14:41 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (19,20);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(187,-165,l),
+(62,-10,l),
+(0,-10,l),
+(125,-165,l)
+);
+}
+);
+width = 187;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (31,20);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(230,-175,l),
+(97,-10,l),
+(0,-10,l),
+(133,-175,l)
+);
+}
+);
+width = 230;
+},
+{
+anchors = (
+{
+name = _bottom;
+pos = (56,20);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(314,-185,l),
+(174,-10,l),
+(0,-10,l),
+(140,-185,l)
+);
+}
+);
+width = 314;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+unicode = 2381;
+}

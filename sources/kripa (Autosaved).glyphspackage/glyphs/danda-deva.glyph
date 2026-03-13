@@ -1,0 +1,54 @@
+{
+glyphname = "danda-deva";
+lastChange = "2024-12-23 19:54:48 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(250,0,l),
+(250,622,l),
+(200,622,l),
+(200,0,l)
+);
+}
+);
+width = 350;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(260,0,l),
+(260,622,l),
+(180,622,l),
+(180,0,l)
+);
+}
+);
+width = 350;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(315,0,l),
+(315,622,l),
+(160,622,l),
+(160,0,l)
+);
+}
+);
+width = 395;
+}
+);
+metricLeft = "=I*2";
+metricRight = "=I";
+unicode = 2404;
+}

@@ -1,0 +1,91 @@
+{
+glyphname = "h_ma-deva";
+lastChange = "2026-03-13 02:07:03 +0000";
+layers = (
+{
+.lastUpdate = 795060421.607;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(622,208,l),
+(622,255,l),
+(410,255,l),
+(410,208,l)
+);
+},
+{
+ref = "_h-deva.comp";
+},
+{
+pos = (292,-131);
+ref = _knot.deva;
+},
+{
+pos = (493,0);
+ref = "aaMatra-deva";
+}
+);
+width = 743;
+},
+{
+.lastUpdate = 795060501.412;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(666,175,l),
+(666,247,l),
+(424,247,l),
+(424,175,l)
+);
+},
+{
+ref = "_h-deva.comp";
+},
+{
+pos = (308,-128);
+ref = _knot.deva;
+},
+{
+pos = (546,0);
+ref = "aaMatra-deva";
+}
+);
+width = 826;
+},
+{
+.lastUpdate = 795060423.707;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(769,114,l),
+(769,225,l),
+(434,225,l),
+(434,114,l)
+);
+},
+{
+ref = "_h-deva.comp";
+},
+{
+alignment = -1;
+pos = (318,-144);
+ref = _knot.deva;
+},
+{
+alignment = -1;
+pos = (616,0);
+ref = "aaMatra-deva";
+}
+);
+width = 911;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva";
+}

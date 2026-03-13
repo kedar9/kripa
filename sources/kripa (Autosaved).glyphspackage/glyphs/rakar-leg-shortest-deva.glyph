@@ -1,0 +1,53 @@
+{
+glyphname = "rakar-leg-shortest-deva";
+lastChange = "2025-08-13 19:36:17 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(203,211,l),
+(203,272,l),
+(0,90,l),
+(47,67,l)
+);
+}
+);
+width = 203;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(211,176,l),
+(211,262,l),
+(0,74,l),
+(69,40,l)
+);
+}
+);
+width = 211;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(246,93,l),
+(246,218,l),
+(0,23,l),
+(139,-46,l)
+);
+}
+);
+width = 246;
+}
+);
+metricLeft = "=0";
+metricRight = "=0";
+}

@@ -1,0 +1,69 @@
+{
+glyphname = "kha-deva";
+lastChange = "2026-03-13 01:17:02 +0000";
+layers = (
+{
+.lastUpdate = 795058957.241;
+anchors = (
+{
+name = nukta;
+pos = (70,-30);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "kh-deva";
+},
+{
+pos = (642,0);
+ref = "aaMatra-deva";
+}
+);
+width = 892;
+},
+{
+.lastUpdate = 795060499.056;
+anchors = (
+{
+name = nukta;
+pos = (68,-30);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "kh-deva";
+},
+{
+pos = (651,0);
+ref = "aaMatra-deva";
+}
+);
+width = 931;
+},
+{
+.lastUpdate = 795058941.714;
+anchors = (
+{
+name = nukta;
+pos = (78,-80);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "kh-deva";
+},
+{
+pos = (640,0);
+ref = "aaMatra-deva";
+}
+);
+width = 935;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva";
+unicode = 2326;
+}

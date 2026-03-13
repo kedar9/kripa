@@ -1,0 +1,65 @@
+{
+glyphname = .notdef;
+lastChange = "2025-02-11 02:45:46 +0000";
+layers = (
+{
+.lastUpdate = 795054213.554;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+pos = (-14,95);
+ref = hyphen;
+},
+{
+pos = (-14,295);
+ref = hyphen;
+},
+{
+pos = (-14,-105);
+ref = hyphen;
+}
+);
+width = 470;
+},
+{
+.lastUpdate = 795054213.554;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+pos = (-32,89);
+ref = hyphen;
+},
+{
+pos = (-32,289);
+ref = hyphen;
+},
+{
+pos = (-32,-111);
+ref = hyphen;
+}
+);
+width = 510;
+},
+{
+.lastUpdate = 795054213.554;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+pos = (-14,98);
+ref = hyphen;
+},
+{
+pos = (-14,298);
+ref = hyphen;
+},
+{
+pos = (-14,-102);
+ref = hyphen;
+}
+);
+width = 440;
+}
+);
+metricLeft = "=60";
+metricRight = "=|";
+}

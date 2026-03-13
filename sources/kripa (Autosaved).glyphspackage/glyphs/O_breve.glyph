@@ -1,0 +1,51 @@
+{
+glyphname = Obreve;
+kernLeft = O;
+kernRight = O;
+lastChange = "2025-03-31 00:17:57 +0000";
+layers = (
+{
+.lastUpdate = 795054213.467;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (188,189);
+ref = brevecomb;
+}
+);
+width = 810;
+},
+{
+.lastUpdate = 795054213.467;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (162,179);
+ref = brevecomb;
+}
+);
+width = 806;
+},
+{
+.lastUpdate = 795054213.467;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (100,169);
+ref = brevecomb;
+}
+);
+width = 810;
+}
+);
+unicode = 334;
+}

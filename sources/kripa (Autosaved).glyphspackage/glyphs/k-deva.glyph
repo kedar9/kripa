@@ -1,0 +1,53 @@
+{
+glyphname = "k-deva";
+lastChange = "2026-03-05 02:11:25 +0000";
+layers = (
+{
+.lastUpdate = 795060239.899;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+alignment = -1;
+pos = (379,-18);
+ref = "_ka-fa.curve.cut";
+},
+{
+ref = "_k-half.deva";
+}
+);
+width = 552;
+},
+{
+.lastUpdate = 795060499.055;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+alignment = -1;
+pos = (390,-21);
+ref = "_ka-fa.curve.cut";
+},
+{
+ref = "_k-half.deva";
+}
+);
+width = 562;
+},
+{
+.lastUpdate = 795058941.711;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+alignment = -1;
+pos = (456,-3);
+ref = "_ka-fa.curve.cut";
+},
+{
+ref = "_k-half.deva";
+}
+);
+width = 643;
+}
+);
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva*3";
+}

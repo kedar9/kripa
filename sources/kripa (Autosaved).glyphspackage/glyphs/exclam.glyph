@@ -1,0 +1,63 @@
+{
+glyphname = exclam;
+lastChange = "2025-05-28 00:56:31 +0000";
+layers = (
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(176,214,l),
+(181,745,l),
+(101,745,l),
+(106,214,l)
+);
+},
+{
+ref = period;
+}
+);
+width = 286;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(245,230,l),
+(255,745,l),
+(105,745,l),
+(115,230,l)
+);
+},
+{
+ref = period;
+}
+);
+width = 360;
+},
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(150,208,l),
+(153,745,l),
+(103,745,l),
+(105,208,l)
+);
+},
+{
+ref = period;
+}
+);
+width = 260;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+unicode = 33;
+}

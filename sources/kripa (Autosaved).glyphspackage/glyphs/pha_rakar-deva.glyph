@@ -1,0 +1,51 @@
+{
+color = 2;
+glyphname = "pha_rakar-deva";
+lastChange = "2025-12-24 19:42:31 +0000";
+layers = (
+{
+.lastUpdate = 795058188.166;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "pha-deva";
+},
+{
+pos = (20,0);
+ref = "rakar-leg-high-deva";
+}
+);
+width = 761;
+},
+{
+.lastUpdate = 795058979.695;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "pha-deva";
+},
+{
+pos = (-1,0);
+ref = "rakar-leg-high-deva";
+}
+);
+width = 789;
+},
+{
+.lastUpdate = 795058949.949;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "pha-deva";
+},
+{
+pos = (13,0);
+ref = "rakar-leg-high-deva";
+}
+);
+width = 896;
+}
+);
+metricLeft = "pha-deva";
+metricRight = "pha-deva";
+}

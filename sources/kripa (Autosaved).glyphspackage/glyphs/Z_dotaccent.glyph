@@ -1,0 +1,51 @@
+{
+glyphname = Zdotaccent;
+kernLeft = Z;
+kernRight = Z;
+lastChange = "2025-04-01 00:14:54 +0000";
+layers = (
+{
+.lastUpdate = 795054213.479;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (170,189);
+ref = dotaccentcomb;
+}
+);
+width = 600;
+},
+{
+.lastUpdate = 795054213.479;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (152,179);
+ref = dotaccentcomb;
+}
+);
+width = 590;
+},
+{
+.lastUpdate = 795054213.479;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = Z;
+},
+{
+pos = (108,169);
+ref = dotaccentcomb;
+}
+);
+width = 575;
+}
+);
+unicode = 379;
+}

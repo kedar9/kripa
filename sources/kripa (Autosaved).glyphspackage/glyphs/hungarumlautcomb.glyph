@@ -1,0 +1,189 @@
+{
+glyphname = hungarumlautcomb;
+lastChange = "2025-03-31 01:15:56 +0000";
+layers = (
+{
+.lastUpdate = 795054213.556;
+anchors = (
+{
+name = _top;
+pos = (269,536);
+},
+{
+name = top;
+pos = (379,820);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+pos = (678,0);
+ref = gravecomb;
+scale = (-1,1);
+},
+{
+alignment = -1;
+pos = (461,0);
+ref = gravecomb;
+scale = (-1,1);
+}
+);
+width = 678;
+},
+{
+.lastUpdate = 795054213.556;
+anchors = (
+{
+name = _top;
+pos = (196,526);
+},
+{
+name = top;
+pos = (296,790);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+pos = (513,0);
+ref = gravecomb;
+scale = (-1,1);
+},
+{
+alignment = -1;
+pos = (356,0);
+ref = gravecomb;
+scale = (-1,1);
+}
+);
+width = 513;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (298,540);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "B46AEDBD-5DF4-4F7E-84DB-6673ABF1FB60";
+name = "Black Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(490,600,l),
+(606,784,l),
+(443,784,l),
+(339,600,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(281,600,l),
+(397,784,l),
+(234,784,l),
+(130,600,l)
+);
+}
+);
+width = 557;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (240,520);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "0EBC54A8-15C6-46BB-A30D-B04F95430F38";
+name = Italic;
+shapes = (
+{
+closed = 1;
+nodes = (
+(357,580,l),
+(503,730,l),
+(410,730,l),
+(291,580,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(215,580,l),
+(334,730,l),
+(245,730,l),
+(154,580,l)
+);
+}
+);
+width = 489;
+},
+{
+.lastUpdate = 795054213.556;
+anchors = (
+{
+name = _top;
+pos = (160,516);
+},
+{
+name = top;
+pos = (261,790);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+pos = (440,0);
+ref = gravecomb;
+scale = (-1,1);
+},
+{
+alignment = -1;
+pos = (313,0);
+ref = gravecomb;
+scale = (-1,1);
+}
+);
+width = 440;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (228,515);
+}
+);
+associatedMasterId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+layerId = "98EF025F-BD4F-44E2-B72D-FAB084232EEA";
+name = "Extralight Italic";
+shapes = (
+{
+closed = 1;
+nodes = (
+(329,593,l),
+(461,740,l),
+(411,740,l),
+(291,593,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(199,593,l),
+(321,740,l),
+(273,740,l),
+(164,593,l)
+);
+}
+);
+width = 451;
+}
+);
+metricLeft = "=period";
+metricRight = "=period";
+unicode = 779;
+}

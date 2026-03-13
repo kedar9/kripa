@@ -1,0 +1,49 @@
+{
+glyphname = "rra-deva";
+lastChange = "2026-03-13 01:19:42 +0000";
+layers = (
+{
+.lastUpdate = 795057612.136;
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = "ra-deva";
+},
+{
+pos = (49,-31);
+ref = "nukta-deva";
+}
+);
+width = 430;
+},
+{
+.lastUpdate = 795058979.528;
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "ra-deva";
+},
+{
+pos = (24,-40);
+ref = "nukta-deva";
+}
+);
+width = 433;
+},
+{
+.lastUpdate = 795058949.978;
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = "ra-deva";
+},
+{
+pos = (4,-65);
+ref = "nukta-deva";
+}
+);
+width = 455;
+}
+);
+unicode = 2353;
+}
