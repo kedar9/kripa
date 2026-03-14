@@ -2,7 +2,7 @@
 .appVersion = "3414";
 .formatVersion = 3;
 DisplayStrings = (
-"/v-deva  व/v_va-deva"
+"ब/b-deva  व/v-deva  a"
 );
 axes = (
 {
@@ -38,7 +38,7 @@ name = DevaIMatraRephAnusvaras;
 },
 {
 automatic = 1;
-code = "ka-deva kha-deva ga-deva gha-deva nga-deva ca-deva cha-deva ja-deva jha-deva nya-deva tta-deva ttha-deva dda-deva ddha-deva nna-deva ta-deva tha-deva da-deva dha-deva na-deva nnna-deva pa-deva pha-deva ba-deva bha-deva ma-deva ya-deva ra-deva rra-deva la-deva la-deva.loclMAR lla-deva llla-deva va-deva sha-deva sha-deva.loclMAR ssa-deva sa-deva ha-deva qa-deva khha-deva ghha-deva za-deva dddha-deva rha-deva fa-deva yya-deva ka_rVocalicMatra-deva da_rVocalicMatra-deva ra_uMatra-deva ra_uuMatra-deva ha_rVocalicMatra-deva k_ka-deva k_kha-deva k_ca-deva k_ja-deva k_tta-deva k_nna-deva k_ta-deva k_t_ta-deva k_t_ya-deva k_t_va-deva k_tha-deva k_da-deva k_na-deva k_pa-deva k_pha-deva k_ma-deva k_ya-deva k_la-deva k_va-deva k_v_ya-deva k_sha-deva k_ssa-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva k_sa-deva k_s_tta-deva k_s_dda-deva k_s_ta-deva k_s_pa-deva k_s_p_la-deva kh_kha-deva kh_ta-deva kh_na-deva kh_ma-deva kh_ya-deva kh_va-deva kh_sha-deva g_ga-deva g_gha-deva g_ja-deva g_nna-deva g_da-deva g_dha-deva g_dh_ya-deva g_dh_va-deva g_na-deva g_n_ya-deva g_ba-deva g_bha-deva g_bh_ya-deva g_ma-deva g_ya-deva g_la-deva g_va-deva g_sa-deva g_rakar_ya-deva gh_na-deva gh_ma-deva gh_ya-deva c_ca-deva c_cha-deva c_ch_va-deva c_na-deva c_ma-deva c_ya-deva ch_na-deva ch_ya-deva ch_va-deva j_ka-deva j_ja-deva j_j_nya-deva j_j_ya-deva j_j_va-deva j_jha-deva j_nya-deva j_ny_ya-deva j_tta-deva j_dda-deva j_ta-deva j_da-deva j_na-deva j_ba-deva j_ma-deva j_ya-deva j_va-deva jh_na-deva jh_ma-deva jh_ya-deva ny_ca-deva ny_c_ya-deva ny_cha-deva ny_ja-deva ny_j_ya-deva ny_sha-deva tt_tta-deva tt_tt_ya-deva tt_ttha-deva tt_ya-deva tt_ra_uuMatra-deva tt_va-deva tth_ttha-deva tth_tth_ya-deva tth_ya-deva dd_dda-deva dd_dd_ya-deva dd_ddha-deva dd_ya-deva ddh_ddha-deva ddh_ddh_ya-deva ddh_ya-deva nn_tta-deva nn_ttha-deva nn_dda-deva nn_ddha-deva nn_nna-deva nn_ma-deva nn_ya-deva nn_va-deva t_ka-deva t_k_ya-deva t_k_va-deva t_k_ssa-deva t_kha-deva t_kh_na-deva t_ta-deva t_t_ya-deva t_t_va-deva t_tha-deva t_na-deva t_n_ya-deva t_pa-deva t_p_la-deva t_pha-deva t_ma-deva t_m_ya-deva t_ya-deva t_la-deva t_va-deva t_sa-deva t_s_na-deva t_s_ya-deva t_s_va-deva t_rakar_ya-deva th_na-deva th_ya-deva th_va-deva d_da-deva d_d_ya-deva d_dha-deva d_dh_ya-deva d_na-deva d_ba-deva d_ma-deva d_ya-deva d_va-deva d_v_ya-deva d_rakar_ya-deva dh_na-deva dh_n_ya-deva dh_ma-deva dh_ya-deva dh_va-deva n_ka-deva n_k_sa-deva n_ca-deva n_tta-deva n_dda-deva n_ta-deva n_t_ya-deva n_t_sa-deva n_tha-deva n_th_ya-deva n_th_va-deva n_da-deva n_d_va-deva n_dha-deva n_dh_ya-deva n_dh_va-deva n_na-deva n_n_ya-deva n_pa-deva n_pha-deva n_bha-deva n_ma-deva n_m_ya-deva n_ya-deva n_va-deva n_sa-deva n_s_tta-deva n_ha-deva n_h_ya-deva p_ja-deva p_tta-deva p_ta-deva p_t_ya-deva p_na-deva p_pa-deva p_pha-deva p_ma-deva p_ya-deva p_la-deva p_va-deva p_sa-deva p_za-deva ph_ja-deva ph_tta-deva ph_ta-deva ph_na-deva ph_pa-deva ph_pha-deva ph_ya-deva ph_la-deva ph_sha-deva ph_sa-deva b_ja-deva b_j_ya-deva b_ta-deva b_da-deva b_dha-deva b_dh_va-deva b_na-deva b_ba-deva b_bha-deva b_ya-deva b_la-deva b_l_ya-deva b_va-deva b_sha-deva b_sa-deva b_za-deva bh_na-deva bh_ya-deva bh_va-deva bh_rakar_ya-deva m_ta-deva m_da-deva m_na-deva m_pa-deva m_ba-deva m_b_ya-deva m_bha-deva m_ma-deva m_ya-deva m_la-deva m_va-deva m_sha-deva m_sa-deva m_ha-deva y_na-deva y_ya-deva rr_ya-deva rr_ha-deva l_ka-deva l_k_ya-deva l_kha-deva l_ga-deva l_ja-deva l_tta-deva l_ttha-deva l_dda-deva l_ddha-deva l_ta-deva l_tha-deva l_th_ya-deva l_da-deva l_pa-deva l_pha-deva l_ba-deva l_bha-deva l_ma-deva l_ya-deva l_la-deva l_l_ya-deva l_va-deva l_v_dda-deva l_sa-deva l_ha-deva l_h_ya-deva l_za-deva ll_ya-deva v_na-deva v_ya-deva v_la-deva v_va-deva v_ha-deva sh_cha-deva sh_tta-deva sh_ta-deva sh_na-deva sh_ma-deva sh_ya-deva sh_la-deva sh_va-deva sh_sha-deva sh_rakar_ya-deva ss_ka-deva ss_tta-deva ss_tt_ya-deva ss_tt_va-deva ss_ttha-deva ss_tth_ya-deva ss_nna-deva ss_nn_ya-deva ss_pa-deva ss_pha-deva ss_ma-deva ss_m_ya-deva ss_ya-deva ss_va-deva ss_ssa-deva s_ka-deva s_k_va-deva s_kha-deva s_ja-deva s_tta-deva s_ta-deva s_t_ya-deva s_t_va-deva s_tha-deva s_th_ya-deva s_da-deva s_na-deva s_pa-deva s_pha-deva s_ba-deva s_ma-deva s_m_ya-deva s_ya-deva s_la-deva s_va-deva s_sa-deva h_nna-deva h_na-deva h_ma-deva h_m_ya-deva h_ya-deva h_la-deva h_va-deva q_ta-deva q_ba-deva q_ma-deva q_qa-deva q_fa-deva khh_ta-deva khh_ma-deva khh_ya-deva khh_va-deva khh_sha-deva khh_sa-deva z_ya-deva z_za-deva f_ta-deva f_sa-deva f_za-deva f_fa-deva tta_ra_uuMatra-deva";
+code = "ka-deva kha-deva ga-deva gha-deva nga-deva ca-deva cha-deva ja-deva jha-deva nya-deva tta-deva ttha-deva dda-deva ddha-deva nna-deva ta-deva tha-deva da-deva dha-deva na-deva nnna-deva pa-deva pha-deva ba-deva bha-deva ma-deva ya-deva ra-deva rra-deva la-deva la-deva.loclMAR lla-deva llla-deva va-deva sha-deva sha-deva.loclMAR ssa-deva sa-deva ha-deva qa-deva khha-deva ghha-deva za-deva dddha-deva rha-deva fa-deva yya-deva ka_rVocalicMatra-deva da_rVocalicMatra-deva ra_uMatra-deva ra_uuMatra-deva ha_rVocalicMatra-deva k_ka-deva k_kha-deva k_ca-deva k_ja-deva k_tta-deva k_nna-deva k_ta-deva k_t_ta-deva k_t_ya-deva k_t_va-deva k_tha-deva k_da-deva k_na-deva k_pa-deva k_pha-deva k_ma-deva k_ya-deva k_la-deva k_va-deva k_v_ya-deva k_sha-deva k_ssa-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva k_sa-deva k_s_tta-deva k_s_dda-deva k_s_ta-deva k_s_pa-deva k_s_p_la-deva kh_kha-deva kh_ta-deva kh_na-deva kh_ma-deva kh_ya-deva kh_va-deva kh_sha-deva g_ga-deva g_gha-deva g_ja-deva g_nna-deva g_da-deva g_dha-deva g_dh_ya-deva g_dh_va-deva g_na-deva g_n_ya-deva g_ba-deva g_bha-deva g_bh_ya-deva g_ma-deva g_ya-deva g_la-deva g_va-deva g_sa-deva g_rakar_ya-deva gh_na-deva gh_ma-deva gh_ya-deva c_ca-deva c_cha-deva c_ch_va-deva c_na-deva c_ma-deva c_ya-deva ch_na-deva ch_ya-deva ch_va-deva j_ka-deva j_ja-deva j_j_nya-deva j_j_ya-deva j_j_va-deva j_jha-deva j_nya-deva j_ny_ya-deva j_tta-deva j_dda-deva j_ta-deva j_da-deva j_na-deva j_ba-deva j_ma-deva j_ya-deva j_va-deva jh_na-deva jh_ma-deva jh_ya-deva ny_ca-deva ny_c_ya-deva ny_cha-deva ny_ja-deva ny_j_ya-deva ny_sha-deva tt_tta-deva tt_tt_ya-deva tt_ttha-deva tt_ya-deva tt_ra_uuMatra-deva tt_va-deva tth_ttha-deva tth_tth_ya-deva tth_ya-deva dd_dda-deva dd_dd_ya-deva dd_ddha-deva dd_ya-deva ddh_ddha-deva ddh_ddh_ya-deva ddh_ya-deva nn_tta-deva nn_ttha-deva nn_dda-deva nn_nna-deva nn_ma-deva nn_ya-deva nn_va-deva t_ka-deva t_k_ya-deva t_k_va-deva t_k_ssa-deva t_kha-deva t_kh_na-deva t_ta-deva t_t_ya-deva t_t_va-deva t_tha-deva t_na-deva t_n_ya-deva t_pa-deva t_p_la-deva t_pha-deva t_ma-deva t_m_ya-deva t_ya-deva t_la-deva t_va-deva t_sa-deva t_s_na-deva t_s_ya-deva t_s_va-deva t_rakar_ya-deva th_na-deva th_ya-deva th_va-deva d_da-deva d_d_ya-deva d_dha-deva d_dh_ya-deva d_na-deva d_ba-deva d_ma-deva d_ya-deva d_va-deva d_v_ya-deva d_rakar_ya-deva dh_na-deva dh_n_ya-deva dh_ma-deva dh_ya-deva dh_va-deva n_ka-deva n_k_sa-deva n_ca-deva n_tta-deva n_dda-deva n_ta-deva n_t_ya-deva n_t_sa-deva n_tha-deva n_th_ya-deva n_th_va-deva n_da-deva n_d_va-deva n_dha-deva n_dh_ya-deva n_dh_va-deva n_na-deva n_n_ya-deva n_pa-deva n_pha-deva n_bha-deva n_ma-deva n_m_ya-deva n_ya-deva n_va-deva n_sa-deva n_s_tta-deva n_ha-deva n_h_ya-deva p_ja-deva p_tta-deva p_ta-deva p_t_ya-deva p_na-deva p_pa-deva p_pha-deva p_ma-deva p_ya-deva p_la-deva p_va-deva p_sa-deva p_za-deva ph_ja-deva ph_tta-deva ph_ta-deva ph_na-deva ph_pa-deva ph_pha-deva ph_ya-deva ph_la-deva ph_sha-deva ph_sa-deva b_ja-deva b_j_ya-deva b_ta-deva b_da-deva b_dha-deva b_dh_va-deva b_na-deva b_ba-deva b_bha-deva b_ya-deva b_la-deva b_l_ya-deva b_va-deva b_sha-deva b_sa-deva b_za-deva bh_na-deva bh_ya-deva bh_va-deva bh_rakar_ya-deva m_ta-deva m_da-deva m_na-deva m_pa-deva m_ba-deva m_b_ya-deva m_bha-deva m_ma-deva m_ya-deva m_la-deva m_va-deva m_sha-deva m_sa-deva m_ha-deva y_na-deva y_ya-deva rr_ya-deva rr_ha-deva l_ka-deva l_k_ya-deva l_kha-deva l_ga-deva l_ja-deva l_tta-deva l_ttha-deva l_dda-deva l_ddha-deva l_ta-deva l_tha-deva l_th_ya-deva l_da-deva l_pa-deva l_pha-deva l_ba-deva l_bha-deva l_ma-deva l_ya-deva l_la-deva l_l_ya-deva l_va-deva l_v_dda-deva l_sa-deva l_ha-deva l_h_ya-deva l_za-deva ll_ya-deva v_na-deva v_ya-deva v_la-deva v_va-deva v_sa-deva v_ha-deva sh_cha-deva sh_tta-deva sh_ta-deva sh_na-deva sh_ma-deva sh_ya-deva sh_la-deva sh_va-deva sh_sha-deva sh_rakar_ya-deva ss_ka-deva ss_tta-deva ss_tt_ya-deva ss_tt_ra-deva ss_tt_va-deva ss_ttha-deva ss_tth_ya-deva ss_nna-deva ss_nn_ya-deva ss_pa-deva ss_pha-deva ss_ma-deva ss_m_ya-deva ss_ya-deva ss_va-deva ss_ssa-deva s_ka-deva s_k_va-deva s_kha-deva s_ja-deva s_ta-deva s_t_ya-deva s_t_va-deva s_tha-deva s_th_ya-deva s_da-deva s_na-deva s_pa-deva s_pha-deva s_ba-deva s_ma-deva s_m_ya-deva s_ya-deva s_la-deva s_va-deva s_sa-deva h_nna-deva h_na-deva h_ma-deva h_m_ya-deva h_ya-deva h_la-deva h_va-deva q_ta-deva q_ba-deva q_ma-deva q_qa-deva q_fa-deva khh_ta-deva khh_ma-deva khh_ya-deva khh_va-deva khh_sha-deva khh_sa-deva z_ya-deva z_za-deva f_ta-deva f_sa-deva f_za-deva f_fa-deva tta_ra_uuMatra-deva";
 name = DevaFullforms;
 },
 {
@@ -268,7 +268,6 @@ lookup removeReph {
 	sub nn_tta-deva @rephDeva by nn_tta-deva;
 	sub nn_ttha-deva @rephDeva by nn_ttha-deva;
 	sub nn_dda-deva @rephDeva by nn_dda-deva;
-	sub nn_ddha-deva @rephDeva by nn_ddha-deva;
 	sub nn_nna-deva @rephDeva by nn_nna-deva;
 	sub nn_ma-deva @rephDeva by nn_ma-deva;
 	sub nn_ya-deva @rephDeva by nn_ya-deva;
@@ -439,6 +438,7 @@ lookup removeReph {
 	sub v_ya-deva @rephDeva by v_ya-deva;
 	sub v_la-deva @rephDeva by v_la-deva;
 	sub v_va-deva @rephDeva by v_va-deva;
+	sub v_sa-deva @rephDeva by v_sa-deva;
 	sub v_ha-deva @rephDeva by v_ha-deva;
 	sub sh_cha-deva @rephDeva by sh_cha-deva;
 	sub sh_tta-deva @rephDeva by sh_tta-deva;
@@ -453,6 +453,7 @@ lookup removeReph {
 	sub ss_ka-deva @rephDeva by ss_ka-deva;
 	sub ss_tta-deva @rephDeva by ss_tta-deva;
 	sub ss_tt_ya-deva @rephDeva by ss_tt_ya-deva;
+	sub ss_tt_ra-deva @rephDeva by ss_tt_ra-deva;
 	sub ss_tt_va-deva @rephDeva by ss_tt_va-deva;
 	sub ss_ttha-deva @rephDeva by ss_ttha-deva;
 	sub ss_tth_ya-deva @rephDeva by ss_tth_ya-deva;
@@ -469,7 +470,6 @@ lookup removeReph {
 	sub s_k_va-deva @rephDeva by s_k_va-deva;
 	sub s_kha-deva @rephDeva by s_kha-deva;
 	sub s_ja-deva @rephDeva by s_ja-deva;
-	sub s_tta-deva @rephDeva by s_tta-deva;
 	sub s_ta-deva @rephDeva by s_ta-deva;
 	sub s_t_ya-deva @rephDeva by s_t_ya-deva;
 	sub s_t_va-deva @rephDeva by s_t_va-deva;
@@ -1083,6 +1083,7 @@ lookup cjct_devanagari {
 	sub sh_rakar-deva ya-deva by sh_rakar_ya-deva;
 	sub ss-deva m-deva ya-deva by ss_m_ya-deva;
 	sub ss-deva nn-deva ya-deva by ss_nn_ya-deva;
+	sub ss-deva tt-deva rakar-deva by ss_tt_ra-deva;
 	sub ss-deva tt-deva va-deva by ss_tt_va-deva;
 	sub ss-deva tt-deva ya-deva by ss_tt_ya-deva;
 	sub ss-deva tth-deva ya-deva by ss_tth_ya-deva;
@@ -1271,7 +1272,6 @@ lookup cjct_devanagari {
 	sub n-deva va-deva by n_va-deva;
 	sub n-deva ya-deva by n_ya-deva;
 	sub nn-deva dda-deva by nn_dda-deva;
-	sub nn-deva ddha-deva by nn_ddha-deva;
 	sub nn-deva ma-deva by nn_ma-deva;
 	sub nn-deva nna-deva by nn_nna-deva;
 	sub nn-deva tta-deva by nn_tta-deva;
@@ -1324,7 +1324,6 @@ lookup cjct_devanagari {
 	sub s-deva sa-deva by s_sa-deva;
 	sub s-deva ta-deva by s_ta-deva;
 	sub s-deva tha-deva by s_tha-deva;
-	sub s-deva tta-deva by s_tta-deva;
 	sub s-deva va-deva by s_va-deva;
 	sub s-deva ya-deva by s_ya-deva;
 	sub sh-deva cha-deva by sh_cha-deva;
@@ -1370,6 +1369,7 @@ lookup cjct_devanagari {
 	sub v-deva ha-deva by v_ha-deva;
 	sub v-deva la-deva by v_la-deva;
 	sub v-deva na-deva by v_na-deva;
+	sub v-deva sa-deva by v_sa-deva;
 	sub v-deva va-deva by v_va-deva;
 	sub v-deva ya-deva by v_ya-deva;
 	sub y-deva na-deva by y_na-deva;
@@ -1437,24 +1437,24 @@ code = "script dev2;
 
 lookup Imatra2_devanagari {
 	sub [iMatra-deva]' [d_va-deva d_na-deva tt_ttha-deva ddh_ddha-deva ttha_rakar-deva d-deva d_rakar-deva d_ba_rakar-deva d_da-deva tt_va-deva ra-deva tt_tta-deva ddha-deva d_ba-deva da_rVocalicMatra-deva tta_rakar-deva rra-deva da-deva da_rakar-deva ttha-deva rr-deva tt-deva tta-deva rha-deva tth_ttha-deva ddh-deva tth-deva] by [iMatra-deva.0002];
-	sub [iMatra-deva]' [qa-deva k-deva k_t_rakar-deva q_rakar-deva qa_rakar-deva ka_rakar-deva q-deva k_rakar-deva] by [iMatra-deva.0003];
-	sub [iMatra-deva]' [pa-deva ph_rakar-deva q_ta-deva ha-deva ng-deva dda_rakar-deva va_rakar-deva f_rakar-deva f-deva h-deva pa_rakar-deva fa_rakar-deva ssa_rakar-deva dd_dda-deva ssa-deva dda-deva va-deva dd-deva pha_rakar-deva fa-deva dddha-deva dd_ddha-deva] by [iMatra-deva.0004];
+	sub [iMatra-deva]' [qa-deva k-deva k_t_rakar-deva q_rakar-deva qa_rakar-deva ka_rakar-deva q-deva dd_dda-deva k_rakar-deva dd_ddha-deva] by [iMatra-deva.0003];
+	sub [iMatra-deva]' [pa-deva ph_rakar-deva q_ta-deva ha-deva ng-deva dda_rakar-deva va_rakar-deva f_rakar-deva f-deva h-deva pa_rakar-deva fa_rakar-deva ssa_rakar-deva ssa-deva dda-deva va-deva dd-deva pha_rakar-deva fa-deva dddha-deva] by [iMatra-deva.0004];
 	sub [iMatra-deva]' [ga-deva ghha_rakar-deva d_ya_rakar-deva ya-deva ch-deva yya_rakar-deva ta_rakar-deva t_ta-deva ya_rakar-deva ghha-deva ba-deva yya-deva ma_rakar-deva cha-deva ca-deva na_rakar-deva ta-deva nnna-deva d_ya-deva ba_rakar-deva ga_rakar-deva ma-deva ca_rakar-deva bha-deva bha_rakar-deva na-deva] by [iMatra-deva.0005];
-	sub [iMatra-deva]' [llla-deva la-deva.loclMAR d_dha-deva nya-deva dha_rakar-deva dha-deva gha_rakar-deva tha-deva nya_rakar-deva gha-deva tha_rakar-deva lla-deva] by [iMatra-deva.0006];
-	sub [iMatra-deva]' [sha_rakar-deva nna-deva j_nya-deva za_rakar-deva za-deva ja-deva sa-deva ja_rakar-deva nna_rakar-deva k_ssa_rakar-deva k_ssa-deva] by [iMatra-deva.0007];
-	sub [iMatra-deva]' [n_da-deva n_da_rakar-deva ss_ttha-deva jha_rakar-deva n_d_va-deva la_rakar-deva sha-deva p_tta-deva la-deva g_da-deva ss_tta_rakar-deva jha-deva b_da-deva n_tta-deva] by [iMatra-deva.0008];
-	sub [iMatra-deva]' [ss_pa-deva m_da-deva ss_va-deva t_k_rakar-deva ss_pha-deva ss_ssa-deva t_pha-deva sa_rakar-deva v_ha-deva n_ha-deva t_ka-deva ss_ka-deva v_va-deva n_dda-deva p_pha-deva n_pha-deva p_pa-deva] by [iMatra-deva.0009];
-	sub [iMatra-deva]' [t_t_va-deva khha_rakar-deva n_ka-deva t_va-deva nn_ddha-deva p_va-deva t_na-deva p_na-deva p_ma-deva v_ya-deva kha_rakar-deva g_va-deva khha-deva ss_ma-deva g_na-deva nn_ttha-deva n_pa-deva tta_ra_uuMatra-deva b_va-deva kha-deva b_na-deva m_pa-deva v_na-deva n_va-deva m_ha-deva n_na-deva p_ya-deva nn_tta-deva ss_ya-deva t_pa-deva bh_va-deva m_va-deva n_ta-deva] by [iMatra-deva.0010];
-	sub [iMatra-deva]' [gh_na-deva n_dha_rakar-deva l_tta-deva g_gha-deva n_ca-deva b_ba-deva m_ta-deva n_dha-deva b_ya-deva l_ttha-deva t_ma-deva g_ga-deva b_dha-deva n_ya-deva l_ddha-deva g_dha-deva p_ta-deva sh_tta-deva c_na-deva n_bha-deva l_da-deva m_ba-deva b_bha-deva y_ya-deva g_ma-deva g_bha-deva t_ya-deva t_t_ya-deva s_da-deva b_ta-deva n_ma-deva y_na-deva bh_na-deva g_ba-deva m_na-deva s_tta-deva g_ya-deva] by [iMatra-deva.0011];
-	sub [iMatra-deva]' [c_ya-deva m_ma-deva l_pha-deva gh_ma-deva th_va-deva th_na-deva s_pa-deva nn_dda-deva bh_rakar_ya-deva nn_va-deva dh_ya-deva n_tha-deva s_va-deva bh_ya-deva c_ma-deva m_ya-deva l_ka-deva gh_ya-deva g_rakar_ya-deva ss_nna-deva rr_ha-deva dh_va-deva dh_na-deva c_ca-deva k_s_tta-deva t_tha-deva l_dda-deva c_cha-deva s_ka-deva s_pha-deva dh_ma-deva m_bha-deva j_ka-deva] by [iMatra-deva.0012];
-	sub [iMatra-deva]' [nn_ya-deva s_ba-deva l_ga-deva n_sa-deva s_ya-deva k_pa-deva sh_ta-deva b_ja-deva l_va-deva ny_ca-deva n_h_ya-deva sh_rakar_ya-deva m_sa-deva t_la-deva l_ta-deva p_la-deva k_ss_va-deva g_nna-deva ny_cha-deva t_k_ssa-deva t_sa-deva s_na-deva p_sa-deva nn_ma-deva j_va-deva rr_ya-deva p_za-deva s_ma-deva g_la-deva p_ja-deva k_pha-deva s_ta-deva g_sa-deva th_ya-deva s_ta_rakar-deva k_s_dda-deva tt_tt_ya-deva sh_na-deva g_ja-deva l_pa-deva ph_sa-deva l_ha-deva v_la-deva d_va_rakar-deva b_sa-deva] by [iMatra-deva.0013];
-	sub [iMatra-deva]' [k_ss_ya-deva sh_ma-deva d_v_ya-deva m_sha-deva dd_dd_ya-deva j_ba-deva k_s_ta-deva jh_na-deva m_la-deva ph_tta-deva l_ma-deva jh_ma-deva j_ny_ya-deva sh_ya-deva ddh_ddh_ya-deva s_tha-deva k_s_pa-deva k_ss_ma-deva b_sha-deva l_bha-deva l_ba-deva l_ya-deva jh_ya-deva k_t_ta-deva b_la-deva d_ga_rakar-deva sh_cha-deva] by [iMatra-deva.0014];
-	sub [iMatra-deva]' [b_j_ya-deva ny_sha-deva s_ja-deva n_m_ya-deva t_s_ya-deva dh_n_ya-deva l_th_ya-deva s_m_ya-deva nn_nna-deva ph_ja-deva g_n_ya-deva n_t_sa-deva t_n_ya-deva j_ja-deva ph_pha-deva m_b_ya-deva j_j_ya-deva ph_ya-deva sh_la-deva k_s_p_la-deva c_ch_va-deva p_t_ya-deva t_p_la-deva kh_ya-deva ph_sha-deva n_k_sa-deva n_s_tta-deva t_k_va-deva ny_ja-deva t_s_na-deva k_t_ya-deva ph_pa-deva g_dh_va-deva s_th_ya-deva n_dh_ya-deva l_v_dda-deva ch_va-deva n_th_va-deva kh_sha-deva ch_na-deva t_s_va-deva t_m_ya-deva n_t_ya-deva j_j_nya-deva l_la-deva s_t_ya-deva s_kha-deva g_bh_ya-deva l_h_ya-deva j_j_va-deva sh_sha-deva l_l_ya-deva l_sa-deva l_tha-deva ph_na-deva ss_m_ya-deva b_l_ya-deva tth_tth_ya-deva l_kha-deva ch_ya_rakar-deva ll_ya-deva kh_na-deva k_ta_rakar-deva k_t_va-deva h_m_ya-deva l_ja-deva t_kh_na-deva n_dh_va-deva n_n_ya-deva k_v_ya-deva kh_ma-deva s_la-deva t_k_ya-deva s_t_va-deva k_ca-deva l_k_ya-deva ph_ta-deva s_k_va-deva ph_la-deva s_sa-deva ny_j_ya-deva t_kha-deva ss_nn_ya-deva ny_c_ya-deva g_dh_ya-deva ch_ya-deva b_dh_va-deva n_th_ya-deva j_jha-deva] by [iMatra-deva.0015];
+	sub [iMatra-deva]' [llla-deva la-deva.loclMAR d_dha-deva nya-deva dha_rakar-deva dha-deva gha_rakar-deva tha-deva nya_rakar-deva gha-deva tha_rakar-deva lla-deva k_ssa-deva] by [iMatra-deva.0006];
+	sub [iMatra-deva]' [sha_rakar-deva nna-deva j_nya-deva za_rakar-deva za-deva ja-deva sa-deva ja_rakar-deva sha-deva nna_rakar-deva k_ssa_rakar-deva] by [iMatra-deva.0007];
+	sub [iMatra-deva]' [n_da-deva n_da_rakar-deva ss_ttha-deva ss_tt_ra-deva jha_rakar-deva n_d_va-deva la_rakar-deva ss_tt_va-deva p_tta-deva la-deva g_da-deva ss_tta_rakar-deva jha-deva n_tta-deva] by [iMatra-deva.0008];
+	sub [iMatra-deva]' [ss_pa-deva m_da-deva ss_va-deva t_k_rakar-deva ss_pha-deva ss_ssa-deva t_pha-deva sa_rakar-deva n_ha-deva t_ka-deva ss_ka-deva n_dda-deva p_pha-deva n_pha-deva p_pa-deva b_da-deva] by [iMatra-deva.0009];
+	sub [iMatra-deva]' [t_t_va-deva khha_rakar-deva n_ka-deva t_va-deva p_va-deva t_na-deva p_na-deva p_ma-deva g_ga-deva kha_rakar-deva n_ya-deva g_va-deva khha-deva ss_ma-deva g_na-deva nn_ttha-deva n_pa-deva tta_ra_uuMatra-deva y_ya-deva b_va-deva kha-deva v_va-deva m_pa-deva n_va-deva m_ha-deva n_na-deva t_ya-deva p_ya-deva t_t_ya-deva nn_tta-deva ss_ya-deva t_pa-deva bh_va-deva y_na-deva m_va-deva n_ta-deva g_ya-deva] by [iMatra-deva.0010];
+	sub [iMatra-deva]' [gh_na-deva c_ya-deva n_dha_rakar-deva l_tta-deva g_gha-deva n_ca-deva b_ba-deva m_ta-deva n_dha-deva l_ttha-deva t_ma-deva b_dha-deva bh_rakar_ya-deva l_ddha-deva g_dha-deva p_ta-deva sh_tta-deva dh_ya-deva c_na-deva n_bha-deva l_da-deva m_ba-deva bh_ya-deva b_bha-deva g_ma-deva m_ya-deva gh_ya-deva g_bha-deva g_rakar_ya-deva rr_ha-deva s_da-deva b_ta-deva n_ma-deva bh_na-deva g_ba-deva m_na-deva] by [iMatra-deva.0011];
+	sub [iMatra-deva]' [m_ma-deva l_pha-deva gh_ma-deva th_va-deva th_na-deva nn_dda-deva nn_va-deva k_ss_va-deva n_tha-deva t_k_ssa-deva c_ma-deva l_ka-deva rr_ya-deva ss_nna-deva th_ya-deva dh_va-deva dh_na-deva c_ca-deva k_s_tta-deva t_tha-deva l_dda-deva c_cha-deva s_ka-deva s_pha-deva dh_ma-deva m_bha-deva j_ka-deva] by [iMatra-deva.0012];
+	sub [iMatra-deva]' [nn_ya-deva k_ss_ya-deva s_ba-deva l_ga-deva d_v_ya-deva b_za-deva n_sa-deva s_ya-deva dd_dd_ya-deva k_pa-deva sh_ta-deva l_va-deva ny_ca-deva n_h_ya-deva s_pa-deva sh_rakar_ya-deva m_sa-deva j_ny_ya-deva t_la-deva l_ta-deva p_la-deva g_nna-deva ny_cha-deva sh_ya-deva s_va-deva t_sa-deva s_na-deva p_sa-deva ddh_ddh_ya-deva nn_ma-deva j_va-deva p_za-deva k_ss_ma-deva g_la-deva b_sha-deva p_ja-deva k_pha-deva s_ta-deva g_sa-deva l_ya-deva s_ta_rakar-deva k_s_dda-deva tt_tt_ya-deva sh_na-deva g_ja-deva l_pa-deva ph_sa-deva l_ha-deva d_va_rakar-deva] by [iMatra-deva.0013];
+	sub [iMatra-deva]' [sh_ma-deva m_sha-deva j_ba-deva k_s_ta-deva jh_na-deva m_la-deva ph_tta-deva l_ma-deva jh_ma-deva tth_tth_ya-deva k_s_pa-deva s_ma-deva l_bha-deva l_ba-deva jh_ya-deva k_t_ta-deva d_ga_rakar-deva sh_cha-deva] by [iMatra-deva.0014];
+	sub [iMatra-deva]' [ny_sha-deva s_ja-deva n_m_ya-deva t_s_ya-deva dh_n_ya-deva l_th_ya-deva s_m_ya-deva nn_nna-deva ph_ja-deva g_n_ya-deva n_t_sa-deva t_n_ya-deva j_ja-deva ph_pha-deva m_b_ya-deva j_j_ya-deva ph_ya-deva sh_la-deva k_s_p_la-deva c_ch_va-deva p_t_ya-deva t_p_la-deva ss_tt_ya-deva kh_ya-deva ph_sha-deva n_k_sa-deva n_s_tta-deva t_k_va-deva ny_ja-deva t_s_na-deva k_t_ya-deva ph_pa-deva g_dh_va-deva s_th_ya-deva n_dh_ya-deva l_v_dda-deva ch_va-deva n_th_va-deva kh_sha-deva ch_na-deva t_s_va-deva t_m_ya-deva n_t_ya-deva j_j_nya-deva ss_tth_ya-deva l_la-deva s_t_ya-deva s_kha-deva g_bh_ya-deva l_h_ya-deva j_j_va-deva sh_sha-deva l_l_ya-deva l_sa-deva s_tha-deva l_tha-deva ph_na-deva ss_m_ya-deva b_l_ya-deva l_kha-deva ch_ya_rakar-deva ll_ya-deva kh_na-deva l_za-deva k_ta_rakar-deva k_t_va-deva h_m_ya-deva l_ja-deva t_kh_na-deva n_dh_va-deva n_n_ya-deva k_v_ya-deva kh_ma-deva s_la-deva t_k_ya-deva s_t_va-deva k_ca-deva l_k_ya-deva ph_ta-deva s_k_va-deva ph_la-deva s_sa-deva ny_j_ya-deva t_kha-deva ss_nn_ya-deva ny_c_ya-deva g_dh_ya-deva ch_ya-deva b_dh_va-deva n_th_ya-deva j_jha-deva] by [iMatra-deva.0015];
 } Imatra2_devanagari;
 
 lookup Iimatra_devanagari {
 	lookupflag IgnoreMarks;
-	sub [nn_ya-deva b_j_ya-deva ny_sha-deva gh_na-deva c_ya-deva ss_pa-deva n_dha_rakar-deva n_da-deva l_tta-deva d_va-deva s_ja-deva n_m_ya-deva k_ss_ya-deva t_s_ya-deva sha_rakar-deva n_da_rakar-deva ss_ttha-deva sh_ma-deva d_na-deva dh_n_ya-deva l_th_ya-deva s_ba-deva ga-deva s_m_ya-deva l_ga-deva nn_nna-deva ph_ja-deva ghha_rakar-deva m_ma-deva g_n_ya-deva d_v_ya-deva g_gha-deva n_t_sa-deva t_t_va-deva n_sa-deva t_n_ya-deva khha_rakar-deva s_ya-deva nna-deva m_sha-deva j_ja-deva dd_dd_ya-deva t_va-deva d_ya_rakar-deva pa-deva k_pa-deva gh_ma-deva sh_ta-deva m_b_ya-deva j_j_ya-deva la-deva.loclMAR b_ja-deva nn_ddha-deva p_va-deva j_ba-deva t_na-deva l_va-deva tt_ttha-deva ph_ya-deva n_ca-deva k_s_ta-deva p_na-deva b_ba-deva sh_la-deva th_va-deva ddh_ddha-deva k_s_p_la-deva c_ch_va-deva ha-deva ng-deva ttha_rakar-deva p_t_ya-deva m_ta-deva jh_na-deva ny_ca-deva ya-deva th_na-deva t_p_la-deva d_dha-deva nya-deva m_la-deva n_dha-deva b_ya-deva kh_ya-deva dha_rakar-deva m_da-deva j_nya-deva ss_va-deva l_ttha-deva ph_sha-deva n_h_ya-deva ch-deva s_pa-deva d-deva nn_dda-deva t_k_rakar-deva k-deva n_s_tta-deva t_k_va-deva t_ma-deva p_ma-deva ny_ja-deva g_ga-deva t_s_na-deva ph_tta-deva l_ma-deva d_rakar-deva d_ba_rakar-deva za_rakar-deva sh_rakar_ya-deva k_t_ya-deva ph_pa-deva v_ya-deva b_dha-deva g_dh_va-deva za-deva kha_rakar-deva m_sa-deva s_th_ya-deva jh_ma-deva d_da-deva bh_rakar_ya-deva n_dh_ya-deva dha-deva dda_rakar-deva n_ya-deva ss_ssa-deva l_v_dda-deva ch_va-deva tt_va-deva yya_rakar-deva va_rakar-deva l_ddha-deva n_th_va-deva ra-deva kh_sha-deva ch_na-deva ta_rakar-deva j_ny_ya-deva t_s_va-deva g_va-deva khha-deva t_ta-deva t_m_ya-deva gha_rakar-deva nn_va-deva ya_rakar-deva ghha-deva g_dha-deva p_ta-deva ss_ma-deva sh_tta-deva dh_ya-deva g_na-deva tha-deva t_la-deva n_t_ya-deva l_ta-deva c_na-deva n_bha-deva p_la-deva ja-deva j_j_nya-deva l_la-deva k_ss_va-deva tt_tta-deva s_t_ya-deva s_kha-deva g_bh_ya-deva l_da-deva n_tha-deva q_rakar-deva nn_ttha-deva sa_rakar-deva g_nna-deva ba-deva l_h_ya-deva ny_cha-deva nya_rakar-deva j_j_va-deva sa-deva n_pa-deva v_ha-deva sh_ya-deva m_ba-deva s_va-deva ddha-deva t_k_ssa-deva sh_sha-deva bh_ya-deva yya-deva t_sa-deva n_ha-deva b_bha-deva s_na-deva y_ya-deva l_l_ya-deva p_sa-deva ddh_ddh_ya-deva g_ma-deva l_sa-deva ma_rakar-deva s_tha-deva c_ma-deva nn_ma-deva jha_rakar-deva n_d_va-deva h-deva m_ya-deva l_tha-deva ph_na-deva pa_rakar-deva ss_m_ya-deva cha-deva d_ba-deva j_va-deva ca-deva gh_ya-deva rr_ya-deva g_bha-deva gha-deva na_rakar-deva da_rVocalicMatra-deva b_l_ya-deva tth_tth_ya-deva b_va-deva ta-deva kha-deva tta_rakar-deva k_s_pa-deva l_kha-deva rra-deva la_rakar-deva ch_ya_rakar-deva ll_ya-deva b_na-deva p_za-deva nnna-deva kh_na-deva d_ya-deva s_ma-deva k_ss_ma-deva ja_rakar-deva k_ta_rakar-deva sha-deva k_t_va-deva p_tta-deva la-deva g_la-deva b_sha-deva p_ja-deva l_bha-deva h_m_ya-deva g_da-deva l_ja-deva v_va-deva ssa_rakar-deva q-deva m_pa-deva t_kh_na-deva da-deva l_ba-deva da_rakar-deva v_na-deva dd_dda-deva n_va-deva k_rakar-deva m_ha-deva n_dda-deva g_rakar_ya-deva n_dh_va-deva ba_rakar-deva n_na-deva t_ya-deva ssa-deva s_ta-deva ss_tta_rakar-deva p_ya-deva n_n_ya-deva t_t_ya-deva ga_rakar-deva k_v_ya-deva g_sa-deva l_ya-deva kh_ma-deva s_la-deva ma-deva ttha-deva ss_nna-deva jh_ya-deva rr_ha-deva t_k_ya-deva th_ya-deva s_t_va-deva dh_va-deva s_da-deva k_ca-deva l_k_ya-deva ph_ta-deva nn_tta-deva tha_rakar-deva ca_rakar-deva s_k_va-deva nna_rakar-deva dh_na-deva c_ca-deva bha-deva ph_la-deva k_s_tta-deva bha_rakar-deva t_tha-deva l_dda-deva s_ta_rakar-deva dda-deva va-deva dd-deva ss_ya-deva rr-deva jha-deva c_cha-deva b_ta-deva tt-deva n_ma-deva tta-deva s_sa-deva k_t_ta-deva b_la-deva k_s_dda-deva ny_j_ya-deva t_kha-deva k_ssa_rakar-deva na-deva t_pa-deva rha-deva bh_va-deva p_pa-deva b_da-deva tt_tt_ya-deva sh_na-deva ss_nn_ya-deva ny_c_ya-deva g_ja-deva g_dh_ya-deva n_tta-deva l_pa-deva y_na-deva bh_na-deva m_va-deva g_ba-deva l_ha-deva dh_ma-deva tth_ttha-deva ch_ya-deva k_ssa-deva ddh-deva b_dh_va-deva m_na-deva n_th_ya-deva m_bha-deva d_ga_rakar-deva v_la-deva n_ta-deva sh_cha-deva dddha-deva j_jha-deva tth-deva d_va_rakar-deva b_sa-deva dd_ddha-deva s_tta-deva g_ya-deva] [iiMatra-deva]' by [iiMatra-deva.0001];
+	sub [nn_ya-deva ny_sha-deva gh_na-deva c_ya-deva ss_pa-deva n_dha_rakar-deva n_da-deva l_tta-deva d_va-deva s_ja-deva n_m_ya-deva k_ss_ya-deva t_s_ya-deva sha_rakar-deva n_da_rakar-deva ss_ttha-deva sh_ma-deva d_na-deva dh_n_ya-deva l_th_ya-deva s_ba-deva ga-deva s_m_ya-deva l_ga-deva nn_nna-deva ph_ja-deva ghha_rakar-deva m_ma-deva g_n_ya-deva d_v_ya-deva g_gha-deva b_za-deva n_t_sa-deva t_t_va-deva n_sa-deva t_n_ya-deva khha_rakar-deva s_ya-deva nna-deva m_sha-deva j_ja-deva dd_dd_ya-deva t_va-deva d_ya_rakar-deva pa-deva k_pa-deva gh_ma-deva sh_ta-deva m_b_ya-deva j_j_ya-deva la-deva.loclMAR p_va-deva j_ba-deva t_na-deva l_va-deva tt_ttha-deva ph_ya-deva n_ca-deva k_s_ta-deva p_na-deva b_ba-deva sh_la-deva th_va-deva ddh_ddha-deva k_s_p_la-deva c_ch_va-deva ha-deva ng-deva ttha_rakar-deva p_t_ya-deva m_ta-deva jh_na-deva ny_ca-deva ya-deva th_na-deva t_p_la-deva ss_tt_ra-deva d_dha-deva nya-deva ss_tt_ya-deva m_la-deva n_dha-deva kh_ya-deva dha_rakar-deva m_da-deva j_nya-deva ss_va-deva l_ttha-deva ph_sha-deva n_h_ya-deva ch-deva s_pa-deva d-deva nn_dda-deva t_k_rakar-deva k-deva n_s_tta-deva t_k_va-deva t_ma-deva p_ma-deva ny_ja-deva g_ga-deva t_s_na-deva ph_tta-deva l_ma-deva d_rakar-deva d_ba_rakar-deva za_rakar-deva sh_rakar_ya-deva k_t_ya-deva ph_pa-deva b_dha-deva g_dh_va-deva za-deva kha_rakar-deva m_sa-deva s_th_ya-deva jh_ma-deva d_da-deva bh_rakar_ya-deva n_dh_ya-deva dha-deva dda_rakar-deva n_ya-deva ss_ssa-deva l_v_dda-deva ch_va-deva tt_va-deva yya_rakar-deva va_rakar-deva l_ddha-deva n_th_va-deva ra-deva kh_sha-deva ch_na-deva ta_rakar-deva j_ny_ya-deva t_s_va-deva g_va-deva khha-deva t_ta-deva t_m_ya-deva gha_rakar-deva nn_va-deva ya_rakar-deva ghha-deva g_dha-deva p_ta-deva ss_ma-deva sh_tta-deva dh_ya-deva g_na-deva tha-deva t_la-deva n_t_ya-deva l_ta-deva c_na-deva n_bha-deva p_la-deva ja-deva j_j_nya-deva ss_tth_ya-deva l_la-deva k_ss_va-deva tt_tta-deva s_t_ya-deva s_kha-deva g_bh_ya-deva l_da-deva n_tha-deva q_rakar-deva nn_ttha-deva sa_rakar-deva g_nna-deva ba-deva l_h_ya-deva ny_cha-deva nya_rakar-deva j_j_va-deva sa-deva n_pa-deva sh_ya-deva s_va-deva m_ba-deva ddha-deva t_k_ssa-deva sh_sha-deva bh_ya-deva yya-deva t_sa-deva n_ha-deva b_bha-deva s_na-deva y_ya-deva l_l_ya-deva p_sa-deva ddh_ddh_ya-deva g_ma-deva l_sa-deva ma_rakar-deva s_tha-deva c_ma-deva nn_ma-deva jha_rakar-deva n_d_va-deva h-deva m_ya-deva l_tha-deva ph_na-deva pa_rakar-deva ss_m_ya-deva cha-deva d_ba-deva j_va-deva ca-deva gh_ya-deva rr_ya-deva g_bha-deva gha-deva na_rakar-deva da_rVocalicMatra-deva b_l_ya-deva tth_tth_ya-deva b_va-deva ta-deva kha-deva tta_rakar-deva k_s_pa-deva l_kha-deva rra-deva la_rakar-deva ch_ya_rakar-deva ll_ya-deva p_za-deva nnna-deva kh_na-deva ss_tt_va-deva d_ya-deva l_za-deva s_ma-deva k_ss_ma-deva ja_rakar-deva k_ta_rakar-deva sha-deva k_t_va-deva p_tta-deva la-deva g_la-deva b_sha-deva p_ja-deva l_bha-deva h_m_ya-deva g_da-deva l_ja-deva v_va-deva ssa_rakar-deva q-deva m_pa-deva t_kh_na-deva da-deva l_ba-deva da_rakar-deva dd_dda-deva n_va-deva k_rakar-deva m_ha-deva n_dda-deva g_rakar_ya-deva n_dh_va-deva ba_rakar-deva n_na-deva t_ya-deva ssa-deva s_ta-deva ss_tta_rakar-deva p_ya-deva n_n_ya-deva t_t_ya-deva ga_rakar-deva k_v_ya-deva g_sa-deva l_ya-deva kh_ma-deva s_la-deva ma-deva ttha-deva ss_nna-deva jh_ya-deva rr_ha-deva t_k_ya-deva th_ya-deva s_t_va-deva dh_va-deva s_da-deva k_ca-deva l_k_ya-deva ph_ta-deva nn_tta-deva tha_rakar-deva ca_rakar-deva s_k_va-deva nna_rakar-deva dh_na-deva c_ca-deva bha-deva ph_la-deva k_s_tta-deva bha_rakar-deva t_tha-deva l_dda-deva s_ta_rakar-deva dda-deva va-deva dd-deva ss_ya-deva rr-deva jha-deva c_cha-deva b_ta-deva tt-deva n_ma-deva tta-deva s_sa-deva k_t_ta-deva k_s_dda-deva ny_j_ya-deva t_kha-deva k_ssa_rakar-deva na-deva t_pa-deva rha-deva bh_va-deva p_pa-deva b_da-deva tt_tt_ya-deva sh_na-deva ss_nn_ya-deva ny_c_ya-deva g_ja-deva g_dh_ya-deva n_tta-deva l_pa-deva y_na-deva bh_na-deva m_va-deva g_ba-deva l_ha-deva dh_ma-deva tth_ttha-deva ch_ya-deva k_ssa-deva ddh-deva b_dh_va-deva m_na-deva n_th_ya-deva m_bha-deva d_ga_rakar-deva n_ta-deva sh_cha-deva dddha-deva j_jha-deva tth-deva d_va_rakar-deva dd_ddha-deva g_ya-deva] [iiMatra-deva]' by [iiMatra-deva.0001];
 	sub [llla-deva ph_rakar-deva f_rakar-deva f-deva lla-deva] [iiMatra-deva]' by [iiMatra-deva.0002];
 	sub [l_pha-deva ph_pha-deva n_ka-deva q_ta-deva qa-deva ss_pha-deva t_pha-deva qa_rakar-deva tta_ra_uuMatra-deva t_ka-deva l_ka-deva ka_rakar-deva ss_ka-deva k_pha-deva fa_rakar-deva p_pha-deva n_pha-deva pha_rakar-deva s_ka-deva s_pha-deva fa-deva j_ka-deva] [iiMatra-deva]' by [iiMatra-deva.0003];
 } Iimatra_devanagari;
@@ -2117,7 +2117,7 @@ name = mark;
 pos = (-1000,640);
 },
 {
-pos = (437,141);
+pos = (447,141);
 },
 {
 angle = 90;
@@ -37248,7 +37248,7 @@ unicode = 960;
 },
 {
 glyphname = "a-deva";
-lastChange = "2025-08-14 01:44:12 +0000";
+lastChange = "2026-03-13 21:44:56 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -37311,17 +37311,17 @@ shapes = (
 closed = 1;
 nodes = (
 (557,209,o),
-(646,224,o),
-(667,231,c),
-(667,362,l),
-(610,342,o),
+(616,224,o),
+(637,231,c),
+(637,362,l),
+(580,342,o),
 (553,339,o),
 (487,342,c),
 (508,219,l)
 );
 },
 {
-pos = (572,0);
+pos = (542,0);
 ref = "aamatra-cut-deva.comp";
 },
 {
@@ -37329,7 +37329,7 @@ pos = (20,0);
 ref = "_a-deva.component";
 }
 );
-width = 887;
+width = 857;
 }
 );
 metricLeft = "=20";
@@ -37373,11 +37373,11 @@ shapes = (
 ref = "a-deva";
 },
 {
-pos = (281,-20);
+pos = (251,-20);
 ref = "eCandraMatra-deva";
 }
 );
-width = 887;
+width = 857;
 }
 );
 unicode = 2418;
@@ -37419,11 +37419,11 @@ shapes = (
 ref = "a-deva";
 },
 {
-pos = (366,-20);
+pos = (336,-20);
 ref = "eShortMatra-deva";
 }
 );
-width = 887;
+width = 857;
 }
 );
 unicode = 2308;
@@ -57821,7 +57821,7 @@ metricRight = "=-110";
 },
 {
 glyphname = "tta-deva";
-lastChange = "2026-03-08 03:43:45 +0000";
+lastChange = "2026-03-13 19:56:14 +0000";
 layers = (
 {
 anchors = (
@@ -57839,7 +57839,7 @@ pos = (99,0);
 },
 {
 name = top;
-pos = (327,536);
+pos = (325,536);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -58475,25 +58475,25 @@ width = 599;
 },
 {
 glyphname = "ddha-deva";
-lastChange = "2026-03-10 00:43:14 +0000";
+lastChange = "2026-03-14 01:55:24 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (277,0);
+pos = (267,0);
 },
 {
 name = candra;
-pos = (436,536);
+pos = (325,536);
 },
 {
 name = nukta;
-pos = (277,-59);
+pos = (267,-59);
 },
 {
 name = top;
-pos = (327,536);
+pos = (307,536);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -58501,61 +58501,74 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(396,60,o),
-(480,125,o),
-(480,211,cs),
-(480,289,o),
-(422,348,o),
-(345,348,cs),
-(238,348,o),
-(182,277,o),
-(204,196,c),
-(254,186,l),
-(233,247,o),
-(266,303,o),
-(343,303,cs),
-(393,303,o),
-(430,265,o),
-(430,215,cs),
-(430,156,o),
-(375,109,o),
-(296,106,c),
-(277,106,l),
-(277,60,l)
+(267,106,l),
+(149,106,o),
+(69,176,o),
+(69,277,c),
+(69,383,o),
+(166,456,o),
+(331,456,c),
+(331,627,l),
+(512,627,l),
+(512,672,l),
+(-20,672,l),
+(-20,627,l),
+(282,627,l),
+(282,501,l),
+(117,491,o),
+(20,402,o),
+(20,279,cs),
+(20,152,o),
+(127,60,o),
+(267,60,c)
 );
-},
-{
-ref = "_t-comp.deva";
 },
 {
 closed = 1;
 nodes = (
-(517,627,l),
-(517,672,l),
-(368,672,l),
-(368,627,l)
+(386,60,o),
+(475,125,o),
+(475,211,cs),
+(475,289,o),
+(422,348,o),
+(345,348,cs),
+(239,348,o),
+(182,257,o),
+(207,164,c),
+(261,152,l),
+(236,230,o),
+(265,303,o),
+(343,303,cs),
+(393,303,o),
+(425,265,o),
+(425,215,cs),
+(425,156,o),
+(375,109,o),
+(296,106,c),
+(267,106,l),
+(267,60,l)
 );
 }
 );
-width = 497;
+width = 492;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (291,0);
+pos = (276,0);
 },
 {
 name = candra;
-pos = (466,546);
+pos = (371,546);
 },
 {
 name = nukta;
-pos = (295,-85);
+pos = (280,-85);
 },
 {
 name = top;
-pos = (357,546);
+pos = (342,546);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -58563,61 +58576,74 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(413,31,o),
-(505,98,o),
-(505,186,cs),
-(505,271,o),
-(443,335,o),
-(360,335,cs),
-(269,335,o),
-(190,278,o),
-(219,182,c),
-(292,167,l),
-(272,229,o),
-(314,259,o),
-(359,259,cs),
-(397,259,o),
-(425,230,o),
-(425,191,cs),
-(425,143,o),
-(374,105,o),
-(305,103,c),
-(291,103,l),
-(291,30,l)
+(277,103,l),
+(170,103,o),
+(97,159,o),
+(97,255,cs),
+(97,362,o),
+(199,426,o),
+(372,426,c),
+(372,602,l),
+(535,602,l),
+(535,672,l),
+(-20,672,l),
+(-20,602,l),
+(292,602,l),
+(292,495,l),
+(120,485,o),
+(18,388,o),
+(18,260,cs),
+(18,115,o),
+(120,30,o),
+(277,30,c)
 );
-},
-{
-ref = "_t-comp.deva";
 },
 {
 closed = 1;
 nodes = (
-(555,602,l),
-(555,672,l),
-(411,672,l),
-(411,602,l)
+(404,31,o),
+(500,102,o),
+(500,196,cs),
+(500,281,o),
+(438,345,o),
+(355,345,cs),
+(244,345,o),
+(175,270,o),
+(199,168,c),
+(284,149,l),
+(264,231,o),
+(291,271,o),
+(353,271,cs),
+(391,271,o),
+(420,241,o),
+(420,201,cs),
+(420,147,o),
+(369,105,o),
+(300,103,c),
+(276,103,l),
+(276,30,l)
 );
 }
 );
-width = 535;
+width = 515;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (314,-40);
+pos = (320,-40);
 },
 {
 name = candra;
-pos = (526,556);
+pos = (432,556);
 },
 {
 name = nukta;
-pos = (313,-147);
+pos = (319,-147);
 },
 {
 name = top;
-pos = (359,556);
+pos = (355,556);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -58625,43 +58651,56 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(467,-10,o),
-(567,69,o),
-(567,187,cs),
-(567,271,o),
-(500,330,o),
-(410,330,cs),
-(326,330,o),
-(214,292,o),
-(247,180,c),
-(356,157,l),
-(349,196,o),
-(368,225,o),
-(402,225,cs),
-(425,225,o),
-(442,210,o),
-(442,189,cs),
-(442,155,o),
-(406,128,o),
-(358,127,c),
-(314,127,l),
-(314,-10,l)
+(321,127,l),
+(246,127,o),
+(192,154,o),
+(192,237,cs),
+(192,327,o),
+(281,371,o),
+(432,372,c),
+(432,556,l),
+(607,556,l),
+(607,672,l),
+(-20,672,l),
+(-20,556,l),
+(278,556,l),
+(278,484,l),
+(126,464,o),
+(36,371,o),
+(36,232,cs),
+(36,80,o),
+(148,-10,o),
+(321,-10,c)
 );
-},
-{
-ref = "_t-comp.deva";
 },
 {
 closed = 1;
 nodes = (
-(611,556,l),
-(611,672,l),
-(437,672,l),
-(437,556,l)
+(465,-10,o),
+(574,76,o),
+(573,177,cs),
+(572,270,o),
+(506,330,o),
+(416,330,cs),
+(310,330,o),
+(223,292,o),
+(244,166,c),
+(340,144,l),
+(332,200,o),
+(370,235,o),
+(408,235,cs),
+(437,235,o),
+(458,215,o),
+(458,189,cs),
+(458,155,o),
+(418,128,o),
+(364,127,c),
+(320,127,l),
+(320,-10,l)
 );
 }
 );
-width = 591;
+width = 587;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -58679,11 +58718,11 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (258,-20);
+pos = (248,-20);
 ref = "halant-deva";
 }
 );
-width = 497;
+width = 492;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -58692,11 +58731,11 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (260,-20);
+pos = (245,-20);
 ref = "halant-deva";
 }
 );
-width = 535;
+width = 515;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -58705,11 +58744,11 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (258,-60);
+pos = (264,-60);
 ref = "halant-deva";
 }
 );
-width = 591;
+width = 587;
 }
 );
 },
@@ -62326,18 +62365,18 @@ shapes = (
 ref = "v-deva";
 },
 {
-pos = (352,0);
+pos = (338,0);
 ref = "aaMatra-deva";
 }
 );
-width = 647;
+width = 633;
 }
 );
 unicode = 2357;
 },
 {
 glyphname = "v-deva";
-lastChange = "2026-03-13 02:08:07 +0000";
+lastChange = "2026-03-14 02:02:35 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -62475,7 +62514,7 @@ nodes = (
 );
 }
 );
-width = 352;
+width = 338;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -62990,7 +63029,7 @@ metricRight = "=p-deva";
 },
 {
 glyphname = "sa-deva";
-lastChange = "2026-03-13 01:16:15 +0000";
+lastChange = "2026-03-13 21:38:29 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -62999,6 +63038,7 @@ shapes = (
 ref = "s-deva";
 },
 {
+alignment = -1;
 pos = (468,0);
 ref = "aaMatra-deva";
 }
@@ -63032,11 +63072,13 @@ ref = "aaMatra-deva";
 width = 765;
 }
 );
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva";
 unicode = 2360;
 },
 {
 glyphname = "s-deva";
-lastChange = "2026-03-06 03:19:19 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 anchors = (
@@ -63082,8 +63124,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(566,627,l),
-(566,672,l),
+(576,627,l),
+(576,672,l),
 (-20,672,l),
 (-20,627,l)
 );
@@ -63093,7 +63135,7 @@ pos = (60,0);
 ref = _r.leg;
 }
 );
-width = 468;
+width = 488;
 },
 {
 anchors = (
@@ -63214,7 +63256,7 @@ metricLeft = "=aaMatra-deva";
 },
 {
 glyphname = "ha-deva";
-lastChange = "2026-03-13 00:27:53 +0000";
+lastChange = "2026-03-13 21:43:50 +0000";
 layers = (
 {
 anchors = (
@@ -63240,31 +63282,31 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(405,-78,l),
-(405,-33,l),
-(354,-33,ls),
-(181,-33,o),
-(87,27,o),
-(84,128,c),
-(34,128,l),
-(37,-2,o),
-(149,-78,o),
-(354,-78,cs)
+(395,-78,l),
+(395,-33,l),
+(344,-33,ls),
+(171,-33,o),
+(77,27,o),
+(74,128,c),
+(24,128,l),
+(27,-2,o),
+(139,-78,o),
+(344,-78,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(443,94,l),
-(443,175,ls),
-(443,261,o),
-(356,326,o),
-(247,326,c),
-(247,281,l),
-(329,281,o),
-(394,236,o),
-(394,175,cs),
-(394,84,l)
+(433,94,l),
+(433,175,ls),
+(433,261,o),
+(346,326,o),
+(237,326,c),
+(237,281,l),
+(319,281,o),
+(384,236,o),
+(384,175,cs),
+(384,84,l)
 );
 },
 {
@@ -63272,7 +63314,7 @@ pos = (-20,0);
 ref = "_h-top-deva.comp";
 }
 );
-width = 522;
+width = 512;
 },
 {
 anchors = (
@@ -63298,31 +63340,31 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(447,-103,l),
-(447,-33,l),
-(396,-33,ls),
-(224,-33,o),
-(130,18,o),
-(127,122,c),
-(48,122,l),
-(51,-26,o),
-(174,-103,o),
-(396,-103,cs)
+(427,-103,l),
+(427,-33,l),
+(376,-33,ls),
+(204,-33,o),
+(110,18,o),
+(107,122,c),
+(28,122,l),
+(31,-26,o),
+(154,-103,o),
+(376,-103,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(490,65,l),
-(490,153,l),
-(490,248,o),
-(405,320,o),
-(287,320,c),
-(287,250,l),
-(357,250,o),
-(413,208,o),
-(413,153,c),
-(413,49,l)
+(470,65,l),
+(470,153,l),
+(470,248,o),
+(385,320,o),
+(267,320,c),
+(267,250,l),
+(337,250,o),
+(393,208,o),
+(393,153,c),
+(393,49,l)
 );
 },
 {
@@ -63330,7 +63372,7 @@ pos = (-20,0);
 ref = "_h-top-deva.comp";
 }
 );
-width = 545;
+width = 525;
 },
 {
 anchors = (
@@ -63356,31 +63398,31 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(497,-179,l),
-(497,-53,l),
-(403,-53,ls),
-(262,-53,o),
-(177,-12,o),
-(174,58,c),
-(19,58,l),
-(22,-85,o),
-(164,-179,o),
-(403,-179,cs)
+(497,-169,l),
+(497,-43,l),
+(403,-43,ls),
+(262,-43,o),
+(177,-2,o),
+(174,68,c),
+(19,68,l),
+(22,-75,o),
+(164,-169,o),
+(403,-169,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(554,53,l),
-(554,113,l),
-(554,218,o),
-(449,296,o),
-(280,296,c),
-(280,175,l),
-(364,175,o),
-(398,144,o),
-(398,103,c),
-(398,20,l)
+(544,53,l),
+(544,113,l),
+(544,218,o),
+(439,296,o),
+(270,296,c),
+(270,175,l),
+(354,175,o),
+(388,144,o),
+(388,103,c),
+(388,20,l)
 );
 },
 {
@@ -63388,7 +63430,7 @@ pos = (-20,0);
 ref = "_h-top-deva.comp";
 }
 );
-width = 594;
+width = 584;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -63411,7 +63453,7 @@ pos = (296,-106);
 ref = "halant-deva";
 }
 );
-width = 522;
+width = 512;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -63425,7 +63467,7 @@ pos = (315,-148);
 ref = "halant-deva";
 }
 );
-width = 545;
+width = 525;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -63439,7 +63481,7 @@ pos = (320,-213);
 ref = "halant-deva";
 }
 );
-width = 594;
+width = 584;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -63860,11 +63902,11 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (227,-90);
+pos = (217,-90);
 ref = "nukta-deva";
 }
 );
-width = 497;
+width = 492;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -63873,11 +63915,11 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (240,-125);
+pos = (225,-125);
 ref = "nukta-deva";
 }
 );
-width = 535;
+width = 515;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -63886,11 +63928,11 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (238,-212);
+pos = (244,-212);
 ref = "nukta-deva";
 }
 );
-width = 591;
+width = 587;
 }
 );
 unicode = 2397;
@@ -67361,7 +67403,7 @@ pos = (983,0);
 ref = "va-deva";
 }
 );
-width = 1630;
+width = 1616;
 }
 );
 metricLeft = "k-deva";
@@ -68188,11 +68230,11 @@ pos = (643,0);
 ref = "v-deva";
 },
 {
-pos = (995,0);
+pos = (981,0);
 ref = "ya-deva";
 }
 );
-width = 1688;
+width = 1674;
 }
 );
 metricLeft = "k-deva";
@@ -68275,7 +68317,7 @@ metricRight = "sha-deva";
 {
 color = 4;
 glyphname = "k_ssa-deva";
-lastChange = "2026-03-13 01:30:03 +0000";
+lastChange = "2026-03-13 21:20:32 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -68284,14 +68326,27 @@ shapes = (
 ref = "k_ss-deva";
 },
 {
-pos = (488,0);
+pos = (448,0);
 ref = "aamatra-small-cut-deva.comp";
 }
 );
-width = 718;
+width = 678;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "k_ss-deva";
+},
+{
+pos = (466,0);
+ref = "aamatra-small-cut-deva.comp";
+}
+);
+width = 726;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
 ref = "k_ss-deva";
@@ -68301,20 +68356,7 @@ pos = (506,0);
 ref = "aamatra-small-cut-deva.comp";
 }
 );
-width = 766;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = "k_ss-deva";
-},
-{
-pos = (566,0);
-ref = "aamatra-small-cut-deva.comp";
-}
-);
-width = 861;
+width = 801;
 }
 );
 metricLeft = "k-deva";
@@ -68368,7 +68410,7 @@ width = 881;
 {
 color = 4;
 glyphname = "k_ss-deva";
-lastChange = "2025-06-05 02:56:51 +0000";
+lastChange = "2026-03-13 21:20:32 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -68376,39 +68418,39 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(265,123,l),
-(169,123,o),
-(112,165,o),
-(112,237,cs),
-(112,283,o),
-(167,340,o),
-(261,389,c),
-(345,353,o),
-(473,339,o),
-(568,376,c),
-(568,422,l),
-(487,387,o),
-(375,392,o),
-(310,416,c),
-(219,416,l),
-(119,367,o),
-(60,300,o),
-(60,236,cs),
-(60,136,o),
-(136,77,o),
-(265,77,c)
+(225,123,l),
+(129,123,o),
+(72,165,o),
+(72,237,cs),
+(72,283,o),
+(127,340,o),
+(221,389,c),
+(305,353,o),
+(433,339,o),
+(528,376,c),
+(528,422,l),
+(447,387,o),
+(335,392,o),
+(270,416,c),
+(179,416,l),
+(79,367,o),
+(20,300,o),
+(20,236,cs),
+(20,136,o),
+(96,77,o),
+(225,77,c)
 );
 },
 {
-pos = (265,17);
+pos = (225,17);
 ref = "_right-tail.deva";
 },
 {
-pos = (123,0);
+pos = (83,0);
 ref = "_circle-head.deva";
 }
 );
-width = 488;
+width = 448;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -68416,39 +68458,39 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(253,129,l),
-(183,129,o),
-(141,162,o),
-(141,218,cs),
-(141,273,o),
-(207,328,o),
-(269,356,c),
-(360,317,o),
-(497,312,o),
-(586,343,c),
-(586,416,l),
-(529,390,o),
-(408,381,o),
-(338,399,c),
-(208,399,l),
-(134,366,o),
-(60,299,o),
-(60,225,cs),
-(60,119,o),
-(132,56,o),
-(253,56,c)
+(213,129,l),
+(143,129,o),
+(101,162,o),
+(101,218,cs),
+(101,273,o),
+(167,328,o),
+(229,356,c),
+(320,317,o),
+(457,312,o),
+(546,343,c),
+(546,416,l),
+(489,390,o),
+(368,381,o),
+(298,399,c),
+(168,399,l),
+(94,366,o),
+(20,299,o),
+(20,225,cs),
+(20,119,o),
+(92,56,o),
+(213,56,c)
 );
 },
 {
-pos = (253,26);
+pos = (213,26);
 ref = "_right-tail.deva";
 },
 {
-pos = (116,0);
+pos = (76,0);
 ref = "_circle-head.deva";
 }
 );
-width = 506;
+width = 466;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -68456,42 +68498,42 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(324,137,l),
-(256,137,o),
-(216,160,o),
-(216,198,cs),
-(216,241,o),
-(276,286,o),
-(325,299,c),
-(430,264,o),
-(567,265,o),
-(646,302,c),
-(646,416,l),
-(611,401,o),
-(485,367,o),
-(437,377,c),
-(231,377,l),
-(156,358,o),
-(60,282,o),
-(60,194,cs),
-(60,72,o),
-(158,0,o),
-(324,0,c)
+(264,137,l),
+(209,137,o),
+(176,160,o),
+(176,198,cs),
+(176,250,o),
+(222,288,o),
+(265,299,c),
+(370,264,o),
+(507,265,o),
+(586,302,c),
+(586,416,l),
+(551,401,o),
+(405,367,o),
+(357,377,c),
+(151,377,l),
+(76,336,o),
+(20,258,o),
+(20,194,cs),
+(20,72,o),
+(111,0,o),
+(264,0,c)
 );
 },
 {
-pos = (324,0);
+pos = (264,0);
 ref = "_right-tail.deva";
 },
 {
-pos = (133,0);
+pos = (59,0);
 ref = "_circle-head.deva";
 }
 );
-width = 566;
+width = 506;
 }
 );
-metricLeft = "=aaMatra-deva*-3";
+metricLeft = "=aaMatra-deva*-1";
 metricRight = "=aaMatra-deva*4";
 },
 {
@@ -68505,14 +68547,27 @@ shapes = (
 ref = "k_ss-deva";
 },
 {
-pos = (488,0);
+pos = (448,0);
 ref = "ma-deva";
 }
 );
-width = 1098;
+width = 1058;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "k_ss-deva";
+},
+{
+pos = (466,0);
+ref = "ma-deva";
+}
+);
+width = 1118;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
 ref = "k_ss-deva";
@@ -68522,20 +68577,7 @@ pos = (506,0);
 ref = "ma-deva";
 }
 );
-width = 1158;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = "k_ss-deva";
-},
-{
-pos = (566,0);
-ref = "ma-deva";
-}
-);
-width = 1276;
+width = 1216;
 }
 );
 metricLeft = "k-deva";
@@ -68552,14 +68594,27 @@ shapes = (
 ref = "k_ss-deva";
 },
 {
-pos = (488,0);
+pos = (448,0);
 ref = "ya-deva";
 }
 );
-width = 1065;
+width = 1025;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "k_ss-deva";
+},
+{
+pos = (466,0);
+ref = "ya-deva";
+}
+);
+width = 1099;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
 ref = "k_ss-deva";
@@ -68569,20 +68624,7 @@ pos = (506,0);
 ref = "ya-deva";
 }
 );
-width = 1139;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = "k_ss-deva";
-},
-{
-pos = (566,0);
-ref = "ya-deva";
-}
-);
-width = 1259;
+width = 1199;
 }
 );
 metricLeft = "k-deva";
@@ -68599,14 +68641,27 @@ shapes = (
 ref = "k_ss-deva";
 },
 {
-pos = (488,0);
+pos = (448,0);
 ref = "va-deva";
 }
 );
-width = 1036;
+width = 996;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = "k_ss-deva";
+},
+{
+pos = (466,0);
+ref = "va-deva";
+}
+);
+width = 1050;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
 ref = "k_ss-deva";
@@ -68616,20 +68671,7 @@ pos = (506,0);
 ref = "va-deva";
 }
 );
-width = 1090;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = "k_ss-deva";
-},
-{
-pos = (566,0);
-ref = "va-deva";
-}
-);
-width = 1213;
+width = 1139;
 }
 );
 metricLeft = "k-deva";
@@ -68792,65 +68834,6 @@ width = 1388;
 );
 metricLeft = "k-deva";
 metricRight = "sa-deva";
-},
-{
-glyphname = "k_s_tta-deva";
-lastChange = "2026-03-07 20:02:23 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = "k-deva";
-},
-{
-pos = (303,0);
-ref = "s-deva";
-},
-{
-pos = (552,0);
-ref = "tta-deva";
-}
-);
-width = 1023;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = "k-deva";
-},
-{
-pos = (300,0);
-ref = "s-deva";
-},
-{
-pos = (562,0);
-ref = "tta-deva";
-}
-);
-width = 1087;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = "k-deva";
-},
-{
-pos = (323,0);
-ref = "s-deva";
-},
-{
-pos = (643,0);
-ref = "tta-deva";
-}
-);
-width = 1195;
-}
-);
-metricLeft = "k-deva";
-metricRight = "tta-deva";
 },
 {
 glyphname = "k_s_dda-deva";
@@ -70144,7 +70127,7 @@ pos = (835,0);
 ref = "va-deva";
 }
 );
-width = 1482;
+width = 1468;
 }
 );
 metricLeft = "g-deva";
@@ -70591,7 +70574,7 @@ pos = (366,0);
 ref = "va-deva";
 }
 );
-width = 1013;
+width = 999;
 }
 );
 metricLeft = "g-deva";
@@ -71077,7 +71060,7 @@ pos = (1215,0);
 ref = "va-deva";
 }
 );
-width = 1862;
+width = 1848;
 }
 );
 metricLeft = "c-deva";
@@ -71453,7 +71436,7 @@ pos = (802,0);
 ref = "va-deva";
 }
 );
-width = 1449;
+width = 1435;
 }
 );
 metricLeft = "ch-deva";
@@ -71710,7 +71693,7 @@ pos = (1058,0);
 ref = "va-deva";
 }
 );
-width = 1705;
+width = 1691;
 }
 );
 metricLeft = "j-deva";
@@ -72801,7 +72784,7 @@ pos = (529,0);
 ref = "va-deva";
 }
 );
-width = 1176;
+width = 1162;
 }
 );
 metricLeft = "j-deva";
@@ -74993,7 +74976,7 @@ metricRight = "ya-deva";
 },
 {
 glyphname = "ddh_ya-deva";
-lastChange = "2026-03-13 01:36:32 +0000";
+lastChange = "2026-03-13 02:34:06 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -75023,8 +75006,8 @@ closed = 1;
 nodes = (
 (466,456,l),
 (466,501,l),
-(340,501,l),
-(340,456,l)
+(330,501,l),
+(330,456,l)
 );
 }
 );
@@ -75058,8 +75041,8 @@ closed = 1;
 nodes = (
 (523,426,l),
 (523,496,l),
-(380,496,l),
-(380,426,l)
+(360,496,l),
+(360,426,l)
 );
 }
 );
@@ -75093,8 +75076,8 @@ closed = 1;
 nodes = (
 (581,372,l),
 (581,488,l),
-(428,488,l),
-(428,372,l)
+(418,488,l),
+(418,372,l)
 );
 }
 );
@@ -75102,7 +75085,7 @@ width = 1284;
 }
 );
 metricLeft = "=aaMatra-deva";
-metricRight = "ya-deva";
+metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "nn_tta-deva";
@@ -75243,53 +75226,6 @@ width = 1129;
 );
 metricLeft = "nn-deva";
 metricRight = "dda-deva";
-},
-{
-glyphname = "nn_ddha-deva";
-lastChange = "2024-08-27 01:19:31 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = "nn-deva";
-},
-{
-pos = (455,0);
-ref = "ddha-deva";
-}
-);
-width = 952;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = "nn-deva";
-},
-{
-pos = (500,0);
-ref = "ddha-deva";
-}
-);
-width = 1035;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = "nn-deva";
-},
-{
-pos = (530,0);
-ref = "ddha-deva";
-}
-);
-width = 1121;
-}
-);
-metricLeft = "nn-deva";
-metricRight = "ddha-deva";
 },
 {
 glyphname = "nn_nna-deva";
@@ -75470,7 +75406,7 @@ pos = (530,0);
 ref = "va-deva";
 }
 );
-width = 1177;
+width = 1163;
 }
 );
 metricLeft = "nn-deva";
@@ -75685,7 +75621,7 @@ pos = (983,0);
 ref = "va-deva";
 }
 );
-width = 1630;
+width = 1616;
 }
 );
 metricLeft = "t-deva";
@@ -75706,7 +75642,7 @@ pos = (330,0);
 ref = "k_ssa-deva";
 }
 );
-width = 1048;
+width = 1008;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -75719,7 +75655,7 @@ pos = (330,0);
 ref = "k_ssa-deva";
 }
 );
-width = 1096;
+width = 1056;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -75732,7 +75668,7 @@ pos = (340,0);
 ref = "k_ssa-deva";
 }
 );
-width = 1201;
+width = 1141;
 }
 );
 metricLeft = "t-deva";
@@ -76214,7 +76150,7 @@ pos = (400,0);
 ref = "va-deva";
 }
 );
-width = 1047;
+width = 1033;
 }
 );
 metricLeft = "t-deva";
@@ -76767,7 +76703,7 @@ pos = (340,0);
 ref = "va-deva";
 }
 );
-width = 987;
+width = 973;
 }
 );
 metricLeft = "t-deva";
@@ -76835,7 +76771,7 @@ pos = (330,0);
 ref = "s_na-deva";
 }
 );
-width = 1368;
+width = 1388;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -76869,7 +76805,7 @@ metricRight = "na-deva";
 },
 {
 glyphname = "t_s_ya-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -76882,11 +76818,11 @@ pos = (330,0);
 ref = "s-deva";
 },
 {
-pos = (798,0);
+pos = (818,0);
 ref = "ya-deva";
 }
 );
-width = 1375;
+width = 1395;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -76928,7 +76864,7 @@ metricRight = "ya-deva";
 },
 {
 glyphname = "t_s_va-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -76941,11 +76877,11 @@ pos = (330,0);
 ref = "s-deva";
 },
 {
-pos = (798,0);
+pos = (818,0);
 ref = "va-deva";
 }
 );
-width = 1346;
+width = 1366;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -76979,7 +76915,7 @@ pos = (810,0);
 ref = "va-deva";
 }
 );
-width = 1457;
+width = 1443;
 }
 );
 metricLeft = "t-deva";
@@ -77227,7 +77163,7 @@ pos = (452,0);
 ref = "va-deva";
 }
 );
-width = 1099;
+width = 1085;
 }
 );
 metricLeft = "th-deva";
@@ -80125,7 +80061,7 @@ pos = (797,0);
 ref = "va-deva";
 }
 );
-width = 1444;
+width = 1430;
 }
 );
 metricLeft = "n-deva";
@@ -80494,7 +80430,7 @@ pos = (814,0);
 ref = "va-deva";
 }
 );
-width = 1461;
+width = 1447;
 }
 );
 metricLeft = "n-deva";
@@ -80994,7 +80930,7 @@ pos = (345,0);
 ref = "va-deva";
 }
 );
-width = 992;
+width = 978;
 }
 );
 metricLeft = "n-deva";
@@ -81049,7 +80985,7 @@ metricRight = "sa-deva";
 },
 {
 glyphname = "n_s_tta-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -81062,11 +80998,11 @@ pos = (320,0);
 ref = "s-deva";
 },
 {
-pos = (788,0);
+pos = (808,0);
 ref = "tta-deva";
 }
 );
-width = 1259;
+width = 1279;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -81121,7 +81057,7 @@ pos = (320,0);
 ref = "ha-deva";
 }
 );
-width = 842;
+width = 832;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -81134,7 +81070,7 @@ pos = (312,0);
 ref = "ha-deva";
 }
 );
-width = 857;
+width = 837;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -81147,7 +81083,7 @@ pos = (345,0);
 ref = "ha-deva";
 }
 );
-width = 939;
+width = 929;
 }
 );
 metricLeft = "n-deva";
@@ -81168,7 +81104,7 @@ pos = (320,0);
 ref = "h_ya-deva";
 }
 );
-width = 1024;
+width = 1014;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -81181,7 +81117,7 @@ pos = (312,0);
 ref = "h_ya-deva";
 }
 );
-width = 1066;
+width = 1046;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -81194,7 +81130,7 @@ pos = (345,0);
 ref = "h_ya-deva";
 }
 );
-width = 1204;
+width = 1174;
 }
 );
 metricLeft = "n-deva";
@@ -81781,7 +81717,7 @@ pos = (333,0);
 ref = "va-deva";
 }
 );
-width = 980;
+width = 966;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -81979,7 +81915,7 @@ metricRight = "ja-deva";
 },
 {
 glyphname = "ph_tta-deva";
-lastChange = "2025-12-11 20:55:51 +0000";
+lastChange = "2026-03-13 21:46:15 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -81988,11 +81924,12 @@ shapes = (
 ref = "ph-deva";
 },
 {
-pos = (659,0);
+alignment = -1;
+pos = (507,0);
 ref = "tta-deva";
 }
 );
-width = 1130;
+width = 978;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -82001,11 +81938,12 @@ shapes = (
 ref = "ph-deva";
 },
 {
-pos = (696,0);
+alignment = -1;
+pos = (577,0);
 ref = "tta-deva";
 }
 );
-width = 1221;
+width = 1102;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -82014,15 +81952,16 @@ shapes = (
 ref = "ph-deva";
 },
 {
-pos = (747,0);
+alignment = -1;
+pos = (657,0);
 ref = "tta-deva";
 }
 );
-width = 1299;
+width = 1209;
 }
 );
-metricLeft = "ph-deva";
-metricRight = "tta-deva";
+metricLeft = "=aaMatra-deva";
+metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "ph_ta-deva";
@@ -83265,7 +83204,7 @@ pos = (382,0);
 ref = "va-deva";
 }
 );
-width = 1029;
+width = 1015;
 }
 );
 metricLeft = "b-deva";
@@ -83610,7 +83549,7 @@ pos = (405,0);
 ref = "va-deva";
 }
 );
-width = 1052;
+width = 1038;
 }
 );
 metricLeft = "bh-deva";
@@ -84236,7 +84175,7 @@ pos = (415,0);
 ref = "va-deva";
 }
 );
-width = 1062;
+width = 1048;
 }
 );
 metricLeft = "m-deva";
@@ -84351,7 +84290,7 @@ pos = (360,0);
 ref = "ha-deva";
 }
 );
-width = 882;
+width = 872;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -84364,7 +84303,7 @@ pos = (372,0);
 ref = "ha-deva";
 }
 );
-width = 917;
+width = 897;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -84377,7 +84316,7 @@ pos = (415,0);
 ref = "ha-deva";
 }
 );
-width = 1009;
+width = 999;
 }
 );
 metricLeft = "m-deva";
@@ -84638,7 +84577,7 @@ pos = (430,0);
 ref = "ha-deva";
 }
 );
-width = 952;
+width = 942;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -84651,7 +84590,7 @@ pos = (433,0);
 ref = "ha-deva";
 }
 );
-width = 978;
+width = 958;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -84664,7 +84603,7 @@ pos = (455,0);
 ref = "ha-deva";
 }
 );
-width = 1049;
+width = 1039;
 }
 );
 metricLeft = "rr-deva";
@@ -85073,7 +85012,7 @@ pos = (495,0);
 ref = "ddha-deva";
 }
 );
-width = 992;
+width = 987;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -85086,7 +85025,7 @@ pos = (487,0);
 ref = "ddha-deva";
 }
 );
-width = 1022;
+width = 1002;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -85099,7 +85038,7 @@ pos = (513,0);
 ref = "ddha-deva";
 }
 );
-width = 1104;
+width = 1100;
 }
 );
 metricLeft = "l-deva";
@@ -85744,7 +85683,7 @@ pos = (513,0);
 ref = "va-deva";
 }
 );
-width = 1160;
+width = 1146;
 }
 );
 metricLeft = "l-deva";
@@ -85799,11 +85738,11 @@ pos = (513,0);
 ref = "v-deva";
 },
 {
-pos = (865,0);
+pos = (851,0);
 ref = "dda-deva";
 }
 );
-width = 1464;
+width = 1450;
 }
 );
 metricLeft = "l-deva";
@@ -85869,7 +85808,7 @@ pos = (495,0);
 ref = "ha-deva";
 }
 );
-width = 1017;
+width = 1007;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -85882,7 +85821,7 @@ pos = (487,0);
 ref = "ha-deva";
 }
 );
-width = 1032;
+width = 1012;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -85895,7 +85834,7 @@ pos = (513,0);
 ref = "ha-deva";
 }
 );
-width = 1107;
+width = 1097;
 }
 );
 metricLeft = "l-deva";
@@ -85916,7 +85855,7 @@ pos = (495,0);
 ref = "h_ya-deva";
 }
 );
-width = 1199;
+width = 1189;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -85929,7 +85868,7 @@ pos = (487,0);
 ref = "h_ya-deva";
 }
 );
-width = 1241;
+width = 1221;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -85942,7 +85881,7 @@ pos = (513,0);
 ref = "h_ya-deva";
 }
 );
-width = 1372;
+width = 1342;
 }
 );
 metricLeft = "l-deva";
@@ -88159,7 +88098,7 @@ pos = (342,0);
 ref = "va-deva";
 }
 );
-width = 989;
+width = 975;
 }
 );
 metricLeft = "ss-deva";
@@ -88264,7 +88203,7 @@ metricRight = "=p-deva";
 },
 {
 glyphname = "s_ka-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88273,11 +88212,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ka-deva";
 }
 );
-width = 1225;
+width = 1245;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88311,7 +88250,7 @@ metricRight = "ka-deva";
 },
 {
 glyphname = "s_k_va-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88320,15 +88259,15 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "k-deva";
 },
 {
-pos = (1020,0);
+pos = (1040,0);
 ref = "va-deva";
 }
 );
-width = 1568;
+width = 1588;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88362,7 +88301,7 @@ pos = (1113,0);
 ref = "va-deva";
 }
 );
-width = 1760;
+width = 1746;
 }
 );
 metricLeft = "s-deva";
@@ -88388,7 +88327,7 @@ width = 600;
 },
 {
 glyphname = "s_kha-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88397,11 +88336,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "kha-deva";
 }
 );
-width = 1360;
+width = 1380;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88435,7 +88374,7 @@ metricRight = "kha-deva";
 },
 {
 glyphname = "s_ja-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88444,11 +88383,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ja-deva";
 }
 );
-width = 1203;
+width = 1223;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88481,55 +88420,8 @@ metricLeft = "s-deva";
 metricRight = "ja-deva";
 },
 {
-glyphname = "s_tta-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = "s-deva";
-},
-{
-pos = (468,0);
-ref = "tta-deva";
-}
-);
-width = 939;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = "s-deva";
-},
-{
-pos = (468,0);
-ref = "tta-deva";
-}
-);
-width = 993;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = "s-deva";
-},
-{
-pos = (470,0);
-ref = "tta-deva";
-}
-);
-width = 1022;
-}
-);
-metricLeft = "s-deva";
-metricRight = "tta-deva";
-},
-{
 glyphname = "s_ta-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88538,11 +88430,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ta-deva";
 }
 );
-width = 1048;
+width = 1068;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88576,7 +88468,7 @@ metricRight = "ta-deva";
 },
 {
 glyphname = "s_ta_rakar-deva";
-lastChange = "2025-08-13 19:45:27 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88585,11 +88477,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ta_rakar-deva";
 }
 );
-width = 1057;
+width = 1077;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88623,7 +88515,7 @@ metricRight = "ra-deva";
 },
 {
 glyphname = "s_t_ya-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88632,15 +88524,15 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "t-deva";
 },
 {
-pos = (798,0);
+pos = (818,0);
 ref = "ya-deva";
 }
 );
-width = 1375;
+width = 1395;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88682,7 +88574,7 @@ metricRight = "ya-deva";
 },
 {
 glyphname = "s_t_va-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88691,15 +88583,15 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "t-deva";
 },
 {
-pos = (798,0);
+pos = (818,0);
 ref = "va-deva";
 }
 );
-width = 1346;
+width = 1366;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88733,7 +88625,7 @@ pos = (810,0);
 ref = "va-deva";
 }
 );
-width = 1457;
+width = 1443;
 }
 );
 metricLeft = "s-deva";
@@ -88741,7 +88633,7 @@ metricRight = "va-deva";
 },
 {
 glyphname = "s_t_rakar-deva";
-lastChange = "2025-08-13 19:48:33 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88750,11 +88642,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "t_rakar-deva";
 }
 );
-width = 807;
+width = 827;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88786,7 +88678,7 @@ width = 853;
 },
 {
 glyphname = "s_tha-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88795,11 +88687,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "tha-deva";
 }
 );
-width = 1121;
+width = 1141;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88833,7 +88725,7 @@ metricRight = "tha-deva";
 },
 {
 glyphname = "s_th_ya-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88842,15 +88734,15 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "th-deva";
 },
 {
-pos = (891,0);
+pos = (911,0);
 ref = "ya-deva";
 }
 );
-width = 1468;
+width = 1488;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88892,7 +88784,7 @@ metricRight = "ya-deva";
 },
 {
 glyphname = "s_da-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88901,11 +88793,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "da-deva";
 }
 );
-width = 970;
+width = 990;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88939,7 +88831,7 @@ metricRight = "da-deva";
 },
 {
 glyphname = "s_na-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88948,11 +88840,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "na-deva";
 }
 );
-width = 1038;
+width = 1058;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -88986,7 +88878,7 @@ metricRight = "na-deva";
 },
 {
 glyphname = "s_pa-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -88995,11 +88887,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "pa-deva";
 }
 );
-width = 1014;
+width = 1034;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89033,7 +88925,7 @@ metricRight = "pa-deva";
 },
 {
 glyphname = "s_pha-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89042,11 +88934,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "pha-deva";
 }
 );
-width = 1229;
+width = 1249;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89080,7 +88972,7 @@ metricRight = "pha-deva";
 },
 {
 glyphname = "s_ba-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89089,11 +88981,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ba-deva";
 }
 );
-width = 1056;
+width = 1076;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89127,7 +89019,7 @@ metricRight = "ba-deva";
 },
 {
 glyphname = "s_ma-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89136,11 +89028,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ma-deva";
 }
 );
-width = 1078;
+width = 1098;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89174,7 +89066,7 @@ metricRight = "ma-deva";
 },
 {
 glyphname = "s_m_ya-deva";
-lastChange = "2026-01-31 01:36:25 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89183,15 +89075,15 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "m-deva";
 },
 {
-pos = (828,0);
+pos = (848,0);
 ref = "ya-deva";
 }
 );
-width = 1405;
+width = 1425;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89233,7 +89125,7 @@ metricRight = "ya-deva";
 },
 {
 glyphname = "s_ya-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89242,11 +89134,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ya-deva";
 }
 );
-width = 1045;
+width = 1065;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89280,7 +89172,7 @@ metricRight = "ya-deva";
 },
 {
 glyphname = "s_la-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89289,11 +89181,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "la-deva";
 }
 );
-width = 1213;
+width = 1233;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89327,7 +89219,7 @@ metricRight = "la-deva";
 },
 {
 glyphname = "s_va-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89336,11 +89228,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "va-deva";
 }
 );
-width = 1016;
+width = 1036;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89366,7 +89258,7 @@ pos = (470,0);
 ref = "va-deva";
 }
 );
-width = 1117;
+width = 1103;
 }
 );
 metricLeft = "s-deva";
@@ -89374,7 +89266,7 @@ metricRight = "va-deva";
 },
 {
 glyphname = "s_sa-deva";
-lastChange = "2025-06-12 00:32:34 +0000";
+lastChange = "2026-03-13 21:38:29 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89383,11 +89275,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "sa-deva";
 }
 );
-width = 1186;
+width = 1206;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89881,15 +89773,15 @@ shapes = (
 ref = "h-deva";
 },
 {
-pos = (522,0);
+pos = (512,0);
 ref = "m-deva";
 },
 {
-pos = (882,0);
+pos = (872,0);
 ref = "ya-deva";
 }
 );
-width = 1459;
+width = 1449;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -89898,15 +89790,15 @@ shapes = (
 ref = "h-deva";
 },
 {
-pos = (545,0);
+pos = (525,0);
 ref = "m-deva";
 },
 {
-pos = (917,0);
+pos = (897,0);
 ref = "ya-deva";
 }
 );
-width = 1550;
+width = 1530;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -89915,15 +89807,15 @@ shapes = (
 ref = "h-deva";
 },
 {
-pos = (594,0);
+pos = (584,0);
 ref = "m-deva";
 },
 {
-pos = (1009,0);
+pos = (999,0);
 ref = "ya-deva";
 }
 );
-width = 1702;
+width = 1692;
 }
 );
 metricLeft = "h-deva";
@@ -89931,7 +89823,7 @@ metricRight = "ya-deva";
 },
 {
 glyphname = "h_ya-deva";
-lastChange = "2026-03-12 21:17:02 +0000";
+lastChange = "2026-03-13 21:44:08 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -89939,48 +89831,109 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(478,20,o),
-(549,48,o),
-(588,85,c),
-(566,127,l),
-(527,88,o),
-(476,65,o),
-(419,65,cs),
-(378,65,o),
-(305,73,o),
-(299,135,c),
-(269,97,l),
-(366,106,o),
-(423,160,o),
-(423,214,cs),
-(421,281,o),
-(355,326,o),
-(247,326,c),
-(247,281,l),
-(325,281,o),
-(372,253,o),
-(374,214,cs),
-(374,183,o),
-(326,143,o),
-(244,131,c),
-(266,49,o),
-(356,20,o),
-(416,20,cs)
+(468,20,o),
+(539,48,o),
+(578,85,c),
+(556,127,l),
+(517,88,o),
+(466,65,o),
+(409,65,cs),
+(368,65,o),
+(295,73,o),
+(289,135,c),
+(259,97,l),
+(356,106,o),
+(413,160,o),
+(413,214,cs),
+(411,281,o),
+(345,326,o),
+(237,326,c),
+(237,281,l),
+(315,281,o),
+(362,253,o),
+(364,214,cs),
+(364,183,o),
+(316,143,o),
+(234,131,c),
+(256,49,o),
+(346,20,o),
+(406,20,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(405,-98,l),
-(405,-53,l),
-(354,-53,ls),
-(188,-53,o),
-(88,14,o),
-(84,128,c),
-(34,128,l),
-(38,-14,o),
-(157,-98,o),
-(354,-98,cs)
+(395,-98,l),
+(395,-53,l),
+(344,-53,ls),
+(178,-53,o),
+(78,14,o),
+(74,128,c),
+(24,128,l),
+(28,-14,o),
+(147,-98,o),
+(344,-98,cs)
+);
+},
+{
+pos = (-20,0);
+ref = "_h-top-deva.comp";
+},
+{
+pos = (444,0);
+ref = "aaMatra-deva";
+}
+);
+width = 694;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(482,17,o),
+(551,35,o),
+(613,83,c),
+(582,138,l),
+(541,103,o),
+(476,77,o),
+(428,77,cs),
+(369,77,o),
+(324,96,o),
+(298,127,c),
+(287,99,l),
+(392,106,o),
+(454,145,o),
+(454,204,cs),
+(454,277,o),
+(385,320,o),
+(267,320,c),
+(267,250,l),
+(335,250,o),
+(375,233,o),
+(375,205,cs),
+(375,179,o),
+(336,155,o),
+(235,140,c),
+(255,50,o),
+(324,17,o),
+(428,17,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(427,-103,l),
+(427,-33,l),
+(376,-33,ls),
+(204,-33,o),
+(110,18,o),
+(107,122,c),
+(28,122,l),
+(31,-26,o),
+(154,-103,o),
+(376,-103,cs)
 );
 },
 {
@@ -89992,68 +89945,7 @@ pos = (454,0);
 ref = "aaMatra-deva";
 }
 );
-width = 704;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(502,17,o),
-(571,35,o),
-(633,83,c),
-(602,138,l),
-(561,103,o),
-(496,77,o),
-(448,77,cs),
-(389,77,o),
-(344,96,o),
-(318,127,c),
-(307,99,l),
-(412,106,o),
-(474,145,o),
-(474,204,cs),
-(474,277,o),
-(405,320,o),
-(287,320,c),
-(287,250,l),
-(355,250,o),
-(395,233,o),
-(395,205,cs),
-(395,179,o),
-(356,155,o),
-(255,140,c),
-(275,50,o),
-(344,17,o),
-(448,17,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(447,-103,l),
-(447,-33,l),
-(396,-33,ls),
-(224,-33,o),
-(130,18,o),
-(127,122,c),
-(48,122,l),
-(51,-26,o),
-(174,-103,o),
-(396,-103,cs)
-);
-},
-{
-pos = (-20,0);
-ref = "_h-top-deva.comp";
-},
-{
-pos = (474,0);
-ref = "aaMatra-deva";
-}
-);
-width = 754;
+width = 734;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -90061,48 +89953,48 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(567,-10,o),
-(631,32,o),
-(725,121,c),
-(681,210,l),
-(625,145,o),
-(580,82,o),
-(478,82,cs),
-(436,82,o),
-(424,92,o),
-(387,117,c),
-(392,77,l),
-(492,77,o),
-(520,126,o),
-(520,171,cs),
-(520,242,o),
-(417,296,o),
-(280,296,c),
-(280,175,l),
-(328,175,o),
-(356,160,o),
-(356,135,cs),
-(356,109,o),
-(319,95,o),
-(256,98,c),
-(294,32,o),
-(362,-10,o),
-(458,-10,cs)
+(557,-10,o),
+(621,32,o),
+(715,121,c),
+(671,210,l),
+(615,145,o),
+(570,82,o),
+(468,82,cs),
+(426,82,o),
+(414,92,o),
+(377,117,c),
+(382,77,l),
+(482,77,o),
+(510,126,o),
+(510,171,cs),
+(510,242,o),
+(407,296,o),
+(270,296,c),
+(270,175,l),
+(318,175,o),
+(346,160,o),
+(346,135,cs),
+(346,109,o),
+(309,95,o),
+(246,98,c),
+(284,32,o),
+(352,-10,o),
+(448,-10,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(477,-199,l),
-(477,-73,l),
-(403,-73,ls),
-(262,-73,o),
-(177,-24,o),
-(174,58,c),
-(19,58,l),
-(22,-104,o),
-(165,-199,o),
-(403,-199,cs)
+(477,-189,l),
+(477,-63,l),
+(403,-63,ls),
+(262,-63,o),
+(177,-14,o),
+(174,68,c),
+(19,68,l),
+(22,-94,o),
+(165,-189,o),
+(403,-189,cs)
 );
 },
 {
@@ -90110,11 +90002,11 @@ pos = (-20,0);
 ref = "_h-top-deva.comp";
 },
 {
-pos = (544,0);
+pos = (534,0);
 ref = "aaMatra-deva";
 }
 );
-width = 859;
+width = 829;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -91234,7 +91126,7 @@ pos = (230,-172);
 ref = "rakar-deva";
 }
 );
-width = 488;
+width = 448;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -91248,7 +91140,7 @@ pos = (230,-172);
 ref = "rakar-deva";
 }
 );
-width = 506;
+width = 466;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -91262,7 +91154,7 @@ pos = (230,-182);
 ref = "rakar-deva";
 }
 );
-width = 566;
+width = 506;
 }
 );
 metricLeft = "=k_ssa-deva";
@@ -93115,11 +93007,11 @@ shapes = (
 ref = "v-deva";
 },
 {
-pos = (352,0);
+pos = (338,0);
 ref = "ra-deva";
 }
 );
-width = 807;
+width = 793;
 }
 );
 metricLeft = "v-deva";
@@ -93385,7 +93277,7 @@ metricRight = "ra-deva";
 color = 0;
 export = 0;
 glyphname = "s_t_ra-deva";
-lastChange = "2025-08-13 14:43:14 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -93394,15 +93286,15 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "t-deva";
 },
 {
-pos = (798,0);
+pos = (818,0);
 ref = "ra-deva";
 }
 );
-width = 1228;
+width = 1248;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -93446,7 +93338,7 @@ metricRight = "ra-deva";
 color = 0;
 export = 0;
 glyphname = "s_p_ra-deva";
-lastChange = "2025-08-13 14:43:14 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -93455,11 +93347,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "p_ra-deva";
 }
 );
-width = 1194;
+width = 1214;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -93495,7 +93387,7 @@ metricRight = "ra-deva";
 color = 0;
 export = 0;
 glyphname = "s_ra-deva";
-lastChange = "2025-08-13 14:43:14 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -93504,11 +93396,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ra-deva";
 }
 );
-width = 898;
+width = 918;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -94532,55 +94424,6 @@ width = 624;
 }
 );
 metricLeft = "dda-deva";
-metricRight = "ra-deva";
-},
-{
-color = 0;
-export = 0;
-glyphname = "ddha_ra-deva";
-lastChange = "2025-08-13 14:43:14 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = "ddha-deva";
-},
-{
-pos = (497,0);
-ref = "ra-deva";
-}
-);
-width = 927;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = "ddha-deva";
-},
-{
-pos = (535,0);
-ref = "ra-deva";
-}
-);
-width = 968;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = "ddha-deva";
-},
-{
-pos = (591,0);
-ref = "ra-deva";
-}
-);
-width = 1046;
-}
-);
-metricLeft = "ddha-deva";
 metricRight = "ra-deva";
 },
 {
@@ -95651,7 +95494,7 @@ metricRight = "ra-deva";
 color = 0;
 export = 0;
 glyphname = "s_ta_ra-deva";
-lastChange = "2025-08-13 14:43:14 +0000";
+lastChange = "2026-03-13 21:38:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -95660,11 +95503,11 @@ shapes = (
 ref = "s-deva";
 },
 {
-pos = (468,0);
+pos = (488,0);
 ref = "ta_ra-deva";
 }
 );
-width = 1057;
+width = 1077;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -95709,11 +95552,11 @@ shapes = (
 ref = "ha-deva";
 },
 {
-pos = (522,0);
+pos = (512,0);
 ref = "ra-deva";
 }
 );
-width = 952;
+width = 942;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -95722,11 +95565,11 @@ shapes = (
 ref = "ha-deva";
 },
 {
-pos = (545,0);
+pos = (525,0);
 ref = "ra-deva";
 }
 );
-width = 978;
+width = 958;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -95735,11 +95578,11 @@ shapes = (
 ref = "ha-deva";
 },
 {
-pos = (594,0);
+pos = (584,0);
 ref = "ra-deva";
 }
 );
-width = 1049;
+width = 1039;
 }
 );
 metricLeft = "ha-deva";
@@ -128657,7 +128500,7 @@ metricRight = "=0";
 {
 export = 0;
 glyphname = "_ddha-small-deva";
-lastChange = "2026-03-10 02:07:53 +0000";
+lastChange = "2026-03-14 02:00:41 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -128666,23 +128509,23 @@ shapes = (
 closed = 1;
 nodes = (
 (364,255,o),
-(439,289,o),
-(439,346,cs),
-(439,394,o),
-(395,423,o),
-(304,423,cs),
-(264,423,o),
-(220,419,o),
-(165,401,c),
-(173,357,l),
-(220,369,o),
-(271,378,o),
-(302,378,cs),
-(363,378,o),
-(389,368,o),
-(389,350,cs),
-(389,322,o),
-(339,304,o),
+(439,299,o),
+(439,356,cs),
+(439,406,o),
+(383,440,o),
+(309,440,cs),
+(258,440,o),
+(171,416,o),
+(146,341,c),
+(195,330,l),
+(215,393,o),
+(283,400,o),
+(311,400,cs),
+(356,400,o),
+(389,383,o),
+(389,360,cs),
+(389,329,o),
+(332,304,o),
 (255,301,c),
 (236,301,l),
 (236,255,l)
@@ -128701,22 +128544,22 @@ shapes = (
 closed = 1;
 nodes = (
 (384,231,o),
-(463,277,o),
-(463,336,cs),
-(463,405,o),
-(409,425,o),
-(318,425,cs),
-(280,425,o),
-(249,423,o),
-(176,405,c),
-(187,343,l),
-(249,356,o),
-(290,359,o),
-(317,359,cs),
-(358,359,o),
-(383,359,o),
-(383,341,cs),
-(383,316,o),
+(463,275,o),
+(463,341,cs),
+(463,400,o),
+(409,440,o),
+(318,440,cs),
+(268,440,o),
+(191,408,o),
+(171,331,c),
+(248,314,l),
+(259,357,o),
+(304,379,o),
+(327,379,cs),
+(362,379,o),
+(383,366,o),
+(383,352,cs),
+(383,326,o),
 (338,305,o),
 (263,303,c),
 (249,303,l),
@@ -128741,18 +128584,18 @@ nodes = (
 (507,369,o),
 (449,400,o),
 (350,400,cs),
-(319,400,o),
-(267,399,o),
-(207,388,c),
-(215,338,l),
-(261,344,o),
-(310,345,o),
-(342,345,cs),
-(383,345,o),
-(402,341,o),
-(402,332,cs),
-(402,323,o),
-(376,318,o),
+(316,400,o),
+(239,403,o),
+(209,345,c),
+(283,328,l),
+(293,343,o),
+(309,355,o),
+(343,355,cs),
+(380,355,o),
+(402,349,o),
+(402,338,cs),
+(402,326,o),
+(371,318,o),
 (318,317,c),
 (274,317,l),
 (274,200,l)
@@ -128966,7 +128809,7 @@ metricRight = "=0";
 {
 export = 0;
 glyphname = "_h-deva.comp";
-lastChange = "2026-03-12 21:29:33 +0000";
+lastChange = "2026-03-13 21:44:21 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -128978,33 +128821,33 @@ ref = "_h-top-deva.comp";
 {
 closed = 1;
 nodes = (
-(443,179,l),
-(440,263,o),
-(354,326,o),
-(247,326,c),
-(247,281,l),
-(327,281,o),
-(391,238,o),
-(394,179,c)
+(433,179,l),
+(430,263,o),
+(344,326,o),
+(237,326,c),
+(237,281,l),
+(317,281,o),
+(381,238,o),
+(384,179,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(405,-118,l),
-(405,-73,l),
-(354,-73,ls),
-(188,-73,o),
-(88,2,o),
-(84,128,c),
-(34,128,l),
-(38,-27,o),
-(156,-118,o),
-(354,-118,cs)
+(395,-118,l),
+(395,-73,l),
+(344,-73,ls),
+(178,-73,o),
+(78,2,o),
+(74,128,c),
+(24,128,l),
+(28,-27,o),
+(146,-118,o),
+(344,-118,cs)
 );
 }
 );
-width = 522;
+width = 512;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -129016,33 +128859,33 @@ ref = "_h-top-deva.comp";
 {
 closed = 1;
 nodes = (
-(489,155,l),
-(488,249,o),
-(403,320,o),
-(286,320,c),
-(286,250,l),
-(355,250,o),
-(411,209,o),
-(412,155,c)
+(469,155,l),
+(468,249,o),
+(383,320,o),
+(266,320,c),
+(266,250,l),
+(335,250,o),
+(391,209,o),
+(392,155,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(437,-143,l),
-(437,-73,l),
-(386,-73,ls),
-(226,-73,o),
-(130,-1,o),
-(127,122,c),
-(48,122,l),
-(51,-45,o),
-(177,-143,o),
-(386,-143,cs)
+(417,-143,l),
+(417,-73,l),
+(366,-73,ls),
+(206,-73,o),
+(110,-1,o),
+(107,122,c),
+(28,122,l),
+(31,-45,o),
+(157,-143,o),
+(366,-143,cs)
 );
 }
 );
-width = 545;
+width = 525;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -129054,33 +128897,33 @@ ref = "_h-top-deva.comp";
 {
 closed = 1;
 nodes = (
-(554,105,l),
-(552,214,o),
-(434,296,o),
-(280,296,c),
-(280,175,l),
-(338,175,o),
-(388,145,o),
-(397,105,c)
+(544,105,l),
+(542,214,o),
+(424,296,o),
+(270,296,c),
+(270,175,l),
+(328,175,o),
+(378,145,o),
+(387,105,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(477,-239,l),
-(477,-113,l),
-(403,-113,ls),
-(263,-113,o),
-(178,-49,o),
-(174,58,c),
-(19,58,l),
-(23,-129,o),
-(166,-239,o),
-(403,-239,cs)
+(477,-229,l),
+(477,-103,l),
+(403,-103,ls),
+(263,-103,o),
+(178,-39,o),
+(174,68,c),
+(19,68,l),
+(23,-119,o),
+(166,-229,o),
+(403,-229,cs)
 );
 }
 );
-width = 594;
+width = 584;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -129089,7 +128932,7 @@ metricRight = "=aaMatra-deva";
 {
 export = 0;
 glyphname = "_h-large-deva.comp";
-lastChange = "2026-03-13 00:04:25 +0000";
+lastChange = "2026-03-13 21:44:35 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -129101,53 +128944,53 @@ ref = "_h-top-deva.comp";
 {
 closed = 1;
 nodes = (
-(543,59,l),
-(537,256,o),
-(473,325,o),
-(293,326,c),
-(247,326,l),
-(247,281,l),
-(293,281,l),
-(445,279,o),
-(485,235,o),
-(494,59,c)
+(533,59,l),
+(527,256,o),
+(463,325,o),
+(283,326,c),
+(237,326,l),
+(237,281,l),
+(283,281,l),
+(435,279,o),
+(475,235,o),
+(484,59,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(405,-118,l),
-(405,-73,l),
-(354,-73,ls),
-(188,-73,o),
-(88,2,o),
-(84,128,c),
-(34,128,l),
-(38,-27,o),
-(156,-118,o),
-(354,-118,cs)
+(395,-118,l),
+(395,-73,l),
+(344,-73,ls),
+(178,-73,o),
+(78,2,o),
+(74,128,c),
+(24,128,l),
+(28,-27,o),
+(146,-118,o),
+(344,-118,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(591,627,l),
-(591,672,l),
-(369,672,l),
-(369,627,l)
+(581,627,l),
+(581,672,l),
+(359,672,l),
+(359,627,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(543,0,l),
-(543,59,l),
-(494,59,l),
-(494,0,l)
+(533,0,l),
+(533,59,l),
+(484,59,l),
+(484,0,l)
 );
 }
 );
-width = 571;
+width = 561;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -129159,53 +129002,53 @@ ref = "_h-top-deva.comp";
 {
 closed = 1;
 nodes = (
-(589,50,l),
-(587,250,o),
-(521,319,o),
-(332,320,c),
-(286,320,l),
-(286,250,l),
-(331,250,l),
-(473,249,o),
-(509,209,o),
-(512,50,c)
+(569,50,l),
+(567,250,o),
+(501,319,o),
+(312,320,c),
+(266,320,l),
+(266,250,l),
+(311,250,l),
+(453,249,o),
+(489,209,o),
+(492,50,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(437,-143,l),
-(437,-73,l),
-(386,-73,ls),
-(226,-73,o),
-(130,-1,o),
-(127,122,c),
-(48,122,l),
-(51,-45,o),
-(177,-143,o),
-(386,-143,cs)
+(417,-143,l),
+(417,-73,l),
+(366,-73,ls),
+(206,-73,o),
+(110,-1,o),
+(107,122,c),
+(28,122,l),
+(31,-45,o),
+(157,-143,o),
+(366,-143,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(646,602,l),
-(646,672,l),
-(424,672,l),
-(424,602,l)
+(626,602,l),
+(626,672,l),
+(404,672,l),
+(404,602,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(589,-23,l),
-(589,50,l),
-(512,50,l),
-(512,-23,l)
+(569,-23,l),
+(569,50,l),
+(492,50,l),
+(492,-23,l)
 );
 }
 );
-width = 626;
+width = 606;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -129217,53 +129060,53 @@ ref = "_h-top-deva.comp";
 {
 closed = 1;
 nodes = (
-(654,5,l),
-(650,201,o),
-(570,292,o),
-(399,296,c),
-(280,296,l),
-(280,175,l),
-(369,175,l),
-(471,174,o),
-(497,140,o),
-(497,5,c)
+(644,5,l),
+(640,201,o),
+(560,292,o),
+(389,296,c),
+(270,296,l),
+(270,175,l),
+(359,175,l),
+(461,174,o),
+(487,140,o),
+(487,5,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(477,-239,l),
-(477,-113,l),
-(403,-113,ls),
-(263,-113,o),
-(178,-49,o),
-(174,58,c),
-(19,58,l),
-(23,-129,o),
-(166,-239,o),
-(403,-239,cs)
+(477,-229,l),
+(477,-103,l),
+(403,-103,ls),
+(263,-103,o),
+(178,-39,o),
+(174,68,c),
+(19,68,l),
+(23,-119,o),
+(166,-229,o),
+(403,-229,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(709,556,l),
-(709,672,l),
-(434,672,l),
-(434,556,l)
+(699,556,l),
+(699,672,l),
+(424,672,l),
+(424,556,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(654,-73,l),
-(654,5,l),
-(497,5,l),
-(497,-73,l)
+(644,-73,l),
+(644,5,l),
+(487,5,l),
+(487,-73,l)
 );
 }
 );
-width = 689;
+width = 679;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -129272,7 +129115,7 @@ metricRight = "=aaMatra-deva";
 {
 export = 0;
 glyphname = "_h-top-deva.comp";
-lastChange = "2026-03-13 00:23:28 +0000";
+lastChange = "2026-03-13 21:43:26 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -129280,45 +129123,45 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(187,303,l),
-(160,334,o),
-(145,376,o),
-(145,402,cs),
-(145,444,o),
-(182,469,o),
-(245,469,cs),
-(452,469,l),
-(452,627,l),
-(562,627,l),
-(562,672,l),
+(177,303,l),
+(150,334,o),
+(135,376,o),
+(135,402,cs),
+(135,444,o),
+(172,469,o),
+(235,469,cs),
+(442,469,l),
+(442,627,l),
+(552,627,l),
+(552,672,l),
 (0,672,l),
 (0,627,l),
-(403,627,l),
-(403,514,l),
-(248,514,ls),
-(152,514,o),
-(95,474,o),
-(95,406,cs),
-(95,371,o),
-(118,321,o),
-(149,282,c)
+(393,627,l),
+(393,514,l),
+(238,514,ls),
+(142,514,o),
+(85,474,o),
+(85,406,cs),
+(85,371,o),
+(108,321,o),
+(139,282,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(104,128,l),
-(104,232,o),
-(157,280,o),
-(267,281,c),
-(267,326,l),
-(139,325,o),
-(54,270,o),
-(54,128,c)
+(94,128,l),
+(94,232,o),
+(147,280,o),
+(257,281,c),
+(257,326,l),
+(129,325,o),
+(44,270,o),
+(44,128,c)
 );
 }
 );
-width = 562;
+width = 552;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -129326,45 +129169,45 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(217,297,l),
-(181,339,o),
-(178,369,o),
-(178,387,cs),
-(178,417,o),
-(208,445,o),
-(260,445,cs),
-(491,445,l),
-(491,602,l),
-(585,602,l),
-(585,672,l),
+(197,297,l),
+(161,339,o),
+(158,369,o),
+(158,387,cs),
+(158,417,o),
+(188,445,o),
+(240,445,cs),
+(471,445,l),
+(471,602,l),
+(565,602,l),
+(565,672,l),
 (0,672,l),
 (0,602,l),
-(411,602,l),
-(411,515,l),
-(259,515,ls),
-(168,515,o),
-(99,462,o),
-(99,392,cs),
-(99,354,o),
-(119,302,o),
-(158,262,c)
+(391,602,l),
+(391,515,l),
+(239,515,ls),
+(148,515,o),
+(79,462,o),
+(79,392,cs),
+(79,354,o),
+(99,302,o),
+(138,262,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(147,122,l),
-(147,221,o),
-(200,250,o),
-(307,250,c),
-(307,320,l),
-(165,319,o),
-(68,268,o),
-(68,122,c)
+(127,122,l),
+(127,221,o),
+(180,250,o),
+(287,250,c),
+(287,320,l),
+(145,319,o),
+(48,268,o),
+(48,122,c)
 );
 }
 );
-width = 585;
+width = 565;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -129372,45 +129215,45 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(255,285,l),
-(236,301,o),
-(233,320,o),
-(233,330,cs),
-(233,355,o),
-(275,370,o),
-(313,370,cs),
-(544,370,l),
-(544,556,l),
-(634,556,l),
-(634,672,l),
+(245,285,l),
+(226,301,o),
+(223,320,o),
+(223,330,cs),
+(223,355,o),
+(265,370,o),
+(303,370,cs),
+(534,370,l),
+(534,556,l),
+(624,556,l),
+(624,672,l),
 (0,672,l),
 (0,556,l),
-(391,556,l),
-(391,490,l),
-(313,490,ls),
-(180,490,o),
-(81,437,o),
-(81,348,cs),
-(81,313,o),
-(105,264,o),
-(157,233,c)
+(381,556,l),
+(381,490,l),
+(303,490,ls),
+(170,490,o),
+(71,437,o),
+(71,348,cs),
+(71,313,o),
+(95,264,o),
+(147,233,c)
 );
 },
 {
 closed = 1;
 nodes = (
-(194,58,l),
-(194,119,o),
-(227,173,o),
-(300,175,c),
-(300,296,l),
-(141,294,o),
-(39,213,o),
-(39,58,c)
+(194,68,l),
+(194,129,o),
+(217,173,o),
+(290,175,c),
+(290,296,l),
+(131,294,o),
+(39,223,o),
+(39,68,c)
 );
 }
 );
-width = 634;
+width = 624;
 }
 );
 metricLeft = "=0";
@@ -129419,7 +129262,7 @@ metricRight = "=0";
 {
 export = 0;
 glyphname = "_j-deva.comp";
-lastChange = "2026-03-12 20:10:34 +0000";
+lastChange = "2026-03-14 01:51:53 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
