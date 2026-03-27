@@ -120,10 +120,13 @@ PRES_MARKER = "lookup Iimatra_devanagari;\n\";\ntag = pres;"
 # ---------------------------------------------------------------------------
 
 def _patch(content, broken, fixed, marker, label):
+    # Idempotent behavior: if a fixed marker is present, never patch twice.
     if marker in content:
         print(f"{label}: already patched, skipping")
         return content, False
     if broken not in content:
+        # Fail loudly when source structure changes so builds do not silently
+        # ship with partially broken feature logic.
         print(
             f"ERROR: expected {label} tail not found — the feature may have "
             "been regenerated with a different structure. Inspect the code "
@@ -144,6 +147,7 @@ def patch_file(path):
     content, c3 = _patch(content, PRES_BROKEN_TAIL, PRES_FIXED_TAIL, PRES_MARKER, "pres")
 
     if c1 or c2 or c3:
+        # Write only when needed to avoid noisy file churn.
         with open(path, "w", encoding="utf-8") as f:
             f.write(content)
 
