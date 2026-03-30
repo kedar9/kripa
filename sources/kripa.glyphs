@@ -1,6 +1,9 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
+DisplayStrings = (
+"/h_ya-deva"
+);
 axes = (
 {
 name = Weight;
@@ -35,7 +38,7 @@ name = DevaIMatraRephAnusvaras;
 },
 {
 automatic = 1;
-code = "ka-deva kha-deva ga-deva gha-deva nga-deva ca-deva cha-deva ja-deva jha-deva nya-deva tta-deva ttha-deva dda-deva ddha-deva nna-deva ta-deva tha-deva da-deva dha-deva na-deva nnna-deva pa-deva pha-deva ba-deva bha-deva ma-deva ya-deva ra-deva rra-deva la-deva la-deva.loclMAR lla-deva llla-deva va-deva sha-deva sha-deva.loclMAR ssa-deva sa-deva ha-deva qa-deva khha-deva ghha-deva za-deva dddha-deva rha-deva fa-deva yya-deva ka_rVocalicMatra-deva da_rVocalicMatra-deva ra_uMatra-deva ra_uuMatra-deva ha_rVocalicMatra-deva k_ja-deva k_ta-deva k_t_ta-deva k_ssa-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva k_sa-deva g_rakar_ya-deva gh_va-deva c_ca-deva ch_ya-deva j_ja-deva j_nya-deva j_ny_ya-deva jh_va-deva tt_tta-deva tt_tt_ya-deva tt_ttha-deva tt_ya-deva tt_ra_uuMatra-deva tt_va-deva tth_ttha-deva tth_tth_ya-deva tth_ya-deva dd_dd_ya-deva dd_ya-deva ddh_ddh_ya-deva ddh_ya-deva t_k_ssa-deva t_ta-deva t_tha-deva t_rakar_ya-deva d_d_ya-deva d_dh_ya-deva d_na-deva d_ba-deva d_ma-deva d_ya-deva d_va-deva d_v_ya-deva d_rakar_ya-deva n_k_sa-deva n_ca-deva n_d_va-deva n_h_ya-deva p_pa-deva p_pha-deva ph_sa-deva rr_ya-deva rr_ha-deva l_h_ya-deva sh_va-deva sh_rakar_ya-deva ss_k_ra-deva ss_tt_ya-deva ss_tt_va-deva ss_tth_ya-deva h_ya-deva f_sa-deva j_ya-deva dd_dda-deva dd_ddha-deva ddh_ddha-deva d_da-deva d_dha-deva p_ya-deva v_ha-deva h_ma-deva tta_ra_uuMatra-deva ss_ka_ra-deva";
+code = "ka-deva kha-deva ga-deva gha-deva nga-deva ca-deva cha-deva ja-deva jha-deva nya-deva tta-deva ttha-deva dda-deva ddha-deva nna-deva ta-deva tha-deva da-deva dha-deva na-deva nnna-deva pa-deva pha-deva ba-deva bha-deva ma-deva ya-deva ra-deva rra-deva la-deva la-deva.loclMAR lla-deva llla-deva va-deva sha-deva sha-deva.loclMAR ssa-deva sa-deva ha-deva qa-deva khha-deva ghha-deva za-deva dddha-deva rha-deva fa-deva yya-deva ka_rVocalicMatra-deva da_rVocalicMatra-deva ra_uMatra-deva ra_uuMatra-deva ha_rVocalicMatra-deva k_ja-deva k_ta-deva k_t_ta-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva k_sa-deva g_rakar_ya-deva gh_va-deva c_ca-deva ch_ya-deva j_ja-deva j_nya-deva j_ny_ya-deva jh_va-deva tt_tta-deva tt_tt_ya-deva tt_ttha-deva tt_ya-deva tt_ra_uuMatra-deva tt_va-deva tth_ttha-deva tth_tth_ya-deva tth_ya-deva dd_dd_ya-deva dd_ya-deva ddh_ddh_ya-deva ddh_ya-deva t_k_ssa-deva t_ta-deva t_tha-deva t_rakar_ya-deva d_d_ya-deva d_dh_ya-deva d_na-deva d_ba-deva d_ma-deva d_ya-deva d_va-deva d_v_ya-deva d_rakar_ya-deva n_k_sa-deva n_ca-deva n_d_va-deva n_h_ya-deva p_pa-deva p_pha-deva ph_sa-deva rr_ya-deva rr_ha-deva l_h_ya-deva sh_va-deva sh_rakar_ya-deva ss_k_ra-deva ss_tt_ya-deva ss_tt_va-deva ss_tth_ya-deva h_ya-deva f_sa-deva k_ssa-deva j_ya-deva dd_dda-deva dd_ddha-deva ddh_ddha-deva d_da-deva d_dha-deva p_ya-deva v_ha-deva h_ma-deva tta_ra_uuMatra-deva ss_ka_ra-deva";
 name = DevaFullforms;
 },
 {
@@ -154,7 +157,6 @@ lookup removeReph {
 	sub k_ja-deva @rephDeva by k_ja-deva;
 	sub k_ta-deva @rephDeva by k_ta-deva;
 	sub k_t_ta-deva @rephDeva by k_t_ta-deva;
-	sub k_ssa-deva @rephDeva by k_ssa-deva;
 	sub k_ss_ma-deva @rephDeva by k_ss_ma-deva;
 	sub k_ss_ya-deva @rephDeva by k_ss_ya-deva;
 	sub k_ss_va-deva @rephDeva by k_ss_va-deva;
@@ -211,6 +213,7 @@ lookup removeReph {
 	sub ss_tth_ya-deva @rephDeva by ss_tth_ya-deva;
 	sub h_ya-deva @rephDeva by h_ya-deva;
 	sub f_sa-deva @rephDeva by f_sa-deva;
+	sub k_ssa-deva @rephDeva by k_ssa-deva;
 	sub j_ya-deva @rephDeva by j_ya-deva;
 	sub dd_dda-deva @rephDeva by dd_dda-deva;
 	sub dd_ddha-deva @rephDeva by dd_ddha-deva;
@@ -723,7 +726,6 @@ lookup cjct_Halfdevanagari {
 	sub d-deva y-deva by d_y-deva;
 	sub j-deva j-deva by j_j-deva;
 	sub j-deva ny-deva by j_ny-deva;
-	sub k-deva ss-deva by k_ss-deva;
 	sub t-deva t-deva by t_t-deva;
 } cjct_Halfdevanagari;
 lookup cjct_devanagari {
@@ -770,7 +772,6 @@ lookup cjct_devanagari {
 	sub jh-deva va-deva by jh_va-deva;
 	sub k-deva ja-deva by k_ja-deva;
 	sub k-deva sa-deva by k_sa-deva;
-	sub k-deva ssa-deva by k_ssa-deva;
 	sub k-deva ta-deva by k_ta-deva;
 	sub n-deva ca-deva by n_ca-deva;
 	sub p-deva pa-deva by p_pa-deva;
@@ -868,9 +869,9 @@ lookup Imatra1_devanagari {
 	sub iMatra-deva' k-deva s-deva pa-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva s-deva ta-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva s-deva tta-deva by iMatra-deva.0015;
-	sub iMatra-deva' k_ss-deva ma-deva by iMatra-deva.0013;
-	sub iMatra-deva' k_ss-deva va-deva by iMatra-deva.0012;
-	sub iMatra-deva' k_ss-deva ya-deva by iMatra-deva.0014;
+	sub iMatra-deva' k-deva ss-deva ma-deva by iMatra-deva.0015;
+	sub iMatra-deva' k-deva ss-deva va-deva by iMatra-deva.0015;
+	sub iMatra-deva' k-deva ss-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva t-deva va-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva t-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva v-deva ya-deva by iMatra-deva.0015;
@@ -893,7 +894,7 @@ lookup Imatra1_devanagari {
 	sub iMatra-deva' n_h_ya-deva by iMatra-deva.0013;
 	sub iMatra-deva' n-deva j-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' n_k_sa-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva k_ssa-deva by iMatra-deva.0012;
+	sub iMatra-deva' n-deva k-deva ssa-deva by iMatra-deva.0015;
 	sub iMatra-deva' n-deva m-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' n-deva n-deva da-deva by iMatra-deva.0014;
 	sub iMatra-deva' n-deva s-deva tha-deva by iMatra-deva.0015;
@@ -904,7 +905,7 @@ lookup Imatra1_devanagari {
 	sub iMatra-deva' n-deva t-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' n-deva th-deva va-deva by iMatra-deva.0015;
 	sub iMatra-deva' n-deva th-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva k_ssa-deva by iMatra-deva.0015;
+	sub iMatra-deva' ng-deva k-deva ssa-deva by iMatra-deva.0015;
 	sub iMatra-deva' ng-deva k_ta-deva by iMatra-deva.0015;
 	sub iMatra-deva' ng-deva kh-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' ny-deva c-deva ya-deva by iMatra-deva.0015;
@@ -1067,7 +1068,7 @@ lookup Imatra1_devanagari {
 	sub iMatra-deva' k-deva pha-deva by iMatra-deva.0014;
 	sub iMatra-deva' k_sa-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva sha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k_ssa-deva by iMatra-deva.0006;
+	sub iMatra-deva' k-deva ssa-deva by iMatra-deva.0015;
 	sub iMatra-deva' k_ta-deva by iMatra-deva.0005;
 	sub iMatra-deva' k-deva tha-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva tta-deva by iMatra-deva.0013;
@@ -67659,7 +67660,7 @@ width = 821;
 category = Letter;
 color = 0;
 glyphname = "k_ss_ma-deva";
-lastChange = "2026-03-27 19:19:26 +0000";
+lastChange = "2026-03-30 00:13:52 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -73119,7 +73120,7 @@ pos = (317,0);
 ref = "h_ya-deva";
 }
 );
-width = 1027;
+width = 1037;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -73132,7 +73133,7 @@ pos = (328,0);
 ref = "h_ya-deva";
 }
 );
-width = 1064;
+width = 1074;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -73145,7 +73146,7 @@ pos = (333,0);
 ref = "h_ya-deva";
 }
 );
-width = 1173;
+width = 1193;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -73896,7 +73897,7 @@ pos = (518,0);
 ref = "h_ya-deva";
 }
 );
-width = 1228;
+width = 1238;
 },
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -73909,7 +73910,7 @@ pos = (540,0);
 ref = "h_ya-deva";
 }
 );
-width = 1276;
+width = 1286;
 },
 {
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -73922,7 +73923,7 @@ pos = (549,0);
 ref = "h_ya-deva";
 }
 );
-width = 1389;
+width = 1409;
 }
 );
 metricLeft = "=aaMatra-deva";
@@ -74815,21 +74816,21 @@ metricRight = "=s-deva";
 {
 color = 0;
 glyphname = "h_ya-deva";
-lastChange = "2026-03-27 02:26:02 +0000";
+lastChange = "2026-03-30 00:19:35 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (594,0);
+pos = (604,0);
 },
 {
 name = candra;
-pos = (355,536);
+pos = (365,536);
 },
 {
 name = top;
-pos = (585,536);
+pos = (595,536);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -74837,33 +74838,33 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(484,20,o),
+(464,20,o),
 (555,48,o),
 (594,85,c),
 (572,127,l),
 (533,88,o),
-(482,65,o),
-(425,65,cs),
-(384,65,o),
-(331,82,o),
-(302,128,c),
-(289,97,l),
-(386,106,o),
-(429,151,o),
-(429,219,cs),
-(427,290,o),
-(347,336,o),
-(243,326,c),
-(243,281,l),
-(318,291,o),
-(377,264,o),
-(380,219,cs),
-(380,176,o),
-(332,143,o),
-(250,131,c),
-(272,49,o),
-(362,20,o),
-(422,20,cs)
+(462,65,o),
+(405,65,cs),
+(364,65,o),
+(291,82,o),
+(262,128,c),
+(249,97,l),
+(363,108,o),
+(449,149,o),
+(449,239,cs),
+(449,323,o),
+(361,377,o),
+(243,366,c),
+(243,321,l),
+(333,333,o),
+(400,298,o),
+(400,239,cs),
+(400,173,o),
+(319,147,o),
+(210,131,c),
+(232,49,o),
+(342,20,o),
+(402,20,cs)
 );
 },
 {
@@ -74884,11 +74885,11 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(173,303,l),
-(146,334,o),
-(131,376,o),
-(131,402,cs),
-(131,444,o),
+(173,343,l),
+(146,374,o),
+(131,396,o),
+(131,422,cs),
+(131,464,o),
 (168,469,o),
 (231,469,cs),
 (438,469,l),
@@ -74901,11 +74902,11 @@ nodes = (
 (389,514,l),
 (234,514,ls),
 (138,514,o),
-(81,474,o),
-(81,406,cs),
-(81,371,o),
-(104,321,o),
-(135,282,c)
+(81,494,o),
+(81,426,cs),
+(81,391,o),
+(104,361,o),
+(135,322,c)
 );
 },
 {
@@ -74913,34 +74914,34 @@ closed = 1;
 nodes = (
 (90,128,l),
 (90,221,o),
-(138,269,o),
-(243,281,c),
-(243,326,l),
-(104,312,o),
+(138,309,o),
+(243,321,c),
+(243,366,l),
+(104,352,o),
 (40,249,o),
 (40,128,c)
 );
 },
 {
-pos = (460,0);
+pos = (470,0);
 ref = "aaMatra-deva";
 }
 );
-width = 710;
+width = 720;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (616,0);
+pos = (626,0);
 },
 {
 name = candra;
-pos = (368,546);
+pos = (378,546);
 },
 {
 name = top;
-pos = (596,546);
+pos = (606,546);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -74948,33 +74949,33 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(484,17,o),
+(474,17,o),
 (553,35,o),
 (615,83,c),
 (584,138,l),
-(543,103,o),
-(478,77,o),
-(430,77,cs),
-(371,77,o),
-(326,112,o),
-(300,143,c),
-(289,105,l),
-(384,105,o),
-(456,156,o),
-(456,224,cs),
-(456,305,o),
-(367,354,o),
-(249,340,c),
-(249,270,l),
-(322,280,o),
-(377,261,o),
-(377,225,cs),
-(377,190,o),
-(308,154,o),
-(217,140,c),
-(246,70,o),
-(339,17,o),
-(430,17,cs)
+(547,106,o),
+(476,82,o),
+(420,82,cs),
+(369,82,o),
+(309,108,o),
+(280,143,c),
+(269,105,l),
+(364,105,o),
+(476,136,o),
+(476,234,cs),
+(476,321,o),
+(379,375,o),
+(249,360,c),
+(249,290,l),
+(334,302,o),
+(397,278,o),
+(397,235,cs),
+(397,170,o),
+(288,154,o),
+(197,140,c),
+(226,70,o),
+(329,17,o),
+(420,17,cs)
 );
 },
 {
@@ -74995,11 +74996,11 @@ nodes = (
 {
 closed = 1;
 nodes = (
-(179,317,l),
-(143,359,o),
-(140,369,o),
-(140,387,cs),
-(140,417,o),
+(179,337,l),
+(143,379,o),
+(140,389,o),
+(140,407,cs),
+(140,437,o),
 (170,445,o),
 (222,445,cs),
 (453,445,l),
@@ -75012,11 +75013,11 @@ nodes = (
 (373,515,l),
 (221,515,ls),
 (130,515,o),
-(61,462,o),
-(61,392,cs),
-(61,354,o),
-(81,322,o),
-(120,282,c)
+(61,482,o),
+(61,412,cs),
+(61,374,o),
+(81,342,o),
+(120,302,c)
 );
 },
 {
@@ -75024,34 +75025,34 @@ closed = 1;
 nodes = (
 (109,132,l),
 (109,206,o),
-(161,257,o),
-(249,270,c),
-(249,340,l),
-(111,323,o),
+(161,277,o),
+(249,290,c),
+(249,360,l),
+(111,343,o),
 (30,246,o),
 (30,132,c)
 );
 },
 {
-pos = (456,0);
+pos = (466,0);
 ref = "aaMatra-deva";
 }
 );
-width = 736;
+width = 746;
 },
 {
 anchors = (
 {
 name = bottom;
-pos = (740,0);
+pos = (770,0);
 },
 {
 name = candra;
-pos = (420,556);
+pos = (440,556);
 },
 {
 name = top;
-pos = (693,556);
+pos = (713,556);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -75062,26 +75063,26 @@ nodes = (
 (568,0,o),
 (632,52,o),
 (726,141,c),
-(682,250,l),
-(626,185,o),
-(581,112,o),
+(661,224,l),
+(613,148,o),
+(551,112,o),
 (479,112,cs),
 (443,112,o),
-(404,120,o),
-(389,130,c),
-(396,65,l),
-(475,99,o),
-(521,153,o),
-(521,211,cs),
-(521,323,o),
-(422,366,o),
+(404,131,o),
+(377,126,c),
+(332,57,l),
+(441,83,o),
+(541,131,o),
+(541,211,cs),
+(541,323,o),
+(422,356,o),
 (291,326,c),
-(261,215,l),
-(322,240,o),
-(377,238,o),
-(377,187,cs),
-(377,133,o),
-(320,95,o),
+(261,205,l),
+(327,228,o),
+(397,228,o),
+(397,177,cs),
+(397,143,o),
+(320,107,o),
 (257,98,c),
 (305,32,o),
 (363,0,o),
@@ -75134,9 +75135,9 @@ nodes = (
 closed = 1;
 nodes = (
 (185,98,l),
-(185,164,o),
-(208,191,o),
-(261,215,c),
+(185,165,o),
+(218,185,o),
+(261,205,c),
 (291,326,l),
 (132,284,o),
 (30,243,o),
@@ -75144,11 +75145,11 @@ nodes = (
 );
 },
 {
-pos = (545,0);
+pos = (565,0);
 ref = "aaMatra-deva";
 }
 );
-width = 840;
+width = 860;
 }
 );
 metricLeft = "=aaMatra-deva";

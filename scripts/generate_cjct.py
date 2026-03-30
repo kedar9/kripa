@@ -54,19 +54,6 @@ def parse_args() -> argparse.Namespace:
         help="Path to .glyphs source file",
     )
     parser.add_argument(
-        "--output",
-        default="",
-        help="Write generated lookup to file (default: stdout)",
-    )
-    parser.add_argument(
-        "--strict-metadata",
-        action="store_true",
-        help=(
-            "Require explicit script=devanagari and category=Letter. "
-            "Without this flag, missing metadata is allowed."
-        ),
-    )
-    parser.add_argument(
         "--patch-glyphs",
         action="store_true",
         help="Replace lookup cjct_devanagari in the Glyphs source code block",
@@ -92,7 +79,7 @@ def extract_cjct_outputs(cjct_code: str) -> list[str]:
     return outputs
 
 
-def parse_top_level_glyph_dicts(full_text: str) -> list[str]:
+def parse_glyph_metadata(full_text: str) -> dict[str, GlyphMeta]:
     lines = full_text.splitlines()
     in_glyphs = False
     paren_depth = 0
@@ -100,8 +87,6 @@ def parse_top_level_glyph_dicts(full_text: str) -> list[str]:
     current: list[str] | None = None
     blocks: list[str] = []
 
-    # .glyphs is plist-like text. We track parentheses for the `glyphs = (...)`
-    # array and braces for each top-level glyph dictionary.
     for line in lines:
         stripped = line.strip()
         if not in_glyphs:
@@ -109,30 +94,22 @@ def parse_top_level_glyph_dicts(full_text: str) -> list[str]:
                 in_glyphs = True
                 paren_depth = 1
             continue
-
         paren_depth += line.count("(") - line.count(")")
-
         if brace_depth == 0 and stripped == "{":
             current = [line]
             brace_depth = 1
             continue
-
         if brace_depth > 0 and current is not None:
             current.append(line)
             brace_depth += line.count("{") - line.count("}")
             if brace_depth == 0:
                 blocks.append("\n".join(current))
                 current = None
-
         if in_glyphs and paren_depth == 0:
             break
 
-    return blocks
-
-
-def parse_glyph_metadata(full_text: str) -> dict[str, GlyphMeta]:
     metadata: dict[str, GlyphMeta] = {}
-    for block in parse_top_level_glyph_dicts(full_text):
+    for block in blocks:
         name_m = re.search(r'glyphname = "([^"]+)";', block)
         if not name_m:
             continue
@@ -154,22 +131,11 @@ def parse_glyph_metadata(full_text: str) -> dict[str, GlyphMeta]:
     return metadata
 
 
-def eligible_for_cjct(meta: GlyphMeta, strict_metadata: bool) -> bool:
+def eligible_for_cjct(meta: GlyphMeta) -> bool:
     if not meta.export:
         return False
-
-    if strict_metadata:
-        # Strict mode is useful for validating explicit metadata coverage.
-        if meta.script != "devanagari":
-            return False
-        if meta.category != "Letter":
-            return False
-        if meta.subcategory not in (None, "Other"):
-            return False
-        return True
-
-    # Default mode is intentionally tolerant: if a field is missing in source,
-    # do not reject the glyph (needed for entries like d_v_ya-deva).
+    # Tolerant: missing fields are not disqualifying (e.g. d_v_ya-deva has no subCategory).
+    # Only reject if an explicit contradicting value is present.
     if meta.script is not None and meta.script != "devanagari":
         return False
     if meta.category is not None and meta.category != "Letter":
@@ -193,7 +159,7 @@ def output_to_inputs(output_glyph: str) -> list[str] | None:
 
 
 def generate_lookup(
-    outputs: list[str], glyphs: dict[str, GlyphMeta], strict_metadata: bool
+    outputs: list[str], glyphs: dict[str, GlyphMeta]
 ) -> tuple[str, int, int, int]:
     lines: list[str] = ["lookup cjct_devanagari {"]
     kept = 0
@@ -204,7 +170,7 @@ def generate_lookup(
         if meta is None:
             skipped += 1
             continue
-        if not eligible_for_cjct(meta, strict_metadata):
+        if not eligible_for_cjct(meta):
             skipped += 1
             continue
 
@@ -247,7 +213,7 @@ def main() -> int:
     cjct_code = cjct_match.group("code")
     outputs = extract_cjct_outputs(cjct_code)
     metadata = parse_glyph_metadata(text)
-    lookup, kept, skipped, total = generate_lookup(outputs, metadata, args.strict_metadata)
+    lookup, kept, skipped, total = generate_lookup(outputs, metadata)
 
     print(f"Generated cjct lookup: kept={kept} skipped={skipped} total={total}", file=sys.stderr)
 
@@ -255,10 +221,7 @@ def main() -> int:
         updated_code = patch_cjct_lookup(cjct_code, lookup)
         patched_text = text[: cjct_match.start("code")] + updated_code + text[cjct_match.end("code") :]
         glyphs_path.write_text(patched_text, encoding="utf-8")
-
-    if args.output:
-        Path(args.output).write_text(lookup, encoding="utf-8")
-    elif not args.patch_glyphs:
+    else:
         print(lookup)
 
     return 0
