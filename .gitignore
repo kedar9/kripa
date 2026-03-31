@@ -1,1 +1,5 @@
-inspirations/
+# Temporary build files
+tmp.*
+
+# Sample files
+samples/

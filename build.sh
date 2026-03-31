@@ -2,17 +2,30 @@
 set -e
 
 SOURCE="sources/Kripa.glyphs"
+BUILDER="builder.yaml"
 
-# Back up source; restore it after build even on failure
-cp "$SOURCE" "$SOURCE.bak"
-trap 'mv "$SOURCE.bak" "$SOURCE"' EXIT
+# Build from temporary files so the source is not modified in place.
+TMP_SOURCE="sources/tmp.Kripa.$$.glyphs"
+TMP_BUILDER="tmp.builder.$$.yaml"
 
-# Regenerate cjct lookup from current source glyph metadata
-python3 scripts/generate_cjct.py --glyphs "$SOURCE" --patch-glyphs
+cleanup() {
+	if [ "${KEEP_TEMP:-0}" = "1" ]; then
+		echo "Keeping temporary files: $TMP_SOURCE $TMP_BUILDER"
+		return
+	fi
+	rm -f "$TMP_SOURCE" "$TMP_BUILDER"
+}
+trap cleanup EXIT
+
+cp "$SOURCE" "$TMP_SOURCE"
+sed "s|sources/Kripa.glyphs|$TMP_SOURCE|" "$BUILDER" > "$TMP_BUILDER"
+
+# Patch Devanagari glyph metadata and regenerate cjct lookup
+python3 scripts/generate_cjct.py --glyphs "$TMP_SOURCE" --patch-glyphs
 
 # Patch cjct feature for Marathi language support
-python3 scripts/patch_cjct.py "$SOURCE"
+python3 scripts/patch_cjct.py "$TMP_SOURCE"
 
 # Build font
-gftools builder builder.yaml
+gftools builder "$TMP_BUILDER"
 # fonttools varLib.instancer -o "fonts/variable/Kripa[wght].ttf"
