@@ -1,9 +1,6 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
-DisplayStrings = (
-"/h_ya-deva  "
-);
 axes = (
 {
 name = Weight;
@@ -246,7 +243,6 @@ feature cjct;
 feature blws;
 feature pres;
 feature abvs;
-feature ss03;
 feature cv01;
 feature cv02;
 feature cv03;
@@ -261,6 +257,8 @@ feature cv11;
 feature cv12;
 feature cv13;
 feature cv14;
+feature cv15;
+feature cv16;
 ";
 tag = aalt;
 },
@@ -480,8 +478,9 @@ sub f f f by f_f_f;
 sub f f j by f_f_j;
 sub f f y by f_f_y;
 sub f j by f_j;
-sub f.cv12 j.cv14 by f_j.cv12_cv14;
 sub f y by f_y;
+sub f.cv12 j.cv13 by f_j.cv12_cv13;
+sub f.cv12 f.cv12 j.cv13 by f_f_j.cv12_cv13;
 ";
 tag = dlig;
 },
@@ -803,444 +802,7 @@ tag = blws;
 {
 automatic = 1;
 code = "script dev2;
-lookup Imatra1_devanagari {
-	lookupflag IgnoreMarks;
-	sub iMatra-deva' t-deva s-deva n-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva s-deva m-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' bh_rakar-deva ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' c-deva c-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' d-deva d-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' d-deva dh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' dd_dd_ya-deva by iMatra-deva.0014;
-	sub iMatra-deva' ddh_ddh_ya-deva by iMatra-deva.0014;
-	sub iMatra-deva' g-deva bh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' g-deva d-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' g-deva dh-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' g-deva dh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' g-deva l-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' g-deva m-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' g-deva n-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' g_rakar_ya-deva by iMatra-deva.0012;
-	sub iMatra-deva' gh-deva l-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' h-deva m-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva k-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva s-deva dda-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva s-deva pa-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva s-deva ta-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva s-deva tta-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ss-deva ma-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ss-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ss-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva t-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva t-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva v-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva m-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva t-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva h-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva k-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva l-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva th-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' m-deva b-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' m-deva bh-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' m-deva bh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' m-deva m-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva bh-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva bh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva d-deva dha-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva d-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva dh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva g-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva h-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva j-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n_k_sa-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva k-deva ssa-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva m-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva n-deva da-deva by iMatra-deva.0014;
-	sub iMatra-deva' n-deva s-deva tha-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva s-deva tta-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva s-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva t-deva sa-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva t-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva t-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva th-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva th-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva k-deva ssa-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva k-deva ta-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva kh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' ny-deva c-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' ny-deva j-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' p-deva s-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' p-deva t-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' ra-deva halant-deva c-deva cha-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva m-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva n-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva p-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva t-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva t-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva th-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' sh_rakar_ya-deva by iMatra-deva.0014;
-	sub iMatra-deva' t-deva k-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' t_k_ssa-deva by iMatra-deva.0013;
-	sub iMatra-deva' t-deva k-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva kh-deva na-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva m-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva n-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva p-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva s-deva na-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva s-deva tha-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva s-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva s-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' t_t-deva va-deva by iMatra-deva.0011;
-	sub iMatra-deva' j_j-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' v_rakar-deva ta-deva by iMatra-deva.0011;
-	sub iMatra-deva' b-deva ba-deva by iMatra-deva.0011;
-	sub iMatra-deva' b-deva da-deva by iMatra-deva.0009;
-	sub iMatra-deva' b-deva dha-deva by iMatra-deva.0012;
-	sub iMatra-deva' b-deva ja-deva by iMatra-deva.0014;
-	sub iMatra-deva' b-deva la-deva by iMatra-deva.0014;
-	sub iMatra-deva' bh-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' bh-deva na-deva by iMatra-deva.0011;
-	sub iMatra-deva' bh-deva va-deva by iMatra-deva.0011;
-	sub iMatra-deva' bh-deva ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' c-deva ca-deva by iMatra-deva.0012;
-	sub iMatra-deva' c-deva cha-deva by iMatra-deva.0012;
-	sub iMatra-deva' c-deva da-deva by iMatra-deva.0009;
-	sub iMatra-deva' c-deva dda-deva by iMatra-deva.0011;
-	sub iMatra-deva' c-deva ddha-deva by iMatra-deva.0009;
-	sub iMatra-deva' c-deva dha-deva by iMatra-deva.0012;
-	sub iMatra-deva' c-deva ka-deva by iMatra-deva.0010;
-	sub iMatra-deva' c-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' c-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' c-deva ma-deva by iMatra-deva.0012;
-	sub iMatra-deva' c-deva na-deva by iMatra-deva.0011;
-	sub iMatra-deva' c-deva nna-deva by iMatra-deva.0014;
-	sub iMatra-deva' c-deva pa-deva by iMatra-deva.0011;
-	sub iMatra-deva' c-deva sa-deva by iMatra-deva.0014;
-	sub iMatra-deva' c-deva ta-deva by iMatra-deva.0011;
-	sub iMatra-deva' c-deva tha-deva by iMatra-deva.0013;
-	sub iMatra-deva' c-deva tta-deva by iMatra-deva.0009;
-	sub iMatra-deva' c-deva ttha-deva by iMatra-deva.0009;
-	sub iMatra-deva' c-deva va-deva by iMatra-deva.0011;
-	sub iMatra-deva' c-deva ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' ch-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' ch-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' d-deva ba-deva by iMatra-deva.0013;
-	sub iMatra-deva' d-deva bha-deva by iMatra-deva.0014;
-	sub iMatra-deva' d-deva da-deva by iMatra-deva.0011;
-	sub iMatra-deva' d-deva dha-deva by iMatra-deva.0014;
-	sub iMatra-deva' d-deva ga-deva by iMatra-deva.0014;
-	sub iMatra-deva' d-deva gha-deva by iMatra-deva.0014;
-	sub iMatra-deva' d-deva ma-deva by iMatra-deva.0014;
-	sub iMatra-deva' d-deva va-deva by iMatra-deva.0013;
-	sub iMatra-deva' d-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' dd-deva bha-deva by iMatra-deva.0014;
-	sub iMatra-deva' dd-deva dda-deva by iMatra-deva.0013;
-	sub iMatra-deva' dd-deva ddha-deva by iMatra-deva.0012;
-	sub iMatra-deva' dd-deva va-deva by iMatra-deva.0014;
-	sub iMatra-deva' ddh-deva ddha-deva by iMatra-deva.0012;
-	sub iMatra-deva' ddh_ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' dh-deva da-deva by iMatra-deva.0010;
-	sub iMatra-deva' dh-deva dha-deva by iMatra-deva.0013;
-	sub iMatra-deva' dh-deva ka-deva by iMatra-deva.0011;
-	sub iMatra-deva' dh-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' dh-deva na-deva by iMatra-deva.0012;
-	sub iMatra-deva' dh-deva sa-deva by iMatra-deva.0014;
-	sub iMatra-deva' dh-deva va-deva by iMatra-deva.0012;
-	sub iMatra-deva' dh-deva ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' g-deva ba-deva by iMatra-deva.0011;
-	sub iMatra-deva' g-deva bha-deva by iMatra-deva.0011;
-	sub iMatra-deva' g-deva da-deva by iMatra-deva.0008;
-	sub iMatra-deva' g-deva dha-deva by iMatra-deva.0012;
-	sub iMatra-deva' g-deva ga-deva by iMatra-deva.0011;
-	sub iMatra-deva' g-deva ja-deva by iMatra-deva.0014;
-	sub iMatra-deva' g-deva ka-deva by iMatra-deva.0009;
-	sub iMatra-deva' g-deva la-deva by iMatra-deva.0014;
-	sub iMatra-deva' g-deva ma-deva by iMatra-deva.0011;
-	sub iMatra-deva' g-deva na-deva by iMatra-deva.0011;
-	sub iMatra-deva' g-deva nna-deva by iMatra-deva.0013;
-	sub iMatra-deva' g-deva sa-deva by iMatra-deva.0013;
-	sub iMatra-deva' g-deva ta-deva by iMatra-deva.0010;
-	sub iMatra-deva' g-deva va-deva by iMatra-deva.0010;
-	sub iMatra-deva' g-deva ya-deva by iMatra-deva.0012;
-	sub iMatra-deva' gh-deva ba-deva by iMatra-deva.0012;
-	sub iMatra-deva' gh-deva da-deva by iMatra-deva.0010;
-	sub iMatra-deva' gh-deva dda-deva by iMatra-deva.0011;
-	sub iMatra-deva' gh-deva gha-deva by iMatra-deva.0013;
-	sub iMatra-deva' gh-deva ja-deva by iMatra-deva.0015;
-	sub iMatra-deva' gh-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' gh-deva ma-deva by iMatra-deva.0012;
-	sub iMatra-deva' gh-deva na-deva by iMatra-deva.0012;
-	sub iMatra-deva' gh-deva nna-deva by iMatra-deva.0014;
-	sub iMatra-deva' gh-deva sa-deva by iMatra-deva.0014;
-	sub iMatra-deva' gh-deva ta-deva by iMatra-deva.0012;
-	sub iMatra-deva' gh-deva tta-deva by iMatra-deva.0010;
-	sub iMatra-deva' gh-deva ttha-deva by iMatra-deva.0010;
-	sub iMatra-deva' gh-deva va-deva by iMatra-deva.0012;
-	sub iMatra-deva' gh-deva ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' h-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' h-deva ma-deva by iMatra-deva.0013;
-	sub iMatra-deva' h-deva na-deva by iMatra-deva.0012;
-	sub iMatra-deva' h-deva nna-deva by iMatra-deva.0015;
-	sub iMatra-deva' h-deva va-deva by iMatra-deva.0012;
-	sub iMatra-deva' h-deva ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' j-deva ba-deva by iMatra-deva.0013;
-	sub iMatra-deva' j-deva da-deva by iMatra-deva.0011;
-	sub iMatra-deva' j-deva ja-deva by iMatra-deva.0015;
-	sub iMatra-deva' j-deva jha-deva by iMatra-deva.0015;
-	sub iMatra-deva' j-deva ka-deva by iMatra-deva.0012;
-	sub iMatra-deva' j-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' j-deva ma-deva by iMatra-deva.0013;
-	sub iMatra-deva' j-deva na-deva by iMatra-deva.0013;
-	sub iMatra-deva' j-deva nya-deva by iMatra-deva.0015;
-	sub iMatra-deva' j-deva ta-deva by iMatra-deva.0013;
-	sub iMatra-deva' j-deva va-deva by iMatra-deva.0013;
-	sub iMatra-deva' j-deva ya-deva by iMatra-deva.0014;
-	sub iMatra-deva' jh-deva ga-deva by iMatra-deva.0014;
-	sub iMatra-deva' jh-deva gha-deva by iMatra-deva.0015;
-	sub iMatra-deva' jh-deva jha-deva by iMatra-deva.0015;
-	sub iMatra-deva' jh-deva ka-deva by iMatra-deva.0013;
-	sub iMatra-deva' jh-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' jh-deva ma-deva by iMatra-deva.0015;
-	sub iMatra-deva' jh-deva na-deva by iMatra-deva.0014;
-	sub iMatra-deva' jh-deva ta-deva by iMatra-deva.0014;
-	sub iMatra-deva' jh-deva va-deva by iMatra-deva.0014;
-	sub iMatra-deva' jh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ba-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva bha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ca-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva cha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva da-deva by iMatra-deva.0013;
-	sub iMatra-deva' k-deva dda-deva by iMatra-deva.0014;
-	sub iMatra-deva' k-deva ddha-deva by iMatra-deva.0013;
-	sub iMatra-deva' k-deva ga-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ha-deva by iMatra-deva.0014;
-	sub iMatra-deva' k_ja-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva jha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ka-deva by iMatra-deva.0014;
-	sub iMatra-deva' k-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva lla-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ma-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva na-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva nna-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva pa-deva by iMatra-deva.0014;
-	sub iMatra-deva' k-deva pha-deva by iMatra-deva.0014;
-	sub iMatra-deva' k_sa-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva sha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ssa-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ta-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva tha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva tta-deva by iMatra-deva.0013;
-	sub iMatra-deva' k-deva ttha-deva by iMatra-deva.0013;
-	sub iMatra-deva' k-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva da-deva by iMatra-deva.0014;
-	sub iMatra-deva' kh-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva ma-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva na-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva nna-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva pa-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva sa-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva sha-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva ssa-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva ta-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva tta-deva by iMatra-deva.0014;
-	sub iMatra-deva' kh-deva ttha-deva by iMatra-deva.0014;
-	sub iMatra-deva' kh-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' kh-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva ba-deva by iMatra-deva.0014;
-	sub iMatra-deva' l-deva bha-deva by iMatra-deva.0014;
-	sub iMatra-deva' l-deva ca-deva by iMatra-deva.0014;
-	sub iMatra-deva' l-deva da-deva by iMatra-deva.0012;
-	sub iMatra-deva' l-deva dda-deva by iMatra-deva.0013;
-	sub iMatra-deva' l-deva ddha-deva by iMatra-deva.0012;
-	sub iMatra-deva' l-deva ga-deva by iMatra-deva.0014;
-	sub iMatra-deva' l-deva ha-deva by iMatra-deva.0013;
-	sub iMatra-deva' l-deva ja-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva ka-deva by iMatra-deva.0012;
-	sub iMatra-deva' l-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva ma-deva by iMatra-deva.0014;
-	sub iMatra-deva' l-deva pa-deva by iMatra-deva.0013;
-	sub iMatra-deva' l-deva pha-deva by iMatra-deva.0013;
-	sub iMatra-deva' l-deva sa-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva ta-deva by iMatra-deva.0014;
-	sub iMatra-deva' l-deva tha-deva by iMatra-deva.0015;
-	sub iMatra-deva' l-deva tta-deva by iMatra-deva.0012;
-	sub iMatra-deva' l-deva ttha-deva by iMatra-deva.0012;
-	sub iMatra-deva' l-deva va-deva by iMatra-deva.0014;
-	sub iMatra-deva' l-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' ll-deva pa-deva by iMatra-deva.0015;
-	sub iMatra-deva' ll-deva va-deva by iMatra-deva.0015;
-	sub iMatra-deva' ll-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' m-deva ba-deva by iMatra-deva.0012;
-	sub iMatra-deva' m-deva bha-deva by iMatra-deva.0012;
-	sub iMatra-deva' m-deva da-deva by iMatra-deva.0010;
-	sub iMatra-deva' m-deva ha-deva by iMatra-deva.0011;
-	sub iMatra-deva' m-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' m-deva ma-deva by iMatra-deva.0012;
-	sub iMatra-deva' m-deva na-deva by iMatra-deva.0012;
-	sub iMatra-deva' m-deva pa-deva by iMatra-deva.0011;
-	sub iMatra-deva' m-deva sa-deva by iMatra-deva.0014;
-	sub iMatra-deva' m-deva sha-deva by iMatra-deva.0014;
-	sub iMatra-deva' m-deva ta-deva by iMatra-deva.0012;
-	sub iMatra-deva' m-deva va-deva by iMatra-deva.0012;
-	sub iMatra-deva' m-deva ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' n-deva ba-deva by iMatra-deva.0010;
-	sub iMatra-deva' n-deva bha-deva by iMatra-deva.0011;
-	sub iMatra-deva' n-deva ca-deva by iMatra-deva.0011;
-	sub iMatra-deva' n-deva cha-deva by iMatra-deva.0011;
-	sub iMatra-deva' n-deva da-deva by iMatra-deva.0008;
-	sub iMatra-deva' n-deva dda-deva by iMatra-deva.0009;
-	sub iMatra-deva' n-deva ddha-deva by iMatra-deva.0008;
-	sub iMatra-deva' n-deva dha-deva by iMatra-deva.0011;
-	sub iMatra-deva' n-deva ga-deva by iMatra-deva.0010;
-	sub iMatra-deva' n-deva ha-deva by iMatra-deva.0010;
-	sub iMatra-deva' n-deva ja-deva by iMatra-deva.0013;
-	sub iMatra-deva' n-deva jha-deva by iMatra-deva.0013;
-	sub iMatra-deva' n-deva ka-deva by iMatra-deva.0009;
-	sub iMatra-deva' n-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' n-deva la-deva by iMatra-deva.0013;
-	sub iMatra-deva' n-deva ma-deva by iMatra-deva.0011;
-	sub iMatra-deva' n-deva na-deva by iMatra-deva.0010;
-	sub iMatra-deva' n-deva pa-deva by iMatra-deva.0010;
-	sub iMatra-deva' n-deva pha-deva by iMatra-deva.0009;
-	sub iMatra-deva' n-deva sa-deva by iMatra-deva.0012;
-	sub iMatra-deva' n-deva sha-deva by iMatra-deva.0013;
-	sub iMatra-deva' n-deva ta-deva by iMatra-deva.0010;
-	sub iMatra-deva' n-deva tha-deva by iMatra-deva.0012;
-	sub iMatra-deva' n-deva tta-deva by iMatra-deva.0008;
-	sub iMatra-deva' n-deva ttha-deva by iMatra-deva.0008;
-	sub iMatra-deva' n-deva va-deva by iMatra-deva.0010;
-	sub iMatra-deva' n-deva ya-deva by iMatra-deva.0011;
-	sub iMatra-deva' ng-deva ca-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva ga-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva gha-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva ka-deva by iMatra-deva.0014;
-	sub iMatra-deva' ng-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva ma-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva na-deva by iMatra-deva.0015;
-	sub iMatra-deva' ng-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' nn-deva dda-deva by iMatra-deva.0012;
-	sub iMatra-deva' nn-deva dddha-deva by iMatra-deva.0012;
-	sub iMatra-deva' nn-deva ddha-deva by iMatra-deva.0010;
-	sub iMatra-deva' nn-deva nna-deva by iMatra-deva.0015;
-	sub iMatra-deva' nn-deva ta-deva by iMatra-deva.0012;
-	sub iMatra-deva' nn-deva tta-deva by iMatra-deva.0010;
-	sub iMatra-deva' nn-deva ttha-deva by iMatra-deva.0010;
-	sub iMatra-deva' nn-deva va-deva by iMatra-deva.0012;
-	sub iMatra-deva' nn-deva ya-deva by iMatra-deva.0014;
-	sub iMatra-deva' ny-deva ca-deva by iMatra-deva.0013;
-	sub iMatra-deva' ny-deva cha-deva by iMatra-deva.0013;
-	sub iMatra-deva' ny-deva ja-deva by iMatra-deva.0015;
-	sub iMatra-deva' ny-deva sha-deva by iMatra-deva.0015;
-	sub iMatra-deva' p-deva da-deva by iMatra-deva.0008;
-	sub iMatra-deva' p-deva dda-deva by iMatra-deva.0010;
-	sub iMatra-deva' p-deva ddha-deva by iMatra-deva.0008;
-	sub iMatra-deva' p-deva dha-deva by iMatra-deva.0012;
-	sub iMatra-deva' p-deva jha-deva by iMatra-deva.0014;
-	sub iMatra-deva' p-deva ka-deva by iMatra-deva.0009;
-	sub iMatra-deva' p-deva la-deva by iMatra-deva.0014;
-	sub iMatra-deva' p-deva lla-deva by iMatra-deva.0012;
-	sub iMatra-deva' p-deva ma-deva by iMatra-deva.0011;
-	sub iMatra-deva' p-deva na-deva by iMatra-deva.0010;
-	sub iMatra-deva' p-deva nna-deva by iMatra-deva.0013;
-	sub iMatra-deva' p-deva pa-deva by iMatra-deva.0010;
-	sub iMatra-deva' p-deva pha-deva by iMatra-deva.0010;
-	sub iMatra-deva' p-deva sa-deva by iMatra-deva.0013;
-	sub iMatra-deva' p-deva ssa-deva by iMatra-deva.0010;
-	sub iMatra-deva' p-deva ta-deva by iMatra-deva.0010;
-	sub iMatra-deva' p-deva tha-deva by iMatra-deva.0012;
-	sub iMatra-deva' p-deva tta-deva by iMatra-deva.0008;
-	sub iMatra-deva' p-deva ttha-deva by iMatra-deva.0008;
-	sub iMatra-deva' p-deva va-deva by iMatra-deva.0010;
-	sub iMatra-deva' p-deva ya-deva by iMatra-deva.0012;
-	sub iMatra-deva' ph-deva da-deva by iMatra-deva.0013;
-	sub iMatra-deva' ph-deva ja-deva by iMatra-deva.0015;
-	sub iMatra-deva' ph-deva ka-deva by iMatra-deva.0014;
-	sub iMatra-deva' ph-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' ph-deva ma-deva by iMatra-deva.0015;
-	sub iMatra-deva' ph-deva na-deva by iMatra-deva.0015;
-	sub iMatra-deva' ph-deva pha-deva by iMatra-deva.0014;
-	sub iMatra-deva' ph-deva sha-deva by iMatra-deva.0015;
-	sub iMatra-deva' ph-deva ta-deva by iMatra-deva.0015;
-	sub iMatra-deva' ph-deva tta-deva by iMatra-deva.0013;
-	sub iMatra-deva' ph-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva ba-deva by iMatra-deva.0014;
-	sub iMatra-deva' s-deva cha-deva by iMatra-deva.0014;
-	sub iMatra-deva' s-deva da-deva by iMatra-deva.0011;
-	sub iMatra-deva' s-deva dda-deva by iMatra-deva.0013;
-	sub iMatra-deva' s-deva ddha-deva by iMatra-deva.0011;
-	sub iMatra-deva' s-deva ja-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva ka-deva by iMatra-deva.0012;
-	sub iMatra-deva' s-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva ma-deva by iMatra-deva.0014;
-	sub iMatra-deva' s-deva na-deva by iMatra-deva.0013;
-	sub iMatra-deva' s-deva pa-deva by iMatra-deva.0013;
-	sub iMatra-deva' s-deva pha-deva by iMatra-deva.0012;
-	sub iMatra-deva' s-deva sa-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva ta-deva by iMatra-deva.0013;
-	sub iMatra-deva' s-deva tha-deva by iMatra-deva.0015;
-	sub iMatra-deva' s-deva tta-deva by iMatra-deva.0011;
-	sub iMatra-deva' s-deva ttha-deva by iMatra-deva.0011;
-	sub iMatra-deva' s-deva va-deva by iMatra-deva.0013;
-	sub iMatra-deva' s-deva ya-deva by iMatra-deva.0015;
-	sub iMatra-deva' sh-deva ba-deva by iMatra-deva.0013;
-	sub iMatra-deva' sh-deva ca-deva by iMatra-deva.0014;
-	sub iMatra-deva' sh-deva cha-deva by iMatra-deva.0014;
-	sub iMatra-deva' sh-deva ka-deva by iMatra-deva.0012;
-	sub iMatra-deva' sh-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' sh-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' sh-deva ma-deva by iMatra-deva.0014;
-	sub iMatra-deva' sh-deva na-deva by iMatra-deva.0013;
-	sub iMatra-deva' sh-deva sha-deva by iMatra-deva.0015;
-	sub iMatra-deva' sh-deva ta-deva by iMatra-deva.0013;
-	sub iMatra-deva' sh-deva tta-deva by iMatra-deva.0011;
-	sub iMatra-deva' sh-deva va-deva by iMatra-deva.0013;
-	sub iMatra-deva' sh-deva ya-deva by iMatra-deva.0014;
-	sub iMatra-deva' ss-deva ka-deva by iMatra-deva.0009;
-	sub iMatra-deva' ss-deva ma-deva by iMatra-deva.0011;
-	sub iMatra-deva' ss-deva nna-deva by iMatra-deva.0013;
-	sub iMatra-deva' ss-deva pa-deva by iMatra-deva.0010;
-	sub iMatra-deva' ss-deva tta-deva by iMatra-deva.0008;
-	sub iMatra-deva' ss-deva ttha-deva by iMatra-deva.0008;
-	sub iMatra-deva' ss-deva va-deva by iMatra-deva.0010;
-	sub iMatra-deva' t-deva ba-deva by iMatra-deva.0011;
-	sub iMatra-deva' t-deva bha-deva by iMatra-deva.0011;
-	sub iMatra-deva' t-deva ka-deva by iMatra-deva.0009;
-	sub iMatra-deva' t-deva kha-deva by iMatra-deva.0015;
-	sub iMatra-deva' t-deva la-deva by iMatra-deva.0014;
-	sub iMatra-deva' t-deva ma-deva by iMatra-deva.0011;
-	sub iMatra-deva' t-deva na-deva by iMatra-deva.0010;
-	sub iMatra-deva' t-deva pa-deva by iMatra-deva.0010;
-	sub iMatra-deva' t-deva pha-deva by iMatra-deva.0010;
-	sub iMatra-deva' t-deva sa-deva by iMatra-deva.0013;
-	sub iMatra-deva' t-deva ta-deva by iMatra-deva.0010;
-	sub iMatra-deva' t-deva tha-deva by iMatra-deva.0012;
-	sub iMatra-deva' t-deva va-deva by iMatra-deva.0010;
-	sub iMatra-deva' t-deva ya-deva by iMatra-deva.0012;
-	sub iMatra-deva' th-deva ka-deva by iMatra-deva.0011;
-	sub iMatra-deva' th-deva la-deva by iMatra-deva.0015;
-	sub iMatra-deva' th-deva ma-deva by iMatra-deva.0013;
-	sub iMatra-deva' th-deva sa-deva by iMatra-deva.0014;
-	sub iMatra-deva' th-deva tha-deva by iMatra-deva.0014;
-	sub iMatra-deva' th-deva va-deva by iMatra-deva.0012;
-	sub iMatra-deva' th-deva ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' tt-deva tta-deva by iMatra-deva.0011;
-	sub iMatra-deva' tt-deva ttha-deva by iMatra-deva.0011;
-	sub iMatra-deva' tt-deva va-deva by iMatra-deva.0013;
-	sub iMatra-deva' tt_ya-deva by iMatra-deva.0013;
-	sub iMatra-deva' tth-deva ttha-deva by iMatra-deva.0012;
-	sub iMatra-deva' v-deva ha-deva by iMatra-deva.0010;
-	sub iMatra-deva' v-deva la-deva by iMatra-deva.0014;
-	sub iMatra-deva' v-deva na-deva by iMatra-deva.0011;
-	sub iMatra-deva' v-deva sa-deva by iMatra-deva.0013;
-	sub iMatra-deva' v-deva ya-deva by iMatra-deva.0012;
-	sub iMatra-deva' v-deva va-deva by iMatra-deva.0011;
-	sub iMatra-deva' y-deva ya-deva by iMatra-deva.0013;
-} Imatra1_devanagari;
+# There is a problem with the font. Please fix all features and clicking the compile/test button.
 
 lookup Imatra2_devanagari {
 	sub [iMatra-deva]' [ddha-deva rha-deva tt_va-deva d_va-deva tt_ttha-deva tt_tta-deva da_rVocalicMatra-deva d-deva d_ba-deva tta_rakar-deva rra-deva rr-deva tta_ra_uuMatra-deva da_rakar-deva ttha-deva da-deva ra-deva ddh_ddha-deva d_ba_rakar-deva tth-deva d_va_rakar-deva d_v_rakar-deva d_na-deva d_da-deva ttha_rakar-deva tt-deva ddh-deva d_rakar-deva tth_ttha-deva tta-deva] by [iMatra-deva.0002];
@@ -1268,16 +830,13 @@ lookup Iimatra_devanagari {
 
 language MAR;
 lookup cjct_devanagari;
-lookup Imatra1_devanagari;
 lookup Imatra2_devanagari;
 
 script deva;
 lookup cjct_devanagari;
-lookup Imatra1_devanagari;
 lookup Imatra2_devanagari;
 language MAR;
 lookup cjct_devanagari;
-lookup Imatra1_devanagari;
 lookup Imatra2_devanagari;
 ";
 tag = pres;
@@ -1401,40 +960,6 @@ lookup Abvs2_devanagari;
 lookup Abvs3_devanagari;
 ";
 tag = abvs;
-},
-{
-automatic = 1;
-code = "sub u by u.ss03;
-sub uacute by uacute.ss03;
-sub ubreve by ubreve.ss03;
-sub ucircumflex by ucircumflex.ss03;
-sub udblgrave by udblgrave.ss03;
-sub udieresis by udieresis.ss03;
-sub udotbelow by udotbelow.ss03;
-sub ugrave by ugrave.ss03;
-sub uhookabove by uhookabove.ss03;
-sub uhorn by uhorn.ss03;
-sub uhornacute by uhornacute.ss03;
-sub uhorndotbelow by uhorndotbelow.ss03;
-sub uhorngrave by uhorngrave.ss03;
-sub uhornhookabove by uhornhookabove.ss03;
-sub uhorntilde by uhorntilde.ss03;
-sub uhungarumlaut by uhungarumlaut.ss03;
-sub uinvertedbreve by uinvertedbreve.ss03;
-sub umacron by umacron.ss03;
-sub umacrondieresis by umacrondieresis.ss03;
-sub uogonek by uogonek.ss03;
-sub uring by uring.ss03;
-sub utilde by utilde.ss03;
-sub utildeacute by utildeacute.ss03;
-";
-labels = (
-{
-language = dflt;
-value = "";
-}
-);
-tag = ss03;
 },
 {
 automatic = 1;
@@ -1567,34 +1092,66 @@ tag = cv12;
 },
 {
 automatic = 1;
-code = "sub g by g.cv13;
-sub gbreve by gbreve.cv13;
-sub gcaron by gcaron.cv13;
-sub gcircumflex by gcircumflex.cv13;
-sub gcommaaccent by gcommaaccent.cv13;
-sub gdotaccent by gdotaccent.cv13;
-sub gmacron by gmacron.cv13;
-sub n by n.cv13;
-sub nacute by nacute.cv13;
-sub ncaron by ncaron.cv13;
-sub ncommaaccent by ncommaaccent.cv13;
-sub ndotaccent by ndotaccent.cv13;
-sub ndotbelow by ndotbelow.cv13;
-sub ntilde by ntilde.cv13;
-sub eng by eng.cv13;
+code = "sub j by j.cv13;
+sub jdotless by jdotless.cv13;
+sub jcircumflex by jcircumflex.cv13;
 ";
 tag = cv13;
 },
 {
 automatic = 1;
-code = "sub j by j.cv14;
-sub jdotless by jdotless.cv14;
-sub jcircumflex by jcircumflex.cv14;
-sub y by y.cv14;
+code = "sub n by n.cv14;
+sub nacute by nacute.cv14;
+sub ncaron by ncaron.cv14;
+sub ncommaaccent by ncommaaccent.cv14;
+sub ndotaccent by ndotaccent.cv14;
+sub ndotbelow by ndotbelow.cv14;
+sub ntilde by ntilde.cv14;
+sub eng by eng.cv14;
 sub f_f_j by f_f_j.cv14;
 sub f_j by f_j.cv14;
 ";
 tag = cv14;
+},
+{
+automatic = 1;
+code = "sub t by t.cv15;
+sub tbar by tbar.cv15;
+sub tcaron by tcaron.cv15;
+sub tcedilla by tcedilla.cv15;
+sub tcommaaccent by tcommaaccent.cv15;
+sub tdieresis by tdieresis.cv15;
+sub tdotbelow by tdotbelow.cv15;
+";
+tag = cv15;
+},
+{
+automatic = 1;
+code = "sub u by u.cv16;
+sub uacute by uacute.cv16;
+sub ubreve by ubreve.cv16;
+sub ucircumflex by ucircumflex.cv16;
+sub udblgrave by udblgrave.cv16;
+sub udieresis by udieresis.cv16;
+sub udotbelow by udotbelow.cv16;
+sub ugrave by ugrave.cv16;
+sub uhookabove by uhookabove.cv16;
+sub uhorn by uhorn.cv16;
+sub uhornacute by uhornacute.cv16;
+sub uhorndotbelow by uhorndotbelow.cv16;
+sub uhorngrave by uhorngrave.cv16;
+sub uhornhookabove by uhornhookabove.cv16;
+sub uhorntilde by uhorntilde.cv16;
+sub uhungarumlaut by uhungarumlaut.cv16;
+sub uinvertedbreve by uinvertedbreve.cv16;
+sub umacron by umacron.cv16;
+sub umacrondieresis by umacrondieresis.cv16;
+sub uogonek by uogonek.cv16;
+sub uring by uring.cv16;
+sub utilde by utilde.cv16;
+sub utildeacute by utildeacute.cv16;
+";
+tag = cv16;
 }
 );
 fontMaster = (
@@ -1661,10 +1218,6 @@ guides = (
 {
 angle = 90;
 pos = (-213,-200);
-},
-{
-angle = 90;
-pos = (325,476);
 },
 {
 angle = 90;
@@ -16147,7 +15700,7 @@ color = 5;
 glyphname = Y;
 kernLeft = Y;
 kernRight = Y;
-lastChange = "2025-08-10 22:13:03 +0000";
+lastChange = "2026-04-10 02:39:40 +0000";
 layers = (
 {
 anchors = (
@@ -22722,322 +22275,6 @@ metricRight = "=a";
 unicode = 103;
 },
 {
-glyphname = g.cv13;
-kernLeft = o;
-kernRight = t;
-lastChange = "2026-03-12 18:40:35 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-pos = (493,-180);
-},
-{
-name = top;
-pos = (314,536);
-}
-);
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-closed = 1;
-nodes = (
-(420,90,o),
-(521,188,o),
-(521,318,cs),
-(521,448,o),
-(420,546,o),
-(286,546,cs),
-(152,546,o),
-(51,448,o),
-(51,318,cs),
-(51,188,o),
-(152,90,o),
-(286,90,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(301,-28,l),
-(183,-56,o),
-(95,-23,o),
-(95,48,c),
-(50,48,l),
-(50,-56,o),
-(156,-108,o),
-(298,-73,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(95,48,l),
-(95,88,o),
-(131,119,o),
-(178,120,c),
-(178,165,l),
-(105,165,o),
-(50,115,o),
-(50,48,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(518,-170,l),
-(518,-58,o),
-(425,2,o),
-(301,-28,c),
-(298,-73,l),
-(396,-48,o),
-(470,-89,o),
-(470,-170,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(177,135,o),
-(96,213,o),
-(96,318,cs),
-(96,423,o),
-(177,502,o),
-(286,502,cs),
-(395,502,o),
-(476,423,o),
-(476,318,cs),
-(476,213,o),
-(395,135,o),
-(286,135,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(484,442,l),
-(484,494,o),
-(511,553,o),
-(587,554,c),
-(587,599,l),
-(485,599,o),
-(439,520,o),
-(439,442,c)
-);
-}
-);
-width = 627;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (484,-191);
-},
-{
-name = top;
-pos = (312,546);
-}
-);
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(421,90,o),
-(525,190,o),
-(525,324,cs),
-(525,456,o),
-(421,555,o),
-(283,555,cs),
-(144,555,o),
-(40,456,o),
-(40,324,cs),
-(40,190,o),
-(144,90,o),
-(283,90,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(301,-27,l),
-(195,-52,o),
-(115,-26,o),
-(115,34,c),
-(40,34,l),
-(40,-81,o),
-(151,-139,o),
-(298,-102,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(115,34,l),
-(115,81,o),
-(146,116,o),
-(188,116,c),
-(188,171,l),
-(103,171,o),
-(40,112,o),
-(40,34,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(524,-184,l),
-(524,-63,o),
-(428,4,o),
-(300,-27,c),
-(297,-102,l),
-(384,-80,o),
-(449,-115,o),
-(449,-184,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(191,167,o),
-(122,234,o),
-(122,324,cs),
-(122,412,o),
-(191,478,o),
-(283,478,cs),
-(376,478,o),
-(445,412,o),
-(445,324,cs),
-(445,234,o),
-(376,167,o),
-(283,167,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(490,442,l),
-(490,482,o),
-(507,543,o),
-(583,544,c),
-(583,619,l),
-(464,619,o),
-(415,526,o),
-(415,442,c)
-);
-}
-);
-width = 623;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (478,-171);
-},
-{
-name = top;
-pos = (324,556);
-}
-);
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(448,90,o),
-(560,192,o),
-(560,328,cs),
-(560,464,o),
-(448,566,o),
-(298,566,cs),
-(148,566,o),
-(35,464,o),
-(35,328,cs),
-(35,192,o),
-(148,90,o),
-(298,90,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(319,27,l),
-(228,9,o),
-(185,13,o),
-(185,40,c),
-(35,40,l),
-(35,-79,o),
-(138,-136,o),
-(309,-97,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(185,40,l),
-(185,69,o),
-(223,91,o),
-(274,91,c),
-(274,185,l),
-(137,185,o),
-(34,123,o),
-(35,40,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(558,-168,l),
-(558,-29,o),
-(461,55,o),
-(319,27,c),
-(309,-97,l),
-(371,-83,o),
-(408,-116,o),
-(408,-171,c)
-);
-},
-{
-closed = 1;
-nodes = (
-(236,227,o),
-(190,270,o),
-(190,328,cs),
-(190,386,o),
-(236,429,o),
-(298,429,cs),
-(379,429,o),
-(405,386,o),
-(405,328,cs),
-(405,270,o),
-(359,227,o),
-(298,227,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(520,441,l),
-(520,481,o),
-(537,542,o),
-(613,543,c),
-(613,668,l),
-(460,668,o),
-(405,559,o),
-(405,441,c)
-);
-}
-);
-width = 648;
-}
-);
-metricLeft = "=a";
-metricRight = "=t";
-},
-{
 glyphname = gbreve;
 kernLeft = o;
 kernRight = g;
@@ -23084,53 +22321,6 @@ width = 645;
 }
 );
 unicode = 287;
-},
-{
-glyphname = gbreve.cv13;
-kernLeft = o;
-kernRight = g;
-lastChange = "2026-03-12 18:40:37 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (97,0);
-ref = brevecomb;
-}
-);
-width = 627;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (71,0);
-ref = brevecomb;
-}
-);
-width = 623;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (19,0);
-ref = brevecomb;
-}
-);
-width = 648;
-}
-);
 },
 {
 glyphname = gcaron;
@@ -23181,53 +22371,6 @@ width = 645;
 unicode = 487;
 },
 {
-glyphname = gcaron.cv13;
-kernLeft = o;
-kernRight = g;
-lastChange = "2026-03-12 18:40:38 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (107,0);
-ref = caroncomb;
-}
-);
-width = 627;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (76,0);
-ref = caroncomb;
-}
-);
-width = 623;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (28,0);
-ref = caroncomb;
-}
-);
-width = 648;
-}
-);
-},
-{
 glyphname = gcircumflex;
 kernLeft = o;
 kernRight = g;
@@ -23274,53 +22417,6 @@ width = 645;
 }
 );
 unicode = 285;
-},
-{
-glyphname = gcircumflex.cv13;
-kernLeft = o;
-kernRight = g;
-lastChange = "2026-03-12 18:40:40 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (108,0);
-ref = circumflexcomb;
-}
-);
-width = 627;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (77,0);
-ref = circumflexcomb;
-}
-);
-width = 623;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (28,0);
-ref = circumflexcomb;
-}
-);
-width = 648;
-}
-);
 },
 {
 glyphname = gcommaaccent;
@@ -23371,53 +22467,6 @@ width = 645;
 unicode = 291;
 },
 {
-glyphname = gcommaaccent.cv13;
-kernLeft = o;
-kernRight = g;
-lastChange = "2026-03-12 18:40:41 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (217,20);
-ref = commaturnedabovecomb;
-}
-);
-width = 627;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (192,20);
-ref = commaturnedabovecomb;
-}
-);
-width = 623;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (145,20);
-ref = commaturnedabovecomb;
-}
-);
-width = 648;
-}
-);
-},
-{
 glyphname = gdotaccent;
 kernLeft = o;
 kernRight = g;
@@ -23466,53 +22515,6 @@ width = 645;
 unicode = 289;
 },
 {
-glyphname = gdotaccent.cv13;
-kernLeft = o;
-kernRight = g;
-lastChange = "2026-03-12 18:40:43 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (184,0);
-ref = dotaccentcomb;
-}
-);
-width = 627;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (169,0);
-ref = dotaccentcomb;
-}
-);
-width = 623;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (144,0);
-ref = dotaccentcomb;
-}
-);
-width = 648;
-}
-);
-},
-{
 glyphname = gmacron;
 kernLeft = o;
 kernRight = g;
@@ -23559,53 +22561,6 @@ width = 645;
 }
 );
 unicode = 7713;
-},
-{
-glyphname = gmacron.cv13;
-kernLeft = o;
-kernRight = g;
-lastChange = "2026-03-12 18:40:44 +0000";
-layers = (
-{
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (109,0);
-ref = macroncomb;
-}
-);
-width = 627;
-},
-{
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (94,0);
-ref = macroncomb;
-}
-);
-width = 623;
-},
-{
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-ref = g.cv13;
-},
-{
-pos = (64,0);
-ref = macroncomb;
-}
-);
-width = 648;
-}
-);
 },
 {
 color = 5;
@@ -24844,10 +23799,10 @@ unicode = 106;
 },
 {
 color = 5;
-glyphname = j.cv14;
+glyphname = j.cv13;
 kernLeft = j;
 kernRight = j;
-lastChange = "2026-03-12 18:51:18 +0000";
+lastChange = "2026-04-10 02:27:11 +0000";
 layers = (
 {
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -24984,10 +23939,10 @@ metricRight = "=I-20";
 unicode = 567;
 },
 {
-glyphname = jdotless.cv14;
+glyphname = jdotless.cv13;
 kernLeft = j;
 kernRight = j;
-lastChange = "2026-03-12 18:51:31 +0000";
+lastChange = "2026-04-10 02:27:13 +0000";
 layers = (
 {
 anchors = (
@@ -25120,16 +24075,16 @@ width = 295;
 unicode = 309;
 },
 {
-glyphname = jcircumflex.cv14;
+glyphname = jcircumflex.cv13;
 kernLeft = i;
 kernRight = j;
-lastChange = "2026-03-12 18:51:41 +0000";
+lastChange = "2026-04-10 02:27:15 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = jdotless.cv14;
+ref = jdotless.cv13;
 },
 {
 pos = (-64,0);
@@ -25142,7 +24097,7 @@ width = 244;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = jdotless.cv14;
+ref = jdotless.cv13;
 },
 {
 pos = (-95,0);
@@ -25155,7 +24110,7 @@ width = 248;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = jdotless.cv14;
+ref = jdotless.cv13;
 },
 {
 pos = (-136,0);
@@ -26280,10 +25235,10 @@ unicode = 110;
 },
 {
 color = 5;
-glyphname = n.cv13;
+glyphname = n.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:11 +0000";
+lastChange = "2026-04-10 02:28:44 +0000";
 layers = (
 {
 anchors = (
@@ -26455,16 +25410,16 @@ width = 635;
 unicode = 324;
 },
 {
-glyphname = nacute.cv13;
+glyphname = nacute.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:14 +0000";
+lastChange = "2026-04-10 02:28:46 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (185,0);
@@ -26477,7 +25432,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (169,0);
@@ -26490,7 +25445,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (161,0);
@@ -26550,16 +25505,16 @@ width = 635;
 unicode = 328;
 },
 {
-glyphname = ncaron.cv13;
+glyphname = ncaron.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:16 +0000";
+lastChange = "2026-04-10 02:28:49 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (81,0);
@@ -26572,7 +25527,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (54,0);
@@ -26585,7 +25540,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (19,0);
@@ -26645,16 +25600,16 @@ width = 635;
 unicode = 326;
 },
 {
-glyphname = ncommaaccent.cv13;
+glyphname = ncommaaccent.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:18 +0000";
+lastChange = "2026-04-10 02:28:51 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (138,0);
@@ -26667,7 +25622,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (118,0);
@@ -26680,7 +25635,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (105,0);
@@ -26740,16 +25695,16 @@ width = 635;
 unicode = 7749;
 },
 {
-glyphname = ndotaccent.cv13;
+glyphname = ndotaccent.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:19 +0000";
+lastChange = "2026-04-10 02:28:53 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (158,0);
@@ -26762,7 +25717,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (147,0);
@@ -26775,7 +25730,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (135,0);
@@ -26835,16 +25790,16 @@ width = 635;
 unicode = 7751;
 },
 {
-glyphname = ndotbelow.cv13;
+glyphname = ndotbelow.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:20 +0000";
+lastChange = "2026-04-10 02:28:55 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (158,0);
@@ -26857,7 +25812,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (147,0);
@@ -26870,7 +25825,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (135,0);
@@ -26930,16 +25885,16 @@ width = 635;
 unicode = 7753;
 },
 {
-glyphname = nmacronbelow.cv13;
+glyphname = nmacronbelow.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:22 +0000";
+lastChange = "2026-04-10 02:28:57 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (84,0);
@@ -26952,7 +25907,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (72,0);
@@ -26965,7 +25920,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (55,0);
@@ -27025,16 +25980,16 @@ width = 635;
 unicode = 241;
 },
 {
-glyphname = ntilde.cv13;
+glyphname = ntilde.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:24 +0000";
+lastChange = "2026-04-10 02:28:59 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (66,0);
@@ -27047,7 +26002,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (48,0);
@@ -27060,7 +26015,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = n.cv13;
+ref = n.cv14;
 },
 {
 pos = (15,0);
@@ -27213,10 +26168,10 @@ width = 600;
 unicode = 331;
 },
 {
-glyphname = eng.cv13;
+glyphname = eng.cv14;
 kernLeft = n;
 kernRight = n;
-lastChange = "2026-03-12 18:26:39 +0000";
+lastChange = "2026-04-10 02:29:01 +0000";
 layers = (
 {
 anchors = (
@@ -27253,7 +26208,7 @@ nodes = (
 );
 },
 {
-ref = n.cv13;
+ref = n.cv14;
 }
 );
 width = 570;
@@ -27293,7 +26248,7 @@ nodes = (
 );
 },
 {
-ref = n.cv13;
+ref = n.cv14;
 }
 );
 width = 580;
@@ -27333,7 +26288,7 @@ nodes = (
 );
 },
 {
-ref = n.cv13;
+ref = n.cv14;
 }
 );
 width = 630;
@@ -30720,7 +29675,7 @@ color = 5;
 glyphname = t;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-03-12 18:27:12 +0000";
+lastChange = "2026-04-10 02:36:01 +0000";
 layers = (
 {
 anchors = (
@@ -30746,8 +29701,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(248,63,l),
-(211,63,o),
+(248,65,l),
+(211,65,o),
 (184,73,o),
 (184,136,cs),
 (184,471,l),
@@ -30762,12 +29717,12 @@ nodes = (
 (109,471,l),
 (109,136,ls),
 (109,29,o),
-(169,-12,o),
-(253,-12,c)
+(169,-10,o),
+(253,-10,c)
 );
 },
 {
-pos = (247,536);
+pos = (247,538);
 ref = "_fjrt-arc.comp";
 scale = (1,-1);
 }
@@ -30798,8 +29753,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(318,118,l),
-(288,118,o),
+(318,120,l),
+(288,120,o),
 (267,137,o),
 (267,187,cs),
 (267,426,l),
@@ -30814,12 +29769,12 @@ nodes = (
 (117,426,l),
 (117,177,ls),
 (117,26,o),
-(204,-12,o),
-(328,-12,c)
+(204,-10,o),
+(328,-10,c)
 );
 },
 {
-pos = (317,546);
+pos = (317,548);
 ref = "_fjrt-arc.comp";
 scale = (1,-1);
 }
@@ -30850,8 +29805,8 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(243,33,l),
-(167,33,o),
+(243,35,l),
+(167,35,o),
 (160,89,o),
 (160,126,cs),
 (160,496,l),
@@ -30866,12 +29821,12 @@ nodes = (
 (115,496,l),
 (115,126,ls),
 (115,28,o),
-(161,-12,o),
-(243,-12,c)
+(161,-10,o),
+(243,-10,c)
 );
 },
 {
-pos = (242,522);
+pos = (242,524);
 ref = "_fjrt-arc.comp";
 scale = (1,-1);
 }
@@ -30882,6 +29837,172 @@ width = 339;
 metricLeft = "=f";
 metricRight = "=f+30";
 unicode = 116;
+},
+{
+glyphname = t.cv15;
+kernLeft = t;
+kernRight = t;
+lastChange = "2026-04-10 02:35:49 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (192,0);
+},
+{
+name = center;
+pos = (138,263);
+},
+{
+name = top;
+pos = (138,662);
+},
+{
+name = topright;
+pos = (217,536);
+}
+);
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+closed = 1;
+nodes = (
+(243,35,l),
+(167,35,o),
+(160,89,o),
+(160,126,cs),
+(160,496,l),
+(284,496,l),
+(284,536,l),
+(160,536,l),
+(160,662,l),
+(115,662,l),
+(115,536,l),
+(15,536,l),
+(15,496,l),
+(115,496,l),
+(115,126,ls),
+(115,28,o),
+(161,-10,o),
+(243,-10,c)
+);
+},
+{
+pos = (242,524);
+ref = "_fjrt-arc.comp.cv";
+scale = (1,-1);
+}
+);
+width = 339;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (201,0);
+},
+{
+name = center;
+pos = (147,268);
+},
+{
+name = top;
+pos = (147,650);
+},
+{
+name = topright;
+pos = (243,546);
+}
+);
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(248,65,l),
+(211,65,o),
+(184,73,o),
+(184,136,cs),
+(184,471,l),
+(302,471,l),
+(302,546,l),
+(184,546,l),
+(184,672,l),
+(109,672,l),
+(109,546,l),
+(10,546,l),
+(10,471,l),
+(109,471,l),
+(109,136,ls),
+(109,29,o),
+(169,-10,o),
+(253,-10,c)
+);
+},
+{
+pos = (247,538);
+ref = "_fjrt-arc.comp.cv";
+scale = (1,-1);
+}
+);
+width = 359;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (258,0);
+},
+{
+name = center;
+pos = (192,273);
+},
+{
+name = top;
+pos = (192,670);
+},
+{
+name = topright;
+pos = (331,556);
+}
+);
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+closed = 1;
+nodes = (
+(318,120,l),
+(288,120,o),
+(267,137,o),
+(267,187,cs),
+(267,426,l),
+(395,426,l),
+(395,556,l),
+(267,556,l),
+(267,680,l),
+(127,680,l),
+(127,556,l),
+(15,556,l),
+(15,426,l),
+(117,426,l),
+(117,177,ls),
+(117,26,o),
+(204,-10,o),
+(328,-10,c)
+);
+},
+{
+pos = (317,548);
+ref = "_fjrt-arc.comp.cv";
+scale = (1,-1);
+}
+);
+width = 439;
+}
+);
+metricLeft = "=t";
+metricRight = "=t";
 },
 {
 glyphname = tbar;
@@ -30930,6 +30051,53 @@ width = 439;
 }
 );
 unicode = 359;
+},
+{
+glyphname = tbar.cv15;
+kernLeft = t;
+kernRight = t;
+lastChange = "2026-04-10 02:30:51 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-72,0);
+ref = strokeshortcomb.t;
+}
+);
+width = 339;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-82,0);
+ref = strokeshortcomb.t;
+}
+);
+width = 359;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-83,0);
+ref = strokeshortcomb.t;
+}
+);
+width = 439;
+}
+);
 },
 {
 glyphname = tcaron;
@@ -30988,6 +30156,55 @@ metricRight = "=t/2";
 unicode = 357;
 },
 {
+glyphname = tcaron.cv15;
+kernLeft = t;
+kernRight = t;
+lastChange = "2026-04-10 02:30:51 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (117,0);
+ref = caroncomb.alt;
+}
+);
+width = 339;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (160,0);
+ref = caroncomb.alt;
+}
+);
+width = 359;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (241,0);
+ref = caroncomb.alt;
+}
+);
+width = 439;
+}
+);
+metricLeft = "=t";
+metricRight = "=t/2";
+},
+{
 glyphname = tcedilla;
 kernLeft = t;
 kernRight = t;
@@ -31034,6 +30251,53 @@ width = 439;
 }
 );
 unicode = 355;
+},
+{
+glyphname = tcedilla.cv15;
+kernLeft = t;
+kernRight = t;
+lastChange = "2026-04-10 02:30:51 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (24,0);
+ref = cedillacomb;
+}
+);
+width = 339;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (26,0);
+ref = cedillacomb;
+}
+);
+width = 359;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (61,0);
+ref = cedillacomb;
+}
+);
+width = 439;
+}
+);
 },
 {
 glyphname = tcommaaccent;
@@ -31084,6 +30348,53 @@ width = 439;
 unicode = 539;
 },
 {
+glyphname = tcommaaccent.cv15;
+kernLeft = t;
+kernRight = t;
+lastChange = "2026-04-10 02:30:51 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (42,0);
+ref = commaaccentcomb;
+}
+);
+width = 339;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (29,0);
+ref = commaaccentcomb;
+}
+);
+width = 359;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (48,0);
+ref = commaaccentcomb;
+}
+);
+width = 439;
+}
+);
+},
+{
 glyphname = tdieresis;
 kernLeft = t;
 kernRight = t;
@@ -31130,6 +30441,53 @@ width = 439;
 }
 );
 unicode = 7831;
+},
+{
+glyphname = tdieresis.cv15;
+kernLeft = t;
+kernRight = t;
+lastChange = "2026-04-10 02:30:51 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-77,126);
+ref = dieresiscomb;
+}
+);
+width = 339;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-106,104);
+ref = dieresiscomb;
+}
+);
+width = 359;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-123,114);
+ref = dieresiscomb;
+}
+);
+width = 439;
+}
+);
 },
 {
 glyphname = tdotbelow;
@@ -31180,6 +30538,53 @@ width = 439;
 unicode = 7789;
 },
 {
+glyphname = tdotbelow.cv15;
+kernLeft = t;
+kernRight = t;
+lastChange = "2026-04-10 02:30:51 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (62,0);
+ref = dotbelowcomb;
+}
+);
+width = 339;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (58,0);
+ref = dotbelowcomb;
+}
+);
+width = 359;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (78,0);
+ref = dotbelowcomb;
+}
+);
+width = 439;
+}
+);
+},
+{
 glyphname = tlinebelow;
 kernLeft = t;
 kernRight = t;
@@ -31226,6 +30631,53 @@ width = 439;
 }
 );
 unicode = 7791;
+},
+{
+glyphname = tmacronbelow.cv15;
+kernLeft = t;
+kernRight = t;
+lastChange = "2026-04-10 02:30:51 +0000";
+layers = (
+{
+layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-12,0);
+ref = macronbelowcomb;
+}
+);
+width = 339;
+},
+{
+layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-17,0);
+ref = macronbelowcomb;
+}
+);
+width = 359;
+},
+{
+layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
+shapes = (
+{
+ref = t.cv15;
+},
+{
+pos = (-2,0);
+ref = macronbelowcomb;
+}
+);
+width = 439;
+}
+);
 },
 {
 color = 5;
@@ -31325,7 +30777,7 @@ width = 595;
 unicode = 117;
 },
 {
-glyphname = u.ss03;
+glyphname = u.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2026-03-12 03:05:22 +0000";
@@ -31353,7 +30805,7 @@ layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
 pos = (0,546);
-ref = n.cv13;
+ref = n.cv14;
 scale = (1,-1);
 }
 );
@@ -31382,7 +30834,7 @@ layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
 pos = (0,556);
-ref = n.cv13;
+ref = n.cv14;
 scale = (1,-1);
 }
 );
@@ -31411,7 +30863,7 @@ layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
 pos = (0,536);
-ref = n.cv13;
+ref = n.cv14;
 scale = (1,-1);
 }
 );
@@ -31470,7 +30922,7 @@ width = 635;
 unicode = 250;
 },
 {
-glyphname = uacute.ss03;
+glyphname = uacute.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -31479,7 +30931,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (185,0);
@@ -31492,7 +30944,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (169,0);
@@ -31505,7 +30957,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (161,0);
@@ -31565,7 +31017,7 @@ width = 635;
 unicode = 365;
 },
 {
-glyphname = ubreve.ss03;
+glyphname = ubreve.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -31574,7 +31026,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (71,0);
@@ -31587,7 +31039,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (49,0);
@@ -31600,7 +31052,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (10,0);
@@ -31660,7 +31112,7 @@ width = 635;
 unicode = 251;
 },
 {
-glyphname = ucircumflex.ss03;
+glyphname = ucircumflex.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -31669,7 +31121,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (82,0);
@@ -31682,7 +31134,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (55,0);
@@ -31695,7 +31147,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (19,0);
@@ -31755,7 +31207,7 @@ width = 635;
 unicode = 533;
 },
 {
-glyphname = udblgrave.ss03;
+glyphname = udblgrave.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -31764,7 +31216,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (8,0);
@@ -31777,7 +31229,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (-27,0);
@@ -31790,7 +31242,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (-94,0);
@@ -31850,7 +31302,7 @@ width = 635;
 unicode = 252;
 },
 {
-glyphname = udieresis.ss03;
+glyphname = udieresis.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -31859,7 +31311,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (73,0);
@@ -31872,7 +31324,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (37,0);
@@ -31885,7 +31337,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 ref = dieresiscomb;
@@ -31944,7 +31396,7 @@ width = 635;
 unicode = 7909;
 },
 {
-glyphname = udotbelow.ss03;
+glyphname = udotbelow.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -31953,7 +31405,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (158,0);
@@ -31966,7 +31418,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (147,0);
@@ -31979,7 +31431,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (135,0);
@@ -32039,7 +31491,7 @@ width = 635;
 unicode = 249;
 },
 {
-glyphname = ugrave.ss03;
+glyphname = ugrave.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -32048,7 +31500,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (78,0);
@@ -32061,7 +31513,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (55,0);
@@ -32074,7 +31526,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (8,0);
@@ -32134,7 +31586,7 @@ width = 635;
 unicode = 7911;
 },
 {
-glyphname = uhookabove.ss03;
+glyphname = uhookabove.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -32143,7 +31595,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (110,0);
@@ -32156,7 +31608,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (114,0);
@@ -32169,7 +31621,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (91,0);
@@ -32231,7 +31683,7 @@ metricRight = "=u/8";
 unicode = 432;
 },
 {
-glyphname = uhorn.ss03;
+glyphname = uhorn.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-10 01:56:20 +0000";
@@ -32472,7 +31924,7 @@ width = 635;
 unicode = 7913;
 },
 {
-glyphname = uhornacute.ss03;
+glyphname = uhornacute.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-10 01:56:25 +0000";
@@ -32481,7 +31933,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (190,0);
@@ -32494,7 +31946,7 @@ width = 590;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (175,0);
@@ -32507,7 +31959,7 @@ width = 610;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (167,0);
@@ -32567,7 +32019,7 @@ width = 635;
 unicode = 7921;
 },
 {
-glyphname = uhorndotbelow.ss03;
+glyphname = uhorndotbelow.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-10 01:56:25 +0000";
@@ -32576,7 +32028,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (163,0);
@@ -32589,7 +32041,7 @@ width = 590;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (153,0);
@@ -32602,7 +32054,7 @@ width = 610;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (141,0);
@@ -32662,7 +32114,7 @@ width = 635;
 unicode = 7915;
 },
 {
-glyphname = uhorngrave.ss03;
+glyphname = uhorngrave.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-10 01:56:25 +0000";
@@ -32671,7 +32123,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (83,0);
@@ -32684,7 +32136,7 @@ width = 590;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (61,0);
@@ -32697,7 +32149,7 @@ width = 610;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (14,0);
@@ -32757,7 +32209,7 @@ width = 635;
 unicode = 7917;
 },
 {
-glyphname = uhornhookabove.ss03;
+glyphname = uhornhookabove.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-10 01:56:25 +0000";
@@ -32766,7 +32218,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (115,0);
@@ -32779,7 +32231,7 @@ width = 590;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (120,0);
@@ -32792,7 +32244,7 @@ width = 610;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (97,0);
@@ -32852,7 +32304,7 @@ width = 635;
 unicode = 7919;
 },
 {
-glyphname = uhorntilde.ss03;
+glyphname = uhorntilde.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-10 01:56:25 +0000";
@@ -32861,7 +32313,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (71,0);
@@ -32874,7 +32326,7 @@ width = 590;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (54,0);
@@ -32887,7 +32339,7 @@ width = 610;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = uhorn.ss03;
+ref = uhorn.cv16;
 },
 {
 pos = (21,0);
@@ -32947,7 +32399,7 @@ width = 635;
 unicode = 369;
 },
 {
-glyphname = uhungarumlaut.ss03;
+glyphname = uhungarumlaut.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -32956,7 +32408,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (128,20);
@@ -32969,7 +32421,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (94,20);
@@ -32982,7 +32434,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (46,20);
@@ -33042,7 +32494,7 @@ width = 635;
 unicode = 535;
 },
 {
-glyphname = uinvertedbreve.ss03;
+glyphname = uinvertedbreve.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:24:55 +0000";
@@ -33051,7 +32503,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (71,0);
@@ -33064,7 +32516,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (49,0);
@@ -33077,7 +32529,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (10,0);
@@ -33137,7 +32589,7 @@ width = 635;
 unicode = 363;
 },
 {
-glyphname = umacron.ss03;
+glyphname = umacron.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -33146,7 +32598,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (83,0);
@@ -33159,7 +32611,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (72,0);
@@ -33172,7 +32624,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (55,0);
@@ -33232,7 +32684,7 @@ width = 635;
 unicode = 7803;
 },
 {
-glyphname = umacrondieresis.ss03;
+glyphname = umacrondieresis.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -33241,7 +32693,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (73,0);
@@ -33254,7 +32706,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (37,0);
@@ -33267,7 +32719,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 ref = macroncomb_dieresiscomb;
@@ -33326,7 +32778,7 @@ width = 635;
 unicode = 371;
 },
 {
-glyphname = uogonek.ss03;
+glyphname = uogonek.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -33335,7 +32787,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (92,-6);
@@ -33348,7 +32800,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (78,0);
@@ -33361,7 +32813,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (68,0);
@@ -33421,7 +32873,7 @@ width = 635;
 unicode = 367;
 },
 {
-glyphname = uring.ss03;
+glyphname = uring.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -33430,7 +32882,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (113,0);
@@ -33443,7 +32895,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (97,0);
@@ -33456,7 +32908,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (95,0);
@@ -33516,7 +32968,7 @@ width = 635;
 unicode = 361;
 },
 {
-glyphname = utilde.ss03;
+glyphname = utilde.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -33525,7 +32977,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (66,0);
@@ -33538,7 +32990,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (48,0);
@@ -33551,7 +33003,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (15,0);
@@ -33611,7 +33063,7 @@ width = 635;
 unicode = 7801;
 },
 {
-glyphname = utildeacute.ss03;
+glyphname = utildeacute.cv16;
 kernLeft = u;
 kernRight = u;
 lastChange = "2025-06-07 18:23:56 +0000";
@@ -33620,7 +33072,7 @@ layers = (
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (66,0);
@@ -33633,7 +33085,7 @@ width = 570;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (48,0);
@@ -33646,7 +33098,7 @@ width = 580;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = u.ss03;
+ref = u.cv16;
 },
 {
 pos = (15,0);
@@ -34328,110 +33780,6 @@ width = 534;
 metricLeft = "=V";
 metricRight = "=V-5";
 unicode = 121;
-},
-{
-color = 5;
-glyphname = y.cv14;
-kernLeft = y;
-kernRight = v;
-lastChange = "2026-03-12 18:11:54 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-pos = (500,100);
-},
-{
-name = top;
-pos = (282,546);
-}
-);
-layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(224,-240,l),
-(544,546,l),
-(461,546,l),
-(271,67,l),
-(292,67,l),
-(101,546,l),
-(20,546,l),
-(252,-32,l),
-(254,34,l),
-(141,-240,l)
-);
-}
-);
-width = 559;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (556,100);
-},
-{
-name = top;
-pos = (305,556);
-}
-);
-layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
-shapes = (
-{
-closed = 1;
-nodes = (
-(285,-240,l),
-(600,556,l),
-(439,556,l),
-(275,113,l),
-(335,113,l),
-(171,556,l),
-(10,556,l),
-(255,-63,l),
-(251,62,l),
-(132,-240,l)
-);
-}
-);
-width = 605;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (481,100);
-},
-{
-name = top;
-pos = (267,536);
-}
-);
-layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
-shapes = (
-{
-closed = 1;
-nodes = (
-(191,-240,l),
-(514,536,l),
-(462,536,l),
-(254,30,l),
-(283,30,l),
-(77,536,l),
-(25,536,l),
-(253,-24,l),
-(249,22,l),
-(139,-240,l)
-);
-}
-);
-width = 534;
-}
-);
-metricLeft = "=V";
-metricRight = "=V-5";
 },
 {
 glyphname = yacute;
@@ -35565,8 +34913,8 @@ metricLeft = f;
 metricRight = j;
 },
 {
-glyphname = f_f_j.cv12_cv14;
-lastChange = "2026-03-12 19:09:52 +0000";
+glyphname = f_f_j.cv12_cv13;
+lastChange = "2026-04-10 02:32:52 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -35576,7 +34924,7 @@ ref = _f.liga.cv12;
 },
 {
 pos = (331,0);
-ref = f_j.cv12_cv14;
+ref = f_j.cv12_cv13;
 }
 );
 width = 941;
@@ -35589,7 +34937,7 @@ ref = _f.liga.cv12;
 },
 {
 pos = (341,0);
-ref = f_j.cv12_cv14;
+ref = f_j.cv12_cv13;
 }
 );
 width = 969;
@@ -35602,7 +34950,7 @@ ref = _f.liga.cv12;
 },
 {
 pos = (381,0);
-ref = f_j.cv12_cv14;
+ref = f_j.cv12_cv13;
 }
 );
 width = 1097;
@@ -35612,8 +34960,8 @@ metricLeft = f;
 metricRight = j;
 },
 {
-glyphname = f_f_j.cv14;
-lastChange = "2026-03-12 18:53:06 +0000";
+glyphname = f_f_j.cv13;
+lastChange = "2026-04-10 02:32:47 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -35623,7 +34971,7 @@ ref = _f.liga;
 },
 {
 pos = (351,0);
-ref = f_j.cv14;
+ref = f_j.cv13;
 }
 );
 width = 981;
@@ -35636,7 +34984,7 @@ ref = _f.liga;
 },
 {
 pos = (361,0);
-ref = f_j.cv14;
+ref = f_j.cv13;
 }
 );
 width = 1019;
@@ -35649,7 +34997,7 @@ ref = _f.liga;
 },
 {
 pos = (401,0);
-ref = f_j.cv14;
+ref = f_j.cv13;
 }
 );
 width = 1137;
@@ -35985,8 +35333,8 @@ metricLeft = f;
 metricRight = "=j";
 },
 {
-glyphname = f_j.cv12_cv14;
-lastChange = "2026-03-12 19:09:52 +0000";
+glyphname = f_j.cv12_cv13;
+lastChange = "2026-04-10 02:32:55 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -36085,8 +35433,8 @@ metricLeft = f;
 metricRight = "=j";
 },
 {
-glyphname = f_j.cv14;
-lastChange = "2026-03-12 18:52:48 +0000";
+glyphname = f_j.cv13;
+lastChange = "2026-04-10 02:32:58 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -55720,13 +55068,13 @@ unicode = 2363;
 },
 {
 glyphname = "ka-deva";
-lastChange = "2026-04-07 15:16:14 +0000";
+lastChange = "2026-04-10 00:30:06 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (162,0);
+pos = (132,-10);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -55755,7 +55103,7 @@ width = 757;
 anchors = (
 {
 name = nukta;
-pos = (149,0);
+pos = (125,-10);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -55784,7 +55132,7 @@ width = 775;
 anchors = (
 {
 name = nukta;
-pos = (111,-50);
+pos = (127,-32);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -55816,13 +55164,13 @@ unicode = 2325;
 },
 {
 glyphname = "k-deva";
-lastChange = "2026-04-08 18:39:56 +0000";
+lastChange = "2026-04-10 00:31:01 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (162,-50);
+pos = (132,-10);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -55842,7 +55190,7 @@ width = 592;
 anchors = (
 {
 name = nukta;
-pos = (149,-100);
+pos = (125,-10);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -55862,7 +55210,7 @@ width = 617;
 anchors = (
 {
 name = nukta;
-pos = (127,-90);
+pos = (127,-32);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -55884,13 +55232,13 @@ metricRight = "=aaMatra-deva*3";
 },
 {
 glyphname = "kha-deva";
-lastChange = "2026-03-31 17:46:58 +0000";
+lastChange = "2026-04-10 00:34:05 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (70,-30);
+pos = (102,-10);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -55934,7 +55282,7 @@ width = 892;
 anchors = (
 {
 name = nukta;
-pos = (68,-30);
+pos = (85,-10);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -55978,7 +55326,7 @@ width = 931;
 anchors = (
 {
 name = nukta;
-pos = (78,-80);
+pos = (77,-32);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -56025,13 +55373,13 @@ unicode = 2326;
 },
 {
 glyphname = "kh-deva";
-lastChange = "2026-04-07 20:13:07 +0000";
+lastChange = "2026-04-10 01:36:52 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (70,-30);
+pos = (102,-10);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -56084,7 +55432,7 @@ width = 650;
 anchors = (
 {
 name = nukta;
-pos = (68,-30);
+pos = (95,-10);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -56137,7 +55485,7 @@ width = 651;
 anchors = (
 {
 name = nukta;
-pos = (78,-80);
+pos = (77,-32);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -56191,13 +55539,13 @@ metricLeft = "=aaMatra-deva";
 },
 {
 glyphname = "ga-deva";
-lastChange = "2026-04-07 20:13:49 +0000";
+lastChange = "2026-04-10 00:36:22 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (154,0);
+pos = (154,-10);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -56216,7 +55564,7 @@ width = 593;
 anchors = (
 {
 name = nukta;
-pos = (174,0);
+pos = (174,-10);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -56235,7 +55583,7 @@ width = 639;
 anchors = (
 {
 name = nukta;
-pos = (204,-50);
+pos = (204,-32);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -56255,13 +55603,13 @@ unicode = 2327;
 },
 {
 glyphname = "g-deva";
-lastChange = "2026-04-07 20:13:50 +0000";
+lastChange = "2026-04-10 00:36:35 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (154,0);
+pos = (154,-10);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -56290,7 +55638,7 @@ width = 343;
 anchors = (
 {
 name = nukta;
-pos = (174,0);
+pos = (174,-10);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -56319,7 +55667,7 @@ width = 359;
 anchors = (
 {
 name = nukta;
-pos = (204,-50);
+pos = (204,-32);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -57270,13 +56618,13 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "ja-deva";
-lastChange = "2026-03-31 17:46:59 +0000";
+lastChange = "2026-04-10 02:08:45 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (248,-10);
+pos = (128,0);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -57304,7 +56652,7 @@ width = 739;
 anchors = (
 {
 name = nukta;
-pos = (268,-30);
+pos = (118,-10);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -57332,7 +56680,7 @@ width = 775;
 anchors = (
 {
 name = nukta;
-pos = (238,-60);
+pos = (127,-32);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -57363,9 +56711,15 @@ unicode = 2332;
 },
 {
 glyphname = "j-deva";
-lastChange = "2026-03-23 17:37:47 +0000";
+lastChange = "2026-04-10 02:08:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = nukta;
+pos = (128,-10);
+}
+);
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
@@ -57389,6 +56743,12 @@ ref = "_conj-connector-sm.deva";
 width = 469;
 },
 {
+anchors = (
+{
+name = nukta;
+pos = (118,-10);
+}
+);
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
@@ -57412,6 +56772,12 @@ ref = "_conj-connector-sm.deva";
 width = 475;
 },
 {
+anchors = (
+{
+name = nukta;
+pos = (127,-32);
+}
+);
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
@@ -58229,7 +57595,7 @@ width = 632;
 },
 {
 glyphname = "dda-deva";
-lastChange = "2026-03-31 18:17:04 +0000";
+lastChange = "2026-04-10 01:12:07 +0000";
 layers = (
 {
 anchors = (
@@ -58312,7 +57678,7 @@ pos = (371,546);
 },
 {
 name = nukta;
-pos = (285,-126);
+pos = (305,-126);
 },
 {
 name = top;
@@ -58381,7 +57747,7 @@ pos = (390,556);
 },
 {
 name = nukta;
-pos = (295,-156);
+pos = (334,-136);
 },
 {
 name = top;
@@ -58490,7 +57856,7 @@ width = 599;
 },
 {
 glyphname = "ddha-deva";
-lastChange = "2026-04-07 15:17:46 +0000";
+lastChange = "2026-04-10 01:12:17 +0000";
 layers = (
 {
 anchors = (
@@ -58504,7 +57870,7 @@ pos = (320,536);
 },
 {
 name = nukta;
-pos = (287,-59);
+pos = (290,-69);
 },
 {
 name = top;
@@ -58579,7 +57945,7 @@ pos = (351,546);
 },
 {
 name = nukta;
-pos = (290,-85);
+pos = (301,-85);
 },
 {
 name = top;
@@ -58654,7 +58020,7 @@ pos = (353,556);
 },
 {
 name = nukta;
-pos = (319,-147);
+pos = (320,-127);
 },
 {
 name = top;
@@ -60244,13 +59610,13 @@ metricLeft = "=aaMatra-deva";
 },
 {
 glyphname = "pha-deva";
-lastChange = "2026-04-07 15:18:24 +0000";
+lastChange = "2026-04-10 01:17:55 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (101,100);
+pos = (143,71);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -60304,7 +59670,7 @@ width = 761;
 anchors = (
 {
 name = nukta;
-pos = (92,78);
+pos = (132,58);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -60358,7 +59724,7 @@ width = 801;
 anchors = (
 {
 name = nukta;
-pos = (127,70);
+pos = (127,30);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -60415,13 +59781,13 @@ unicode = 2347;
 },
 {
 glyphname = "ph-deva";
-lastChange = "2026-03-28 02:37:28 +0000";
+lastChange = "2026-04-10 01:18:30 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (69,119);
+pos = (143,71);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -60454,7 +59820,7 @@ width = 586;
 anchors = (
 {
 name = nukta;
-pos = (92,88);
+pos = (132,58);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -60487,7 +59853,7 @@ width = 616;
 anchors = (
 {
 name = nukta;
-pos = (97,70);
+pos = (127,30);
 }
 );
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
@@ -61080,13 +60446,13 @@ metricLeft = "=aaMatra-deva";
 },
 {
 glyphname = "ya-deva";
-lastChange = "2026-04-07 18:40:59 +0000";
+lastChange = "2026-04-10 01:20:44 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (136,57);
+pos = (143,51);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -61106,7 +60472,7 @@ width = 640;
 anchors = (
 {
 name = nukta;
-pos = (136,27);
+pos = (132,38);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -61149,9 +60515,15 @@ unicode = 2351;
 },
 {
 glyphname = "y-deva";
-lastChange = "2026-03-27 19:07:39 +0000";
+lastChange = "2026-04-10 01:20:53 +0000";
 layers = (
 {
+anchors = (
+{
+name = nukta;
+pos = (143,51);
+}
+);
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
@@ -61192,6 +60564,12 @@ ref = "_base-cure-deva.comp";
 width = 422;
 },
 {
+anchors = (
+{
+name = nukta;
+pos = (132,38);
+}
+);
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
@@ -61232,6 +60610,12 @@ ref = "_base-cure-deva.comp";
 width = 419;
 },
 {
+anchors = (
+{
+name = nukta;
+pos = (136,7);
+}
+);
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
@@ -63969,7 +63353,7 @@ metricRight = "=aaMatra-deva*3";
 },
 {
 glyphname = "qa-deva";
-lastChange = "2026-03-04 20:12:21 +0000";
+lastChange = "2026-04-10 00:30:06 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -63978,7 +63362,7 @@ shapes = (
 ref = "ka-deva";
 },
 {
-pos = (112,-31);
+pos = (82,-41);
 ref = "nukta-deva";
 }
 );
@@ -63991,7 +63375,7 @@ shapes = (
 ref = "ka-deva";
 },
 {
-pos = (94,-40);
+pos = (70,-50);
 ref = "nukta-deva";
 }
 );
@@ -64004,7 +63388,7 @@ shapes = (
 ref = "ka-deva";
 },
 {
-pos = (36,-115);
+pos = (52,-97);
 ref = "nukta-deva";
 }
 );
@@ -64015,7 +63399,7 @@ unicode = 2392;
 },
 {
 glyphname = "q-deva";
-lastChange = "2026-03-28 02:55:11 +0000";
+lastChange = "2026-04-10 00:30:42 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64024,7 +63408,7 @@ shapes = (
 ref = "k-deva";
 },
 {
-pos = (112,-81);
+pos = (82,-41);
 ref = "nukta-deva";
 }
 );
@@ -64037,7 +63421,7 @@ shapes = (
 ref = "k-deva";
 },
 {
-pos = (94,-140);
+pos = (70,-50);
 ref = "nukta-deva";
 }
 );
@@ -64050,7 +63434,7 @@ shapes = (
 ref = "k-deva";
 },
 {
-pos = (52,-155);
+pos = (52,-97);
 ref = "nukta-deva";
 }
 );
@@ -64060,7 +63444,7 @@ width = 683;
 },
 {
 glyphname = "khha-deva";
-lastChange = "2026-03-13 01:16:15 +0000";
+lastChange = "2026-04-10 00:34:05 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64069,7 +63453,7 @@ shapes = (
 ref = "kha-deva";
 },
 {
-pos = (20,-61);
+pos = (52,-41);
 ref = "nukta-deva";
 }
 );
@@ -64082,7 +63466,7 @@ shapes = (
 ref = "kha-deva";
 },
 {
-pos = (13,-70);
+pos = (30,-50);
 ref = "nukta-deva";
 }
 );
@@ -64095,7 +63479,7 @@ shapes = (
 ref = "kha-deva";
 },
 {
-pos = (3,-145);
+pos = (2,-97);
 ref = "nukta-deva";
 }
 );
@@ -64106,7 +63490,7 @@ unicode = 2393;
 },
 {
 glyphname = "khh-deva";
-lastChange = "2026-04-07 20:13:00 +0000";
+lastChange = "2026-04-10 00:34:26 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64115,7 +63499,7 @@ shapes = (
 ref = "kh-deva";
 },
 {
-pos = (20,-61);
+pos = (52,-41);
 ref = "nukta-deva";
 }
 );
@@ -64128,7 +63512,7 @@ shapes = (
 ref = "kh-deva";
 },
 {
-pos = (13,-70);
+pos = (40,-50);
 ref = "nukta-deva";
 }
 );
@@ -64141,7 +63525,7 @@ shapes = (
 ref = "kh-deva";
 },
 {
-pos = (3,-145);
+pos = (2,-97);
 ref = "nukta-deva";
 }
 );
@@ -64151,7 +63535,7 @@ width = 639;
 },
 {
 glyphname = "ghha-deva";
-lastChange = "2026-03-13 01:16:15 +0000";
+lastChange = "2026-04-10 00:36:00 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64160,7 +63544,7 @@ shapes = (
 ref = "ga-deva";
 },
 {
-pos = (104,-31);
+pos = (104,-41);
 ref = "nukta-deva";
 }
 );
@@ -64173,7 +63557,7 @@ shapes = (
 ref = "ga-deva";
 },
 {
-pos = (119,-40);
+pos = (119,-50);
 ref = "nukta-deva";
 }
 );
@@ -64186,7 +63570,7 @@ shapes = (
 ref = "ga-deva";
 },
 {
-pos = (129,-115);
+pos = (129,-97);
 ref = "nukta-deva";
 }
 );
@@ -64197,7 +63581,7 @@ unicode = 2394;
 },
 {
 glyphname = "ghh-deva";
-lastChange = "2026-03-29 01:42:45 +0000";
+lastChange = "2026-04-10 00:36:33 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64206,7 +63590,7 @@ shapes = (
 ref = "g-deva";
 },
 {
-pos = (104,-31);
+pos = (104,-41);
 ref = "nukta-deva";
 }
 );
@@ -64219,7 +63603,7 @@ shapes = (
 ref = "g-deva";
 },
 {
-pos = (119,-40);
+pos = (119,-50);
 ref = "nukta-deva";
 }
 );
@@ -64232,7 +63616,7 @@ shapes = (
 ref = "g-deva";
 },
 {
-pos = (129,-115);
+pos = (129,-97);
 ref = "nukta-deva";
 }
 );
@@ -64242,7 +63626,7 @@ width = 376;
 },
 {
 glyphname = "za-deva";
-lastChange = "2026-03-13 01:16:15 +0000";
+lastChange = "2026-04-10 02:08:47 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64251,7 +63635,7 @@ shapes = (
 ref = "ja-deva";
 },
 {
-pos = (198,-41);
+pos = (78,-31);
 ref = "nukta-deva";
 }
 );
@@ -64264,7 +63648,7 @@ shapes = (
 ref = "ja-deva";
 },
 {
-pos = (213,-70);
+pos = (63,-50);
 ref = "nukta-deva";
 }
 );
@@ -64277,7 +63661,7 @@ shapes = (
 ref = "ja-deva";
 },
 {
-pos = (163,-125);
+pos = (52,-97);
 ref = "nukta-deva";
 }
 );
@@ -64288,7 +63672,7 @@ unicode = 2395;
 },
 {
 glyphname = "z-deva";
-lastChange = "2026-03-04 20:08:51 +0000";
+lastChange = "2026-04-10 02:08:40 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64297,7 +63681,7 @@ shapes = (
 ref = "j-deva";
 },
 {
-pos = (214,-103);
+pos = (78,-41);
 ref = "nukta-deva";
 }
 );
@@ -64310,7 +63694,7 @@ shapes = (
 ref = "j-deva";
 },
 {
-pos = (222,-122);
+pos = (63,-50);
 ref = "nukta-deva";
 }
 );
@@ -64323,7 +63707,7 @@ shapes = (
 ref = "j-deva";
 },
 {
-pos = (225,-152);
+pos = (52,-97);
 ref = "nukta-deva";
 }
 );
@@ -64333,7 +63717,7 @@ width = 517;
 },
 {
 glyphname = "dddha-deva";
-lastChange = "2026-03-04 20:40:00 +0000";
+lastChange = "2026-04-10 01:12:07 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64355,7 +63739,7 @@ shapes = (
 ref = "dda-deva";
 },
 {
-pos = (230,-166);
+pos = (250,-166);
 ref = "nukta-deva";
 }
 );
@@ -64368,7 +63752,7 @@ shapes = (
 ref = "dda-deva";
 },
 {
-pos = (220,-221);
+pos = (259,-201);
 ref = "nukta-deva";
 }
 );
@@ -64379,7 +63763,7 @@ unicode = 2396;
 },
 {
 glyphname = "rha-deva";
-lastChange = "2026-03-31 21:00:43 +0000";
+lastChange = "2026-04-10 01:12:17 +0000";
 layers = (
 {
 anchors = (
@@ -64394,7 +63778,7 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (237,-90);
+pos = (240,-100);
 ref = "nukta-deva";
 }
 );
@@ -64413,7 +63797,7 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (235,-125);
+pos = (246,-125);
 ref = "nukta-deva";
 }
 );
@@ -64432,7 +63816,7 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (244,-212);
+pos = (245,-192);
 ref = "nukta-deva";
 }
 );
@@ -64443,7 +63827,7 @@ unicode = 2397;
 },
 {
 glyphname = "fa-deva";
-lastChange = "2026-03-04 20:12:21 +0000";
+lastChange = "2026-04-10 01:17:55 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64452,7 +63836,7 @@ shapes = (
 ref = "pha-deva";
 },
 {
-pos = (51,69);
+pos = (93,40);
 ref = "nukta-deva";
 }
 );
@@ -64465,7 +63849,7 @@ shapes = (
 ref = "pha-deva";
 },
 {
-pos = (37,38);
+pos = (77,18);
 ref = "nukta-deva";
 }
 );
@@ -64478,7 +63862,7 @@ shapes = (
 ref = "pha-deva";
 },
 {
-pos = (52,5);
+pos = (52,-35);
 ref = "nukta-deva";
 }
 );
@@ -64489,7 +63873,7 @@ unicode = 2398;
 },
 {
 glyphname = "f-deva";
-lastChange = "2026-03-23 19:57:31 +0000";
+lastChange = "2026-04-10 01:18:28 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64498,7 +63882,7 @@ shapes = (
 ref = "ph-deva";
 },
 {
-pos = (19,88);
+pos = (93,40);
 ref = "nukta-deva";
 }
 );
@@ -64511,7 +63895,7 @@ shapes = (
 ref = "ph-deva";
 },
 {
-pos = (37,48);
+pos = (77,18);
 ref = "nukta-deva";
 }
 );
@@ -64524,7 +63908,7 @@ shapes = (
 ref = "ph-deva";
 },
 {
-pos = (22,5);
+pos = (52,-35);
 ref = "nukta-deva";
 }
 );
@@ -64536,7 +63920,7 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "yya-deva";
-lastChange = "2026-04-07 18:40:59 +0000";
+lastChange = "2026-04-10 01:20:24 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64545,7 +63929,7 @@ shapes = (
 ref = "ya-deva";
 },
 {
-pos = (86,26);
+pos = (93,20);
 ref = "nukta-deva";
 }
 );
@@ -64558,7 +63942,7 @@ shapes = (
 ref = "ya-deva";
 },
 {
-pos = (81,-13);
+pos = (77,-2);
 ref = "nukta-deva";
 }
 );
@@ -64582,7 +63966,7 @@ unicode = 2399;
 },
 {
 glyphname = "yy-deva";
-lastChange = "2026-03-27 17:12:39 +0000";
+lastChange = "2026-04-10 01:20:51 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -64591,7 +63975,7 @@ shapes = (
 ref = "y-deva";
 },
 {
-pos = (31,0);
+pos = (93,20);
 ref = "nukta-deva";
 }
 );
@@ -64604,6 +63988,7 @@ shapes = (
 ref = "y-deva";
 },
 {
+pos = (77,-2);
 ref = "nukta-deva";
 }
 );
@@ -64616,6 +64001,7 @@ shapes = (
 ref = "y-deva";
 },
 {
+pos = (61,-58);
 ref = "nukta-deva";
 }
 );
@@ -66873,18 +66259,23 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "qa_rakar-deva";
-lastChange = "2026-03-26 21:06:06 +0000";
+lastChange = "2026-04-10 01:35:04 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = "ka_rakar-deva";
+ref = "ka-deva";
 },
 {
 alignment = -1;
-pos = (0,93);
+pos = (-2,19);
 ref = "nukta-deva";
+},
+{
+alignment = -1;
+pos = (154,-82);
+ref = "rakar-leg-shortest-deva";
 }
 );
 width = 757;
@@ -66893,12 +66284,17 @@ width = 757;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = "ka_rakar-deva";
+ref = "ka-deva";
 },
 {
 alignment = -1;
-pos = (-2,68);
+pos = (0,4);
 ref = "nukta-deva";
+},
+{
+alignment = -1;
+pos = (141,-94);
+ref = "rakar-leg-shortest-deva";
 }
 );
 width = 775;
@@ -66907,13 +66303,18 @@ width = 775;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = "ka_rakar-deva";
+ref = "ka-deva";
 },
 {
 alignment = -1;
-pos = (-20,39);
+pos = (-20,-21);
 ref = "nukta-deva";
 scale = (0.8,0.8);
+},
+{
+alignment = -1;
+pos = (111,-44);
+ref = "rakar-leg-shortest-deva";
 }
 );
 width = 870;
@@ -67069,7 +66470,7 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "fa_rakar-deva";
-lastChange = "2026-03-29 02:40:46 +0000";
+lastChange = "2026-04-10 02:12:49 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -68621,7 +68022,7 @@ shapes = (
 ref = "tt_tta-deva";
 },
 {
-pos = (258,-83);
+pos = (258,-103);
 ref = "halant-deva";
 },
 {
@@ -68655,7 +68056,7 @@ shapes = (
 ref = "tt_tta-deva";
 },
 {
-pos = (262,-107);
+pos = (262,-137);
 ref = "halant-deva";
 },
 {
@@ -72106,17 +71507,23 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "q_rakar-deva";
-lastChange = "2026-04-08 18:41:07 +0000";
+lastChange = "2026-04-10 01:43:59 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
-ref = "k_rakar-deva";
+ref = "k-deva";
 },
 {
-pos = (112,-81);
+alignment = -1;
+pos = (-2,19);
 ref = "nukta-deva";
+},
+{
+alignment = -1;
+pos = (154,-82);
+ref = "rakar-leg-shortest-deva";
 }
 );
 width = 592;
@@ -72125,11 +71532,17 @@ width = 592;
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
-ref = "k_rakar-deva";
+ref = "k-deva";
 },
 {
-pos = (94,-140);
+alignment = -1;
+pos = (0,4);
 ref = "nukta-deva";
+},
+{
+alignment = -1;
+pos = (141,-94);
+ref = "rakar-leg-shortest-deva";
 }
 );
 width = 617;
@@ -72138,12 +71551,18 @@ width = 617;
 layerId = "9398AC28-6BE1-4A79-9C94-3CBC2F226CE7";
 shapes = (
 {
-ref = "k_rakar-deva";
+ref = "k-deva";
 },
 {
-pos = (67,-142);
+alignment = -1;
+pos = (-20,-21);
 ref = "nukta-deva";
 scale = (0.8,0.8);
+},
+{
+alignment = -1;
+pos = (111,-44);
+ref = "rakar-leg-shortest-deva";
 }
 );
 width = 683;
@@ -72154,7 +71573,7 @@ metricRight = "=k-deva";
 },
 {
 glyphname = "khh_rakar-deva";
-lastChange = "2026-03-29 02:35:49 +0000";
+lastChange = "2026-04-10 01:36:52 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -72163,7 +71582,7 @@ shapes = (
 ref = "kh_rakar-deva";
 },
 {
-pos = (20,-61);
+pos = (52,-41);
 ref = "nukta-deva";
 }
 );
@@ -72176,7 +71595,7 @@ shapes = (
 ref = "kh_rakar-deva";
 },
 {
-pos = (13,-70);
+pos = (40,-50);
 ref = "nukta-deva";
 }
 );
@@ -72189,7 +71608,7 @@ shapes = (
 ref = "kh_rakar-deva";
 },
 {
-pos = (18,-132);
+pos = (17,-84);
 ref = "nukta-deva";
 scale = (0.8,0.8);
 }
@@ -72202,7 +71621,7 @@ metricRight = "=kh-deva";
 },
 {
 glyphname = "ghh_rakar-deva";
-lastChange = "2026-03-26 21:07:22 +0000";
+lastChange = "2026-04-10 01:38:12 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -72211,7 +71630,8 @@ shapes = (
 ref = "g-deva";
 },
 {
-pos = (104,-31);
+alignment = -1;
+pos = (8,-119);
 ref = "nukta-deva";
 },
 {
@@ -72229,7 +71649,8 @@ shapes = (
 ref = "g-deva";
 },
 {
-pos = (119,-40);
+alignment = -1;
+pos = (11,-157);
 ref = "nukta-deva";
 },
 {
@@ -72247,7 +71668,8 @@ shapes = (
 ref = "g-deva";
 },
 {
-pos = (137,-108);
+alignment = -1;
+pos = (4,-207);
 ref = "nukta-deva";
 scale = (0.9,0.9);
 },
@@ -72265,7 +71687,7 @@ metricRight = "=-100";
 },
 {
 glyphname = "z_rakar-deva";
-lastChange = "2026-03-29 02:37:18 +0000";
+lastChange = "2026-04-10 02:09:17 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -72274,7 +71696,8 @@ shapes = (
 ref = "j_rakar-deva";
 },
 {
-pos = (47,11);
+alignment = -1;
+pos = (39,-11);
 ref = "nukta-deva";
 }
 );
@@ -72287,7 +71710,8 @@ shapes = (
 ref = "j_rakar-deva";
 },
 {
-pos = (30,0);
+alignment = -1;
+pos = (37,-30);
 ref = "nukta-deva";
 }
 );
@@ -72300,7 +71724,8 @@ shapes = (
 ref = "j_rakar-deva";
 },
 {
-pos = (26,-51);
+alignment = -1;
+pos = (53,-74);
 ref = "nukta-deva";
 scale = (0.8,0.8);
 }
@@ -72364,7 +71789,7 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "f_rakar-deva";
-lastChange = "2026-03-28 02:38:28 +0000";
+lastChange = "2026-04-10 02:12:10 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -72426,7 +71851,7 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "yy_rakar-deva";
-lastChange = "2026-04-07 18:07:30 +0000";
+lastChange = "2026-04-10 01:40:50 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -72435,7 +71860,8 @@ shapes = (
 ref = "y_rakar-deva";
 },
 {
-pos = (-7,44);
+alignment = -1;
+pos = (34,63);
 ref = "nukta-deva";
 }
 );
@@ -72448,7 +71874,8 @@ shapes = (
 ref = "y_rakar-deva";
 },
 {
-pos = (-12,38);
+alignment = -1;
+pos = (17,54);
 ref = "nukta-deva";
 }
 );
@@ -72461,7 +71888,8 @@ shapes = (
 ref = "y_rakar-deva";
 },
 {
-pos = (-9,24);
+alignment = -1;
+pos = (2,41);
 ref = "nukta-deva";
 scale = (0.8,0.8);
 }
@@ -73334,13 +72762,13 @@ subCategory = Other;
 category = Letter;
 color = 9;
 glyphname = "tt_tta-deva";
-lastChange = "2026-04-07 19:42:56 +0000";
+lastChange = "2026-04-10 02:00:57 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-pos = (277,-63);
+pos = (277,-83);
 },
 {
 name = candra;
@@ -73414,7 +72842,7 @@ width = 505;
 anchors = (
 {
 name = bottom;
-pos = (318,-87);
+pos = (318,-117);
 },
 {
 name = candra;
@@ -78731,7 +78159,7 @@ unicode = 57;
 glyphname = zero.cv10;
 kernLeft = O;
 kernRight = O;
-lastChange = "2026-03-12 18:20:55 +0000";
+lastChange = "2026-04-10 02:36:41 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -112339,7 +111767,7 @@ metricRight = "=0";
 {
 export = 0;
 glyphname = "_tta-small-component-deva";
-lastChange = "2026-03-10 00:34:02 +0000";
+lastChange = "2026-04-10 01:58:10 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -112428,7 +111856,7 @@ metricRight = "=0";
 {
 export = 0;
 glyphname = "_tta-small-deva";
-lastChange = "2026-03-10 01:09:35 +0000";
+lastChange = "2026-04-10 01:58:14 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -112791,7 +112219,7 @@ metricRight = "=0";
 {
 export = 0;
 glyphname = "_va-small-deva";
-lastChange = "2026-03-09 19:41:19 +0000";
+lastChange = "2026-04-10 02:04:29 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -112799,14 +112227,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(222,173,o),
+(217,173,o),
 (294,200,o),
 (329,237,c),
 (309,278,l),
 (278,243,o),
-(215,217,o),
+(210,217,o),
 (150,217,cs),
-(99,217,o),
+(93,217,o),
 (50,250,o),
 (50,293,cs),
 (50,354,o),
@@ -112817,7 +112245,7 @@ nodes = (
 (0,375,o),
 (0,293,cs),
 (0,224,o),
-(69,173,o),
+(63,173,o),
 (148,173,cs)
 );
 },
@@ -112839,35 +112267,35 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(228,165,o),
-(305,192,o),
-(341,228,c),
-(311,287,l),
-(282,257,o),
-(219,234,o),
-(164,234,cs),
-(111,234,o),
-(80,254,o),
-(80,288,cs),
-(80,344,o),
-(131,377,o),
+(228,135,o),
+(295,156,o),
+(351,208,c),
+(321,267,l),
+(272,221,o),
+(219,204,o),
+(164,204,cs),
+(116,204,o),
+(80,234,o),
+(80,273,cs),
+(80,332,o),
+(138,377,o),
 (216,377,c),
 (216,430,l),
 (93,430,o),
-(0,369,o),
-(0,288,cs),
-(0,218,o),
-(69,165,o),
-(162,165,cs)
+(0,363,o),
+(0,273,cs),
+(0,194,o),
+(69,135,o),
+(162,135,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(391,106,l),
+(391,76,l),
 (391,456,l),
 (311,456,l),
-(311,106,l)
+(311,76,l)
 );
 }
 );
@@ -112879,35 +112307,35 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(233,147,o),
-(308,174,o),
-(342,209,c),
-(308,284,l),
-(290,259,o),
-(250,241,o),
-(214,241,cs),
-(175,241,o),
-(145,259,o),
-(145,284,cs),
-(145,320,o),
+(233,107,o),
+(308,134,o),
+(342,169,c),
+(308,244,l),
+(290,219,o),
+(250,201,o),
+(214,201,cs),
+(175,201,o),
+(145,228,o),
+(145,264,cs),
+(145,311,o),
 (189,349,o),
 (248,352,c),
 (248,412,l),
 (106,410,o),
-(0,352,o),
-(0,273,cs),
-(0,201,o),
-(72,147,o),
-(169,147,cs)
+(0,342,o),
+(0,253,cs),
+(0,170,o),
+(72,107,o),
+(169,107,cs)
 );
 },
 {
 closed = 1;
 nodes = (
-(454,90,l),
+(454,50,l),
 (454,426,l),
 (300,426,l),
-(300,90,l)
+(300,50,l)
 );
 }
 );
@@ -115777,7 +115205,7 @@ metricRight = "=0";
 },
 {
 export = 0;
-glyphname = _r.leg.ss03;
+glyphname = _r.leg.cv16;
 lastChange = "2025-03-05 01:41:02 +0000";
 layers = (
 {
@@ -117620,12 +117048,14 @@ type = bodyHeight;
 }
 );
 note = "To-Do:
+- New masters for 100 and 900
+- Better tt_tta like deva conjuncts
 - Alternate numerators and denominators
+- Update Matras to be negative-left?
 + Conjuncts marked other
 + Conjuncts without subcategory
 + Clean up unused conjuncts
-- Update nuktas to be spacious
-- Update Matras to be negative-left?
++ Update nuktas to be spacious
 + Cut: bh-deva, m-deva, s-deva, l-deva
 + Correct rakar based conjuncts
 + Update reph_anusvarar height
