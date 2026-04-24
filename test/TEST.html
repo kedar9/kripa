@@ -3,8 +3,8 @@
     body {
       font-family: "Kripa";
       padding: 20px;
-      padding-bottom: 130px;
-      line-height: 1.6;
+      padding-bottom: 120px;
+      line-height: 1;
       --sample-font-size: 30px;
       --sample-font-weight: 400;
     }
@@ -22,70 +22,10 @@
       font-weight: var(--sample-font-weight);
       font-variation-settings: "wght" var(--sample-font-weight);
     }
-    .controls-panel {
-      position: fixed;
-      left: 50%;
-      bottom: 14px;
-      transform: translateX(-50%);
-      width: min(760px, calc(100% - 24px));
-      padding: 12px 14px;
-      border: 1px solid #d2d2d2;
-      border-radius: 12px;
-      background: rgba(255, 255, 255, 0.95);
-      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
-      z-index: 1000;
-    }
-    .controls-row {
-      display: flex;
-      gap: 14px;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-    }
-    .control-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      flex: 1 1 320px;
-    }
-    .control-item label {
-      font-size: 14px;
-      white-space: nowrap;
-    }
-    .control-item input[type="range"] {
-      width: 100%;
-    }
-    .control-value {
-      font-size: 14px;
-      min-width: 58px;
-      text-align: right;
-    }
-    .controls-actions {
-      display: flex;
-      justify-content: flex-end;
-      margin-top: 10px;
-    }
-    .reset-button {
-      border: 1px solid #bcbcbc;
-      border-radius: 8px;
-      background: #fff;
-      padding: 6px 12px;
-      font-size: 13px;
-      cursor: pointer;
-    }
-    .reset-button:hover {
-      background: #f3f3f3;
-    }
   </style>
   <body>
-    <h1>Pending</h1>
-    <p class="size-60">
-      न्चॅ न्त्रॅ न्ह्ये न्द्रे प्पॅ प्फॅ र्कें र्कैं र्कें र्कैं र्जें र्जैं
-      र्झें र्झैं र्रें र्रैं र्क्षें र्क्षैं र्हु स्त्रॅ ष्ट्वे न्द्वे
-    </p>
-    <h1>Pending Akshar</h1>
-    <p class="size-60">र्क्षें र्क्षैं र्हु स्त्रॅ ष्ट्वे</p>
-    <h1>Rakars</h1>
+    <h1>Basic Devanagari Test</h1>
+    <h2>Rakars</h2>
     <p class="size-60">
       क्रे ख्रे ग्र्ये ग्रे ग्गृ ग्रु च्रु ट्रू थ्रू प्रू प्रे श्रू श्री श्रु
       ह्रु ट्रे ह्रु स्र स्त्र ग्र्य क्त्र क्त्रे क्ष्र न्ह्ये ड्ये
@@ -272,39 +212,5 @@
       पावसाळा ढगाळ वातावरण उकाडा गारवा वादळ विजांचा कडकडाट पर्जन्यमान थंडीची लाट
       उष्माघात आर्द्रता निर्देशांक
     </p>
-    <div class="controls-panel" aria-label="Font controls">
-      <div class="controls-row">
-        <div class="control-item">
-          <label for="font-size-slider">Font size</label>
-          <input
-            id="font-size-slider"
-            type="range"
-            min="18"
-            max="72"
-            step="1"
-            value="30"
-          />
-          <span id="font-size-value" class="control-value">30px</span>
-        </div>
-        <div class="control-item">
-          <label for="font-weight-slider">Font weight</label>
-          <input
-            id="font-weight-slider"
-            type="range"
-            min="100"
-            max="900"
-            step="10"
-            value="400"
-          />
-          <span id="font-weight-value" class="control-value">400</span>
-        </div>
-      </div>
-      <div class="controls-actions">
-        <button id="font-reset-button" class="reset-button" type="button">
-          Reset
-        </button>
-      </div>
-    </div>
-    <script src="./controls.js"></script>
   </body>
 </html>

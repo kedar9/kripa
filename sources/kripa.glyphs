@@ -121579,31 +121579,13 @@ name = "zone 1";
 type = bodyHeight;
 }
 );
-note = "To-Do:
-
-- Update Matras to be negative-left?
-- Update Google fonts criteria
-- Update diacritics to be smaller for 800
-- Add t.cv15
-
-+ Alternate numerators and denominators
-+ Context Sensitive: brackets, @, hyphen, colon
-+ Conjuncts marked other
-+ Conjuncts without subcategory
-+ Clean up unused conjuncts
-+ Update nuktas to be spacious
-+ Cut: bh-deva, m-deva, s-deva, l-deva
-+ Correct rakar based conjuncts
-+ Update reph_anusvarar height
-+ Update ba-deva to be wider
- ";
 properties = (
 {
 key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2026 The Kripa Type Project Authors (https://github.com/kedar9/kripa)
+value = "Copyright 2023 The Kripa Type Project Authors (https://github.com/kedar9/kripa)
 ";
 }
 );
