@@ -4,7 +4,11 @@
 DisplayStrings = (
 "/rakar-deva/ttha_rakar-deva ड/dda_rakar-deva/tta_rakar-deva ड्रॉ",
 "/rakar-leg-deva/rakar-leg-high-deva/rakar-leg-low-deva/rakar-leg-short-deva/rakar-leg-shortest-deva",
-"123456789/one.cv01/two.cv02/three.cv03/four.cv04/five.cv05/six.cv06/seven.cv07/eight.cv08/nine.cv09"
+"/rakar-leg-deva/g_rakar-deva/nn_rakar-deva/bh_rakar-deva/ghh_rakar-deva",
+"/rakar-leg-high-deva/pha_rakar-deva/fa_rakar-deva/p_rakar-deva/ph_rakar-deva/ss_rakar-deva/f_rakar-deva",
+"/rakar-leg-low-deva/ka_rakar-deva/da_rakar-deva/k_ss_rakar-deva/k_rakar-deva/gh_rakar-deva/c_rakar-deva/j_rakar-deva/ny_rakar-deva/th_rakar-deva/dh_rakar-deva/n_dh_rakar-deva/n_rakar-deva/b_rakar-deva/m_rakar-deva/y_rakar-deva/v_rakar-deva",
+"/rakar-leg-short-deva/la_rakar-deva/kh_rakar-deva/jh_rakar-deva/d_ya_rakar-deva/l_rakar-deva",
+"/rakar-leg-shortest-deva/ha_rakar-deva/qa_rakar-deva/d_ba_rakar-deva/d_va_rakar-deva/q_rakar-deva"
 );
 axes = (
 {
@@ -118240,7 +118244,7 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "rakar-leg-deva";
-lastChange = "2026-04-16 21:00:01 +0000";
+lastChange = "2026-04-24 17:51:48 +0000";
 layers = (
 {
 anchors = (
@@ -118258,11 +118262,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(59,-10,l),
+(48,-23,l),
 (310,251,l),
 (310,324,l),
-(0,0,l),
-(0,-10,l)
+(0,0,l)
 );
 }
 );
@@ -118284,11 +118287,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(107,-20,l),
-(330,201,l),
+(72,-35,l),
+(330,211,l),
 (330,316,l),
-(0,-10,l),
-(0,-20,l)
+(0,0,l)
 );
 }
 );
@@ -118310,11 +118312,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(195,-32,l),
+(155,-75,l),
 (380,166,l),
 (380,311,l),
-(0,-22,l),
-(0,-32,l)
+(0,0,l)
 );
 }
 );
@@ -118326,7 +118327,7 @@ metricRight = "=0";
 },
 {
 glyphname = "rakar-leg-high-deva";
-lastChange = "2026-04-16 20:14:48 +0000";
+lastChange = "2026-04-24 17:55:29 +0000";
 layers = (
 {
 anchors = (
@@ -118344,11 +118345,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(66,-10,l),
+(48,-23,l),
 (375,280,l),
-(375,351,l),
-(0,0,l),
-(0,-10,l)
+(375,346,l),
+(0,0,l)
 );
 }
 );
@@ -118370,11 +118370,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(107,-20,l),
-(390,234,l),
-(390,340,l),
-(0,-10,l),
-(0,-20,l)
+(72,-35,l),
+(390,238,l),
+(390,330,l),
+(0,0,l)
 );
 }
 );
@@ -118396,11 +118395,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(199,-32,l),
+(155,-75,l),
 (440,156,l),
 (440,301,l),
-(0,-22,l),
-(0,-32,l)
+(0,0,l)
 );
 }
 );
@@ -118413,7 +118411,7 @@ metricRight = "=0";
 {
 color = 3;
 glyphname = "rakar-leg-low-deva";
-lastChange = "2026-04-16 21:23:34 +0000";
+lastChange = "2026-04-24 17:57:32 +0000";
 layers = (
 {
 anchors = (
@@ -118431,11 +118429,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(71,-10,l),
+(48,-23,l),
 (350,191,l),
-(350,253,l),
-(0,0,l),
-(0,-10,l)
+(350,248,l),
+(0,0,l)
 );
 }
 );
@@ -118457,11 +118454,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(116,-20,l),
+(74,-36,l),
 (365,165,l),
-(365,261,l),
-(0,-10,l),
-(0,-20,l)
+(365,251,l),
+(0,0,l)
 );
 }
 );
@@ -118483,11 +118479,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(189,-42,l),
+(155,-75,l),
 (400,128,l),
-(400,263,l),
-(0,-32,l),
-(0,-42,l)
+(400,243,l),
+(0,0,l)
 );
 }
 );
@@ -118500,7 +118495,7 @@ metricRight = "=0";
 {
 color = 3;
 glyphname = "rakar-leg-short-deva";
-lastChange = "2026-04-16 21:04:04 +0000";
+lastChange = "2026-04-24 17:59:51 +0000";
 layers = (
 {
 anchors = (
@@ -118518,11 +118513,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(63,-10,l),
+(42,-20,l),
 (280,161,l),
-(280,218,l),
-(0,0,l),
-(0,-10,l)
+(280,213,l),
+(0,0,l)
 );
 }
 );
@@ -118544,11 +118538,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(100,-20,l),
+(71,-35,l),
 (300,131,l),
 (300,217,l),
-(0,-10,l),
-(0,-20,l)
+(0,0,l)
 );
 }
 );
@@ -118570,11 +118563,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(183,-32,l),
+(155,-75,l),
 (340,116,l),
-(340,241,l),
-(0,-22,l),
-(0,-32,l)
+(340,231,l),
+(0,0,l)
 );
 }
 );
@@ -118586,7 +118578,7 @@ metricRight = "=0";
 },
 {
 glyphname = "rakar-leg-shortest-deva";
-lastChange = "2026-04-16 21:18:52 +0000";
+lastChange = "2026-04-24 18:01:49 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -118594,11 +118586,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(58,-10,l),
+(42,-20,l),
 (170,133,l),
 (170,202,l),
-(0,0,l),
-(0,-10,l)
+(0,0,l)
 );
 }
 );
@@ -118610,11 +118601,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(92,-20,l),
+(63,-30,l),
 (190,100,l),
-(190,205,l),
-(0,-10,l),
-(0,-20,l)
+(190,195,l),
+(0,0,l)
 );
 }
 );
@@ -118626,11 +118616,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(163,-32,l),
+(134,-65,l),
 (230,88,l),
-(230,223,l),
-(0,-22,l),
-(0,-32,l)
+(230,203,l),
+(0,0,l)
 );
 }
 );
