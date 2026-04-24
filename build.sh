@@ -28,4 +28,5 @@ python3 scripts/patch_cjct.py "$TMP_SOURCE"
 
 # Build font
 gftools builder "$TMP_BUILDER"
+python3 scripts/compress_build.py
 # fonttools varLib.instancer -o "fonts/variable/Kripa[wght].ttf"
