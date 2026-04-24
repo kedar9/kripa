@@ -26,7 +26,7 @@ def iter_files(root: Path, archive_path: Path) -> list[Path]:
 def main() -> int:
     repo_root = Path(__file__).resolve().parent.parent
     fonts_dir = repo_root / "fonts"
-    archive_path = fonts_dir / "kripa.zip"
+    archive_path = fonts_dir / "Kripa.zip"
 
     if not fonts_dir.is_dir():
         print(f"Missing fonts directory: {fonts_dir}", file=sys.stderr)

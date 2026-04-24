@@ -1,15 +1,6 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
-DisplayStrings = (
-"/rakar-deva/ttha_rakar-deva ड/dda_rakar-deva/tta_rakar-deva ड्रॉ",
-"/rakar-leg-deva/rakar-leg-high-deva/rakar-leg-low-deva/rakar-leg-short-deva/rakar-leg-shortest-deva",
-"/rakar-leg-deva/g_rakar-deva/nn_rakar-deva/bh_rakar-deva/ghh_rakar-deva",
-"/rakar-leg-high-deva/pha_rakar-deva/fa_rakar-deva/p_rakar-deva/ph_rakar-deva/ss_rakar-deva/f_rakar-deva",
-"/rakar-leg-low-deva/ka_rakar-deva/da_rakar-deva/k_ss_rakar-deva/k_rakar-deva/gh_rakar-deva/c_rakar-deva/j_rakar-deva/ny_rakar-deva/th_rakar-deva/dh_rakar-deva/n_dh_rakar-deva/n_rakar-deva/b_rakar-deva/m_rakar-deva/y_rakar-deva/v_rakar-deva",
-"/rakar-leg-short-deva/la_rakar-deva/kh_rakar-deva/jh_rakar-deva/d_ya_rakar-deva/l_rakar-deva",
-"/rakar-leg-shortest-deva/ha_rakar-deva/qa_rakar-deva/d_ba_rakar-deva/d_va_rakar-deva/q_rakar-deva"
-);
 axes = (
 {
 name = Weight;
