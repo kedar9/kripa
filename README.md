@@ -1,13 +1,17 @@
 # Kripa
-Kripa (कृपा) is a modern, geometric-grotesk, multi-lingual, sans-serif font family.
 
-## Features
-1. Duo-script: Supports two scripts: Latin and Devanagari
-2. Variable Axis: Supports Weight axis within the range: `200` to `800`
-3. OpenType Features: Supports standard OpenType features like ligatures, stylistic alternates and tabular numerals
-5. Symbols for multiple currencies provided in all weights
+Kripa (कृपा) is a contemporary, geometric sans-serif with support for **Latin** and **Devanagari** scripts. The font balances sharp, circular forms and has an approchable “human” undertone. It has tight apertures and minimalist structures, and the font avoids the formality of traditional, neo-grotesque typefaces. With a tall x-height and a relatively short ascender height, it is more practical than a standard geometric typeface, allowing the lowercase letters to remain legible across a variety of text sizes and environments.
 
-## Images
+With its support for both Latin and Devanagari scripts, Kripa covers a wide range of languages including Hindi and Marathi. The Latin set includes an extensive collection of accented characters. Both scripts were developed to share a unified visual rhythm and optical weight, allowing for an organic transition between different languages within a single layout.
 
-## Contribution
-To contribute, make requests or log issues, visit the [kedar9/kripa](https://github.com/kedar9/kripa) repository.
+Kripa is an OpenType variable font. It is not only available in multiple individual weights, but is also available as a single file supporting the axis of weight variation. It also features 20 character variants and a suite of OpenType features, including stylistic alternates, discretionary ligatures, and contextual alternates. It also includes tabular numbers and fractions.
+
+Kripa is an open-source project, licensed under the SIL Open Font License.
+
+For more information on Kripa and explore its features, visit the official landing page [here](https://kedar.dev/fonts/kripa)
+
+![Kripa Cover](/images/cover.webp)
+![Kripa Letters](/images/abc.webp)
+![Kripa Cities](/images/cities.webp)
+![Kripa Features](/images/features.webp)
+![Kripa R](/images/r.webp)

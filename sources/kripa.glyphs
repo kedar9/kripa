@@ -1,6 +1,9 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
+DisplayStrings = (
+"थC/_j-deva.comp/j-deva  जध"
+);
 axes = (
 {
 name = Weight;
@@ -3973,7 +3976,7 @@ color = 5;
 glyphname = C;
 kernLeft = O;
 kernRight = C;
-lastChange = "2025-08-10 21:36:34 +0000";
+lastChange = "2026-04-27 00:45:52 +0000";
 layers = (
 {
 anchors = (
@@ -59581,7 +59584,7 @@ width = 599;
 },
 {
 glyphname = "ddha-deva";
-lastChange = "2026-04-10 01:12:17 +0000";
+lastChange = "2026-04-27 00:46:17 +0000";
 layers = (
 {
 anchors = (
@@ -60227,7 +60230,7 @@ metricLeft = "=aaMatra-deva";
 },
 {
 glyphname = "tha-deva";
-lastChange = "2026-03-31 17:46:59 +0000";
+lastChange = "2026-04-27 00:45:55 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -60625,7 +60628,7 @@ metricLeft = "=aaMatra-deva";
 },
 {
 glyphname = "dha-deva";
-lastChange = "2026-03-31 17:46:59 +0000";
+lastChange = "2026-04-27 00:46:02 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
