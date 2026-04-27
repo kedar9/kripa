@@ -23,7 +23,7 @@ The build script runs the following:
 
 1. generate_cjct.py: Devanagari conjuncts need to be tagged as category=Letter and subCategory=Other so that fontmake can correctly handle Devanagari conjuncts and associated matras. More details [here](#known-issue). But, since the default subCategory for a conjunct is `Conjunct`, setting it to `Other` removes it from automatically generated list in the `cjct` feature. The generate_cjct script adds those conjuncts to that list.
 2. patch_cjct.py: Glyphs has bugs that break Marathi shaping. It does not add the language MAR block to the `cjct`, `blws` and `pres` features. The patch_cjct script correctly adds the necessary block to identify Marathi locale.
-3. gftools builder: This builds the actual font files (variable and static) based on the configuration specified in builder.yaml.
+3. gftools builder: This builds the actual font files (variable and static) based on the configuration specified in sources/config.yml.
 
 ## Versioning
 

@@ -2,7 +2,7 @@
 set -e
 
 SOURCE="sources/Kripa.glyphs"
-BUILDER="builder.yaml"
+BUILDER="sources/config.yaml"
 
 # Build from temporary files so the source is not modified in place.
 TMP_SOURCE="sources/tmp.Kripa.$$.glyphs"
@@ -18,7 +18,7 @@ cleanup() {
 trap cleanup EXIT
 
 cp "$SOURCE" "$TMP_SOURCE"
-sed "s|sources/Kripa.glyphs|$TMP_SOURCE|" "$BUILDER" > "$TMP_BUILDER"
+sed "s|Kripa.glyphs|$TMP_SOURCE|g" "$BUILDER" > "$TMP_BUILDER"
 
 # Patch Devanagari glyph metadata and regenerate cjct lookup
 python3 scripts/generate_cjct.py --glyphs "$TMP_SOURCE" --patch-glyphs

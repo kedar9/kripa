@@ -1,5 +1,5 @@
 sources:
-  - sources/Kripa.glyphs
+  - Kripa.glyphs
 outputDir: "fonts"
 buildStatic: true
 buildVariable: true
