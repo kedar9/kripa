@@ -1,10 +1,6 @@
 {
 .appVersion = "3414";
 .formatVersion = 3;
-DisplayStrings = (
-"थC/_j-deva.comp/j-deva  जध",
-"ब/b-deva  व/v-deva  /_ka-fa.curve/_k-half.deva क"
-);
 axes = (
 {
 name = Weight;
@@ -60629,7 +60625,7 @@ metricLeft = "=aaMatra-deva";
 },
 {
 glyphname = "dha-deva";
-lastChange = "2026-04-27 00:46:02 +0000";
+lastChange = "2026-04-27 21:21:24 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -63675,7 +63671,7 @@ unicode = 2357;
 },
 {
 glyphname = "v-deva";
-lastChange = "2026-04-27 21:05:25 +0000";
+lastChange = "2026-04-27 21:10:21 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -121182,11 +121178,11 @@ name = Regular;
 },
 {
 axesValues = (
-480
+500
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.68085;
-"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 0.31915;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.6383;
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 0.3617;
 };
 name = Medium;
 weightClass = 500;
@@ -121204,11 +121200,11 @@ weightClass = 600;
 },
 {
 axesValues = (
-720
+700
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.17021;
-"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 0.82979;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.21277;
+"9398AC28-6BE1-4A79-9C94-3CBC2F226CE7" = 0.78723;
 };
 isBold = 1;
 name = Bold;
