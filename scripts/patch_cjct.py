@@ -55,13 +55,13 @@ CJCT_MARKER = "lookup cjct_devanagari_rakar_forms;\nlookup cjct_Halfdevanagari;\
 # lookups, so we can't use 'lookup X;' syntax. 'include_dflt' inherits
 # the anonymous dflt registrations for the language-specific context.
 BLWS_BROKEN_TAIL = (
-    "\tsub za-deva rakar-deva by za_rakar-deva;\n"
+    "\tsub ya-deva rakar-deva by ya_rakar-deva;\n"
     '";\n'
     "tag = blws;"
 )
 
 BLWS_FIXED_TAIL = (
-    "\tsub za-deva rakar-deva by za_rakar-deva;\n"
+    "\tsub ya-deva rakar-deva by ya_rakar-deva;\n"
     "\n"
     "language MAR include_dflt;\n"
     '";\n'
