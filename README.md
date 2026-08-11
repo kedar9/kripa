@@ -12,6 +12,6 @@ For more information on Kripa and explore its features, visit the official landi
 
 ![Kripa Cover](/images/cover.webp)
 ![Kripa Letters](/images/abc.webp)
-![Kripa Cities](/images/cities.webp)
 ![Kripa Features](/images/features.webp)
+![Kripa Cities](/images/cities.webp)
 ![Kripa R](/images/r.webp)
