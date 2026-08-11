@@ -1,9 +1,6 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
-DisplayStrings = (
-B
-);
 axes = (
 {
 name = Weight;
@@ -73,9 +70,8 @@ wght = {
 };
 },
 {
-disabled = 1;
 name = "Variable Font Origin";
-value = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
+value = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 }
 );
 date = "2022-12-27 12:45:41 +0000";
@@ -1993,6 +1989,7 @@ pos = (395,602);
 pos = (220,-70);
 },
 {
+angle = 180;
 pos = (353,-30);
 }
 );
@@ -21522,7 +21519,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (172,0);
+pos = (169,0);
 ref = acutecomb;
 }
 );
@@ -21570,7 +21567,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (52,0);
+pos = (49,0);
 ref = brevecomb;
 }
 );
@@ -21674,7 +21671,7 @@ pos = (113,0);
 ref = cedillacomb;
 },
 {
-pos = (52,0);
+pos = (49,0);
 ref = brevecomb;
 }
 );
@@ -21726,7 +21723,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (58,0);
+pos = (55,0);
 ref = circumflexcomb;
 }
 );
@@ -22026,7 +22023,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-24,0);
+pos = (-27,0);
 ref = dblgravecomb;
 }
 );
@@ -22074,7 +22071,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (40,0);
+pos = (37,0);
 ref = dieresiscomb;
 }
 );
@@ -22122,7 +22119,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (150,0);
+pos = (147,0);
 ref = dotaccentcomb;
 }
 );
@@ -22218,7 +22215,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (58,0);
+pos = (55,0);
 ref = gravecomb;
 }
 );
@@ -22266,7 +22263,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (121,0);
+pos = (118,0);
 ref = hookabovecomb;
 }
 );
@@ -22362,7 +22359,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (65,0);
+pos = (62,0);
 ref = macroncomb;
 }
 );
@@ -22554,7 +22551,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (51,0);
+pos = (48,0);
 ref = tildecomb;
 }
 );
@@ -29780,7 +29777,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (133,0);
+pos = (128,0);
 ref = acutecomb;
 }
 );
@@ -29828,7 +29825,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (16,0);
+pos = (11,0);
 ref = acutecomb_dotaccentcomb;
 }
 );
@@ -29924,7 +29921,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (18,0);
+pos = (13,0);
 ref = caroncomb_dotaccentcomb;
 }
 );
@@ -30020,7 +30017,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (19,0);
+pos = (14,0);
 ref = circumflexcomb;
 }
 );
@@ -30116,7 +30113,7 @@ shapes = (
 ref = s;
 },
 {
-pos = (111,0);
+pos = (106,0);
 ref = dotaccentcomb;
 }
 );
@@ -58657,15 +58654,9 @@ metricRight = "=aaMatra-deva";
 },
 {
 glyphname = "ja-deva";
-lastChange = "2026-08-09 02:29:28 +0000";
+lastChange = "2026-08-11 14:09:38 +0000";
 layers = (
 {
-anchors = (
-{
-name = nukta;
-pos = (128,0);
-}
-);
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
 shapes = (
 {
@@ -58688,12 +58679,6 @@ nodes = (
 width = 739;
 },
 {
-anchors = (
-{
-name = nukta;
-pos = (118,-10);
-}
-);
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
 shapes = (
 {
@@ -58716,12 +58701,6 @@ nodes = (
 width = 775;
 },
 {
-anchors = (
-{
-name = nukta;
-pos = (128,-37);
-}
-);
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
 shapes = (
 {
@@ -58750,13 +58729,13 @@ unicode = 2332;
 },
 {
 glyphname = "j-deva";
-lastChange = "2026-08-09 02:29:28 +0000";
+lastChange = "2026-08-11 14:10:57 +0000";
 layers = (
 {
 anchors = (
 {
 name = nukta;
-pos = (128,-10);
+pos = (178,0);
 }
 );
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -58785,7 +58764,7 @@ width = 469;
 anchors = (
 {
 name = nukta;
-pos = (118,-10);
+pos = (178,-30);
 }
 );
 layerId = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
@@ -58814,7 +58793,7 @@ width = 475;
 anchors = (
 {
 name = nukta;
-pos = (128,-36);
+pos = (178,-80);
 }
 );
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
@@ -65585,7 +65564,7 @@ width = 381;
 },
 {
 glyphname = "za-deva";
-lastChange = "2026-08-10 19:00:17 +0000";
+lastChange = "2026-08-11 14:10:57 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -65594,7 +65573,7 @@ shapes = (
 ref = "ja-deva";
 },
 {
-pos = (78,-50);
+pos = (128,-50);
 ref = "nukta-deva";
 }
 );
@@ -65607,7 +65586,7 @@ shapes = (
 ref = "ja-deva";
 },
 {
-pos = (63,-65);
+pos = (123,-85);
 ref = "nukta-deva";
 }
 );
@@ -65620,7 +65599,7 @@ shapes = (
 ref = "ja-deva";
 },
 {
-pos = (59,-106);
+pos = (109,-149);
 ref = "nukta-deva";
 }
 );
@@ -65631,7 +65610,7 @@ unicode = 2395;
 },
 {
 glyphname = "z-deva";
-lastChange = "2026-08-10 19:00:17 +0000";
+lastChange = "2026-08-11 14:10:57 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -65640,7 +65619,7 @@ shapes = (
 ref = "j-deva";
 },
 {
-pos = (78,-60);
+pos = (128,-50);
 ref = "nukta-deva";
 }
 );
@@ -65653,7 +65632,7 @@ shapes = (
 ref = "j-deva";
 },
 {
-pos = (63,-65);
+pos = (123,-85);
 ref = "nukta-deva";
 }
 );
@@ -65666,7 +65645,7 @@ shapes = (
 ref = "j-deva";
 },
 {
-pos = (59,-105);
+pos = (109,-149);
 ref = "nukta-deva";
 }
 );
@@ -123108,13 +123087,7 @@ name = Black;
 weightClass = 900;
 },
 {
-customParameters = (
-{
-name = "Variable Font Origin";
-value = "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7";
-}
-);
-name = Regular;
+name = "[wght]";
 type = variable;
 }
 );
