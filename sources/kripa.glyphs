@@ -35829,11 +35829,11 @@ shapes = (
 ref = _f.liga.cv12;
 },
 {
-pos = (346,0);
+pos = (341,0);
 ref = f.cv12;
 }
 );
-width = 703;
+width = 698;
 },
 {
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
@@ -35923,11 +35923,11 @@ shapes = (
 ref = _f.liga.cv12;
 },
 {
-pos = (346,0);
+pos = (341,0);
 ref = f_f.cv12;
 }
 );
-width = 1049;
+width = 1039;
 },
 {
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
@@ -36021,11 +36021,11 @@ shapes = (
 ref = _f.liga.cv12;
 },
 {
-pos = (346,0);
+pos = (341,0);
 ref = f_i.cv12;
 }
 );
-width = 984;
+width = 979;
 },
 {
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
@@ -36115,11 +36115,11 @@ shapes = (
 ref = _f.liga.cv12;
 },
 {
-pos = (346,0);
+pos = (341,0);
 ref = f_j.cv12;
 }
 );
-width = 974;
+width = 969;
 },
 {
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
@@ -36162,11 +36162,11 @@ shapes = (
 ref = _f.liga.cv12;
 },
 {
-pos = (346,0);
+pos = (341,0);
 ref = f_j.cv12_cv13;
 }
 );
-width = 974;
+width = 969;
 },
 {
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
@@ -36303,11 +36303,11 @@ shapes = (
 ref = _f.liga.cv12;
 },
 {
-pos = (346,0);
+pos = (341,0);
 ref = f_y.cv12;
 }
 );
-width = 1266;
+width = 1261;
 },
 {
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
@@ -59818,7 +59818,7 @@ width = 611;
 },
 {
 glyphname = "ddha-deva";
-lastChange = "2026-08-09 02:29:28 +0000";
+lastChange = "2026-08-11 19:14:10 +0000";
 layers = (
 {
 anchors = (
@@ -59974,7 +59974,7 @@ width = 545;
 anchors = (
 {
 name = bottom;
-pos = (371,-83);
+pos = (326,-30);
 },
 {
 name = candra;
@@ -60022,15 +60022,15 @@ nodes = (
 (469,-20,o),
 (575,63,o),
 (574,172,cs),
-(573,260,o),
-(509,334,o),
-(424,334,cs),
-(327,334,o),
-(233,282,o),
-(258,168,c),
+(573,267,o),
+(517,323,o),
+(424,323,cs),
+(307,323,o),
+(230,281,o),
+(265,167,c),
 (382,140,l),
-(376,194,o),
-(388,226,o),
+(367,189,o),
+(382,226,o),
 (415,226,cs),
 (435,226,o),
 (450,209,o),
@@ -60052,7 +60052,7 @@ unicode = 2338;
 },
 {
 glyphname = "ddh-deva";
-lastChange = "2026-08-09 02:29:28 +0000";
+lastChange = "2026-08-11 19:14:10 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -60087,7 +60087,7 @@ shapes = (
 ref = "ddha-deva";
 },
 {
-pos = (309,-103);
+pos = (264,-50);
 ref = "halant-deva";
 }
 );
@@ -65703,7 +65703,7 @@ unicode = 2396;
 },
 {
 glyphname = "rha-deva";
-lastChange = "2026-08-10 21:02:50 +0000";
+lastChange = "2026-08-11 19:13:37 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -75160,7 +75160,7 @@ subCategory = Other;
 category = Letter;
 color = 4;
 glyphname = "k_ss-deva";
-lastChange = "2026-08-09 02:29:28 +0000";
+lastChange = "2026-08-11 19:03:43 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -75192,7 +75192,7 @@ nodes = (
 );
 },
 {
-pos = (225,17);
+pos = (224,17);
 ref = "_right-tail.deva";
 },
 {
@@ -75232,7 +75232,7 @@ nodes = (
 );
 },
 {
-pos = (213,26);
+pos = (212,26);
 ref = "_right-tail.deva";
 },
 {
@@ -75272,7 +75272,7 @@ nodes = (
 );
 },
 {
-pos = (273,-16);
+pos = (270,-16);
 ref = "_right-tail.deva";
 },
 {
@@ -121690,7 +121690,7 @@ metricRight = "=-100";
 {
 export = 0;
 glyphname = _f.liga.cv12;
-lastChange = "2026-08-10 20:05:47 +0000";
+lastChange = "2026-08-11 19:14:59 +0000";
 layers = (
 {
 layerId = "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98";
@@ -121716,18 +121716,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(446,471,l),
-(446,546,l),
-(284,546,l),
-(284,471,l)
+(441,471,l),
+(441,546,l),
+(279,546,l),
+(279,471,l)
 );
 },
 {
-pos = (5,0);
 ref = f.cv12;
 }
 );
-width = 346;
+width = 341;
 },
 {
 layerId = "3B547697-C237-4007-A1BB-8D977E558FCD";
