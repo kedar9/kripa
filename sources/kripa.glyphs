@@ -2041,7 +2041,7 @@ visible = 1;
 },
 {
 axesValues = (
-330
+400
 );
 customParameters = (
 {
@@ -123004,8 +123004,8 @@ axesValues = (
 200
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.43478;
-"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 0.56522;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.33333;
+"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 0.66667;
 };
 name = ExtraLight;
 weightClass = 200;
@@ -123015,8 +123015,8 @@ axesValues = (
 300
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.86957;
-"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 0.13043;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.66667;
+"C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 0.33333;
 };
 name = Light;
 weightClass = 300;
@@ -123026,8 +123026,7 @@ axesValues = (
 400
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.87719;
-"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.12281;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 1;
 };
 name = Regular;
 },
@@ -123036,8 +123035,8 @@ axesValues = (
 500
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.70175;
-"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.29825;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.8;
+"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.2;
 };
 name = Medium;
 weightClass = 500;
@@ -123047,8 +123046,8 @@ axesValues = (
 600
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.52632;
-"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.47368;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.6;
+"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.4;
 };
 name = SemiBold;
 weightClass = 600;
@@ -123058,8 +123057,8 @@ axesValues = (
 700
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.35088;
-"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.64912;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.4;
+"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.6;
 };
 isBold = 1;
 name = Bold;
@@ -123070,8 +123069,8 @@ axesValues = (
 800
 );
 instanceInterpolations = {
-"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.17544;
-"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.82456;
+"30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.2;
+"3B547697-C237-4007-A1BB-8D977E558FCD" = 0.8;
 };
 name = ExtraBold;
 weightClass = 800;
@@ -123087,6 +123086,20 @@ name = Black;
 weightClass = 900;
 },
 {
+customParameters = (
+{
+name = fullName;
+value = Kripa;
+},
+{
+name = postscriptFontName;
+value = Kripa;
+},
+{
+name = preferredFamilyName;
+value = Kripa;
+}
+);
 name = "[wght]";
 type = variable;
 }
