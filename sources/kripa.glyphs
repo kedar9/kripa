@@ -123001,6 +123001,12 @@ instances = (
 axesValues = (
 100
 );
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-Thin";
+}
+);
 instanceInterpolations = {
 "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 1;
 };
@@ -123015,6 +123021,12 @@ instanceInterpolations = {
 "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.33333;
 "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 0.66667;
 };
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-ExtraLight";
+}
+);
 name = ExtraLight;
 weightClass = 200;
 },
@@ -123026,6 +123038,12 @@ instanceInterpolations = {
 "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.66667;
 "C1DB0BE6-5704-4A8C-8C00-D80E72C16D98" = 0.33333;
 };
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-Light";
+}
+);
 name = Light;
 weightClass = 300;
 },
@@ -123036,6 +123054,12 @@ axesValues = (
 instanceInterpolations = {
 "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 1;
 };
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-Regular";
+}
+);
 name = Regular;
 },
 {
@@ -123046,6 +123070,12 @@ instanceInterpolations = {
 "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.8;
 "3B547697-C237-4007-A1BB-8D977E558FCD" = 0.2;
 };
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-Medium";
+}
+);
 name = Medium;
 weightClass = 500;
 },
@@ -123057,6 +123087,12 @@ instanceInterpolations = {
 "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.6;
 "3B547697-C237-4007-A1BB-8D977E558FCD" = 0.4;
 };
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-SemiBold";
+}
+);
 name = SemiBold;
 weightClass = 600;
 },
@@ -123068,6 +123104,12 @@ instanceInterpolations = {
 "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.4;
 "3B547697-C237-4007-A1BB-8D977E558FCD" = 0.6;
 };
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-Bold";
+}
+);
 isBold = 1;
 name = Bold;
 weightClass = 700;
@@ -123080,6 +123122,12 @@ instanceInterpolations = {
 "30C2FD74-1A74-41AC-9C29-B288AE1DBDD7" = 0.2;
 "3B547697-C237-4007-A1BB-8D977E558FCD" = 0.8;
 };
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-ExtraBold";
+}
+);
 name = ExtraBold;
 weightClass = 800;
 },
@@ -123090,6 +123138,12 @@ axesValues = (
 instanceInterpolations = {
 "3B547697-C237-4007-A1BB-8D977E558FCD" = 1;
 };
+customParameters = (
+{
+name = postscriptFontName;
+value = "Kripa-Black";
+}
+);
 name = Black;
 weightClass = 900;
 },
@@ -124393,8 +124447,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2026 The Kripa Type Project Authors (https://github.com/kedar9/kripa)
-";
+value = "Copyright 2026 The Kripa Type Project Authors (https://github.com/kedar9/kripa)";
 }
 );
 },
@@ -124436,10 +124489,6 @@ value = "Kedar Gadge";
 {
 key = manufacturerURL;
 value = "https://kedar.dev";
-},
-{
-key = versionString;
-value = "1.000";
 }
 );
 settings = {
