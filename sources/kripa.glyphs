@@ -35,7 +35,7 @@ name = DevaIMatraRephAnusvaras;
 },
 {
 automatic = 1;
-code = "ka-deva kha-deva ga-deva gha-deva nga-deva ca-deva cha-deva ja-deva jha-deva nya-deva tta-deva ttha-deva dda-deva ddha-deva nna-deva ta-deva tha-deva da-deva dha-deva na-deva nnna-deva pa-deva pha-deva ba-deva bha-deva ma-deva ya-deva ra-deva rra-deva la-deva la-deva.loclMAR lla-deva llla-deva va-deva sha-deva sha-deva.loclMAR ssa-deva sa-deva ha-deva qa-deva khha-deva ghha-deva za-deva dddha-deva rha-deva fa-deva yya-deva gga-deva jja-deva ddda-deva bba-deva ka_rVocalicMatra-deva jha_uMatra-deva dda_nukta_uMatra-deva dda_nukta_uuMatra-deva ddha_nukta_uMatra-deva ddha_nukta_uuMatra-deva da_rVocalicMatra-deva ra_uMatra-deva ra_uuMatra-deva ha_uuMatra-deva ha_rVocalicMatra-deva k_ja-deva k_t_ta-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva k_sa-deva g_rakar_ya-deva j_ny_ya-deva tt_tt_ya-deva tt_ya-deva tt_ra_uuMatra-deva tth_tth_ya-deva tth_ya-deva dd_dd_ya-deva dd_ya-deva ddh_ddh_ya-deva ddh_ya-deva t_k_ssa-deva t_rakar_ya-deva d_d_ya-deva d_v_ya-deva d_rakar_ya-deva n_k_sa-deva ph_sa-deva sh_rakar_ya-deva ss_tt_ya-deva f_sa-deva k_ta-deva k_ssa-deva c_ca-deva ch_ya-deva j_ja-deva j_nya-deva j_ya-deva tt_tta-deva tt_ttha-deva tt_va-deva tth_ttha-deva dd_dda-deva dd_ddha-deva ddh_ddha-deva t_ta-deva t_tha-deva d_da-deva d_dha-deva d_na-deva d_ba-deva d_ma-deva d_ya-deva d_va-deva n_ca-deva n_d_va-deva p_pa-deva p_pha-deva p_ya-deva rr_ya-deva rr_ha-deva sh_va-deva ss_tt_va-deva ha_uMatra-deva h_ma-deva h_ya-deva";
+code = "ka-deva kha-deva ga-deva gha-deva nga-deva ca-deva cha-deva ja-deva jha-deva nya-deva tta-deva ttha-deva dda-deva ddha-deva nna-deva ta-deva tha-deva da-deva dha-deva na-deva nnna-deva pa-deva pha-deva ba-deva bha-deva ma-deva ya-deva ra-deva rra-deva la-deva la-deva.loclMAR lla-deva llla-deva va-deva sha-deva sha-deva.loclMAR ssa-deva sa-deva ha-deva qa-deva khha-deva ghha-deva za-deva dddha-deva rha-deva fa-deva yya-deva gga-deva jja-deva ddda-deva bba-deva ka_rVocalicMatra-deva jha_uMatra-deva dda_nukta_uMatra-deva dda_nukta_uuMatra-deva ddha_nukta_uMatra-deva ddha_nukta_uuMatra-deva da_rVocalicMatra-deva ra_uMatra-deva ra_uuMatra-deva ha_uuMatra-deva ha_rVocalicMatra-deva k_ja-deva k_t_ta-deva k_ya-deva k_ss_ma-deva k_ss_ya-deva k_ss_va-deva k_sa-deva g_rakar_ya-deva j_ny_ya-deva tt_tt_ya-deva tt_ya-deva tt_ra_uuMatra-deva tth_tth_ya-deva tth_ya-deva dd_dd_ya-deva dd_ya-deva ddh_ddh_ya-deva ddh_ya-deva t_k_ssa-deva t_rakar_ya-deva d_d_ya-deva d_v_ya-deva d_rakar_ya-deva n_k_sa-deva ph_sa-deva sh_rakar_ya-deva ss_tt_ya-deva f_sa-deva k_ta-deva k_ssa-deva c_ca-deva ch_ya-deva j_ja-deva j_nya-deva j_ya-deva tt_tta-deva tt_ttha-deva tt_va-deva tth_ttha-deva dd_dda-deva dd_ddha-deva ddh_ddha-deva t_ta-deva t_tha-deva d_da-deva d_dha-deva d_na-deva d_ba-deva d_ma-deva d_ya-deva d_va-deva n_ca-deva n_d_va-deva p_pa-deva p_pha-deva p_ya-deva rr_ya-deva rr_ha-deva sh_va-deva ss_tt_va-deva ha_uMatra-deva h_ma-deva h_ya-deva";
 name = DevaFullforms;
 },
 {
@@ -168,6 +168,7 @@ lookup removeReph {
 	sub ha_rVocalicMatra-deva @rephDeva by ha_rVocalicMatra-deva;
 	sub k_ja-deva @rephDeva by k_ja-deva;
 	sub k_t_ta-deva @rephDeva by k_t_ta-deva;
+	sub k_ya-deva @rephDeva by k_ya-deva;
 	sub k_ss_ma-deva @rephDeva by k_ss_ma-deva;
 	sub k_ss_ya-deva @rephDeva by k_ss_ya-deva;
 	sub k_ss_va-deva @rephDeva by k_ss_va-deva;
@@ -768,6 +769,7 @@ lookup cjct_devanagari {
 	sub f-deva sa-deva by f_sa-deva;
 	sub k-deva ja-deva by k_ja-deva;
 	sub k-deva sa-deva by k_sa-deva;
+	sub k-deva ya-deva by k_ya-deva;
 	sub ph-deva sa-deva by ph_sa-deva;
 	sub tt-deva ya-deva by tt_ya-deva;
 	sub tth-deva ya-deva by tth_ya-deva;
@@ -839,6 +841,7 @@ code = "script dev2;
 lookup Imatra1_devanagari {
 	lookupflag IgnoreMarks;
 	sub iMatra-deva' k-deva s-deva p-deva ra-deva by iMatra-deva.0015;
+	sub iMatra-deva' k-deva s-deva p-deva la-deva by iMatra-deva.0015;
 	sub iMatra-deva' t-deva s-deva n-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' n-deva s-deva m-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' n-deva s-deva t-deva ra-deva by iMatra-deva.0015;
@@ -1088,30 +1091,30 @@ lookup Imatra1_devanagari {
 	sub iMatra-deva' k-deva bha-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva ca-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva cha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva da-deva by iMatra-deva.0014;
-	sub iMatra-deva' k-deva dda-deva by iMatra-deva.0015;
+	sub iMatra-deva' k-deva da-deva by iMatra-deva.0013;
+	sub iMatra-deva' k-deva dda-deva by iMatra-deva.0014;
 	sub iMatra-deva' k-deva ddha-deva by iMatra-deva.0013;
 	sub iMatra-deva' k-deva ga-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ha-deva by iMatra-deva.0015;
+	sub iMatra-deva' k-deva ha-deva by iMatra-deva.0014;
 	sub iMatra-deva' k_ja-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva jha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva ka-deva by iMatra-deva.0014;
+	sub iMatra-deva' k-deva ka-deva by iMatra-deva.0013;
 	sub iMatra-deva' k-deva kha-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva la-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva lla-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva ma-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva na-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva nna-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva pa-deva by iMatra-deva.0015;
+	sub iMatra-deva' k-deva pa-deva by iMatra-deva.0014;
 	sub iMatra-deva' k-deva pha-deva by iMatra-deva.0014;
-	sub iMatra-deva' k-deva ra-deva by iMatra-deva.0012;
+	sub iMatra-deva' k-deva ra-deva by iMatra-deva.0011;
 	sub iMatra-deva' k_sa-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva sha-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva ssa-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva ta-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva tha-deva by iMatra-deva.0015;
-	sub iMatra-deva' k-deva tta-deva by iMatra-deva.0014;
-	sub iMatra-deva' k-deva ttha-deva by iMatra-deva.0014;
+	sub iMatra-deva' k-deva tta-deva by iMatra-deva.0013;
+	sub iMatra-deva' k-deva ttha-deva by iMatra-deva.0013;
 	sub iMatra-deva' k-deva va-deva by iMatra-deva.0015;
 	sub iMatra-deva' k-deva ya-deva by iMatra-deva.0015;
 	sub iMatra-deva' kh-deva da-deva by iMatra-deva.0014;
@@ -1293,7 +1296,7 @@ lookup Imatra1_devanagari {
 	sub iMatra-deva' ss-deva ka-deva by iMatra-deva.0009;
 	sub iMatra-deva' ss-deva ma-deva by iMatra-deva.0012;
 	sub iMatra-deva' ss-deva nna-deva by iMatra-deva.0014;
-	sub iMatra-deva' ss-deva pa-deva by iMatra-deva.0011;
+	sub iMatra-deva' ss-deva pa-deva by iMatra-deva.0010;
 	sub iMatra-deva' ss-deva tta-deva by iMatra-deva.0009;
 	sub iMatra-deva' ss-deva ttha-deva by iMatra-deva.0009;
 	sub iMatra-deva' ss-deva va-deva by iMatra-deva.0011;
@@ -1352,12 +1355,12 @@ lookup Imatra2_devanagari {
 	sub [iMatra-deva]' [n_dha_rakar-deva t_rakar_ya-deva g_rakar_ya-deva p_ya-deva s_k_rakar-deva l_d_rakar-deva c_ca-deva] by [iMatra-deva.0012];
 	sub [iMatra-deva]' [k_ss_va-deva] by [iMatra-deva.0013];
 	sub [iMatra-deva]' [k_ss_ya-deva t_tha-deva k_ss_ma-deva t_k_ssa-deva s_ta_rakar-deva sh_rakar_ya-deva] by [iMatra-deva.0014];
-	sub [iMatra-deva]' [ddh_ddh_ya-deva tt_tt_ya-deva ss_tt_ya-deva d_ga_rakar-deva n_k_sa-deva f_sa-deva ch_ya_rakar-deva k_sa-deva j_ny_ya-deva dd_dd_ya-deva k_ja-deva tth_tth_ya-deva j_ja-deva ph_sa-deva] by [iMatra-deva.0015];
+	sub [iMatra-deva]' [ddh_ddh_ya-deva tt_tt_ya-deva ss_tt_ya-deva d_ga_rakar-deva n_k_sa-deva f_sa-deva ch_ya_rakar-deva k_sa-deva j_ny_ya-deva k_ya-deva dd_dd_ya-deva k_ja-deva tth_tth_ya-deva j_ja-deva ph_sa-deva] by [iMatra-deva.0015];
 } Imatra2_devanagari;
 
 lookup Iimatra_devanagari {
 	lookupflag IgnoreMarks;
-	sub [sha-deva.loclMAR dda_rakar-deva ddh_ddh_ya-deva ya-deva ph_rakar-deva f-deva ghha-deva dd-deva h_rakar-deva tt_tt_ya-deva ddha-deva va_rakar-deva ta-deva bha-deva sa_rakar-deva jha-deva ya_nukta_rakar-deva pa_rakar-deva rha-deva dddh-deva n_dha_rakar-deva dda-deva tt_va-deva nna-deva ha_uMatra-deva ssa-deva tha_rakar-deva bha_rakar-deva d_va-deva tth_rakar-deva tt_ttha-deva ssa_rakar-deva la_rakar-deva n_d_va-deva ss_tt_ya-deva khha-deva tt_tta-deva k_ss_ya-deva da_rVocalicMatra-deva d-deva kha_nukta_rakar-deva d_ba-deva jha_rakar-deva ha_uuMatra-deva n_ta_rakar-deva ddda-deva d_ga_rakar-deva jha_uMatra-deva sa-deva k_ssa_rakar-deva tt_rakar-deva ha_rakar-deva tta_rakar-deva k_ss_va-deva nya_rakar-deva ddha_nukta_uMatra-deva dddha_rakar-deva ss_tt_va-deva ss_k_rakar-deva n_k_sa-deva t_tha-deva rr_ya-deva rra-deva t_rakar_ya-deva g_rakar_ya-deva rr-deva f_sa-deva ch_ya_rakar-deva da_rakar-deva d_dha-deva ttha-deva d_ma-deva da-deva ya_rakar-deva gha_rakar-deva k_sa-deva k_nukta_rakar-deva cha-deva sha-deva rh_rakar-deva k-deva dd_ddha-deva ra-deva k_ss_ma-deva d_ya_rakar-deva dddh_rakar-deva ddh_ddha-deva ja_nukta_rakar-deva d_ba_rakar-deva t_k_ssa-deva bba-deva ma-deva gga-deva ddha_nukta_uuMatra-deva tth-deva lla-deva dd_dda-deva k_rakar-deva ng-deva d_va_rakar-deva d_v_rakar-deva ha-deva dd_rakar-deva j_ny_ya-deva dha_rakar-deva la-deva.loclMAR d_na-deva rh-deva ta_rakar-deva ca-deva dd_dd_ya-deva d_da-deva va-deva nnna-deva kha_rakar-deva dddha-deva k_ja-deva ttha_rakar-deva tt-deva p_ya-deva ddh-deva dda_nukta_uMatra-deva n_d_rakar-deva s_ta_rakar-deva rha_rakar-deva tth_tth_ya-deva ma_rakar-deva ja_rakar-deva d_ya-deva ga_rakar-deva sha_rakar-deva j_nya-deva dda_nukta_uuMatra-deva k_ssa-deva ga-deva j_ja-deva ph_sa-deva h-deva za-deva q-deva llla-deva dha-deva ba-deva nya-deva sh_rakar_ya-deva rr_ha-deva tha-deva s_k_rakar-deva d_rakar-deva ca_rakar-deva nna_rakar-deva ddh_rakar-deva t_k_rakar-deva tth_ttha-deva gha_nukta_rakar-deva t_ta-deva pa-deva n_da_rakar-deva l_d_rakar-deva c_ca-deva p_pa-deva jja-deva ba_rakar-deva tta-deva gha-deva yya-deva] [iiMatra-deva]' by [iiMatra-deva.0001];
+	sub [sha-deva.loclMAR dda_rakar-deva ddh_ddh_ya-deva ya-deva ph_rakar-deva f-deva ghha-deva dd-deva h_rakar-deva tt_tt_ya-deva ddha-deva va_rakar-deva ta-deva bha-deva sa_rakar-deva jha-deva ya_nukta_rakar-deva pa_rakar-deva rha-deva dddh-deva n_dha_rakar-deva dda-deva tt_va-deva nna-deva ha_uMatra-deva ssa-deva tha_rakar-deva bha_rakar-deva d_va-deva tth_rakar-deva tt_ttha-deva ssa_rakar-deva la_rakar-deva n_d_va-deva ss_tt_ya-deva khha-deva tt_tta-deva k_ss_ya-deva da_rVocalicMatra-deva d-deva kha_nukta_rakar-deva d_ba-deva jha_rakar-deva ha_uuMatra-deva n_ta_rakar-deva ddda-deva d_ga_rakar-deva jha_uMatra-deva sa-deva k_ssa_rakar-deva tt_rakar-deva ha_rakar-deva tta_rakar-deva k_ss_va-deva nya_rakar-deva ddha_nukta_uMatra-deva dddha_rakar-deva ss_tt_va-deva ss_k_rakar-deva n_k_sa-deva t_tha-deva rr_ya-deva rra-deva t_rakar_ya-deva g_rakar_ya-deva rr-deva f_sa-deva ch_ya_rakar-deva da_rakar-deva d_dha-deva ttha-deva d_ma-deva da-deva ya_rakar-deva gha_rakar-deva k_sa-deva k_nukta_rakar-deva cha-deva sha-deva rh_rakar-deva k-deva dd_ddha-deva ra-deva k_ss_ma-deva d_ya_rakar-deva dddh_rakar-deva ddh_ddha-deva ja_nukta_rakar-deva d_ba_rakar-deva t_k_ssa-deva bba-deva ma-deva gga-deva ddha_nukta_uuMatra-deva tth-deva lla-deva dd_dda-deva k_rakar-deva ng-deva d_va_rakar-deva d_v_rakar-deva ha-deva dd_rakar-deva j_ny_ya-deva dha_rakar-deva la-deva.loclMAR d_na-deva rh-deva k_ya-deva ta_rakar-deva ca-deva dd_dd_ya-deva d_da-deva va-deva nnna-deva kha_rakar-deva dddha-deva k_ja-deva ttha_rakar-deva tt-deva p_ya-deva ddh-deva dda_nukta_uMatra-deva n_d_rakar-deva s_ta_rakar-deva rha_rakar-deva tth_tth_ya-deva ma_rakar-deva ja_rakar-deva d_ya-deva ga_rakar-deva sha_rakar-deva j_nya-deva dda_nukta_uuMatra-deva k_ssa-deva ga-deva j_ja-deva ph_sa-deva h-deva za-deva q-deva llla-deva dha-deva ba-deva nya-deva sh_rakar_ya-deva rr_ha-deva tha-deva s_k_rakar-deva d_rakar-deva ca_rakar-deva nna_rakar-deva ddh_rakar-deva t_k_rakar-deva tth_ttha-deva gha_nukta_rakar-deva t_ta-deva pa-deva n_da_rakar-deva l_d_rakar-deva c_ca-deva p_pa-deva jja-deva ba_rakar-deva tta-deva gha-deva yya-deva] [iiMatra-deva]' by [iiMatra-deva.0001];
 	sub [f_rakar-deva] [iiMatra-deva]' by [iiMatra-deva.0002];
 	sub [fa-deva p_pha-deva pha_nukta_rakar-deva k_t_rakar-deva ka_nukta_rakar-deva k_ta-deva qa-deva pha_rakar-deva] [iiMatra-deva]' by [iiMatra-deva.0003];
 } Iimatra_devanagari;
